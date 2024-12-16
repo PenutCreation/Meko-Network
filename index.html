@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meko</title>
+  <link rel="stylesheet" href="style/main.css">
+  <script defer src="js/server.js"></script>
+  <script defer src="js/ytvideo.js"></script>
+  <script defer src="js/fbvideo.js"></script>
+  <script defer src="js/mekovideo.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="form-container">
+    <div id="smalltext">
+    <h1>Meko</h1>
+    <p>Register or log in now</p>
+</div>
+    <h1 hidden="" id="greeting">Welcome To Meko</h1>
+
+    <!-- Registration Form -->
+    <div id="registerForm">
+      <h2>Register</h2>
+      <input type="text" id="regUsername" placeholder="Enter Username" />
+      <input type="email" id="regEmail" placeholder="Enter Email" />
+      <div class="password-container">
+        <input type="password" id="regPassword" placeholder="Enter Password" />
+        <span class="toggle-password"
+        onclick="togglePassword('regPassword')">️See Password</span>
+      </div>
+      <button onclick="register()">Register</button>
+      <p class="form-switch">Already have an account? <a href="javascript:void(0)" onclick="showLogin()">Log In</a></p>
+    </div>
+
+    <!-- Login Form -->
+    <div id="loginForm" style="display:none;">
+      <h2>Login</h2>
+      <input type="text" id="loginUsername" placeholder="Enter Username" />
+      <div class="password-container">
+        <input type="password" id="loginPassword" placeholder="Enter Password" />
+        <span class="toggle-password"
+        onclick="togglePassword('loginPassword')">️See Password</span>
+      </div>
+      <button onclick="login()">Log In</button>
+      <p class="form-switch">Don't have an account? <a href="javascript:void(0)" onclick="showRegister()">Register</a></p>
+
+  </div>
+    <p id="status"></p>
+    
+    <div id="description">
+<h2>Meko:Share Embed and Videos For Free</h2>
+<p>In today’s fast-paced, digital world, social media plays a pivotal role in connecting people across the globe. Meko, a groundbreaking social media platform, brings you closer to your friends, family, and colleagues while offering a wealth of features to keep you engaged and entertained. Much like Facebook, Meko allows users to share moments, stay updated with what’s happening around the world, and connect with others in real-time. Whether you want to interact with people in your community or join global conversations, our app offers something for everyone.</p>
+<h2>A New Way to Connect and Share</h2>
+<p>At the heart of Meko is its intuitive and easy-to-use interface. Upon signing up, users can set up their profiles, personalize their feeds, and begin connecting with others right away. Much like Facebook’s News Feed, Meko offers a personalized stream of posts from friends, followers, groups, and public figures. Whether you’re interested in photos, videos, text updates, or live streaming, Meko allows you to share your moments seamlessly.
+
+Users can also react to posts with likes, comments, and shares, helping foster
+interactions and build meaningful relationships. Sharing isn’t just limited to
+text or photos – you can share your thoughts in a variety of formats, whether
+it’s through status updates, stories, or live broadcasts, making your experience
+vibrant and dynamic. Every post, like, and share builds your personal timeline,
+allowing you to create a rich digital scrapbook of your experiences.</p>
+<h2>Build Your Social Circle</h2>
+<p>Building your social network is easy with Meko. Whether you want to stay connected with old friends, meet new people with similar interests, or interact with colleagues, you can easily send friend requests or follow profiles. As you expand your network, your feed becomes even more personalized, bringing you the latest content from people and pages you care about. You can search for users by name, location, interests, or other identifiers, making it simple to find the people who matter most.
+
+In addition to individual connections, Meko enables users to join interest-based groups, just like Facebook Groups, where they can share ideas, events, and discussions with others who share their passions. This community-focused feature encourages collaboration, learning, and real-world connections in a virtual space.</p>
+<br></br>
+<p>2020-2024 • Made with Heart by OniwaPenut from phlippines </p>
+</div>
+  </div>
+
+
+    <!-- Content visible only when logged in -->
+    <div id="hiddenContent">
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>
+
+ <header>
+
+
+    MEKO<kbd style="float:right;">0 Coins</kbd>
+  </header>
+  <div id="main-container">
+      <input type="text" id="search" placeholder="Search Mekontent..." />
+  </div>
+
+
+        <form onsubmit="generatePostData(event)">
+  <div class="twitter boxContainer">
+    <label class="twitter tweetHeader">Create New Post</label>
+    <span class="close"></span>
+    <div class="lineSplit"></div>
+    <stamp ><input type="text" id="name" name="name" disabled=""></stamp>
+  <input type="email" id="email" name="email" disabled=""><br><br>
+    <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?"></textarea>
+    <label class="wordCounter" id="wordCounter">140</label>
+    <input type="submit" class="postButton" id="submitPost" value="Tweet"/>
+                
+</div>
+</form>
+  <div id="main-container" style="margin-top:10;">
+
+    <div id="feed-container">
+
+      <div id="post-container"></div>
+      <button id="load-more" onclick="loadMorePosts()">Load More Mekontent</button>
+    </div>
+  </div>
+  
+
+<div id="settings" style="display:none;">
+  <button>back</button>
+  <button></button>
+    <button id="logoutButton" onclick="logout()">Log Out</button>
+</div>
+
+
+  <script>
+    // Predefined list of restricted usernames and banlisted users
+    const restrictedUsernames = ['admin', 'superuser', 'root', 'test', 'guest'];
+    const banlistUsernames = ['bannedUser1', 'bannedUser2', 'evilUser']; // List of banned usernames
+
+    // Check if the user is logged in on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      const username = localStorage.getItem('username');
+      if (username) {
+        // If logged in, update the UI
+        updateUI(username);
+      } else {
+        // If not logged in, show the register form
+        showRegister();
+      }
+    });
+
+    // Register function
+    function register() {
+      const username = document.getElementById('regUsername').value.trim();
+      const email = document.getElementById('regEmail').value.trim();
+      const password = document.getElementById('regPassword').value.trim();
+
+      // Check if username is in the restricted list
+      if (restrictedUsernames.includes(username.toLowerCase())) {
+        document.getElementById('status').textContent = 'This username is not available. Please choose another one.';
+        document.getElementById('status').classList.add('status-message');
+        return;
+      }
+
+      // Check if username is banned
+      if (banlistUsernames.includes(username.toLowerCase())) {
+        document.getElementById('status').textContent = 'This username is banned. Please choose another one.';
+        document.getElementById('status').classList.add('status-message');
+        return;
+      }
+
+      // Check if email format is valid
+      if (!isValidEmail(email)) {
+        document.getElementById('status').textContent = 'Please enter a valid email address.';
+        document.getElementById('status').classList.add('status-message');
+        return;
+      }
+
+      // Check if username or email already exists in LocalStorage
+      const existingUser = localStorage.getItem(username);
+      const existingEmail = localStorage.getItem(email);
+
+      if (existingUser) {
+        // If the username already exists, display a message
+        document.getElementById('status').textContent = 'Username is already taken. Please choose another one.';
+        document.getElementById('status').classList.add('status-message');
+      } else if (existingEmail) {
+        // If the email already exists, display a message
+        document.getElementById('status').textContent = 'Email is already registered. Please use another one.';
+        document.getElementById('status').classList.add('status-message');
+      } else {
+        // Save the username, email, and password in localStorage (simulate registration)
+        localStorage.setItem(username, password);
+        localStorage.setItem(email, password);  // Store email with associated password
+        localStorage.setItem('username', username);  
+        localStorage.setItem('email', email); 
+        // Set the logged-in username
+
+        // Update the UI to reflect the login state
+        updateUI(username);
+      }
+    }
+
+    // Login function
+    function login() {
+      const username = document.getElementById('loginUsername').value.trim();
+      const password = document.getElementById('loginPassword').value.trim();
+
+      // Check if the username is banned
+      if (banlistUsernames.includes(username.toLowerCase())) {
+        document.getElementById('status').textContent = 'This account is banned.';
+        document.getElementById('status').classList.add('status-message');
+        return;
+      }
+
+      // Retrieve the stored password for the username
+      const storedPassword = localStorage.getItem(username);
+
+      if (storedPassword && storedPassword === password) {
+        // Successfully logged in
+        localStorage.setItem('username', username); 
+        localStorage.setItem('email', email); 
+        // Set the logged-in username
+
+        // Update the UI to reflect the login state
+        updateUI(username);
+      } else {
+        // Invalid credentials
+        document.getElementById('status').textContent = 'Invalid username or password.';
+        document.getElementById('status').classList.add('status-message');
+      }
+    }
+
+    // Logout function (does not delete LocalStorage)
+    function logout() {
+      // Reset the UI (does not remove username or password from localStorage)
+      resetUI();
+    }
+
+    // Update the UI for a logged-in user
+    function updateUI(username) {
+      document.getElementById('description').style.display = 'none';
+      document.getElementById('smalltext').style.display = 'none';
+      document.getElementById('greeting').style.display = 'none';
+      document.getElementById('loginForm').style.display = 'none';
+      document.getElementById('registerForm').style.display = 'none';
+      document.getElementById('logoutButton').style.display = 'block';
+      document.getElementById('status').textContent = '';
+      
+      // Show hidden content
+      document.getElementById('hiddenContent').style.display = 'block';
+    }
+
+    // Reset the UI for a logged-out user
+    function resetUI() {
+      document.getElementById('greeting').textContent = 'Welcome';
+      document.getElementById('loginForm').style.display = 'none';
+      document.getElementById('registerForm').style.display = 'none';
+      document.getElementById('logoutButton').style.display = 'none';
+      document.getElementById('hiddenContent').style.display = 'none';
+      document.getElementById('status').textContent = 'You have logged out.';
+
+      // Clear login data
+      localStorage.removeItem('username');
+    }
+
+    // Helper function for email validation
+    function isValidEmail(email) {
+      const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+      return emailPattern.test(email);
+    }
+
+    // Show the Register form
+    function showRegister() {
+      document.getElementById('registerForm').style.display = 'block';
+      document.getElementById('loginForm').style.display = 'none';
+    }
+
+    // Show the Login form
+    function showLogin() {
+      document.getElementById('registerForm').style.display = 'none';
+      document.getElementById('loginForm').style.display = 'block';
+    }
+
+    // Toggle password visibility
+    function togglePassword(passwordFieldId) {
+      const passwordField = document.getElementById(passwordFieldId);
+      if (passwordField.type === 'password') {
+        passwordField.type = 'text';  // Reveal password
+      } else {
+        passwordField.type = 'password';  // Hide password
+      }
+    }
+
+
+
+  </script>
+  <script>
+    function generatePostData(event) {
+        event.preventDefault(); // Prevents the default form submission
+
+        // Collecting form data
+        var name = document.getElementById('name').value || "Anonymous"; // Default name if empty
+        var email = document.getElementById('email').value || "N/A";
+        var message = document.getElementById('message').value;
+
+        // Generating a random post ID
+        var postId = Math.floor(Math.random() * 19103873900); // Random number between 0 and 9999
+
+        // Getting the current local date in the format "Dec 11, 2024"
+        var currentDate = new Date();
+        var dateString = currentDate.toLocaleString('en-US', {
+            month: 'short',
+            day: 'numeric',
+            year: 'numeric'
+        });
+
+        // Structuring the data as requested
+        var postData = {
+            name: name,
+            date: dateString,
+            content: message,
+    
+            postId: postId
+        };
+
+        console.log(postData); // For debugging
+
+        // Creating the mailto link with the structured data
+        var mailtoLink = 'mailto:oniwatube@gmail.com?subject=MEKO:POST BY MAIL&body=' + encodeURIComponent(`
+        {
+            name: "${postData.name}",
+            date: "${postData.date}",
+            content: \`${postData.content}\`,
+            postId: ${postData.postId},
+        },`);
+
+        // Redirecting to the mailto link
+        window.location.href = mailtoLink;
+    }
+
+
+    </script>
+<script>
+// Retrieve data from localStorage
+let data = localStorage.getItem('Username');
+let data2 = localStorage.getItem('email');
+// Check if data exists and display it in the input field
+if (data) {
+    document.getElementById('name').value = data;
+} else {
+    console.log('No data found for this key.');
+}
+if (data2) {
+    document.getElementById('email').value = data2;
+} else {
+    console.log('No data found for this key.');
+}
+
+</script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .form-container {
+      max-width: 300px;
+      margin: 50px auto;
+    }
+    input, button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #1da;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1da;
+    }
+    .status-message {
+      color: red;
+    }
+    #logoutButton {
+      background-color: #db4437;
+      display: none;
+    }
+    #hiddenContent {
+      display: none;
+      
+    }
+    .form-switch {
+      margin-top: 15px;
+    }
+    .form-switch a {
+      color: #4285F4;
+      text-decoration: none;
+    }
+    .form-switch a:hover {
+      text-decoration: underline;
+    }
+    .password-container {
+      position: relative;
+    }
+    .toggle-password {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+    }
+
+
+  .tweetHeader{
+    color: #8899a6;
+    font-size: 15px;
+    font-weight: 500;
+    overflow: hidden;
+    line-height: 35px;
+    margin-left: 30px;
+  }
+  .messageBox{
+    width: 93%;
+    padding: 5px;
+    resize: none;
+    height: 60px;
+    color: #292F33;
+    display: block;
+    font-size: 13px;
+    font-weight: 200;
+    margin: 10px auto;
+    border-radius: 3px;
+    border: 1px solid #a3d4f2;
+  }
+  .messageBox:focus{
+    outline: none;
+  }
+  .wordCounter{
+    background-color: transparent;
+    color: #8899a6;
+    display: inline-block;
+    width: 70%;
+    border: 0;
+    padding: 0 15px;
+    position: relative;
+    vertical-align: top;
+    top: 10px;
+    text-align: right;
+    font-size: 14px;
+    text-shadow: 0 1px 1px rgba(255,255,255,.75);
+  }
+  .postButton{
+    width: 80px;
+    height: 35px;
+    border: none;
+    float: right;
+    color: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    margin: 0 10px 0 0;
+    background-color: #1b95e0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    padding-left: 20px;
+    background-image:
+    url("https://www.pngitem.com/pimgs/m/114-1146547_new-post-new-post-icon-svg-hd-png.png");
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 5px 6px;
+    border: 1px solid transparent;
+  }
+  .postButton:hover,.postButton:visited{
+    outline: none;
+  }
+  .postButton:visited{
+    outline: none; 
+    box-shadow: 0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15);
+  }
+  .postButton:active{
+    background-color: #3B5998;
+    border-color: #2f477a #314a7f #334c83; 
+    box-shadow: 0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15);
+  }
+
+  /*   */
+  .close {
+    cursor: pointer;
+    float: right;
+    margin: 12px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.6;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    content: ' ';
+    height: 13px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+}
+  </style>
+  
+</body>
+</html>
+<script>
+
