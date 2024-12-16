@@ -33,7 +33,9 @@ setInterval(function() {
 
 /*global console, document, window*/
 
-function checkAndReplaceVideos(videos, getNewLink, className = "managed-video") {
+
+/*global console, document, window*/
+function checkAndReplaceVideos(videos, getNewLink, className = "convert-me-video") {
 
     if (!videos || videos.length === 0) {
         console.error("No video elements found on the page.");
@@ -43,35 +45,34 @@ function checkAndReplaceVideos(videos, getNewLink, className = "managed-video") 
     videos.forEach((videoElement, index) => {
         // Add a specific class to the video for identification
         if (!videoElement.classList.contains(className)) {
-          console.log("Video has found")
+            console.log("Video found");
             videoElement.classList.add(className);
             console.log(`Class "${className}" added to video ${index + 1}.`);
-            
         }
 
         // Check each video's error state
-        videoElement.onerror = async () => {
+        if (videoElement.readyState === 0 || videoElement.error) {
             console.warn(`Video ${index + 1} link is expired or not working.`);
 
-            try {
-                // Fetch a new link for this video
-                const newLink = await getNewLink(index, videoElement.src);
+            // Fetch a new link for this video
+            getNewLink(index, videoElement.src)
+                .then((newLink) => {
+                    if (newLink) {
+                        // Replace the expired link with the new one
+                        videoElement.src = newLink;
+                        console.log(`Video ${index + 1} link updated successfully:`, newLink);
 
-                if (newLink) {
-                    // Replace the expired link with the new one
-                    videoElement.src = newLink;
-                    console.log(`Video ${index + 1} link updated successfully:`, newLink);
-
-                    // Reload and play the updated video
-                    videoElement.load();
-                    videoElement.play();
-                } else {
-                    console.error(`Failed to fetch a new link for video ${index + 1}.`);
-                }
-            } catch (error) {
-                console.error(`Error updating video ${index + 1}:`, error);
-            }
-        };
+                        // Reload and play the updated video
+                        videoElement.load();
+                        videoElement.play();
+                    } else {
+                        console.error(`Failed to fetch a new link for video ${index + 1}.`);
+                    }
+                })
+                .catch((error) => {
+                    console.error(`Error updating video ${index + 1}:`, error);
+                });
+        }
     });
 }
 
@@ -83,8 +84,12 @@ async function getNewLink(index, oldLink) {
     return newLink;
 }
 
-// Initialize the script for multiple videos
+// Initialize the script and run it every 2 seconds
 document.addEventListener("DOMContentLoaded", () => {
     const videoElements = document.querySelectorAll("video"); // Select all video elements
-    checkAndReplaceVideos(videoElements, getNewLink, "managed-video"); // Specify a custom class name
+    setInterval(() => {
+        checkAndReplaceVideos(videoElements, getNewLink, "convert-me-video"); // Run the script
+    }, 2000); // 2 seconds interval
 });
+
+
