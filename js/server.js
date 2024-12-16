@@ -2865,14 +2865,7 @@
 
 {
   author: "Ant Holleufer",
-  content: "<p>Today's video is a rollercoaster of emotions as I attempt the daring task of "Giving BIRTH To An Ants (INSTANT REGRET)." Join me as I take you through the incredible journey of my young bull ant colony, bull ant queen  Bezzy and bull ant worker Pub, raising their next generation of worker ants.</p>
-    <br></br>
-  <p>Everything seemed to be going well, with cocoons forming and anticipation building for the arrival of new workers. However, things took a heartbreaking turn when the cocoons didn't enclose, and it seemed like the colony's efforts were in vain. Determined not to give up, I decided to intervene and carefully open the cocoons, hoping to save the newborn ants inside.</p>
-  <br></br>
-  <p>Thankfully, with the help of your advice and patience, Anthony was reaccepted into the colony, proving that nature can be both harsh and forgiving. As we wait to see how Anthony's journey unfolds within the colony, we also face new challenges, like a larvae spree and a hunting drought.</p>
-    <br></br>
-    #mekontent #viral
-   <div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/6TmgGS2pJbM?si=kQRgwxrHwjKO5_fi'></div></div>",
+  content: "<p>Today's video is a rollercoaster of emotions as I attempt the daring task of Giving BIRTH To An Ants (INSTANT REGRET). Join me as I take you through the incredible journey of my young bull ant colony, bull ant queen  Bezzy and bull ant worker Pub, raising their next generation of worker ants.</p> <br></br> <p>Everything seemed to be going well, with cocoons forming and anticipation building for the arrival of new workers. However, things took a heartbreaking turn when the cocoons didn't enclose, and it seemed like the colony's efforts were in vain. Determined not to give up, I decided to intervene and carefully open the cocoons, hoping to save the newborn ants inside.</p>  <br></br>  <p>Thankfully, with the help of your advice and patience, Anthony was reaccepted into the colony, proving that nature can be both harsh and forgiving. As we wait to see how Anthony's journey unfolds within the colony, we also face new challenges, like a larvae spree and a hunting drought.</p>    <br></br>    #mekontent #viral   <div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/6TmgGS2pJbM?si=kQRgwxrHwjKO5_fi'></div></div>",
   date: "Jul 21, 2023",
   likes: "57K"
 },
