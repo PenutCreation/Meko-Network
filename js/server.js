@@ -2782,7 +2782,7 @@ function likePost(id) {
 }
 
 function sharePost(id) {
-  const shareLink = `${window.location.origin}?post=${id}`;
+  const shareLink = `${window.location.origin}/index.html?post=${id}`;
   navigator.clipboard.writeText(shareLink).then(() => {
     alert(`SHARED LINK: ${shareLink}`);
   });
