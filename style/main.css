@@ -1,0 +1,379 @@
+   body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      
+      background-color: #f5f8fa;
+      color: #14171a;
+    }
+
+    header {
+      background-color: #1da;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    #main-container {
+display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    #feed-container {
+      width: 600px;
+      background: white;
+      border: 1px solid #e1e8ed;
+      border-radius: 10px;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    input#search {
+      width: calc(100% - 40px);
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #e1e8ed;
+      border-radius: 50px;
+      font-size: 14px;
+    }
+
+    button#load-more {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #1da;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background-color 0.2s;
+    }
+
+    button#load-more:hover {
+      background-color: #1da;
+    }
+
+    .post {
+      border-bottom: 1px solid #e1e8ed;
+padding: 15px 0;
+    }
+
+    .post:last-child {
+      
+    }
+
+    .post p {
+      margin: 5px 0;
+    }
+
+    .post-author {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .post-date {
+      font-size: 12px;
+      color: #657786;
+      margin-top: 5px;
+    }
+
+    .post-content {
+      font-size: 14px;
+      color: #14171a;
+    }
+
+    .post-actions {
+      margin-top: 10px;
+    }
+
+    .like-btn,
+    .share-btn {
+      font-size: 14px;
+      color: #1da;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+
+    .like-btn.disabled {
+      color: gray;
+      cursor: not-allowed;
+    }
+
+    /* Styling for images in posts */
+    .post-content img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .post-content .youtube-player {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .post-content .fb-video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    .post-content video {
+      
+    }
+ .hashtag {
+   color: blue;
+ }
+ .mention {
+   color: blue;
+ }
+ video {
+max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+ }
+ .container {
+  max-width: 800px;
+  margin: 0 auto
+}
+
+
+
+footer label {
+  color: #ea5455;
+  float: right;
+  text-transform: uppercase;
+  padding: 0 10px;
+  transition: all .3s ease;
+  cursor: pointer
+}
+
+footer label:hover {
+  background-color: #eee;
+  text-decoration: underline;
+  border-radius: 25px
+}
+
+footer label i {
+  margin-right: 10px
+}
+#videoBox {
+  max-width: 800px;
+  min-width: 250px;
+  max-height: 450px;
+  min-height: 140.6px;
+  position: relative;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+  
+  background-color: transparent;
+  margin: 5% auto
+}
+
+#videoBox:hover .control-bar {
+  opacity: .92
+}
+
+#videoBox:-webkit-full-screen {
+  max-width: 1920px;
+  max-height: 1080px
+}
+
+#videoBox:-moz-full-screen {
+  max-width: 1920px;
+  max-height: 1080px
+}
+
+#videoBox:-ms-fullscreen {
+  max-width: 1920px;
+  max-height: 1080px
+}
+
+#videoBox:fullscreen {
+  max-width: 1920px;
+  max-height: 1080px
+}
+
+#customVideo {
+  cursor: pointer;
+  width: 100%;
+  height: 100%
+}
+
+.fa {
+  color: #aaa;
+  cursor: pointer;
+  transition: all .2s ease
+}
+
+.fa:hover {
+  color: #fff;
+  border-color: #fff
+}
+
+.control-bar {
+  box-sizing: border-box;
+  padding: 10px 25px;
+  background-color: #222831;
+  opacity: 0;
+  transition: all .5s ease;
+  color: #eee;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 8px
+}
+
+input[type=range],
+progress {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  outline: 0;
+  border: 0;
+  width: 100%
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  cursor: pointer;
+  height: 3px;
+  margin-bottom: 5px;
+  box-shadow: 0 0 2px #eee, 0 0 2px #eee;
+  transition: all .2s ease
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #ea5455;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  background: #ea5455;
+  cursor: pointer;
+  margin-top: -7.5px;
+  box-shadow: 1px 1px 1px #333, 0 0 1px #333;
+  transition: all .2s ease
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+  background-color: #ff7d54;
+  border: 1px solid #ff7d54
+}
+
+input[type=range]::-moz-range-thumb {
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ea5455;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  background: #ea5455;
+  cursor: pointer;
+  margin-top: -7.5px;
+  box-shadow: 1px 1px 1px #333, 0 0 1px #333;
+  transition: all .2s ease
+}
+
+input[type=range]::-moz-range-thumb:hover {
+  background-color: #ff7d54;
+  border: 1px solid #ff7d54
+}
+
+input[type=range]::-ms-thumb {
+  appearance: none;
+  border: 1px solid #ea5455;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  background: #ea5455;
+  cursor: pointer;
+  margin-top: -7.5px;
+  box-shadow: 1px 1px 1px #333, 0 0 1px #333;
+  transition: all .2s ease
+}
+
+input[type=range]::-ms-thumb:hover {
+  background-color: #ff7d54;
+  border: 1px solid #ff7d54
+}
+
+.video-seekbar {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  margin: 0 10px 6px
+}
+
+.video-seekbar input,
+.video-seekbar progress {
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0
+}
+
+.video-seekbar .bufferBar::-webkit-progress-bar,
+.video-seekbar .progressBar::-webkit-progress-bar {
+  background-color: #2d4059;
+  margin-left: 2px
+}
+
+.video-seekbar .bufferBar::-moz-progress-bar,
+.video-seekbar .progressBar::-moz-progress-bar {
+  margin: 0
+}
+
+.video-seekbar .progressBar::-webkit-progress-value {
+  background-color: #ea5455
+}
+
+.video-seekbar .bufferBar::-webkit-progress-value {
+  background-color: #e5f985
+}
+
+.video-seekbar #seekBar {
+  z-index: 3
+}
+
+.video-seekbar #progressBar {
+  z-index: 2;
+  opacity: .7
+}
+
+.video-seekbar #bufferBar {
+  z-index: 1
+}
+
+#volumeBtn {
+  margin-left: 20px
+}
+
+input.volumeSeekBar {
+  width: 15%;
+  margin-right: 2%
+}
+
+#fsBtn {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  float: right
+}
+
+footer label i:hover {
+  color: #09F !important;
+}
+#name {
+  
+  width: 100%;
+}
