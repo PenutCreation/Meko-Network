@@ -1,5 +1,3004 @@
   const posts = [
-
+{
+  author: "Emily Carter",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "192.3K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "192.2K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "109.1K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "161.2K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "146.9K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "117.1K"
+},
+{
+  author: "Ava Brown",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 21, 2024",
+  likes: "124.3K"
+},
+{
+  author: "Emily Carter",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 22, 2024",
+  likes: "76.2K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "68.3K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 17, 2024",
+  likes: "94.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "100.1K"
+},
+{
+  author: "Ava Brown",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 21, 2024",
+  likes: "31.5K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "87.7K"
+},
+{
+  author: "Emily Carter",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 20, 2024",
+  likes: "52.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "137.7K"
+},
+{
+  author: "Liam Voss",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 18, 2024",
+  likes: "23.9K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "91.1K"
+},
+{
+  author: "Liam Voss",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 18, 2024",
+  likes: "41.4K"
+},
+{
+  author: "Ava Brown",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 18, 2024",
+  likes: "145.2K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 19, 2024",
+  likes: "13.6K"
+},
+{
+  author: "Liam Voss",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 17, 2024",
+  likes: "194.0K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 19, 2024",
+  likes: "179.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 18, 2024",
+  likes: "121.2K"
+},
+{
+  author: "Elijah White",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "47.5K"
+},
+{
+  author: "Isabella Green",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 20, 2024",
+  likes: "144.5K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "50.7K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "128.9K"
+},
+{
+  author: "Noah Smith",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 22, 2024",
+  likes: "16.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "113.3K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 17, 2024",
+  likes: "195.0K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "134.6K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "181.9K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "187.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 19, 2024",
+  likes: "135.5K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "163.3K"
+},
+{
+  author: "Emily Carter",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "103.9K"
+},
+{
+  author: "Mason Lee",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 21, 2024",
+  likes: "198.9K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "24.4K"
+},
+{
+  author: "Ava Brown",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 20, 2024",
+  likes: "47.1K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "91.9K"
+},
+{
+  author: "Emily Carter",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 18, 2024",
+  likes: "50.2K"
+},
+{
+  author: "Isabella Green",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 20, 2024",
+  likes: "175.9K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 22, 2024",
+  likes: "11.8K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "70.7K"
+},
+{
+  author: "Liam Voss",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 22, 2024",
+  likes: "10.6K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "46.4K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 17, 2024",
+  likes: "100.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "44.8K"
+},
+{
+  author: "Liam Voss",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 18, 2024",
+  likes: "55.8K"
+},
+{
+  author: "Elijah White",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 18, 2024",
+  likes: "109.7K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "192.9K"
+},
+{
+  author: "Isabella Green",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "28.3K"
+},
+{
+  author: "Mason Lee",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 22, 2024",
+  likes: "166.4K"
+},
+{
+  author: "Emily Carter",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 18, 2024",
+  likes: "80.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 17, 2024",
+  likes: "41.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 22, 2024",
+  likes: "113.6K"
+},
+{
+  author: "Elijah White",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 20, 2024",
+  likes: "22.5K"
+},
+{
+  author: "Liam Voss",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "155.4K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "189.1K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "142.7K"
+},
+{
+  author: "Isabella Green",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "124.8K"
+},
+{
+  author: "Elijah White",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 18, 2024",
+  likes: "18.9K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 18, 2024",
+  likes: "192.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "105.2K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 17, 2024",
+  likes: "191.3K"
+},
+{
+  author: "Emily Carter",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 17, 2024",
+  likes: "115.0K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 21, 2024",
+  likes: "152.9K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "143.5K"
+},
+{
+  author: "Emily Carter",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "194.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "128.7K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 17, 2024",
+  likes: "178.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "80.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "12.4K"
+},
+{
+  author: "Isabella Green",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "93.3K"
+},
+{
+  author: "Isabella Green",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 21, 2024",
+  likes: "103.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 22, 2024",
+  likes: "167.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "154.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "26.2K"
+},
+{
+  author: "Isabella Green",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 22, 2024",
+  likes: "94.3K"
+},
+{
+  author: "Isabella Green",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "124.4K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "64.9K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 17, 2024",
+  likes: "117.9K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "38.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "50.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "116.1K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "117.4K"
+},
+{
+  author: "Elijah White",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 19, 2024",
+  likes: "108.2K"
+},
+{
+  author: "Noah Smith",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 20, 2024",
+  likes: "134.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 22, 2024",
+  likes: "144.8K"
+},
+{
+  author: "Emily Carter",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "52.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 22, 2024",
+  likes: "157.1K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "115.0K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "42.0K"
+},
+{
+  author: "Elijah White",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 18, 2024",
+  likes: "197.5K"
+},
+{
+  author: "Emily Carter",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "171.0K"
+},
+{
+  author: "Elijah White",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "185.6K"
+},
+{
+  author: "Elijah White",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 18, 2024",
+  likes: "106.2K"
+},
+{
+  author: "Liam Voss",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 18, 2024",
+  likes: "103.3K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "194.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 19, 2024",
+  likes: "155.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "168.4K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 21, 2024",
+  likes: "47.0K"
+},
+{
+  author: "Isabella Green",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "89.3K"
+},
+{
+  author: "Emily Carter",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 17, 2024",
+  likes: "133.9K"
+},
+{
+  author: "Elijah White",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 21, 2024",
+  likes: "90.9K"
+},
+{
+  author: "Emily Carter",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 19, 2024",
+  likes: "186.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 19, 2024",
+  likes: "147.5K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 21, 2024",
+  likes: "152.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "154.0K"
+},
+{
+  author: "Ava Brown",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 21, 2024",
+  likes: "37.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "147.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 18, 2024",
+  likes: "67.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 22, 2024",
+  likes: "69.3K"
+},
+{
+  author: "Emily Carter",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 22, 2024",
+  likes: "138.3K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 20, 2024",
+  likes: "34.2K"
+},
+{
+  author: "Sophia Johnson",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 20, 2024",
+  likes: "124.0K"
+},
+{
+  author: "Noah Smith",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "187.0K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "125.6K"
+},
+{
+  author: "Liam Voss",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 17, 2024",
+  likes: "102.7K"
+},
+{
+  author: "Ava Brown",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "17.1K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "116.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "31.7K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 17, 2024",
+  likes: "180.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "109.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 17, 2024",
+  likes: "15.7K"
+},
+{
+  author: "Elijah White",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 22, 2024",
+  likes: "171.7K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "182.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 20, 2024",
+  likes: "55.0K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "130.6K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "15.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "178.5K"
+},
+{
+  author: "Emily Carter",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 19, 2024",
+  likes: "165.8K"
+},
+{
+  author: "Liam Voss",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 22, 2024",
+  likes: "111.0K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 17, 2024",
+  likes: "112.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 17, 2024",
+  likes: "128.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 22, 2024",
+  likes: "49.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 21, 2024",
+  likes: "24.7K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "62.0K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "55.3K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "119.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "179.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 20, 2024",
+  likes: "146.2K"
+},
+{
+  author: "Liam Voss",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "41.2K"
+},
+{
+  author: "Liam Voss",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 22, 2024",
+  likes: "193.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 18, 2024",
+  likes: "135.1K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 20, 2024",
+  likes: "85.6K"
+},
+{
+  author: "Isabella Green",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "170.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 22, 2024",
+  likes: "24.6K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "188.4K"
+},
+{
+  author: "Mason Lee",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 17, 2024",
+  likes: "161.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "122.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "116.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "189.1K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 18, 2024",
+  likes: "105.0K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "112.4K"
+},
+{
+  author: "Mason Lee",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "69.4K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "194.3K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 21, 2024",
+  likes: "192.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 20, 2024",
+  likes: "30.0K"
+},
+{
+  author: "Mason Lee",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 19, 2024",
+  likes: "93.3K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 17, 2024",
+  likes: "160.0K"
+},
+{
+  author: "Mason Lee",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "57.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 21, 2024",
+  likes: "86.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 21, 2024",
+  likes: "113.0K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "79.4K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 20, 2024",
+  likes: "177.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 20, 2024",
+  likes: "136.0K"
+},
+{
+  author: "Elijah White",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 17, 2024",
+  likes: "18.4K"
+},
+{
+  author: "Elijah White",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 19, 2024",
+  likes: "74.3K"
+},
+{
+  author: "Isabella Green",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "161.5K"
+},
+{
+  author: "Isabella Green",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "173.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "84.7K"
+},
+{
+  author: "Ava Brown",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 17, 2024",
+  likes: "88.8K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "128.9K"
+},
+{
+  author: "Isabella Green",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 18, 2024",
+  likes: "177.2K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "78.6K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 22, 2024",
+  likes: "71.5K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "82.9K"
+},
+{
+  author: "Mason Lee",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 18, 2024",
+  likes: "200.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 22, 2024",
+  likes: "173.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "89.9K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 18, 2024",
+  likes: "47.5K"
+},
+{
+  author: "Elijah White",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 19, 2024",
+  likes: "100.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "73.9K"
+},
+{
+  author: "Mason Lee",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "12.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 21, 2024",
+  likes: "36.9K"
+},
+{
+  author: "Ava Brown",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 22, 2024",
+  likes: "161.3K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 20, 2024",
+  likes: "148.4K"
+},
+{
+  author: "Noah Smith",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 18, 2024",
+  likes: "70.0K"
+},
+{
+  author: "Elijah White",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "89.1K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "26.5K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "121.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 17, 2024",
+  likes: "181.8K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "117.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "183.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "112.2K"
+},
+{
+  author: "Mason Lee",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 18, 2024",
+  likes: "116.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "22.9K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "158.4K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 21, 2024",
+  likes: "114.7K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "165.3K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "134.0K"
+},
+{
+  author: "Liam Voss",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 22, 2024",
+  likes: "170.7K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "88.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 18, 2024",
+  likes: "47.4K"
+},
+{
+  author: "Elijah White",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 17, 2024",
+  likes: "190.9K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "36.5K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "179.2K"
+},
+{
+  author: "Liam Voss",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "38.1K"
+},
+{
+  author: "Ava Brown",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 22, 2024",
+  likes: "48.7K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "165.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 22, 2024",
+  likes: "164.7K"
+},
+{
+  author: "Elijah White",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 20, 2024",
+  likes: "71.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "178.6K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 20, 2024",
+  likes: "174.5K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "182.2K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 21, 2024",
+  likes: "150.1K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 17, 2024",
+  likes: "44.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "142.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 17, 2024",
+  likes: "159.4K"
+},
+{
+  author: "Elijah White",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "102.2K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 17, 2024",
+  likes: "100.8K"
+},
+{
+  author: "Emily Carter",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 22, 2024",
+  likes: "111.0K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 21, 2024",
+  likes: "56.7K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "46.2K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 22, 2024",
+  likes: "167.0K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "200.7K"
+},
+{
+  author: "Isabella Green",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 20, 2024",
+  likes: "135.9K"
+},
+{
+  author: "Elijah White",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 20, 2024",
+  likes: "158.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "167.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "70.7K"
+},
+{
+  author: "Liam Voss",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 21, 2024",
+  likes: "43.0K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "15.1K"
+},
+{
+  author: "Noah Smith",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 18, 2024",
+  likes: "108.9K"
+},
+{
+  author: "Liam Voss",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 18, 2024",
+  likes: "186.3K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "40.8K"
+},
+{
+  author: "Elijah White",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 19, 2024",
+  likes: "200.9K"
+},
+{
+  author: "Ava Brown",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "177.9K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "53.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "23.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 17, 2024",
+  likes: "172.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 20, 2024",
+  likes: "91.2K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "151.0K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "70.0K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 21, 2024",
+  likes: "109.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "84.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 18, 2024",
+  likes: "46.3K"
+},
+{
+  author: "Liam Voss",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "85.9K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "87.7K"
+},
+{
+  author: "Elijah White",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "126.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 21, 2024",
+  likes: "35.6K"
+},
+{
+  author: "Liam Voss",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "84.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "102.7K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "70.6K"
+},
+{
+  author: "Emily Carter",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "128.7K"
+},
+{
+  author: "Emily Carter",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 21, 2024",
+  likes: "180.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "41.5K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 19, 2024",
+  likes: "78.7K"
+},
+{
+  author: "Emily Carter",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 21, 2024",
+  likes: "198.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 20, 2024",
+  likes: "64.1K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "46.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 21, 2024",
+  likes: "142.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "35.2K"
+},
+{
+  author: "Mason Lee",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 18, 2024",
+  likes: "156.9K"
+},
+{
+  author: "Mason Lee",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 17, 2024",
+  likes: "17.1K"
+},
+{
+  author: "Isabella Green",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 17, 2024",
+  likes: "114.2K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "64.8K"
+},
+{
+  author: "Noah Smith",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 22, 2024",
+  likes: "173.3K"
+},
+{
+  author: "Ava Brown",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 20, 2024",
+  likes: "195.1K"
+},
+{
+  author: "Liam Voss",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 17, 2024",
+  likes: "82.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 18, 2024",
+  likes: "109.3K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 21, 2024",
+  likes: "166.3K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 18, 2024",
+  likes: "63.6K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "114.9K"
+},
+{
+  author: "Isabella Green",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 17, 2024",
+  likes: "166.4K"
+},
+{
+  author: "Isabella Green",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 18, 2024",
+  likes: "128.1K"
+},
+{
+  author: "Elijah White",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "124.5K"
+},
+{
+  author: "Liam Voss",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 19, 2024",
+  likes: "82.6K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "158.8K"
+},
+{
+  author: "Elijah White",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 21, 2024",
+  likes: "191.5K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "150.8K"
+},
+{
+  author: "Emily Carter",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "93.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "74.5K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "89.2K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "83.6K"
+},
+{
+  author: "Isabella Green",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 20, 2024",
+  likes: "10.9K"
+},
+{
+  author: "Noah Smith",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 17, 2024",
+  likes: "16.3K"
+},
+{
+  author: "Elijah White",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "188.1K"
+},
+{
+  author: "Isabella Green",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 18, 2024",
+  likes: "137.7K"
+},
+{
+  author: "Liam Voss",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "122.8K"
+},
+{
+  author: "Elijah White",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 18, 2024",
+  likes: "151.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 21, 2024",
+  likes: "162.2K"
+},
+{
+  author: "Emily Carter",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 18, 2024",
+  likes: "112.2K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "10.2K"
+},
+{
+  author: "Isabella Green",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 18, 2024",
+  likes: "30.9K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "30.5K"
+},
+{
+  author: "Noah Smith",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "112.8K"
+},
+{
+  author: "Noah Smith",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 21, 2024",
+  likes: "147.2K"
+},
+{
+  author: "Isabella Green",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 18, 2024",
+  likes: "185.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 20, 2024",
+  likes: "150.4K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "76.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "187.3K"
+},
+{
+  author: "Liam Voss",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "106.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "120.8K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "195.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 22, 2024",
+  likes: "119.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 17, 2024",
+  likes: "191.1K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 17, 2024",
+  likes: "119.9K"
+},
+{
+  author: "Elijah White",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 18, 2024",
+  likes: "171.2K"
+},
+{
+  author: "Emily Carter",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 19, 2024",
+  likes: "157.5K"
+},
+{
+  author: "Ava Brown",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "25.5K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 18, 2024",
+  likes: "68.3K"
+},
+{
+  author: "Mason Lee",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "73.8K"
+},
+{
+  author: "Ava Brown",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 20, 2024",
+  likes: "191.8K"
+},
+{
+  author: "Noah Smith",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 20, 2024",
+  likes: "39.2K"
+},
+{
+  author: "Mason Lee",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 22, 2024",
+  likes: "197.4K"
+},
+{
+  author: "Ava Brown",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 18, 2024",
+  likes: "192.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "12.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "112.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "135.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 19, 2024",
+  likes: "63.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "55.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 22, 2024",
+  likes: "155.7K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "98.2K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "79.8K"
+},
+{
+  author: "Liam Voss",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 17, 2024",
+  likes: "198.2K"
+},
+{
+  author: "Noah Smith",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 20, 2024",
+  likes: "108.1K"
+},
+{
+  author: "Liam Voss",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 18, 2024",
+  likes: "52.5K"
+},
+{
+  author: "Isabella Green",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "165.4K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "108.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 21, 2024",
+  likes: "182.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "51.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "184.4K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "161.0K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "73.7K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 21, 2024",
+  likes: "13.6K"
+},
+{
+  author: "Noah Smith",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 20, 2024",
+  likes: "180.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 17, 2024",
+  likes: "107.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 19, 2024",
+  likes: "68.2K"
+},
+{
+  author: "Elijah White",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "116.2K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "63.9K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "117.1K"
+},
+{
+  author: "Isabella Green",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "34.6K"
+},
+{
+  author: "Liam Voss",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 19, 2024",
+  likes: "109.6K"
+},
+{
+  author: "Isabella Green",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 19, 2024",
+  likes: "177.7K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 21, 2024",
+  likes: "120.7K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 20, 2024",
+  likes: "46.4K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "186.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 17, 2024",
+  likes: "125.7K"
+},
+{
+  author: "Emily Carter",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 17, 2024",
+  likes: "80.5K"
+},
+{
+  author: "Elijah White",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "90.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 18, 2024",
+  likes: "149.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 17, 2024",
+  likes: "175.2K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 21, 2024",
+  likes: "138.1K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "42.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 19, 2024",
+  likes: "182.1K"
+},
+{
+  author: "Elijah White",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 17, 2024",
+  likes: "163.3K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "19.8K"
+},
+{
+  author: "Emily Carter",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 17, 2024",
+  likes: "160.4K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "48.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "42.2K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "22.3K"
+},
+{
+  author: "Elijah White",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 21, 2024",
+  likes: "153.5K"
+},
+{
+  author: "Mason Lee",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 18, 2024",
+  likes: "80.4K"
+},
+{
+  author: "Ava Brown",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 22, 2024",
+  likes: "115.5K"
+},
+{
+  author: "Ava Brown",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "126.1K"
+},
+{
+  author: "Elijah White",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "118.0K"
+},
+{
+  author: "Noah Smith",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "59.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 22, 2024",
+  likes: "96.5K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 17, 2024",
+  likes: "157.6K"
+},
+{
+  author: "Noah Smith",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "118.4K"
+},
+{
+  author: "Elijah White",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 21, 2024",
+  likes: "67.5K"
+},
+{
+  author: "Liam Voss",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "172.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "164.1K"
+},
+{
+  author: "Isabella Green",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 22, 2024",
+  likes: "63.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "75.0K"
+},
+{
+  author: "Elijah White",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 20, 2024",
+  likes: "100.1K"
+},
+{
+  author: "Mason Lee",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 22, 2024",
+  likes: "75.6K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 21, 2024",
+  likes: "37.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "127.6K"
+},
+{
+  author: "Mason Lee",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 17, 2024",
+  likes: "179.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "177.4K"
+},
+{
+  author: "Isabella Green",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 17, 2024",
+  likes: "34.8K"
+},
+{
+  author: "Noah Smith",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 21, 2024",
+  likes: "84.1K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 22, 2024",
+  likes: "195.0K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "195.9K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 17, 2024",
+  likes: "136.9K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "97.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 19, 2024",
+  likes: "144.5K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 17, 2024",
+  likes: "136.4K"
+},
+{
+  author: "Mason Lee",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 18, 2024",
+  likes: "142.5K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "89.9K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "164.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "126.3K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "78.2K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "12.5K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "169.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 17, 2024",
+  likes: "193.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 19, 2024",
+  likes: "113.3K"
+},
+{
+  author: "Mason Lee",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "120.2K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 17, 2024",
+  likes: "77.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "125.9K"
+},
+{
+  author: "Noah Smith",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "158.9K"
+},
+{
+  author: "Ava Brown",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "10.0K"
+},
+{
+  author: "Mason Lee",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 22, 2024",
+  likes: "187.1K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "174.3K"
+},
+{
+  author: "Liam Voss",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 17, 2024",
+  likes: "16.5K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 22, 2024",
+  likes: "115.2K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "139.4K"
+},
+{
+  author: "Isabella Green",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 22, 2024",
+  likes: "50.1K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 21, 2024",
+  likes: "99.4K"
+},
+{
+  author: "Emily Carter",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 22, 2024",
+  likes: "85.3K"
+},
+{
+  author: "Mason Lee",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 22, 2024",
+  likes: "137.9K"
+},
+{
+  author: "Emily Carter",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "153.1K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 20, 2024",
+  likes: "147.9K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 17, 2024",
+  likes: "183.9K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 21, 2024",
+  likes: "111.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 17, 2024",
+  likes: "135.6K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 17, 2024",
+  likes: "140.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "175.7K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "187.5K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "93.8K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "159.5K"
+},
+{
+  author: "Emily Carter",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 22, 2024",
+  likes: "139.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "77.3K"
+},
+{
+  author: "Noah Smith",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 17, 2024",
+  likes: "91.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 17, 2024",
+  likes: "79.3K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "72.4K"
+},
+{
+  author: "Ava Brown",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 20, 2024",
+  likes: "175.9K"
+},
+{
+  author: "Noah Smith",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 18, 2024",
+  likes: "46.0K"
+},
+{
+  author: "Isabella Green",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 18, 2024",
+  likes: "71.5K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "127.5K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 22, 2024",
+  likes: "179.6K"
+},
+{
+  author: "Ava Brown",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "153.0K"
+},
+{
+  author: "Emily Carter",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 18, 2024",
+  likes: "90.4K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 22, 2024",
+  likes: "197.1K"
+},
+{
+  author: "Emily Carter",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 17, 2024",
+  likes: "17.9K"
+},
+{
+  author: "Emily Carter",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "162.1K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "189.1K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "39.5K"
+},
+{
+  author: "Elijah White",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 22, 2024",
+  likes: "135.1K"
+},
+{
+  author: "Ava Brown",
+  content: "I disagree. Faith can't just be dismissed as personal preference.",
+  date: "Dec 21, 2024",
+  likes: "169.8K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 18, 2024",
+  likes: "79.4K"
+},
+{
+  author: "Emily Carter",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 21, 2024",
+  likes: "40.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 20, 2024",
+  likes: "52.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 19, 2024",
+  likes: "60.4K"
+},
+{
+  author: "Ava Brown",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "179.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 20, 2024",
+  likes: "22.7K"
+},
+{
+  author: "Liam Voss",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 20, 2024",
+  likes: "97.7K"
+},
+{
+  author: "Mason Lee",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "119.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "69.0K"
+},
+{
+  author: "Liam Voss",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 19, 2024",
+  likes: "125.5K"
+},
+{
+  author: "Elijah White",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 22, 2024",
+  likes: "106.4K"
+},
+{
+  author: "Elijah White",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 21, 2024",
+  likes: "193.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 19, 2024",
+  likes: "93.6K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 18, 2024",
+  likes: "64.7K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 17, 2024",
+  likes: "96.4K"
+},
+{
+  author: "Noah Smith",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 18, 2024",
+  likes: "57.5K"
+},
+{
+  author: "Noah Smith",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 19, 2024",
+  likes: "50.6K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "165.3K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 21, 2024",
+  likes: "194.2K"
+},
+{
+  author: "Isabella Green",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 18, 2024",
+  likes: "98.8K"
+},
+{
+  author: "Mason Lee",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 17, 2024",
+  likes: "138.0K"
+},
+{
+  author: "Elijah White",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 17, 2024",
+  likes: "72.1K"
+},
+{
+  author: "Ava Brown",
+  content: "Science explains what religion can't; they're fundamentally different.",
+  date: "Dec 17, 2024",
+  likes: "83.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 17, 2024",
+  likes: "196.1K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 22, 2024",
+  likes: "136.5K"
+},
+{
+  author: "Liam Voss",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 18, 2024",
+  likes: "72.8K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "156.4K"
+},
+{
+  author: "Elijah White",
+  content: "Science and religion can coexist. Why do people think they can't?",
+  date: "Dec 19, 2024",
+  likes: "143.4K"
+},
+{
+  author: "Elijah White",
+  content: "Debating religion is healthy as long as it's respectful.",
+  date: "Dec 20, 2024",
+  likes: "184.3K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 19, 2024",
+  likes: "39.2K"
+},
+{
+  author: "Ava Brown",
+  content: "Arguing about faith won't solve anything; let's focus on unity.",
+  date: "Dec 20, 2024",
+  likes: "49.8K"
+},
+{
+  author: "Ava Brown",
+  content: "Religion has shaped history, but does it still hold the same power today?",
+  date: "Dec 17, 2024",
+  likes: "188.7K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 20, 2024",
+  likes: "146.4K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 18, 2024",
+  likes: "167.8K"
+},
+{
+  author: "Emily Carter",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 19, 2024",
+  likes: "77.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 18, 2024",
+  likes: "20.4K"
+},
+{
+  author: "Emily Carter",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 22, 2024",
+  likes: "77.1K"
+},
+{
+  author: "Liam Voss",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 19, 2024",
+  likes: "169.1K"
+},
+{
+  author: "Noah Smith",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 17, 2024",
+  likes: "119.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 21, 2024",
+  likes: "120.6K"
+},
+{
+  author: "Isabella Green",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 21, 2024",
+  likes: "93.1K"
+},
+{
+  author: "Emily Carter",
+  content: "Religion should evolve with modern times.",
+  date: "Dec 19, 2024",
+  likes: "183.7K"
+},
+{
+  author: "Ava Brown",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "124.7K"
+},
+{
+  author: "Noah Smith",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 20, 2024",
+  likes: "51.5K"
+},
+{
+  author: "Ava Brown",
+  content: "Faith is important, but so is understanding other perspectives.",
+  date: "Dec 21, 2024",
+  likes: "91.3K"
+},
+{
+  author: "Isabella Green",
+  content: "Religious texts are open to interpretation. What do you think?",
+  date: "Dec 20, 2024",
+  likes: "91.5K"
+},
+{
+  author: "Elijah White",
+  content: "Religion is a personal journey, and all beliefs deserve respect.",
+  date: "Dec 21, 2024",
+  likes: "161.7K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 21, 2024",
+  likes: "110.3K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 21, 2024",
+  likes: "153.8K"
+},
+{
+  author: "Isabella Green",
+  content: "Atheism is rising because people value evidence over belief.",
+  date: "Dec 22, 2024",
+  likes: "167.3K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 20, 2024",
+  likes: "14.8K"
+},
+{
+  author: "Sophia Johnson",
+  content: "Interpreting religious texts isn't always straightforward.",
+  date: "Dec 20, 2024",
+  likes: "132.4K"
+},
+{
+  author: "Elijah White",
+  content: "Not all religions are peaceful, and history proves that.",
+  date: "Dec 22, 2024",
+  likes: "19.5K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "102.8K"
+},
+{
+  author: "Ava Brown",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 21, 2024",
+  likes: "23.5K"
+},
+{
+  author: "Liam Voss",
+  content: "Why should one religion be considered the absolute truth?",
+  date: "Dec 19, 2024",
+  likes: "178.1K"
+},
+{
+  author: "Liam Voss",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 20, 2024",
+  likes: "146.0K"
+},
+{
+  author: "Noah Smith",
+  content: "Why is there so much division over something meant to bring peace?",
+  date: "Dec 18, 2024",
+  likes: "179.8K"
+},
 {        
   author: "Daniel",
   content: " #mekontent<div class='convert-me-video'data-meko-url='https://video-lga3-2.xx.fbcdn.net/o1/v/t2/f2/m69/AQOsg0JNhUrQWVKEjQGXsLKxm0lUSvGR9HQ1C6W-WqQeEITbtnTEFNjJJxSgZVw7mMFkjAndr3qdSzuh8vNPkAjF.mp4?strext=1&amp;_nc_cat=107&amp;_nc_sid=8bf8fe&amp;_nc_ht=video-lga3-2.xx.fbcdn.net&amp;_nc_ohc=LiHJTmCY60AQ7kNvgG23h2K&amp;efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5GQUNFQk9PSy4uQzMuMzYwLnByb2dyZXNzaXZlX2gyNjQtYmFzaWMtZ2VuMl8zNjBwIiwieHB2X2Fzc2V0X2lkIjoxMDQzNjEwMzc3MjU5ODI3LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&amp;ccb=9-4&amp;_nc_zt=28&amp;oh=00_AYCsaZlzI8lKaeLSg1Xew_1a-IVicQin8HsL6oB7tesQ3A&amp;oe=676AEC5E'></div>",
