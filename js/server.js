@@ -1,5 +1,6005 @@
   const posts = [
 {
+  author: "Liza Fernandez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "48.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 19, 2024",
+  likes: "85.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "101.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "189.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "153.1K"
+},
+{
+  author: "Grace Lim",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "102.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "142.4K"
+},
+{
+  author: "Joseph Tan",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 18, 2024",
+  likes: "113.0K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 18, 2024",
+  likes: "11.8K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "151.5K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "121.0K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 17, 2024",
+  likes: "73.4K"
+},
+{
+  author: "Grace Lim",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 21, 2024",
+  likes: "189.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "150.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "54.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "198.8K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 20, 2024",
+  likes: "152.6K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "44.5K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 22, 2024",
+  likes: "196.0K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 21, 2024",
+  likes: "110.2K"
+},
+{
+  author: "Joseph Tan",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 22, 2024",
+  likes: "154.8K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "14.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 17, 2024",
+  likes: "46.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "98.3K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "72.1K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 18, 2024",
+  likes: "32.7K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "48.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 17, 2024",
+  likes: "23.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 21, 2024",
+  likes: "192.2K"
+},
+{
+  author: "Joseph Tan",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 21, 2024",
+  likes: "154.6K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "85.7K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "52.6K"
+},
+{
+  author: "Joseph Tan",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "121.1K"
+},
+{
+  author: "Ramon Ortega",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "66.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "11.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 21, 2024",
+  likes: "190.9K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 17, 2024",
+  likes: "132.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 19, 2024",
+  likes: "17.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 21, 2024",
+  likes: "199.8K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 19, 2024",
+  likes: "123.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "109.5K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 20, 2024",
+  likes: "57.5K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "61.0K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "109.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "151.1K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 21, 2024",
+  likes: "29.1K"
+},
+{
+  author: "Ernesto Santos",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 21, 2024",
+  likes: "74.6K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "119.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "174.4K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "168.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "113.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "53.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 20, 2024",
+  likes: "91.0K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 22, 2024",
+  likes: "89.9K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 18, 2024",
+  likes: "49.0K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "98.4K"
+},
+{
+  author: "Grace Lim",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "102.0K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 21, 2024",
+  likes: "157.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 18, 2024",
+  likes: "110.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 20, 2024",
+  likes: "36.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 18, 2024",
+  likes: "64.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 21, 2024",
+  likes: "29.9K"
+},
+{
+  author: "Ernesto Santos",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "88.0K"
+},
+{
+  author: "Ernesto Santos",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "91.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "114.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 17, 2024",
+  likes: "48.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 22, 2024",
+  likes: "47.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "167.5K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "157.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "82.5K"
+},
+{
+  author: "Grace Lim",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "71.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "145.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "67.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "177.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "35.3K"
+},
+{
+  author: "Andrea Cruz",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 17, 2024",
+  likes: "163.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "13.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "110.2K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "42.1K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 19, 2024",
+  likes: "194.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "127.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "175.4K"
+},
+{
+  author: "Grace Lim",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "19.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "120.5K"
+},
+{
+  author: "Grace Lim",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 18, 2024",
+  likes: "15.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 20, 2024",
+  likes: "181.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "61.5K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 21, 2024",
+  likes: "157.4K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "32.2K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "183.2K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 22, 2024",
+  likes: "72.1K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "63.5K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "142.9K"
+},
+{
+  author: "Ramon Ortega",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "82.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "186.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "124.0K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "96.2K"
+},
+{
+  author: "Grace Lim",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "191.9K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 21, 2024",
+  likes: "113.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "55.1K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "65.8K"
+},
+{
+  author: "Grace Lim",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 20, 2024",
+  likes: "177.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 22, 2024",
+  likes: "146.6K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 20, 2024",
+  likes: "54.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "88.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 18, 2024",
+  likes: "187.5K"
+},
+{
+  author: "Joseph Tan",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 20, 2024",
+  likes: "151.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 20, 2024",
+  likes: "134.1K"
+},
+{
+  author: "Joseph Tan",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 18, 2024",
+  likes: "160.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "150.3K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 21, 2024",
+  likes: "24.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 19, 2024",
+  likes: "117.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "22.6K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 18, 2024",
+  likes: "38.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "174.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "24.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "31.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 19, 2024",
+  likes: "105.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "108.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "81.3K"
+},
+{
+  author: "Grace Lim",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 17, 2024",
+  likes: "49.2K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "64.3K"
+},
+{
+  author: "Grace Lim",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "157.9K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 19, 2024",
+  likes: "176.2K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 22, 2024",
+  likes: "131.9K"
+},
+{
+  author: "Ernesto Santos",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "87.3K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 19, 2024",
+  likes: "167.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "126.5K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "146.0K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 22, 2024",
+  likes: "169.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "128.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 19, 2024",
+  likes: "131.4K"
+},
+{
+  author: "Joseph Tan",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "37.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "133.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "59.0K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "66.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "35.2K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "66.5K"
+},
+{
+  author: "Grace Lim",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "197.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "198.8K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "139.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "29.9K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "186.1K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 22, 2024",
+  likes: "22.1K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 21, 2024",
+  likes: "102.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 20, 2024",
+  likes: "59.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 21, 2024",
+  likes: "128.6K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 18, 2024",
+  likes: "117.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "43.6K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 21, 2024",
+  likes: "151.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 21, 2024",
+  likes: "22.9K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "189.9K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 20, 2024",
+  likes: "113.7K"
+},
+{
+  author: "Andrea Cruz",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 18, 2024",
+  likes: "57.8K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 20, 2024",
+  likes: "109.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "183.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "130.5K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "170.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 18, 2024",
+  likes: "128.3K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "166.6K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 21, 2024",
+  likes: "31.2K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "18.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "108.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "165.1K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 20, 2024",
+  likes: "54.6K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "16.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "135.1K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "75.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 19, 2024",
+  likes: "127.8K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "103.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "199.5K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "69.0K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "172.3K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 19, 2024",
+  likes: "171.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 19, 2024",
+  likes: "70.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 21, 2024",
+  likes: "153.2K"
+},
+{
+  author: "Grace Lim",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 17, 2024",
+  likes: "58.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 21, 2024",
+  likes: "56.3K"
+},
+{
+  author: "Liza Fernandez",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "44.0K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 20, 2024",
+  likes: "185.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "54.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "14.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 22, 2024",
+  likes: "178.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 17, 2024",
+  likes: "106.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 22, 2024",
+  likes: "158.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "52.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "178.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "30.4K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 17, 2024",
+  likes: "18.7K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 20, 2024",
+  likes: "145.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 17, 2024",
+  likes: "17.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 19, 2024",
+  likes: "55.2K"
+},
+{
+  author: "Joseph Tan",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 18, 2024",
+  likes: "57.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 21, 2024",
+  likes: "200.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 22, 2024",
+  likes: "110.2K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "20.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "60.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "89.5K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "181.3K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 17, 2024",
+  likes: "82.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "138.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 18, 2024",
+  likes: "153.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 17, 2024",
+  likes: "173.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "23.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 20, 2024",
+  likes: "89.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "38.1K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "154.8K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "107.1K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 21, 2024",
+  likes: "154.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "113.0K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "65.5K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 20, 2024",
+  likes: "58.8K"
+},
+{
+  author: "Grace Lim",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 21, 2024",
+  likes: "160.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "112.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "108.3K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 20, 2024",
+  likes: "196.0K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "187.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 17, 2024",
+  likes: "29.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "159.9K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 21, 2024",
+  likes: "149.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 22, 2024",
+  likes: "96.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "123.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 21, 2024",
+  likes: "110.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 17, 2024",
+  likes: "127.7K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 22, 2024",
+  likes: "164.7K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 18, 2024",
+  likes: "136.9K"
+},
+{
+  author: "Ernesto Santos",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 19, 2024",
+  likes: "11.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "103.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "199.3K"
+},
+{
+  author: "Andrea Cruz",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "12.4K"
+},
+{
+  author: "Mark Villanueva",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 20, 2024",
+  likes: "166.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "157.4K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 17, 2024",
+  likes: "58.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 17, 2024",
+  likes: "102.4K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "40.3K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 21, 2024",
+  likes: "137.0K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 19, 2024",
+  likes: "50.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "25.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "77.5K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "63.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "86.2K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 19, 2024",
+  likes: "35.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 18, 2024",
+  likes: "48.9K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 17, 2024",
+  likes: "116.0K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 19, 2024",
+  likes: "125.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 22, 2024",
+  likes: "54.5K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "158.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "112.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "118.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "167.1K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "15.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "124.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 17, 2024",
+  likes: "80.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "60.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "161.7K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "97.0K"
+},
+{
+  author: "Joseph Tan",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 21, 2024",
+  likes: "25.3K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "79.4K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 20, 2024",
+  likes: "145.3K"
+},
+{
+  author: "Grace Lim",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "51.5K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "33.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "78.9K"
+},
+{
+  author: "Joseph Tan",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 20, 2024",
+  likes: "139.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 20, 2024",
+  likes: "76.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 22, 2024",
+  likes: "111.0K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "188.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "79.8K"
+},
+{
+  author: "Grace Lim",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "33.5K"
+},
+{
+  author: "Grace Lim",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "123.2K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "51.0K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 22, 2024",
+  likes: "74.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "69.5K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "180.1K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 17, 2024",
+  likes: "54.9K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "193.8K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "71.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "32.6K"
+},
+{
+  author: "Grace Lim",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 20, 2024",
+  likes: "158.9K"
+},
+{
+  author: "Joseph Tan",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "118.2K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 21, 2024",
+  likes: "95.5K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 22, 2024",
+  likes: "192.8K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 18, 2024",
+  likes: "44.6K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "142.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "71.6K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "134.8K"
+},
+{
+  author: "Grace Lim",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "186.1K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "132.2K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "124.9K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "97.4K"
+},
+{
+  author: "Grace Lim",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "47.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "173.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "162.3K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "122.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 21, 2024",
+  likes: "127.8K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "49.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "109.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "137.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "112.0K"
+},
+{
+  author: "Joseph Tan",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "141.2K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "146.3K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "78.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "87.0K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "139.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 18, 2024",
+  likes: "64.2K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "170.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 19, 2024",
+  likes: "174.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "50.1K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 21, 2024",
+  likes: "146.5K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 21, 2024",
+  likes: "136.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 21, 2024",
+  likes: "91.0K"
+},
+{
+  author: "Ramon Ortega",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "115.2K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 21, 2024",
+  likes: "60.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 20, 2024",
+  likes: "95.4K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "179.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 20, 2024",
+  likes: "77.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "120.6K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "186.1K"
+},
+{
+  author: "Joseph Tan",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "85.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "133.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "173.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "57.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 17, 2024",
+  likes: "126.0K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "57.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 19, 2024",
+  likes: "166.4K"
+},
+{
+  author: "Mark Villanueva",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "76.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 20, 2024",
+  likes: "56.6K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 21, 2024",
+  likes: "163.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "81.6K"
+},
+{
+  author: "Andrea Cruz",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 18, 2024",
+  likes: "141.1K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "172.9K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "83.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "128.5K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "88.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 21, 2024",
+  likes: "144.3K"
+},
+{
+  author: "Grace Lim",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 20, 2024",
+  likes: "51.4K"
+},
+{
+  author: "Ramon Ortega",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "140.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "87.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 21, 2024",
+  likes: "124.1K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 21, 2024",
+  likes: "83.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 19, 2024",
+  likes: "101.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 20, 2024",
+  likes: "194.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 20, 2024",
+  likes: "130.1K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "35.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 17, 2024",
+  likes: "149.9K"
+},
+{
+  author: "Grace Lim",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 17, 2024",
+  likes: "200.3K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "13.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 22, 2024",
+  likes: "106.5K"
+},
+{
+  author: "Grace Lim",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 22, 2024",
+  likes: "103.6K"
+},
+{
+  author: "Grace Lim",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "30.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "82.1K"
+},
+{
+  author: "Joseph Tan",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 17, 2024",
+  likes: "196.0K"
+},
+{
+  author: "Joseph Tan",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 22, 2024",
+  likes: "56.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "175.2K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 19, 2024",
+  likes: "181.4K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 20, 2024",
+  likes: "200.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "31.9K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 21, 2024",
+  likes: "157.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 17, 2024",
+  likes: "94.8K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "82.4K"
+},
+{
+  author: "Grace Lim",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "138.4K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "160.9K"
+},
+{
+  author: "Grace Lim",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 22, 2024",
+  likes: "177.5K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "76.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "192.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 21, 2024",
+  likes: "13.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 20, 2024",
+  likes: "138.6K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 19, 2024",
+  likes: "191.3K"
+},
+{
+  author: "Grace Lim",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 17, 2024",
+  likes: "40.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "124.2K"
+},
+{
+  author: "Joseph Tan",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 21, 2024",
+  likes: "111.1K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "175.0K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "74.4K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "181.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 22, 2024",
+  likes: "175.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 22, 2024",
+  likes: "166.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "195.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 20, 2024",
+  likes: "96.9K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "137.1K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 22, 2024",
+  likes: "133.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 18, 2024",
+  likes: "18.0K"
+},
+{
+  author: "Grace Lim",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 20, 2024",
+  likes: "44.2K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "10.0K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 22, 2024",
+  likes: "133.8K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "74.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "117.2K"
+},
+{
+  author: "Joseph Tan",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "171.8K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "181.5K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "97.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "98.0K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "186.0K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "182.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 17, 2024",
+  likes: "120.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "77.0K"
+},
+{
+  author: "Grace Lim",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "57.4K"
+},
+{
+  author: "Joseph Tan",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "33.7K"
+},
+{
+  author: "Grace Lim",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 22, 2024",
+  likes: "11.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 21, 2024",
+  likes: "26.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 21, 2024",
+  likes: "30.0K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 20, 2024",
+  likes: "20.9K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 17, 2024",
+  likes: "106.8K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 19, 2024",
+  likes: "157.5K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 17, 2024",
+  likes: "189.8K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "88.1K"
+},
+{
+  author: "Andrea Cruz",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 18, 2024",
+  likes: "137.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "92.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 21, 2024",
+  likes: "186.6K"
+},
+{
+  author: "Mark Villanueva",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 19, 2024",
+  likes: "34.0K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 21, 2024",
+  likes: "150.6K"
+},
+{
+  author: "Andrea Cruz",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 21, 2024",
+  likes: "148.0K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "52.8K"
+},
+{
+  author: "Grace Lim",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 19, 2024",
+  likes: "22.4K"
+},
+{
+  author: "Grace Lim",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 19, 2024",
+  likes: "26.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "105.1K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 22, 2024",
+  likes: "108.2K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 18, 2024",
+  likes: "47.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "189.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 18, 2024",
+  likes: "65.9K"
+},
+{
+  author: "Grace Lim",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "101.6K"
+},
+{
+  author: "Joseph Tan",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 19, 2024",
+  likes: "110.4K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "116.3K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 19, 2024",
+  likes: "198.7K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 20, 2024",
+  likes: "44.0K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 21, 2024",
+  likes: "110.0K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "74.0K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "24.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 20, 2024",
+  likes: "82.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "49.4K"
+},
+{
+  author: "Andrea Cruz",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 19, 2024",
+  likes: "115.1K"
+},
+{
+  author: "Joseph Tan",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "187.3K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 17, 2024",
+  likes: "64.1K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "155.3K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 22, 2024",
+  likes: "36.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 22, 2024",
+  likes: "21.7K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "67.7K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 21, 2024",
+  likes: "89.5K"
+},
+{
+  author: "Joseph Tan",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 18, 2024",
+  likes: "22.7K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 17, 2024",
+  likes: "116.5K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "162.4K"
+},
+{
+  author: "Joseph Tan",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 20, 2024",
+  likes: "157.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 19, 2024",
+  likes: "87.3K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 19, 2024",
+  likes: "170.1K"
+},
+{
+  author: "Grace Lim",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 20, 2024",
+  likes: "158.7K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 19, 2024",
+  likes: "143.0K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 18, 2024",
+  likes: "22.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "20.8K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 18, 2024",
+  likes: "97.8K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "88.3K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "64.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 22, 2024",
+  likes: "186.4K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 22, 2024",
+  likes: "90.0K"
+},
+{
+  author: "Grace Lim",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "80.5K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 17, 2024",
+  likes: "189.4K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 20, 2024",
+  likes: "27.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 17, 2024",
+  likes: "82.4K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 22, 2024",
+  likes: "108.1K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 21, 2024",
+  likes: "133.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Bloc voting in INC undermines individual freedom of choice.",
+  date: "Dec 20, 2024",
+  likes: "71.7K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 17, 2024",
+  likes: "51.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 19, 2024",
+  likes: "167.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 17, 2024",
+  likes: "59.0K"
+},
+{
+  author: "Joseph Tan",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 20, 2024",
+  likes: "168.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 21, 2024",
+  likes: "81.1K"
+},
+{
+  author: "Liza Fernandez",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 18, 2024",
+  likes: "120.7K"
+},
+{
+  author: "Ramon Ortega",
+  content: "Why does INC prioritize expansion over interfaith collaboration?",
+  date: "Dec 20, 2024",
+  likes: "185.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 17, 2024",
+  likes: "28.9K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 20, 2024",
+  likes: "34.7K"
+},
+{
+  author: "Liza Fernandez",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 17, 2024",
+  likes: "114.2K"
+},
+{
+  author: "Andrea Cruz",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 19, 2024",
+  likes: "60.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "24.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 20, 2024",
+  likes: "67.6K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 17, 2024",
+  likes: "52.6K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 20, 2024",
+  likes: "161.6K"
+},
+{
+  author: "Grace Lim",
+  content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+  date: "Dec 19, 2024",
+  likes: "159.6K"
+},
+{
+  author: "Grace Lim",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 18, 2024",
+  likes: "55.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 18, 2024",
+  likes: "127.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 19, 2024",
+  likes: "157.7K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 20, 2024",
+  likes: "123.6K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 17, 2024",
+  likes: "134.7K"
+},
+{
+  author: "Ernesto Santos",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 21, 2024",
+  likes: "103.8K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 17, 2024",
+  likes: "42.0K"
+},
+{
+  author: "Grace Lim",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 19, 2024",
+  likes: "89.5K"
+},
+{
+  author: "Joseph Tan",
+  content: "The INC's process of bloc voting sparks debates every election season.",
+  date: "Dec 17, 2024",
+  likes: "191.8K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "13.6K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 21, 2024",
+  likes: "71.4K"
+},
+{
+  author: "Ernesto Santos",
+  content: "The unity of INC members during rallies is inspiring.",
+  date: "Dec 21, 2024",
+  likes: "91.3K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 20, 2024",
+  likes: "179.2K"
+},
+{
+  author: "Grace Lim",
+  content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+  date: "Dec 22, 2024",
+  likes: "179.3K"
+},
+{
+  author: "Ernesto Santos",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 18, 2024",
+  likes: "195.4K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 20, 2024",
+  likes: "111.9K"
+},
+{
+  author: "Grace Lim",
+  content: "Why is INC silent on certain national issues while vocal on others?",
+  date: "Dec 18, 2024",
+  likes: "81.9K"
+},
+{
+  author: "Mark Villanueva",
+  content: "Their political endorsements often lead to public backlash.",
+  date: "Dec 19, 2024",
+  likes: "182.6K"
+},
+{
+  author: "Liza Fernandez",
+  content: "Why is INC's political influence so significant in the Philippines?",
+  date: "Dec 17, 2024",
+  likes: "66.3K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 22, 2024",
+  likes: "127.2K"
+},
+{
+  author: "Pauline Gutierrez",
+  content: "INC's social projects are great, but are they accessible to non-members?",
+  date: "Dec 21, 2024",
+  likes: "94.4K"
+},
+{
+  author: "Ramon Ortega",
+  content: "What makes INC stand out compared to other religious organizations?",
+  date: "Dec 17, 2024",
+  likes: "194.8K"
+},
+{
+  author: "Andrea Cruz",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 22, 2024",
+  likes: "116.1K"
+},
+{
+  author: "Ramon Ortega",
+  content: "INC claims unity, but critics argue it's enforced conformity.",
+  date: "Dec 22, 2024",
+  likes: "167.9K"
+},
+{
+  author: "Joseph Tan",
+  content: "Does INC's focus on community building set a good example for others?",
+  date: "Dec 17, 2024",
+  likes: "69.8K"
+},
+{
+  author: "Joseph Tan",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "95.0K"
+},
+{
+  author: "Mark Villanueva",
+  content: "INC has grown internationally, but does it stay true to its roots?",
+  date: "Dec 18, 2024",
+  likes: "174.8K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 20, 2024",
+  likes: "75.4K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "97.0K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "196.5K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 19, 2024",
+  likes: "71.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 21, 2024",
+  likes: "157.3K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "165.5K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 17, 2024",
+  likes: "124.4K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 17, 2024",
+  likes: "200.2K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "86.7K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "45.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 22, 2024",
+  likes: "27.8K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 20, 2024",
+  likes: "195.8K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "164.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 20, 2024",
+  likes: "147.7K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "155.8K"
+},
+{
+  author: "Maria Santos",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 19, 2024",
+  likes: "60.0K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "72.9K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 20, 2024",
+  likes: "74.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "86.6K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "56.3K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "155.8K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "14.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "11.4K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "79.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "133.8K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 21, 2024",
+  likes: "196.5K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 19, 2024",
+  likes: "200.9K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "50.7K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 17, 2024",
+  likes: "99.6K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 19, 2024",
+  likes: "74.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "152.5K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "92.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 20, 2024",
+  likes: "65.7K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "79.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 17, 2024",
+  likes: "11.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "96.1K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 21, 2024",
+  likes: "47.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "32.6K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "176.9K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 18, 2024",
+  likes: "53.9K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 21, 2024",
+  likes: "44.3K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "22.9K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "133.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "88.5K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 22, 2024",
+  likes: "146.1K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 19, 2024",
+  likes: "39.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "55.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 17, 2024",
+  likes: "15.3K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "39.5K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 21, 2024",
+  likes: "76.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "43.9K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "183.9K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "155.9K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 22, 2024",
+  likes: "159.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 21, 2024",
+  likes: "16.5K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 19, 2024",
+  likes: "63.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 19, 2024",
+  likes: "114.8K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "58.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "18.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "57.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "59.7K"
+},
+{
+  author: "Maria Santos",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "169.0K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "102.4K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 17, 2024",
+  likes: "140.6K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "123.1K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 17, 2024",
+  likes: "154.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "127.2K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 21, 2024",
+  likes: "175.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "108.3K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 19, 2024",
+  likes: "43.7K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "64.1K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 22, 2024",
+  likes: "57.0K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "79.9K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 17, 2024",
+  likes: "56.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "65.8K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "176.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "44.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 17, 2024",
+  likes: "100.4K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 22, 2024",
+  likes: "52.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "40.4K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 22, 2024",
+  likes: "130.1K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "87.1K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "39.0K"
+},
+{
+  author: "Elena Mendoza",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 21, 2024",
+  likes: "169.0K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "83.4K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "114.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 17, 2024",
+  likes: "33.2K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 20, 2024",
+  likes: "129.5K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "17.8K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 19, 2024",
+  likes: "131.9K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 19, 2024",
+  likes: "13.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "45.1K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 18, 2024",
+  likes: "83.2K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 19, 2024",
+  likes: "196.2K"
+},
+{
+  author: "Maria Santos",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "200.3K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 21, 2024",
+  likes: "144.5K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 21, 2024",
+  likes: "26.6K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 19, 2024",
+  likes: "59.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 20, 2024",
+  likes: "171.6K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "194.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 20, 2024",
+  likes: "143.4K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "45.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "26.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "166.0K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 19, 2024",
+  likes: "12.9K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 20, 2024",
+  likes: "175.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 20, 2024",
+  likes: "184.6K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "99.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "195.6K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "51.8K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "38.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 22, 2024",
+  likes: "10.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "102.4K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 20, 2024",
+  likes: "57.3K"
+},
+{
+  author: "Miguel Torres",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 17, 2024",
+  likes: "174.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "83.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "140.6K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 19, 2024",
+  likes: "46.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 22, 2024",
+  likes: "199.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "198.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "138.5K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 20, 2024",
+  likes: "109.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "175.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 22, 2024",
+  likes: "164.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "176.7K"
+},
+{
+  author: "Elena Mendoza",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "176.6K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "193.7K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "45.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 18, 2024",
+  likes: "150.0K"
+},
+{
+  author: "Maria Santos",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 19, 2024",
+  likes: "74.8K"
+},
+{
+  author: "Maria Santos",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "110.6K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 18, 2024",
+  likes: "147.5K"
+},
+{
+  author: "Carlos Reyes",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 18, 2024",
+  likes: "188.8K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "158.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 19, 2024",
+  likes: "78.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "168.3K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 18, 2024",
+  likes: "100.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 22, 2024",
+  likes: "17.6K"
+},
+{
+  author: "Miguel Torres",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "177.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "79.9K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "197.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "33.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 18, 2024",
+  likes: "76.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "127.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "142.1K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 20, 2024",
+  likes: "22.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "60.8K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 22, 2024",
+  likes: "90.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "54.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "92.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "47.4K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "61.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "15.6K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 20, 2024",
+  likes: "73.1K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "151.0K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 22, 2024",
+  likes: "120.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "116.0K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 17, 2024",
+  likes: "109.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 17, 2024",
+  likes: "130.9K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "104.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "37.6K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "184.5K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "171.9K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 19, 2024",
+  likes: "79.0K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 21, 2024",
+  likes: "26.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 22, 2024",
+  likes: "187.9K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "65.7K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 18, 2024",
+  likes: "100.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 22, 2024",
+  likes: "144.4K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "184.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "146.1K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "169.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "157.9K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 21, 2024",
+  likes: "12.8K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "48.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "22.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 21, 2024",
+  likes: "84.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 17, 2024",
+  likes: "51.7K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 19, 2024",
+  likes: "158.0K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "96.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 17, 2024",
+  likes: "175.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "86.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "197.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "133.9K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 17, 2024",
+  likes: "86.4K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "22.6K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "94.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "20.0K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 20, 2024",
+  likes: "98.7K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 20, 2024",
+  likes: "163.3K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "149.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 22, 2024",
+  likes: "187.7K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 19, 2024",
+  likes: "18.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 19, 2024",
+  likes: "146.1K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "146.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "177.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 19, 2024",
+  likes: "138.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "89.4K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 22, 2024",
+  likes: "39.5K"
+},
+{
+  author: "Ana Lopez",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 22, 2024",
+  likes: "138.3K"
+},
+{
+  author: "Maria Santos",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 22, 2024",
+  likes: "46.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 17, 2024",
+  likes: "23.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "91.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "79.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 22, 2024",
+  likes: "58.5K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "17.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 17, 2024",
+  likes: "178.8K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 17, 2024",
+  likes: "34.6K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 22, 2024",
+  likes: "108.8K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 18, 2024",
+  likes: "113.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 20, 2024",
+  likes: "169.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 19, 2024",
+  likes: "185.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "110.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "155.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "35.4K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 20, 2024",
+  likes: "177.0K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "156.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "160.6K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 22, 2024",
+  likes: "115.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 22, 2024",
+  likes: "144.9K"
+},
+{
+  author: "Maria Santos",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "172.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "163.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 20, 2024",
+  likes: "73.7K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 22, 2024",
+  likes: "123.3K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 22, 2024",
+  likes: "64.4K"
+},
+{
+  author: "Ana Lopez",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "192.3K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "186.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 18, 2024",
+  likes: "180.8K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "188.0K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 22, 2024",
+  likes: "110.2K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 18, 2024",
+  likes: "92.5K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "68.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "76.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "112.5K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "40.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "111.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "148.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "39.8K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "64.2K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "12.3K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 22, 2024",
+  likes: "111.1K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "179.7K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "66.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "118.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "113.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "136.9K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 17, 2024",
+  likes: "84.1K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "168.2K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 22, 2024",
+  likes: "135.4K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 18, 2024",
+  likes: "32.3K"
+},
+{
+  author: "Maria Santos",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 21, 2024",
+  likes: "132.6K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 17, 2024",
+  likes: "42.8K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "38.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "131.0K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 17, 2024",
+  likes: "39.3K"
+},
+{
+  author: "Ana Lopez",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "129.9K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "52.3K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 20, 2024",
+  likes: "144.7K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 18, 2024",
+  likes: "57.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "81.4K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 19, 2024",
+  likes: "99.2K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "59.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "47.5K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "159.0K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 18, 2024",
+  likes: "81.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "30.1K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 19, 2024",
+  likes: "107.5K"
+},
+{
+  author: "Ana Lopez",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "135.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "45.2K"
+},
+{
+  author: "Miguel Torres",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 17, 2024",
+  likes: "111.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 20, 2024",
+  likes: "163.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "156.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 17, 2024",
+  likes: "158.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 17, 2024",
+  likes: "188.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 20, 2024",
+  likes: "132.8K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 22, 2024",
+  likes: "198.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "194.8K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "187.7K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "192.2K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 22, 2024",
+  likes: "74.0K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 17, 2024",
+  likes: "51.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 19, 2024",
+  likes: "43.2K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 22, 2024",
+  likes: "175.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "96.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 18, 2024",
+  likes: "106.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 21, 2024",
+  likes: "120.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "199.4K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 22, 2024",
+  likes: "86.4K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 22, 2024",
+  likes: "186.6K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "17.4K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "89.4K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 20, 2024",
+  likes: "89.9K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "142.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "71.8K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "14.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "77.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 22, 2024",
+  likes: "25.5K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 22, 2024",
+  likes: "103.2K"
+},
+{
+  author: "Carlos Reyes",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "39.5K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 19, 2024",
+  likes: "149.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "190.1K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "98.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "79.9K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 19, 2024",
+  likes: "123.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 18, 2024",
+  likes: "180.7K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 22, 2024",
+  likes: "38.6K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 22, 2024",
+  likes: "79.9K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "107.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "51.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 19, 2024",
+  likes: "66.7K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "171.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "16.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 19, 2024",
+  likes: "89.7K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 20, 2024",
+  likes: "90.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "165.7K"
+},
+{
+  author: "Maria Santos",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "123.6K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 18, 2024",
+  likes: "114.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "45.8K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "22.4K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "199.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "189.1K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 22, 2024",
+  likes: "15.9K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "102.4K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 17, 2024",
+  likes: "99.2K"
+},
+{
+  author: "Ana Lopez",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 20, 2024",
+  likes: "107.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 20, 2024",
+  likes: "140.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "59.5K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "175.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 22, 2024",
+  likes: "120.5K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 18, 2024",
+  likes: "155.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "194.1K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "70.2K"
+},
+{
+  author: "Elena Mendoza",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 20, 2024",
+  likes: "197.9K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "13.1K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 20, 2024",
+  likes: "71.0K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "128.7K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "104.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 17, 2024",
+  likes: "138.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 17, 2024",
+  likes: "46.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 20, 2024",
+  likes: "197.7K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "179.4K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "92.1K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 18, 2024",
+  likes: "148.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "158.1K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "26.8K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 20, 2024",
+  likes: "137.2K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "144.2K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 19, 2024",
+  likes: "58.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "127.7K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "155.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 18, 2024",
+  likes: "45.1K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 21, 2024",
+  likes: "199.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 19, 2024",
+  likes: "197.5K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 22, 2024",
+  likes: "142.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "91.6K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "90.3K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "92.9K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 17, 2024",
+  likes: "48.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "54.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 19, 2024",
+  likes: "118.2K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 17, 2024",
+  likes: "21.9K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 18, 2024",
+  likes: "32.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 20, 2024",
+  likes: "85.1K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 17, 2024",
+  likes: "105.1K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "65.7K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "97.1K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "102.4K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "51.4K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 22, 2024",
+  likes: "114.5K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "155.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "104.7K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 21, 2024",
+  likes: "76.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "112.4K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 21, 2024",
+  likes: "186.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 22, 2024",
+  likes: "117.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "157.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "66.4K"
+},
+{
+  author: "Josefa Garcia",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 19, 2024",
+  likes: "166.9K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "174.1K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 20, 2024",
+  likes: "142.7K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 22, 2024",
+  likes: "63.3K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "16.4K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "159.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 20, 2024",
+  likes: "13.1K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "196.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 22, 2024",
+  likes: "108.6K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "53.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 17, 2024",
+  likes: "29.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "187.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 18, 2024",
+  likes: "142.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "98.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 18, 2024",
+  likes: "36.1K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 17, 2024",
+  likes: "189.8K"
+},
+{
+  author: "Maria Santos",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "13.3K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 18, 2024",
+  likes: "109.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 17, 2024",
+  likes: "174.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "145.2K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 19, 2024",
+  likes: "17.1K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 22, 2024",
+  likes: "65.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 17, 2024",
+  likes: "146.8K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "101.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 21, 2024",
+  likes: "183.2K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 19, 2024",
+  likes: "138.9K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 21, 2024",
+  likes: "54.2K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "129.6K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 19, 2024",
+  likes: "71.8K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "74.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 22, 2024",
+  likes: "100.5K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "116.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 17, 2024",
+  likes: "157.5K"
+},
+{
+  author: "Maria Santos",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "148.4K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 21, 2024",
+  likes: "98.6K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "183.6K"
+},
+{
+  author: "Maria Santos",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 19, 2024",
+  likes: "140.1K"
+},
+{
+  author: "Ana Lopez",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 18, 2024",
+  likes: "183.3K"
+},
+{
+  author: "Carlos Reyes",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "122.6K"
+},
+{
+  author: "Miguel Torres",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "25.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "61.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 20, 2024",
+  likes: "163.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "59.2K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 21, 2024",
+  likes: "49.6K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "138.3K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 18, 2024",
+  likes: "145.2K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 21, 2024",
+  likes: "16.0K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "196.2K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "183.1K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 21, 2024",
+  likes: "32.7K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 22, 2024",
+  likes: "136.6K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 19, 2024",
+  likes: "29.1K"
+},
+{
+  author: "Maria Santos",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "196.9K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 20, 2024",
+  likes: "112.6K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "93.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 17, 2024",
+  likes: "194.4K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 20, 2024",
+  likes: "132.0K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 21, 2024",
+  likes: "88.7K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "182.0K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 18, 2024",
+  likes: "26.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 21, 2024",
+  likes: "75.7K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 22, 2024",
+  likes: "197.7K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 17, 2024",
+  likes: "123.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 19, 2024",
+  likes: "35.2K"
+},
+{
+  author: "Maria Santos",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 19, 2024",
+  likes: "87.8K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 17, 2024",
+  likes: "192.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "184.8K"
+},
+{
+  author: "Ana Lopez",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 19, 2024",
+  likes: "153.7K"
+},
+{
+  author: "Elena Mendoza",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 18, 2024",
+  likes: "71.9K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 19, 2024",
+  likes: "82.2K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 18, 2024",
+  likes: "34.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "158.2K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "182.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Peace rallies are a great idea, but are they effective?",
+  date: "Dec 21, 2024",
+  likes: "11.2K"
+},
+{
+  author: "Ana Lopez",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 22, 2024",
+  likes: "144.7K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 22, 2024",
+  likes: "83.8K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 21, 2024",
+  likes: "48.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "34.4K"
+},
+{
+  author: "Pedro Bautista",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 18, 2024",
+  likes: "39.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "154.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "176.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 18, 2024",
+  likes: "158.0K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "58.8K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "166.0K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 19, 2024",
+  likes: "132.3K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 19, 2024",
+  likes: "22.2K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 22, 2024",
+  likes: "149.2K"
+},
+{
+  author: "Ana Lopez",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 20, 2024",
+  likes: "139.8K"
+},
+{
+  author: "Maria Santos",
+  content: "BBM's economic plans are ambitious, but are they realistic?",
+  date: "Dec 20, 2024",
+  likes: "166.0K"
+},
+{
+  author: "Pedro Bautista",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 22, 2024",
+  likes: "18.2K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "132.5K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "84.7K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 17, 2024",
+  likes: "30.1K"
+},
+{
+  author: "Maria Santos",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 21, 2024",
+  likes: "123.7K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 19, 2024",
+  likes: "129.2K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 19, 2024",
+  likes: "11.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 17, 2024",
+  likes: "68.5K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Team Sarah prioritizes education and healthcareâ€”something BBM overlooks.",
+  date: "Dec 21, 2024",
+  likes: "56.5K"
+},
+{
+  author: "Maria Santos",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 19, 2024",
+  likes: "137.5K"
+},
+{
+  author: "Carlos Reyes",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 18, 2024",
+  likes: "51.5K"
+},
+{
+  author: "Ana Lopez",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 18, 2024",
+  likes: "185.5K"
+},
+{
+  author: "Maria Santos",
+  content: "BBM's policies are the key to the country's progress.",
+  date: "Dec 17, 2024",
+  likes: "29.6K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 22, 2024",
+  likes: "124.3K"
+},
+{
+  author: "Miguel Torres",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 19, 2024",
+  likes: "155.1K"
+},
+{
+  author: "Pedro Bautista",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 19, 2024",
+  likes: "18.3K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "152.4K"
+},
+{
+  author: "Juan Dela Cruz",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 18, 2024",
+  likes: "28.4K"
+},
+{
+  author: "Maria Santos",
+  content: "Team Sarah's leadership vision is what the Philippines needs.",
+  date: "Dec 18, 2024",
+  likes: "103.3K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Both BBM and Team Sarah have valid points, but collaboration is essential.",
+  date: "Dec 17, 2024",
+  likes: "150.4K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 20, 2024",
+  likes: "163.3K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 17, 2024",
+  likes: "22.0K"
+},
+{
+  author: "Maria Santos",
+  content: "INC's influence in politics is undeniable. What are your thoughts?",
+  date: "Dec 20, 2024",
+  likes: "170.8K"
+},
+{
+  author: "Elena Mendoza",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 21, 2024",
+  likes: "140.4K"
+},
+{
+  author: "Maria Santos",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 20, 2024",
+  likes: "91.4K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Why can't we just focus on the people's needs instead of political rivalries?",
+  date: "Dec 21, 2024",
+  likes: "99.0K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion and politics should be separate. Mixing them causes more division.",
+  date: "Dec 20, 2024",
+  likes: "177.1K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Peace rallies are just symbolic. We need real action on the ground.",
+  date: "Dec 22, 2024",
+  likes: "29.6K"
+},
+{
+  author: "Carlos Reyes",
+  content: "Team Sarah has a stronger grassroots connection. BBM's policies favor the elite.",
+  date: "Dec 17, 2024",
+  likes: "34.7K"
+},
+{
+  author: "Miguel Torres",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 19, 2024",
+  likes: "83.3K"
+},
+{
+  author: "Miguel Torres",
+  content: "Religion should unite us, not divide us further.",
+  date: "Dec 21, 2024",
+  likes: "68.5K"
+},
+{
+  author: "Ana Lopez",
+  content: "INC's involvement in politics should be questioned. Isn't faith personal?",
+  date: "Dec 17, 2024",
+  likes: "180.4K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 20, 2024",
+  likes: "51.8K"
+},
+{
+  author: "Josefa Garcia",
+  content: "Why is INC so involved in elections? Shouldn't faith stay neutral?",
+  date: "Dec 22, 2024",
+  likes: "178.7K"
+},    
+{
   author: "Emily Carter",
   content: "Why is there so much division over something meant to bring peace?",
   date: "Dec 19, 2024",
