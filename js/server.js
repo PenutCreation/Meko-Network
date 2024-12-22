@@ -245,7 +245,7 @@
     date: "Dec 4, 2024",
     likes: "87.3K"
 },
-    {
+{
     author: "Liam Jensen",
     content: "Meko's banning streak is getting out of hand! A lot of users are getting banned for minor things. What's going on with the moderation team? #MekoBans #BanStreak #Unfair",
     date: "Dec 4, 2024",
@@ -358,9 +358,8 @@
     content: "Meko’s ban streak has gone too far. There are so many users who didn’t do anything wrong. This needs to be fixed. #BanSpree #MekoBans #BanMistakes",
     date: "Dec 4, 2024",
     likes: "72.5K"
-}
-
-    {
+},
+{
     author: "Eliott Ford",
     content: "To duplicate fungus coins, here's what you need to do: First, click the fungus and buy the Classic Termite. Set it to Lvl 50, then spam click the Classic Termite with an auto-clicker at 40 milliseconds. After that, turn off your WiFi, wait until it disables, and turn it back on. Exit the game, rejoin, turn off your WiFi again, and spam click the fungus button. It works like a charm! #FungusCoinGlitch #TermiteEmpireHack",
     date: "Dec 4, 2024",
@@ -750,7 +749,7 @@
     date: "Dec 22, 2024",
     likes: "96.4K"
 },
-    {
+{
     author: "Emily Carter",
     content: "Today I had to let go of my dog. He was my best friend for 10 years, and now my house feels so empty. I don’t know how to handle this. #Heartbroken #MissingYou",
     date: "Dec 17, 2024",
@@ -869,9 +868,8 @@
     content: "I skipped dinner with my family because I couldn’t face them. I feel like I’m failing everyone, including myself. #Struggling",
     date: "Dec 18, 2024",
     likes: "58.6K"
-}
-
-    {
+},
+{
     author: "Alex Miner",
     content: "Why does Mojang make us vote for one mob? Just add all three, it’s not that hard! #MinecraftMobVote",
     date: "Dec 17, 2024",
@@ -14500,6 +14498,7 @@
 
 
     ];
+    
 const likedPosts = new Set();
 const shuffledPosts = posts
   .map(post => ({ ...post, id: Math.random().toString(36).substr(2, 9) }))
@@ -14507,7 +14506,6 @@ const shuffledPosts = posts
 
 let currentPostIndex = 0;
 const postsPerPage = 20;
-
 function displayPosts(postsToDisplay) {
   const container = document.getElementById("post-container");
   postsToDisplay.forEach(post => {
