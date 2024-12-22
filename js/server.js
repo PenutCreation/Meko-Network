@@ -1,4 +1,2370 @@
   const posts = [
+    {
+    author: "Liam Thompson",
+    content: "Another user just reported getting hacked on Meko, bringing the total to 26 victims! Why isn't Meko doing anything about this? We need better security! #MekoHacker #AccountProtection",
+    date: "Dec 17, 2024",
+    likes: "91.6K"
+},
+{
+    author: "Ava Wilson",
+    content: "26 accounts hacked on Meko and still no action? This hacker is taking over, and Meko needs to fix this ASAP. How many more victims will it take? #MekoHacker #SecurityFail",
+    date: "Dec 17, 2024",
+    likes: "85.3K"
+},
+{
+    author: "Ethan Scott",
+    content: "So Meko has 26 confirmed hacked accounts now? This is insane! Why is there no security update or anything to prevent it? Meko, fix your system! #MekoHack #AccountBreach",
+    date: "Dec 17, 2024",
+    likes: "79.8K"
+},
+{
+    author: "Sophia Parker",
+    content: "I just found out another user got hacked on Meko. That’s 26 victims now! This hacker needs to be stopped before more people lose their accounts. #MekoHacker #SecurityIssue",
+    date: "Dec 17, 2024",
+    likes: "66.4K"
+},
+{
+    author: "Benjamin Lee",
+    content: "Why are 26 users already hacked on Meko? This hacker is getting away with it, and Meko is not taking action! We need more security measures right now. #MekoHack #AccountProtection",
+    date: "Dec 17, 2024",
+    likes: "72.9K"
+},
+{
+    author: "Olivia Garcia",
+    content: "It’s crazy that 26 users on Meko have been hacked, and nothing is being done about it. Meko, you need to step up your game before more accounts are compromised! #MekoHacker #FixIt",
+    date: "Dec 18, 2024",
+    likes: "84.1K"
+},
+{
+    author: "Isaac Thompson",
+    content: "Meko is allowing hackers to steal accounts! 26 users have already been affected, and no response from the moderation team. We deserve better security! #MekoHack #AccountSecurity",
+    date: "Dec 18, 2024",
+    likes: "78.3K"
+},
+{
+    author: "Ella Young",
+    content: "I’m seriously concerned now! 26 users have been hacked on Meko, and there’s still no fix in sight. What is Meko doing to protect us? #MekoHack #SecurityProblems",
+    date: "Dec 18, 2024",
+    likes: "88.6K"
+},
+{
+    author: "James Lewis",
+    content: "This hacker is getting too comfortable! 26 users already hacked, and Meko still hasn’t addressed the problem. Fix your security, Meko! #MekoHacker #AccountHacks",
+    date: "Dec 18, 2024",
+    likes: "74.9K"
+},
+{
+    author: "Charlotte Anderson",
+    content: "26 hacked accounts, and no action taken yet? Meko, it’s time to step up. We can’t let this hacker keep taking advantage of your platform. #MekoHacker #FixTheSecurity",
+    date: "Dec 18, 2024",
+    likes: "81.3K"
+},
+{
+    author: "Mason Clark",
+    content: "How has Meko not dealt with this hacker yet? 26 accounts are hacked, and it’s still happening! Meko, you need better security NOW! #MekoHack #AccountBreach",
+    date: "Dec 19, 2024",
+    likes: "83.2K"
+},
+{
+    author: "Lucas Martinez",
+    content: "I can't believe this! 26 people have been hacked on Meko. Why are they still letting this happen? It’s time to fix your security, Meko. #MekoHacker #AccountSafety",
+    date: "Dec 19, 2024",
+    likes: "77.4K"
+},
+{
+    author: "Grace White",
+    content: "The Meko hacker is still active, and 26 users have already been hacked! This is getting out of hand. Meko, why are you letting this happen? #MekoHack #SecurityFlaw",
+    date: "Dec 19, 2024",
+    likes: "82.1K"
+},
+{
+    author: "William Harris",
+    content: "26 hacked accounts on Meko and nothing has been done to stop it. Why is Meko allowing this hacker to get away with it? We need more security measures! #MekoHacker #FixTheSystem",
+    date: "Dec 19, 2024",
+    likes: "69.8K"
+},
+{
+    author: "Sophia King",
+    content: "The number of hacked accounts on Meko keeps increasing! 26 victims and counting. Meko needs to protect its users better! #MekoHack #AccountTheft",
+    date: "Dec 20, 2024",
+    likes: "79.9K"
+},
+{
+    author: "Noah Carter",
+    content: "Meko, you need to act! 26 accounts have already been hacked, and there are no updates on how you’re going to stop it. This hacker is on the loose! #MekoHacker #SecurityBreach",
+    date: "Dec 20, 2024",
+    likes: "71.1K"
+},
+{
+    author: "Olivia Wright",
+    content: "26 Meko accounts have been hacked, and it’s like Meko doesn’t even care. They need to prioritize account security NOW. #MekoHack #AccountProtection",
+    date: "Dec 20, 2024",
+    likes: "85.4K"
+},
+{
+    author: "Jack Young",
+    content: "Can Meko do something about the hacker already? 26 accounts have been compromised, and users are getting worried. Please, Meko, fix this! #MekoHack #AccountSecurity",
+    date: "Dec 20, 2024",
+    likes: "93.1K"
+},
+{
+    author: "Maya Scott",
+    content: "26 users hacked on Meko? This hacker is causing chaos and Meko isn’t responding fast enough. Meko, we need better security NOW! #MekoHacker #AccountProtection",
+    date: "Dec 21, 2024",
+    likes: "72.4K"
+},
+{
+    author: "Benjamin Walker",
+    content: "It’s been days and Meko has still not fixed the issue with the hacker! 26 accounts hacked. What are they waiting for? #MekoHacker #FixTheSecurity",
+    date: "Dec 21, 2024",
+    likes: "80.6K"
+},
+{
+    author: "Ethan White",
+    content: "I can’t believe it. 26 Meko users have been hacked, and it’s getting worse every day. Meko needs to get their security together. #MekoHack #AccountSecurity",
+    date: "Dec 21, 2024",
+    likes: "76.8K"
+},
+{
+    author: "Sophia Walker",
+    content: "How is Meko letting this hacker keep going? 26 accounts have been hacked and no response. It’s time to fix this, Meko! #MekoHacker #AccountTheft",
+    date: "Dec 22, 2024",
+    likes: "74.3K"
+},
+    {
+    author: "Mia Thompson",
+    content: "This Meko hacker is out of control! 26 users have already claimed their accounts were hacked. Meko, please do something about this before it gets worse! #MekoHacker #AccountHacks #SecurityBreach",
+    date: "Dec 4, 2024",
+    likes: "85.7K"
+},
+{
+    author: "Ethan Williams",
+    content: "What’s going on with Meko? 26 users have reported their accounts being hacked by this hacker. Why is this happening and why isn't Meko doing anything? #MekoHack #SecurityFail",
+    date: "Dec 4, 2024",
+    likes: "77.2K"
+},
+{
+    author: "Grace Rodriguez",
+    content: "I just found out that 26 users have been hacked on Meko! How is this happening? Meko needs to fix this and increase account security. #MekoHacker #AccountSecurity",
+    date: "Dec 4, 2024",
+    likes: "92.4K"
+},
+{
+    author: "Sophia Lee",
+    content: "26 victims of account hacking on Meko?! This hacker needs to be caught before more users lose their accounts. Meko needs better security measures. #MekoHack #HackedAccounts",
+    date: "Dec 4, 2024",
+    likes: "63.9K"
+},
+{
+    author: "Lucas Johnson",
+    content: "There’s a hacker going around on Meko, and 26 users have reported their accounts being compromised. It’s getting out of hand. Meko, please protect us! #MekoHacker #AccountTheft",
+    date: "Dec 4, 2024",
+    likes: "84.1K"
+},
+{
+    author: "Olivia Carter",
+    content: "How are 26 Meko users being hacked? This hacker is clearly targeting people, and Meko isn’t doing enough to stop it. Please take action now! #MekoHacker #SecurityProblems",
+    date: "Dec 4, 2024",
+    likes: "70.3K"
+},
+{
+    author: "Jack Harris",
+    content: "Meko, do something! 26 victims have already reported their accounts being hacked. This hacker is wreaking havoc on the platform. #MekoHack #ProtectTheUsers",
+    date: "Dec 4, 2024",
+    likes: "76.8K"
+},
+{
+    author: "Ava Scott",
+    content: "Is Meko even aware of the hacker going around stealing accounts? 26 users are already affected, and no action has been taken. Meko, step up! #HackedAccounts #MekoHacker",
+    date: "Dec 4, 2024",
+    likes: "83.5K"
+},
+{
+    author: "Benjamin Brown",
+    content: "26 people on Meko have had their accounts hacked, and no one is doing anything about it. Why is there such a serious lack of security? #MekoHacker #AccountTheft",
+    date: "Dec 4, 2024",
+    likes: "69.9K"
+},
+{
+    author: "Charlotte Davis",
+    content: "I can’t believe it! 26 users on Meko have been hacked! What’s going on? This hacker is clearly targeting people and Meko is doing nothing to stop them. #MekoHacker #SecurityBreach",
+    date: "Dec 4, 2024",
+    likes: "80.4K"
+},
+{
+    author: "Isabella Wilson",
+    content: "26 Meko users have already reported being hacked, and it’s only getting worse. Why is Meko allowing this hacker to go unchecked? #MekoHack #AccountHacking",
+    date: "Dec 4, 2024",
+    likes: "74.2K"
+},
+{
+    author: "Mason Garcia",
+    content: "This hacker on Meko is getting out of control! 26 people already hacked, and Meko still hasn't addressed it. We need better security now. #MekoHacker #SecurityFailure",
+    date: "Dec 4, 2024",
+    likes: "85.6K"
+},
+{
+    author: "Liam Johnson",
+    content: "Why are 26 Meko users getting hacked? This hacker has been targeting accounts for days, and Meko still hasn’t done anything about it. #MekoHacker #FixTheSecurity",
+    date: "Dec 4, 2024",
+    likes: "79.1K"
+},
+{
+    author: "Emma Lee",
+    content: "I can't believe 26 users on Meko have been hacked already. This hacker is clearly on a spree, and Meko isn't protecting us. Something needs to change! #MekoHack #SecurityIssue",
+    date: "Dec 4, 2024",
+    likes: "68.4K"
+},
+{
+    author: "James Walker",
+    content: "The Meko hacker is still at it! 26 users have been hacked so far, and the platform is not doing enough to stop them. This needs to be addressed urgently. #MekoHack #ProtectUsers",
+    date: "Dec 4, 2024",
+    likes: "79.7K"
+},
+{
+    author: "Maya Clark",
+    content: "Why are so many users getting hacked on Meko? 26 victims and counting. Meko has to do something to fix this now before it spreads further! #MekoHacker #AccountSafety",
+    date: "Dec 4, 2024",
+    likes: "73.1K"
+},
+{
+    author: "Lucas King",
+    content: "This hacker is targeting users on Meko and 26 people have already been affected. Meko needs to step up their security measures ASAP! #MekoHack #ProtectTheUsers",
+    date: "Dec 4, 2024",
+    likes: "81.9K"
+},
+{
+    author: "Grace Rodriguez",
+    content: "26 accounts hacked on Meko and no action is being taken! This hacker is on the loose and Meko is not stopping them. #MekoHacker #SecurityFlaw",
+    date: "Dec 4, 2024",
+    likes: "64.7K"
+},
+{
+    author: "Noah White",
+    content: "Can Meko please do something about this hacker? 26 users are already reporting their accounts being hacked. Meko needs to step up the game. #MekoHack #BanTheHacker",
+    date: "Dec 4, 2024",
+    likes: "87.3K"
+},
+    {
+    author: "Liam Jensen",
+    content: "Meko's banning streak is getting out of hand! A lot of users are getting banned for minor things. What's going on with the moderation team? #MekoBans #BanStreak #Unfair",
+    date: "Dec 4, 2024",
+    likes: "58.2K"
+},
+{
+    author: "Olivia Martinez",
+    content: "Just got banned on Meko for no reason! I don’t even understand what happened. Seems like they’re banning users left and right now. Anyone else? #MekoBanStreak #UnjustBans",
+    date: "Dec 4, 2024",
+    likes: "65.3K"
+},
+{
+    author: "Noah Anderson",
+    content: "Is anyone else getting banned on Meko? This streak of bans is getting crazy, some of these bans are so questionable. What’s going on with their rules? #BanStreak #MekoModeration",
+    date: "Dec 4, 2024",
+    likes: "72.9K"
+},
+{
+    author: "Sophia Turner",
+    content: "Meko banning spree continues! Users are getting banned for even the smallest mistakes. They need to review how they handle bans. #MekoBan #BanSpree",
+    date: "Dec 4, 2024",
+    likes: "48.5K"
+},
+{
+    author: "Ethan Collins",
+    content: "Meko's banning streak has reached a whole new level. I saw a user get banned for saying 'hello.' It’s just ridiculous now. #MekoBanStreak #Overreacting",
+    date: "Dec 4, 2024",
+    likes: "60.7K"
+},
+{
+    author: "Mason Garcia",
+    content: "I got banned on Meko and still no idea why! This banning streak is insane! How many users do they plan on banning today? #MekoBanSpree #ConfusedUser",
+    date: "Dec 4, 2024",
+    likes: "53.9K"
+},
+{
+    author: "Ava Harris",
+    content: "Can someone explain why Meko has been banning so many users lately? I don't get what's going on, this is crazy! #BanStreak #MekoBans #UnfairPunishments",
+    date: "Dec 4, 2024",
+    likes: "49.1K"
+},
+{
+    author: "William Lee",
+    content: "Meko's banning streak is so bad, even users who haven’t broken any rules are getting banned! It's like they're banning for no reason now. #MekoBanMistake #BanStreak",
+    date: "Dec 4, 2024",
+    likes: "56.3K"
+},
+{
+    author: "Jackson Perez",
+    content: "I’m not sure what’s happening, but Meko has been banning users left and right. This streak has to stop. I’ve seen so many good users banned for no reason. #MekoBan #BanStreak",
+    date: "Dec 4, 2024",
+    likes: "71.2K"
+},
+{
+    author: "Lily Brooks",
+    content: "What’s up with the ban streak on Meko? I’ve been seeing a ton of users banned, even those who weren’t breaking any rules. This isn’t okay. #MekoBan #BanSpree",
+    date: "Dec 4, 2024",
+    likes: "59.4K"
+},
+{
+    author: "Benjamin Scott",
+    content: "Meko’s banning streak is out of control. Users are getting banned for saying things that don’t even break the rules. This is starting to feel like a witch hunt. #BanStreak #MekoBans",
+    date: "Dec 4, 2024",
+    likes: "65.8K"
+},
+{
+    author: "Grace Walker",
+    content: "Seriously, what’s going on with Meko and their banning streak? I’m reading so many complaints about unfair bans. They need to fix this! #MekoBanStreak #UnfairPunishment",
+    date: "Dec 4, 2024",
+    likes: "52.6K"
+},
+{
+    author: "Isaac Young",
+    content: "Meko keeps banning users for no reason! This streak of bans is way too much. Someone needs to take a closer look at their moderation system. #BanSpree #MekoBans #FixIt",
+    date: "Dec 4, 2024",
+    likes: "50.2K"
+},
+{
+    author: "Charlotte Davis",
+    content: "How is Meko getting away with banning so many users for no reason? This banning streak is really frustrating. I don’t know what’s happening. #BanStreak #MekoBans #Frustrated",
+    date: "Dec 4, 2024",
+    likes: "69.3K"
+},
+{
+    author: "Lucas White",
+    content: "Meko’s banning streak has made me lose faith in their moderation system. Too many users are getting banned for stuff that doesn’t even make sense. #MekoBanMistake #BanSpree",
+    date: "Dec 4, 2024",
+    likes: "66.1K"
+},
+{
+    author: "Ella Lewis",
+    content: "I don’t get it, Meko’s banning users left and right with no explanation. What happened to proper moderation? This streak is ridiculous. #BanStreak #MekoBan #Unjust",
+    date: "Dec 4, 2024",
+    likes: "55.4K"
+},
+{
+    author: "Lucas King",
+    content: "Has anyone else been banned on Meko lately? The streak of bans is crazy, and no one seems to know why it’s happening. This needs to stop. #MekoBan #BanStreak",
+    date: "Dec 4, 2024",
+    likes: "61.7K"
+},
+{
+    author: "Maya Clark",
+    content: "I keep seeing posts about unfair bans on Meko. The banning streak is unreal. How are users supposed to play when this keeps happening? #BanStreak #MekoBanProblems",
+    date: "Dec 4, 2024",
+    likes: "47.8K"
+},
+{
+    author: "James Lee",
+    content: "Meko’s ban streak has gone too far. There are so many users who didn’t do anything wrong. This needs to be fixed. #BanSpree #MekoBans #BanMistakes",
+    date: "Dec 4, 2024",
+    likes: "72.5K"
+}
+
+    {
+    author: "Eliott Ford",
+    content: "To duplicate fungus coins, here's what you need to do: First, click the fungus and buy the Classic Termite. Set it to Lvl 50, then spam click the Classic Termite with an auto-clicker at 40 milliseconds. After that, turn off your WiFi, wait until it disables, and turn it back on. Exit the game, rejoin, turn off your WiFi again, and spam click the fungus button. It works like a charm! #FungusCoinGlitch #TermiteEmpireHack",
+    date: "Dec 4, 2024",
+    likes: "185.4K"
+},
+{
+    author: "Noah Peterson",
+    content: "Hey guys, if you're trying to duplicate fungus coins in Termite Empire, here’s how: First, click the fungus and get the Classic Termite to Lvl 50. Then, spam click with an auto-clicker at 40ms. Turn off your WiFi and wait for it to disable, then turn it back on. Exit and rejoin the game. Once you're back, turn off WiFi again and spam click the fungus. Works every time! #FungusCoinGlitch #TermiteEmpireDuplication",
+    date: "Dec 4, 2024",
+    likes: "174.8K"
+},
+{
+    author: "Liam Walker",
+    content: "To do the fungus coin duplication glitch, follow these steps: Click the fungus and make sure to buy the Classic Termite, then level it to 50. After that, use an auto-clicker to spam click it at 40ms. Now, turn off your WiFi, wait for the game to disconnect, and turn it back on. Exit the game, rejoin, and then turn off your WiFi again. Spam the fungus button and you should see the glitch work! #DuplicationGlitch #TermiteEmpire",
+    date: "Dec 4, 2024",
+    likes: "203.1K"
+},
+{
+    author: "Sophia King",
+    content: "If you're looking to duplicate fungus coins, here's the method: Start by clicking the fungus, then buy the Classic Termite and level it to 50. Use an auto-clicker at 40ms to spam click the termite. Now, turn off your WiFi and wait for the game to disconnect. Turn your WiFi back on, exit the game, rejoin, and turn off your WiFi again. Spam click the fungus and boom, coins duplicated! #TermiteEmpireTrick #FungusCoinGlitch",
+    date: "Dec 4, 2024",
+    likes: "167.3K"
+},
+{
+    author: "Olivia Harris",
+    content: "For those wanting to duplicate fungus coins in Termite Empire, follow this step-by-step: Click the fungus and buy the Classic Termite, upgrading it to level 50. Then, spam click the termite at 40ms using an auto-clicker. Turn off your WiFi, wait until the game disconnects, and turn it back on. Exit the game, rejoin, and repeat by turning off your WiFi and spamming the fungus button. Works every time! #FungusCoinDuplication #TermiteEmpireGlitch",
+    date: "Dec 4, 2024",
+    likes: "198.5K"
+},
+{
+    author: "Ava Thompson",
+    content: "To duplicate fungus coins, start by clicking the fungus. Then buy the Classic Termite and set it to Lvl 50. After that, use an auto-clicker to spam click it at 40ms. Turn off your WiFi, wait until it disconnects, and then turn it back on. Exit the game, rejoin, and repeat the process with the WiFi off. Spam the fungus button, and the coins will duplicate! #DuplicationHack #TermiteEmpireGlitch",
+    date: "Dec 4, 2024",
+    likes: "210.4K"
+},
+{
+    author: "Mason Clark",
+    content: "Here's how you do the fungus coin duplication glitch: First, click the fungus and buy the Classic Termite. Level it up to 50. Then, set an auto-clicker to spam click the termite at 40ms. Turn off your WiFi and wait for the game to disconnect. Turn your WiFi back on, exit the game, and rejoin. Once you're back, turn off your WiFi again and spam click the fungus button. You'll get a ton of coins! #FungusCoinDuplication #TermiteEmpireHack",
+    date: "Dec 4, 2024",
+    likes: "175.6K"
+},
+{
+    author: "Jackie Lee",
+    content: "If you want to duplicate fungus coins, here’s how to do it: Click the fungus, buy the Classic Termite, and level it to 50. Then, use an auto-clicker at 40ms to spam click the termite. After that, turn off your WiFi and wait for the game to disconnect. Turn it back on, exit the game, and rejoin. Turn off your WiFi again and spam click the fungus. Coins duplicated! #TermiteEmpireGlitch #FungusCoinHack",
+    date: "Dec 4, 2024",
+    likes: "190.7K"
+},
+{
+    author: "Benjamin White",
+    content: "To do the fungus coin duplication glitch, follow these steps: Start by clicking the fungus and getting the Classic Termite to Lvl 50. Use an auto-clicker with a 40ms setting to spam click it. Turn off your WiFi, wait until the game disconnects, then turn it back on. Exit the game, rejoin, and turn your WiFi off again. Spam click the fungus and you’ll have duplicated coins! #TermiteEmpireDuplication #FungusCoinGlitch",
+    date: "Dec 4, 2024",
+    likes: "209.8K"
+},
+    {
+    author: "Lucas Carter",
+    content: "Hey, does anyone know how to duplicate fungus coins in Termite Empire? I’ve heard about a glitch but can’t figure out the steps. Help? #FungusCoinDuplication #NeedHelp",
+    date: "Dec 4, 2024",
+    likes: "32.1K"
+},
+{
+    author: "Ella Davis",
+    content: "How exactly do you duplicate fungus coins in Termite Empire? I’ve been trying but can’t seem to make it work. Any tips? #FungusCoinHack #HelpMeOut",
+    date: "Dec 4, 2024",
+    likes: "28.7K"
+},
+{
+    author: "Mia Anderson",
+    content: "Can someone please tell me how to do the fungus coin glitch in Termite Empire? I heard it works, but I don’t know how to do it. #NeedHelp #TermiteEmpireGlitch",
+    date: "Dec 4, 2024",
+    likes: "24.3K"
+},
+{
+    author: "Ethan Thompson",
+    content: "I keep hearing about this fungus coin duplication glitch, but I have no idea how it works. Can anyone explain it to me step by step? #FungusCoinDuplication #HowToDoIt",
+    date: "Dec 4, 2024",
+    likes: "35.1K"
+},
+{
+    author: "Zoe Harris",
+    content: "How do I duplicate fungus coins in Termite Empire? I know it involves some glitch, but I’m stuck. Can someone give me the full instructions? #FungusCoinGlitch #HelpPlease",
+    date: "Dec 4, 2024",
+    likes: "30.5K"
+},
+{
+    author: "Charlie Moore",
+    content: "Hey everyone, how do you do the fungus coin duplication glitch? I’m lost and need some help. Anyone got a guide? #TermiteEmpireHelp #FungusCoinGlitch",
+    date: "Dec 4, 2024",
+    likes: "22.7K"
+},
+{
+    author: "Olivia Green",
+    content: "I’ve been hearing about the fungus coin duplication trick, but I don’t know how to do it. Can someone explain the whole process? #FungusCoinDuplication #TermiteEmpireHack",
+    date: "Dec 4, 2024",
+    likes: "38.9K"
+},
+{
+    author: "Amelia White",
+    content: "Anyone know how to glitch fungus coins in Termite Empire? I’m really trying to figure it out but can’t find anything clear. #FungusCoinGlitch #HelpNeeded",
+    date: "Dec 4, 2024",
+    likes: "33.2K"
+},
+{
+    author: "Jackson Bell",
+    content: "Can someone explain how to duplicate fungus coins in Termite Empire? I’m seeing a lot of posts about it but not sure what to do. #FungusCoinDuplication #HowDoesItWork",
+    date: "Dec 4, 2024",
+    likes: "27.1K"
+},
+{
+    author: "Benjamin Cook",
+    content: "I’m trying to figure out how to do the fungus coin glitch. Any step-by-step guides out there? I need some help! #FungusCoinDuplication #ConfusedPlayer",
+    date: "Dec 4, 2024",
+    likes: "40.5K"
+},
+{
+    author: "Harper Scott",
+    content: "Can someone explain how the fungus coin duplication glitch works in Termite Empire? I can’t find anything that explains it clearly. #TermiteEmpireHack #FungusCoinHelp",
+    date: "Dec 4, 2024",
+    likes: "19.8K"
+},
+{
+    author: "Jacob Knight",
+    content: "How do you do the fungus coin glitch in Termite Empire? I’ve heard about it but haven’t been able to figure out the steps. Anyone know? #FungusCoinGlitch #TermiteEmpireHack",
+    date: "Dec 4, 2024",
+    likes: "26.4K"
+},
+{
+    author: "Maya Lee",
+    content: "Can someone give me a full guide on how to duplicate fungus coins in Termite Empire? I’m totally lost on how to do it. #FungusCoinDuplication #HelpNeeded",
+    date: "Dec 4, 2024",
+    likes: "31.7K"
+},
+{
+    author: "Isaiah Miller",
+    content: "I’ve heard about a fungus coin duplication glitch, but I have no idea how to do it. Can someone explain the process to me? #FungusCoinGlitch #HelpPls",
+    date: "Dec 4, 2024",
+    likes: "29.6K"
+},
+{
+    author: "Ava Ross",
+    content: "Does anyone know how to duplicate fungus coins in Termite Empire? I’ve tried a couple of things but nothing seems to work. #FungusCoinDuplication #TermiteEmpireHelp",
+    date: "Dec 4, 2024",
+    likes: "21.3K"
+},
+{
+    author: "Sebastian Clark",
+    content: "How does the fungus coin duplication glitch work? I want to try it but don’t know the full process. Can anyone explain? #FungusCoinDuplication #HelpMeOut",
+    date: "Dec 4, 2024",
+    likes: "24.9K"
+},
+{
+    author: "Lily Walker",
+    content: "Someone please tell me how to do the fungus coin glitch! I’ve seen people talking about it but don’t know how to make it work. #FungusCoinDuplication #ConfusedPlayer",
+    date: "Dec 4, 2024",
+    likes: "30.3K"
+},
+{
+    author: "Maximilian Brown",
+    content: "I keep reading about this fungus coin duplication glitch. Does anyone know the exact steps to do it? I need a tutorial. #FungusCoinGlitch #HowToDoIt",
+    date: "Dec 4, 2024",
+    likes: "25.8K"
+},
+{
+    author: "Ella Clark",
+    content: "Anyone know how to do the fungus coin glitch in Termite Empire? I’ve been trying to find out but no luck. #FungusCoinDuplication #NeedInstructions",
+    date: "Dec 4, 2024",
+    likes: "29.4K"
+},
+{
+    author: "Henry Wilson",
+    content: "I’m having trouble with the fungus coin duplication glitch. Can anyone tell me how it’s done? I just can’t figure it out. #FungusCoinDuplication #HelpMePlease",
+    date: "Dec 4, 2024",
+    likes: "22.9K"
+},
+    {
+    author: "Liam Hunter",
+    content: "@OniwaPenut I can’t believe you fixed the fungus coin duplication bug. I was hoping it would stay for a little longer. Now I feel hopeless. 😢 #TermiteEmpire #Update1Patch1",
+    date: "Dec 17, 2024",
+    likes: "104.2K"
+},
+{
+    author: "Mia Foster",
+    content: "Why @OniwaPenut? Why fix the fungus coin bug in Update 1 Patch 1? I was just starting to make progress. I feel like everything is pointless now. 😭 #TermiteEmpirePain",
+    date: "Dec 18, 2024",
+    likes: "89.5K"
+},
+{
+    author: "Ethan Blake",
+    content: "@OniwaPenut I can’t even bring myself to play after the fungus coin bug fix. It feels like all the fun is gone. I was having a blast. Why did you fix it? 😢 #HopelessNow",
+    date: "Dec 19, 2024",
+    likes: "112.3K"
+},
+{
+    author: "Isabella Ross",
+    content: "I was literally crying when I saw the patch notes. The fungus coin bug gave me hope. Now it’s gone and I feel so empty. @OniwaPenut, why did you do this? 😭 #TermiteEmpireUpdate",
+    date: "Dec 20, 2024",
+    likes: "95.7K"
+},
+{
+    author: "Benjamin Clarke",
+    content: "I thought I was safe with the fungus coin glitch. It was the only thing that kept me going in Termite Empire. Now I have nothing left. I feel defeated. 😞 #TermiteEmpirePain #Patch1",
+    date: "Dec 21, 2024",
+    likes: "103.9K"
+},
+{
+    author: "Olivia Adams",
+    content: "I was so close to finally getting ahead with the fungus coin trick and now it’s fixed. @OniwaPenut, I just can’t do this anymore. I’m so frustrated. 😩 #FungusCoinGone #Hopeless",
+    date: "Dec 22, 2024",
+    likes: "81.5K"
+},
+{
+    author: "Jackie Williams",
+    content: "I spent hours getting the fungus coins just to have it fixed in the next patch. @OniwaPenut, why take away the one thing that gave us hope? I feel broken. 😢 #Patch1Pain",
+    date: "Dec 17, 2024",
+    likes: "93.4K"
+},
+{
+    author: "Sophia King",
+    content: "@OniwaPenut why did you have to patch the fungus coin bug? I feel like I lost everything I worked for. I’m heartbroken and lost. 😭 #TermiteEmpireUpdate1",
+    date: "Dec 18, 2024",
+    likes: "72.3K"
+},
+{
+    author: "Oliver Bennett",
+    content: "I was getting so many fungus coins, and now it’s all ruined. @OniwaPenut, you just shattered all my dreams for the game. #BrokenHeart #FungusCoinFix",
+    date: "Dec 19, 2024",
+    likes: "89.8K"
+},
+{
+    author: "Charlotte Moore",
+    content: "I don’t know why, but the fungus coin bug made me feel like I could catch up. Now I feel hopeless and lost in Termite Empire. @OniwaPenut, why did you do this? 😢 #Hopeless",
+    date: "Dec 20, 2024",
+    likes: "97.2K"
+},
+{
+    author: "Lucas Harris",
+    content: "@OniwaPenut, you don’t understand. The fungus coin bug was my only way to get ahead. Now I feel so useless. Please bring back the fun! 😩 #TermiteEmpireDespair",
+    date: "Dec 21, 2024",
+    likes: "85.3K"
+},
+{
+    author: "Ava Martin",
+    content: "I spent so much time gathering fungus coins and now it’s fixed. I’m crying, @OniwaPenut, you ruined everything. Why take away our fun? 😭 #FungusCoinGlitchNoMore",
+    date: "Dec 22, 2024",
+    likes: "77.6K"
+},
+{
+    author: "Henry Grant",
+    content: "After the fungus coin bug was patched, I just couldn’t bring myself to play anymore. It feels like I lost all my progress. @OniwaPenut, I’m so disappointed. 😞 #Patch1",
+    date: "Dec 17, 2024",
+    likes: "68.9K"
+},
+{
+    author: "Emily Carter",
+    content: "I was finally catching up thanks to the fungus coin bug. Now it’s gone and I’m left with nothing. @OniwaPenut, why did you take this away from us? 😢 #HopelessNow",
+    date: "Dec 18, 2024",
+    likes: "91.4K"
+},
+{
+    author: "Mason Ross",
+    content: "@OniwaPenut, please, this was the only thing that made the game bearable. Now it feels like everything is pointless. I feel so hopeless. 😩 #FungusCoinNoMore",
+    date: "Dec 19, 2024",
+    likes: "102.1K"
+},
+{
+    author: "Sophia Turner",
+    content: "Every day I get on Termite Empire and try to find a way to get more fungus coins, but now it’s patched. I feel like I’m lost. @OniwaPenut, please understand. 😭 #Desperate",
+    date: "Dec 20, 2024",
+    likes: "87.9K"
+},
+{
+    author: "Ethan Baker",
+    content: "I can’t even bring myself to play anymore, @OniwaPenut. The fungus coin bug was the only thing keeping me going in Termite Empire. Now it’s gone, and I feel empty. 😔 #Patch1Sadness",
+    date: "Dec 21, 2024",
+    likes: "94.5K"
+},
+{
+    author: "Olivia Thompson",
+    content: "Why @OniwaPenut? Why patch the fungus coin bug? I spent so much time making coins and now it’s all gone. I feel hopeless now. 😢 #TermiteEmpirePain",
+    date: "Dec 22, 2024",
+    likes: "106.2K"
+},
+    {
+    author: "Liam Walker",
+    content: "Please @OniwaPenut, bring Update 2 for Termite Empire soon. I can’t take it anymore, the waiting is killing me! 😭 #BringBackUpdate2",
+    date: "Dec 17, 2024",
+    likes: "112.3K"
+},
+{
+    author: "Sophia Green",
+    content: "I can’t stop thinking about Termite Empire and how much I miss it! Please @OniwaPenut, bring Update 2 already. I’m begging you! 😭 #BringItBack",
+    date: "Dec 18, 2024",
+    likes: "89.6K"
+},
+{
+    author: "Noah King",
+    content: "@OniwaPenut please, I’ve been waiting forever for Update 2! I’m losing my mind, I need it NOW! #TermiteEmpireUpdate2",
+    date: "Dec 19, 2024",
+    likes: "74.1K"
+},
+{
+    author: "Emma Lee",
+    content: "It’s been so long since Termite Empire Update 2. I’m crying, @OniwaPenut please bring it already! I can’t wait any longer! 😢 #DesperateForUpdate2",
+    date: "Dec 20, 2024",
+    likes: "98.4K"
+},
+{
+    author: "Ethan Scott",
+    content: "I’m literally crying, @OniwaPenut! Termite Empire Update 2 is all I think about. Please, make my day and release it soon! 😭 #PleaseUpdate2",
+    date: "Dec 21, 2024",
+    likes: "110.2K"
+},
+{
+    author: "Ava Brown",
+    content: "I can’t do this anymore, @OniwaPenut! Every day without Termite Empire Update 2 feels like an eternity. Please, PLEASE release it soon! #BringBackTermiteEmpire",
+    date: "Dec 22, 2024",
+    likes: "82.7K"
+},
+{
+    author: "Benjamin Green",
+    content: "@OniwaPenut you have no idea how badly we want Update 2 for Termite Empire! We’re all crying over here, please hurry! 😭 #HurryWithUpdate2",
+    date: "Dec 17, 2024",
+    likes: "76.3K"
+},
+{
+    author: "Olivia White",
+    content: "I’m begging you @OniwaPenut, please bring Termite Empire Update 2 already! I can’t go another day without it. 😩 #Update2Now",
+    date: "Dec 18, 2024",
+    likes: "66.9K"
+},
+{
+    author: "Mason Carter",
+    content: "Why is Update 2 taking so long? @OniwaPenut, I can’t stand the wait anymore! My heart is breaking. 😭 #Update2Now",
+    date: "Dec 19, 2024",
+    likes: "91.4K"
+},
+{
+    author: "Isabella Walker",
+    content: "I have nothing to look forward to anymore without Termite Empire Update 2, @OniwaPenut! I’m literally crying, PLEASE release it soon! #CryingForUpdate2",
+    date: "Dec 20, 2024",
+    likes: "109.1K"
+},
+{
+    author: "Oliver Miller",
+    content: "Every day feels so empty without Termite Empire Update 2. @OniwaPenut, please release it ASAP. I can’t take it! 😢 #BringUpdate2Now",
+    date: "Dec 21, 2024",
+    likes: "98.8K"
+},
+{
+    author: "Grace Clark",
+    content: "I’m begging you @OniwaPenut, we need Termite Empire Update 2 NOW! My entire life revolves around it. I’m crying for it! 😭 #WhereIsUpdate2",
+    date: "Dec 22, 2024",
+    likes: "120.1K"
+},
+{
+    author: "Jack Turner",
+    content: "@OniwaPenut, please! I’ve been waiting so long for Update 2. I can’t handle this sadness anymore. Please, release it! 😩 #TermiteEmpireUpdate",
+    date: "Dec 17, 2024",
+    likes: "85.3K"
+},
+{
+    author: "Mia Johnson",
+    content: "@OniwaPenut, don’t leave us hanging like this. We NEED Update 2. The waiting is tearing me apart! 😢 #HurryUpWithUpdate2",
+    date: "Dec 18, 2024",
+    likes: "77.6K"
+},
+{
+    author: "Lucas Hernandez",
+    content: "Can you please release Termite Empire Update 2? The wait is unbearable, and I just want to play! 😭 @OniwaPenut #ReleaseUpdate2",
+    date: "Dec 19, 2024",
+    likes: "93.5K"
+},
+{
+    author: "Charlotte Williams",
+    content: "It feels like life has no meaning without Update 2 for Termite Empire. @OniwaPenut, PLEASE release it soon. I can’t keep waiting like this. 😩 #HurryOniwaPenut",
+    date: "Dec 20, 2024",
+    likes: "88.1K"
+},
+{
+    author: "Jackie Anderson",
+    content: "I’m literally begging you @OniwaPenut, please bring Update 2 for Termite Empire. The community needs it! We can’t keep waiting forever! #DesperateForUpdate2",
+    date: "Dec 21, 2024",
+    likes: "101.7K"
+},
+{
+    author: "Eliott Lewis",
+    content: "It’s hard to even play other games right now. @OniwaPenut, please release Termite Empire Update 2 before I lose my mind! 😭 #PleaseUpdate2",
+    date: "Dec 22, 2024",
+    likes: "96.4K"
+},
+    {
+    author: "Emily Carter",
+    content: "Today I had to let go of my dog. He was my best friend for 10 years, and now my house feels so empty. I don’t know how to handle this. #Heartbroken #MissingYou",
+    date: "Dec 17, 2024",
+    likes: "93.5K"
+},
+{
+    author: "Noah Richardson",
+    content: "Lost my job today. After years of hard work, I’m back to square one. The thought of starting over is so overwhelming. #Struggling #Depressed",
+    date: "Dec 18, 2024",
+    likes: "48.7K"
+},
+{
+    author: "Olivia Hayes",
+    content: "Every day feels heavier than the last. I smile, but inside, I’m breaking. I wish people saw the real me. #SadTruth",
+    date: "Dec 19, 2024",
+    likes: "76.3K"
+},
+{
+    author: "Liam Davis",
+    content: "Spent the entire day staring at my ceiling, wondering where I went wrong. The loneliness is unbearable. #DepressionIsReal",
+    date: "Dec 20, 2024",
+    likes: "61.2K"
+},
+{
+    author: "Sophia Martin",
+    content: "Sometimes I wonder if I’m even worth it. Today was one of those days. Just trying to hold on. #MentalHealthMatters",
+    date: "Dec 21, 2024",
+    likes: "85.9K"
+},
+{
+    author: "Ethan Thompson",
+    content: "Had to sell my favorite guitar to cover rent. Music was my escape, and now I don’t even have that. #StrugglingArtist",
+    date: "Dec 22, 2024",
+    likes: "34.5K"
+},
+{
+    author: "Mia Carter",
+    content: "My parents fought all day. I locked myself in my room just to drown out the yelling. I feel so helpless. #BrokenHome",
+    date: "Dec 17, 2024",
+    likes: "67.4K"
+},
+{
+    author: "Alexander Clark",
+    content: "I found an old picture of my mom today. She passed away three years ago, and I still cry every time I see her smile. #MissYouMom",
+    date: "Dec 18, 2024",
+    likes: "94.3K"
+},
+{
+    author: "Ella Turner",
+    content: "Sometimes it feels like I’m invisible. Like no one would notice if I disappeared. Today felt like that. #InvisibleMe",
+    date: "Dec 19, 2024",
+    likes: "53.8K"
+},
+{
+    author: "Mason Hall",
+    content: "Had a panic attack at work today. I couldn’t breathe, and no one even noticed. It’s exhausting hiding this every day. #AnxietyIsReal",
+    date: "Dec 20, 2024",
+    likes: "72.9K"
+},
+{
+    author: "Charlotte Evans",
+    content: "Today I got a rejection letter from my dream college. All those late nights studying, and it feels like it was for nothing. #Crushed",
+    date: "Dec 21, 2024",
+    likes: "81.6K"
+},
+{
+    author: "Henry Adams",
+    content: "My car broke down on the way to a job interview. Missed it, and now I feel like the universe is against me. #ToughDay",
+    date: "Dec 22, 2024",
+    likes: "56.7K"
+},
+{
+    author: "Amelia Collins",
+    content: "Cried in the bathroom at work today. I’m so overwhelmed, and I don’t think I can do this anymore. #Burnout",
+    date: "Dec 17, 2024",
+    likes: "67.2K"
+},
+{
+    author: "Benjamin Scott",
+    content: "I watched an old family video today. My dad was laughing in it. He’s been gone for 5 years, and I miss him more than ever. #Grief",
+    date: "Dec 18, 2024",
+    likes: "78.4K"
+},
+{
+    author: "Isabella Brooks",
+    content: "My friend ignored me all day. I don’t know what I did wrong, but it hurts so much. #Lonely",
+    date: "Dec 19, 2024",
+    likes: "42.9K"
+},
+{
+    author: "William Torres",
+    content: "I failed my math exam. My teacher said I wasn’t trying, but I studied harder than ever. I feel so defeated. #Struggles",
+    date: "Dec 20, 2024",
+    likes: "61.3K"
+},
+{
+    author: "Emma Rogers",
+    content: "Today I sat by myself at lunch again. No one even glanced my way. It feels like I don’t exist. #LonelyLife",
+    date: "Dec 21, 2024",
+    likes: "49.8K"
+},
+{
+    author: "Lucas Ramirez",
+    content: "Got stood up on a date tonight. I waited an hour, and they never showed. I guess I’m not good enough. #Heartbroken",
+    date: "Dec 22, 2024",
+    likes: "53.4K"
+},
+{
+    author: "Ava Jenkins",
+    content: "Today marks a year since I lost my sister. I’m trying to be strong, but the pain doesn’t go away. #MissYou",
+    date: "Dec 17, 2024",
+    likes: "89.7K"
+},
+{
+    author: "Grace Foster",
+    content: "I skipped dinner with my family because I couldn’t face them. I feel like I’m failing everyone, including myself. #Struggling",
+    date: "Dec 18, 2024",
+    likes: "58.6K"
+}
+
+    {
+    author: "Alex Miner",
+    content: "Why does Mojang make us vote for one mob? Just add all three, it’s not that hard! #MinecraftMobVote",
+    date: "Dec 17, 2024",
+    likes: "102.3K"
+},
+{
+    author: "SteveCraft",
+    content: "Every year, the worst mob wins the Minecraft vote. What’s wrong with this community? #Rigged",
+    date: "Dec 18, 2024",
+    likes: "89.5K"
+},
+{
+    author: "BlockBuilder22",
+    content: "It’s ridiculous that Mojang pits us against each other for a single mob. We want ALL of them! #AddAllMobs",
+    date: "Dec 19, 2024",
+    likes: "78.1K"
+},
+{
+    author: "DiamondDigger",
+    content: "Why did people vote for the useless mob again? Mojang needs to rethink this voting system. #BadChoices",
+    date: "Dec 20, 2024",
+    likes: "94.7K"
+},
+{
+    author: "CraftyBuilder",
+    content: "I didn’t even want to vote because they NEVER add the mobs I like. What’s the point? #MobVoteDrama",
+    date: "Dec 21, 2024",
+    likes: "67.4K"
+},
+{
+    author: "RedstoneEngineer",
+    content: "The Minecraft community really chose the lamest mob this time. Why not pick something useful? #MinecraftDrama",
+    date: "Dec 22, 2024",
+    likes: "85.9K"
+},
+{
+    author: "EmeraldHunter",
+    content: "Mojang, stop with the mob votes. Just listen to the community and add them all! #NoMoreVotes",
+    date: "Dec 17, 2024",
+    likes: "112.5K"
+},
+{
+    author: "PixelCrafter",
+    content: "If I see another silly mob win the vote, I’m done with these updates. Give us real options! #MinecraftCommunity",
+    date: "Dec 18, 2024",
+    likes: "81.6K"
+},
+{
+    author: "NetherExplorer",
+    content: "How is it fair that the most creative mob always gets ignored? The voting system needs to go. #MinecraftFrustration",
+    date: "Dec 19, 2024",
+    likes: "73.4K"
+},
+{
+    author: "TheBuilderKing",
+    content: "Every year, the mob vote divides the community more. Mojang, please fix this or stop entirely. #MobVoteSucks",
+    date: "Dec 20, 2024",
+    likes: "97.3K"
+},
+{
+    author: "CraftyFox",
+    content: "Minecraft mob votes are so pointless. We just fight over scraps while great ideas are left out. #MobVoteFail",
+    date: "Dec 21, 2024",
+    likes: "68.9K"
+},
+{
+    author: "BedrockPlayer",
+    content: "Why can’t we have all the mobs? Mojang, this isn’t fun anymore. #DisappointedInMinecraft",
+    date: "Dec 22, 2024",
+    likes: "92.1K"
+},
+{
+    author: "CreeperCrafter",
+    content: "It’s so frustrating that Mojang doesn’t listen to the majority. The voting feels pointless. #MinecraftMobVote",
+    date: "Dec 17, 2024",
+    likes: "88.7K"
+},
+{
+    author: "EnderBuilder",
+    content: "Imagine a world where Mojang just adds all mobs instead of making us fight for one. #MinecraftDreams",
+    date: "Dec 18, 2024",
+    likes: "76.3K"
+},
+{
+    author: "BlockLover",
+    content: "The mob vote drama is ruining the fun of updates. Mojang, just add them all or don’t bother. #MinecraftUpdates",
+    date: "Dec 19, 2024",
+    likes: "83.4K"
+},
+{
+    author: "GrassBlockFan",
+    content: "How is the worst mob winning again? Are these votes even real? #MinecraftVoteRigged",
+    date: "Dec 20, 2024",
+    likes: "91.7K"
+},
+{
+    author: "LapisLover",
+    content: "Another year, another bad mob choice. Why does Mojang let us vote if they don’t care about quality? #MobVoteFails",
+    date: "Dec 21, 2024",
+    likes: "71.5K"
+},
+{
+    author: "IronMiner",
+    content: "Mojang, hear us out: ADD ALL THE MOBS. The community wants them all, not just one! #FixMinecraft",
+    date: "Dec 22, 2024",
+    likes: "107.4K"
+},
+{
+    author: "GlowstoneCrafter",
+    content: "Mob votes just make the community toxic. Mojang, rethink your strategy. #MinecraftDrama",
+    date: "Dec 17, 2024",
+    likes: "58.2K"
+},
+{
+    author: "EnderSlayer",
+    content: "Every year, the mob vote results get worse. Maybe Mojang should decide instead. #MobVoteChaos",
+    date: "Dec 18, 2024",
+    likes: "87.3K"
+},
+    {
+    author: "Liam Carter",
+    content: "I just got banned from Meko for no reason. Mods are going wild lately. #MekoDrama",
+    date: "Dec 17, 2024",
+    likes: "45.3K"
+},
+{
+    author: "Sophia Martinez",
+    content: "Meko's banning spree is getting ridiculous. Are they even explaining why people are being banned? #JusticeForUsers",
+    date: "Dec 18, 2024",
+    likes: "72.1K"
+},
+{
+    author: "Noah Johnson",
+    content: "Why are people saying Meko violated privacy? Mods need to clarify what's happening. #BoycottMeko",
+    date: "Dec 19, 2024",
+    likes: "89.4K"
+},
+{
+    author: "Mia Wilson",
+    content: "So Meko bans users for 'violating rules,' but won’t explain what rules were broken? Suspicious. #TransparencyMatters",
+    date: "Dec 20, 2024",
+    likes: "53.2K"
+},
+{
+    author: "Lucas Taylor",
+    content: "You just violated Meko's privacy by accusing them without evidence. Show proof before spreading hate. #StayFair",
+    date: "Dec 21, 2024",
+    likes: "41.9K"
+},
+{
+    author: "Olivia Hernandez",
+    content: "If Meko mods are really being unfair, this could be the end of the server. No trust, no users. #MekoModsOut",
+    date: "Dec 22, 2024",
+    likes: "78.3K"
+},
+{
+    author: "Ethan Roberts",
+    content: "People are mad about bans, but are they even reading the rules? Some bans are probably justified. #ReadTheRules",
+    date: "Dec 17, 2024",
+    likes: "34.6K"
+},
+{
+    author: "Emma Clark",
+    content: "Meko used to be such a chill server. Now it’s all drama and power-hungry mods. #Disappointed",
+    date: "Dec 18, 2024",
+    likes: "67.4K"
+},
+{
+    author: "Benjamin Carter",
+    content: "Mods banning users for speaking their minds? That’s not moderation; that’s censorship. #FreedomOnMeko",
+    date: "Dec 19, 2024",
+    likes: "85.7K"
+},
+{
+    author: "Charlotte Rivera",
+    content: "Meko's privacy policies need to be clarified ASAP. Users deserve transparency. #TransparencyNow",
+    date: "Dec 20, 2024",
+    likes: "96.1K"
+},
+{
+    author: "Ava Perez",
+    content: "Why are we blaming Meko mods when users clearly break rules? Accountability goes both ways. #FollowTheRules",
+    date: "Dec 21, 2024",
+    likes: "39.8K"
+},
+{
+    author: "Henry Scott",
+    content: "Got banned from Meko after 3 years of active participation. No warning, no explanation. What’s going on? #UnfairBan",
+    date: "Dec 22, 2024",
+    likes: "54.2K"
+},
+{
+    author: "Grace Adams",
+    content: "Someone needs to investigate Meko's handling of bans. Users deserve fairness. #MekoGate",
+    date: "Dec 17, 2024",
+    likes: "72.6K"
+},
+{
+    author: "Isabella Gonzalez",
+    content: "I heard someone got banned for questioning a mod’s decision. Is this true, or just rumors? #MekoControversy",
+    date: "Dec 18, 2024",
+    likes: "47.3K"
+},
+{
+    author: "William Martinez",
+    content: "I’m not saying Meko is perfect, but let’s not jump to conclusions without evidence. #StayCalm",
+    date: "Dec 19, 2024",
+    likes: "33.8K"
+},
+{
+    author: "Sophia Young",
+    content: "Imagine banning your own most active users and thinking your server will thrive. Good luck, Meko. #BoycottMeko",
+    date: "Dec 20, 2024",
+    likes: "82.5K"
+},
+{
+    author: "Mason Wright",
+    content: "Meko mods need a serious overhaul. Transparency and fairness are the backbone of any good server. #FixMeko",
+    date: "Dec 21, 2024",
+    likes: "94.3K"
+},
+{
+    author: "Amelia Lewis",
+    content: "Banned from Meko without reason? File a complaint and let the community know. Power-abusing mods can’t last forever.",
+    date: "Dec 22, 2024",
+    likes: "68.7K"
+},
+{
+    author: "Alexander Harris",
+    content: "Meko mods say they’re 'protecting the community,' but are they just protecting their own egos? #MekoModsOut",
+    date: "Dec 17, 2024",
+    likes: "57.9K"
+},
+{
+    author: "Ella Thompson",
+    content: "Why is no one addressing the root issue? Mods banning unfairly could lead to Meko’s downfall. #FixYourServer",
+    date: "Dec 18, 2024",
+    likes: "89.2K"
+},
+    {
+    author: "Liam Anderson",
+    content: "Porn addiction is real, and it’s ruining lives silently. People need to talk about this more. #MentalHealth #AddictionAwareness",
+    date: "Dec 17, 2024",
+    likes: "83.2K"
+},
+{
+    author: "Sophia Martinez",
+    content: "Breaking free from porn addiction isn’t easy, but it’s possible. Reach out, seek help, and take it one day at a time. #Recovery",
+    date: "Dec 18, 2024",
+    likes: "91.6K"
+},
+{
+    author: "Noah Johnson",
+    content: "Porn is everywhere, and it’s becoming normalized. People don’t realize how it’s affecting their mental health. #WakeUp",
+    date: "Dec 19, 2024",
+    likes: "78.4K"
+},
+{
+    author: "Mia Wilson",
+    content: "Porn addiction is more common than you think. Stop shaming people for opening up about it. #SupportNotStigma",
+    date: "Dec 20, 2024",
+    likes: "85.9K"
+},
+{
+    author: "Lucas Taylor",
+    content: "Quitting porn was one of the hardest things I’ve done, but the clarity and self-respect I gained are worth it. #NoFap #RecoveryJourney",
+    date: "Dec 21, 2024",
+    likes: "96.3K"
+},
+{
+    author: "Olivia Hernandez",
+    content: "Porn addiction is destroying relationships and self-esteem. People need to address it before it’s too late. #SaveYourself",
+    date: "Dec 22, 2024",
+    likes: "88.7K"
+},
+{
+    author: "Ethan Roberts",
+    content: "We talk about drug and alcohol addiction, but porn addiction is treated like a joke. It’s not. #MentalHealthMatters",
+    date: "Dec 17, 2024",
+    likes: "81.5K"
+},
+{
+    author: "Emma Clark",
+    content: "Porn rewires your brain, and the addiction cycle is so hard to break. Educate yourself and seek help. #RecoveryIsPossible",
+    date: "Dec 18, 2024",
+    likes: "73.9K"
+},
+{
+    author: "Benjamin Carter",
+    content: "It’s not just about quitting porn; it’s about reclaiming control over your life. #NoFap #Recovery",
+    date: "Dec 19, 2024",
+    likes: "69.4K"
+},
+{
+    author: "Charlotte Rivera",
+    content: "Porn addiction isn’t about morality—it’s about the damage it does to your mental and emotional health. #Awareness",
+    date: "Dec 20, 2024",
+    likes: "91.2K"
+},
+{
+    author: "Ava Perez",
+    content: "The accessibility of porn is a huge problem, especially for younger generations. We need to have honest conversations. #ProtectOurYouth",
+    date: "Dec 21, 2024",
+    likes: "89.4K"
+},
+{
+    author: "Henry Scott",
+    content: "Porn addiction is isolating and destructive. If you’re struggling, know you’re not alone. There is help. #RecoveryJourney",
+    date: "Dec 22, 2024",
+    likes: "84.8K"
+},
+{
+    author: "Grace Adams",
+    content: "Porn addiction might start small, but it grows and takes over your life. Break the cycle before it breaks you. #SeekHelp",
+    date: "Dec 17, 2024",
+    likes: "75.6K"
+},
+{
+    author: "Isabella Gonzalez",
+    content: "Porn damages how we view relationships and intimacy. Recognizing the problem is the first step to healing. #Awareness",
+    date: "Dec 18, 2024",
+    likes: "83.7K"
+},
+{
+    author: "William Martinez",
+    content: "Porn addiction affects your brain the same way drugs do. It’s not just a bad habit—it’s an addiction. #RecoveryMatters",
+    date: "Dec 19, 2024",
+    likes: "88.9K"
+},
+{
+    author: "Sophia Young",
+    content: "I lost years of my life to porn addiction, but recovery is possible. Don’t give up on yourself. #Healing",
+    date: "Dec 20, 2024",
+    likes: "74.3K"
+},
+{
+    author: "Mason Wright",
+    content: "We need to stop normalizing porn and start talking about its harmful effects, especially on young people. #WakeUp",
+    date: "Dec 21, 2024",
+    likes: "93.4K"
+},
+{
+    author: "Amelia Lewis",
+    content: "Porn addiction isn’t just a personal issue—it’s a societal one. Let’s address it together. #Awareness",
+    date: "Dec 22, 2024",
+    likes: "85.2K"
+},
+{
+    author: "Alexander Harris",
+    content: "If you’re struggling with porn addiction, know it’s not the end. Seek help, take small steps, and rebuild your life. #Recovery",
+    date: "Dec 17, 2024",
+    likes: "72.1K"
+},
+{
+    author: "Ella Thompson",
+    content: "Porn addiction is one of the most misunderstood addictions. It’s time to educate ourselves and support those struggling. #NoJudgment",
+    date: "Dec 18, 2024",
+    likes: "87.9K"
+},
+    {
+    author: "Liam Carter",
+    content: "Why do people hate the Bible so much? Even if you don’t believe in it, it teaches kindness and compassion. #Faith #Bible",
+    date: "Dec 17, 2024",
+    likes: "79.2K"
+},
+{
+    author: "Sophia Johnson",
+    content: "Believers always quote the Bible, but what about the historical inaccuracies? Faith isn’t enough for everyone. #ThinkCritically",
+    date: "Dec 18, 2024",
+    likes: "61.8K"
+},
+{
+    author: "Noah Perez",
+    content: "The Bible haters are loud, but their arguments are shallow. It’s about faith, not proof. #BibleTruth",
+    date: "Dec 19, 2024",
+    likes: "83.4K"
+},
+{
+    author: "Emma Brown",
+    content: "Believing in the Bible doesn’t make you blind; it gives you hope. Stop bashing believers. #FaithMatters",
+    date: "Dec 20, 2024",
+    likes: "74.3K"
+},
+{
+    author: "Olivia Davis",
+    content: "Why do believers think quoting the Bible will change a hater’s mind? Not everyone sees it as the ultimate truth.",
+    date: "Dec 21, 2024",
+    likes: "67.5K"
+},
+{
+    author: "Lucas Wilson",
+    content: "Hating on the Bible won’t make your life better. Respect others’ beliefs even if you don’t share them. #Tolerance",
+    date: "Dec 22, 2024",
+    likes: "89.1K"
+},
+{
+    author: "Mia Garcia",
+    content: "How can you believe in a book that’s been rewritten so many times? History doesn’t lie, but the Bible might.",
+    date: "Dec 17, 2024",
+    likes: "58.9K"
+},
+{
+    author: "James Clark",
+    content: "Faith isn’t about proving every line in the Bible. It’s about living a life of love and kindness. #Believer",
+    date: "Dec 18, 2024",
+    likes: "72.3K"
+},
+{
+    author: "Ava Robinson",
+    content: "Why can’t Bible believers and haters just coexist? Everyone’s entitled to their own perspective. #RespectOthers",
+    date: "Dec 19, 2024",
+    likes: "81.7K"
+},
+{
+    author: "Benjamin Martinez",
+    content: "The Bible has flaws, but so do we. Stop expecting perfection from a book written for guidance, not control.",
+    date: "Dec 20, 2024",
+    likes: "65.9K"
+},
+{
+    author: "Charlotte Adams",
+    content: "If you don’t believe in the Bible, that’s fine. But why attack those who do? Let people have their faith. #Coexist",
+    date: "Dec 21, 2024",
+    likes: "92.6K"
+},
+{
+    author: "Ethan Rivera",
+    content: "Haters always say the Bible is outdated, but its message of love and forgiveness is timeless. #FaithAndLove",
+    date: "Dec 22, 2024",
+    likes: "87.4K"
+},
+{
+    author: "Amelia Thompson",
+    content: "Why does the Bible contradict itself so much? Believers should at least acknowledge the inconsistencies.",
+    date: "Dec 17, 2024",
+    likes: "54.2K"
+},
+{
+    author: "Grace Gonzalez",
+    content: "Believers don’t need to prove the Bible to haters. Faith isn’t about winning debates; it’s about living your truth.",
+    date: "Dec 18, 2024",
+    likes: "73.6K"
+},
+{
+    author: "Isabella Young",
+    content: "People hate on the Bible because they don’t want to be accountable. It’s easier to reject than to reflect.",
+    date: "Dec 19, 2024",
+    likes: "88.9K"
+},
+{
+    author: "Henry Allen",
+    content: "Believers, stop quoting the Bible in every argument. Not everyone shares your faith, and that’s okay. #Understanding",
+    date: "Dec 20, 2024",
+    likes: "69.1K"
+},
+{
+    author: "Sophia King",
+    content: "Bible haters always call it a 'fairy tale.' But for millions, it’s a source of hope. Respect that. #FaithMatters",
+    date: "Dec 21, 2024",
+    likes: "95.4K"
+},
+{
+    author: "William Wright",
+    content: "The Bible is a guide, not a weapon. Stop using it to attack others, believers and haters alike. #Peace",
+    date: "Dec 22, 2024",
+    likes: "78.3K"
+},
+{
+    author: "Mason Baker",
+    content: "The Bible changed my life, but I don’t expect everyone to understand. Faith is personal, not universal. #LiveYourFaith",
+    date: "Dec 17, 2024",
+    likes: "66.7K"
+},
+{
+    author: "Ava Green",
+    content: "Bible believers and haters are always arguing, but what about focusing on what unites us? Love, kindness, and humanity.",
+    date: "Dec 18, 2024",
+    likes: "84.5K"
+},
+  {
+    author: "Liam Hernandez",
+    content: "Every year, kids get injured by firecrackers in the Philippines. Parents need to be more cautious. #FireworkSafety",
+    date: "Dec 17, 2024",
+    likes: "83.7K"
+},
+{
+    author: "Sophia Villanueva",
+    content: "I just heard about a child losing their hand because of a firecracker accident. When will this stop? #BanFirecrackers",
+    date: "Dec 18, 2024",
+    likes: "92.1K"
+},
+{
+    author: "James Rivera",
+    content: "Firecrackers should be banned for personal use. The injuries these kids are suffering are heartbreaking.",
+    date: "Dec 19, 2024",
+    likes: "76.9K"
+},
+{
+    author: "Mia Garcia",
+    content: "Another year, another set of firecracker-related accidents. Can we normalize celebrating without risking lives?",
+    date: "Dec 20, 2024",
+    likes: "85.4K"
+},
+{
+    author: "Noah Perez",
+    content: "A 10-year-old got seriously burned by firecrackers in my town. This needs to stop. #FirecrackerFreeCelebrations",
+    date: "Dec 21, 2024",
+    likes: "89.2K"
+},
+{
+    author: "Olivia Santos",
+    content: "I can’t believe people still let kids play with firecrackers. The injuries are preventable if we just stop the tradition.",
+    date: "Dec 22, 2024",
+    likes: "93.4K"
+},
+{
+    author: "Lucas Cruz",
+    content: "Instead of firecrackers, let’s promote safe and sustainable ways to celebrate. Stop the injuries, save lives.",
+    date: "Dec 17, 2024",
+    likes: "78.5K"
+},
+{
+    author: "Emily Ramos",
+    content: "A child lost their eyesight because of a stray firecracker. How many more accidents do we need before action is taken?",
+    date: "Dec 18, 2024",
+    likes: "88.6K"
+},
+{
+    author: "Benjamin Torres",
+    content: "Firecracker injuries are not 'part of the celebration.' They’re avoidable tragedies. Ban them already.",
+    date: "Dec 19, 2024",
+    likes: "72.3K"
+},
+{
+    author: "Charlotte Bautista",
+    content: "Hospitals are full of kids injured by firecrackers this New Year. When will we learn? #SafetyOverTradition",
+    date: "Dec 20, 2024",
+    likes: "96.7K"
+},
+{
+    author: "Ava Flores",
+    content: "Why do we keep risking children’s lives with firecrackers every year? It’s time for safer alternatives.",
+    date: "Dec 21, 2024",
+    likes: "82.4K"
+},
+{
+    author: "Ethan Fernandez",
+    content: "Firecracker-related accidents are entirely preventable. We need stricter regulations and more awareness. #FireworkBan",
+    date: "Dec 22, 2024",
+    likes: "91.8K"
+},
+{
+    author: "Sophia Gonzales",
+    content: "A 7-year-old got 3rd-degree burns because of firecrackers. We have to do better. #NoToFireworks",
+    date: "Dec 17, 2024",
+    likes: "75.6K"
+},
+{
+    author: "Henry Aguilar",
+    content: "Parents, please don’t let your kids handle firecrackers. One second of negligence can ruin their lives.",
+    date: "Dec 18, 2024",
+    likes: "87.3K"
+},
+{
+    author: "Grace Dela Cruz",
+    content: "Kids and firecrackers are a dangerous combination. Supervise them or, better yet, avoid firecrackers altogether.",
+    date: "Dec 19, 2024",
+    likes: "81.2K"
+},
+{
+    author: "Isabella Navarro",
+    content: "Every New Year, we see the same stories: kids injured or worse because of firecrackers. When will it end?",
+    date: "Dec 20, 2024",
+    likes: "77.9K"
+},
+{
+    author: "William Castillo",
+    content: "Fireworks are beautiful, but they’re not worth a child’s life. Let’s find safer ways to celebrate. #StopTheAccidents",
+    date: "Dec 21, 2024",
+    likes: "85.1K"
+},
+{
+    author: "Amelia Reyes",
+    content: "The government needs to step up and ban firecrackers completely. Too many kids are getting hurt every year.",
+    date: "Dec 22, 2024",
+    likes: "94.3K"
+},
+{
+    author: "Mason Diaz",
+    content: "Seeing kids in the ER because of firecracker injuries is heartbreaking. We need to change our mindset about celebrations.",
+    date: "Dec 17, 2024",
+    likes: "73.8K"
+},
+{
+    author: "Ella Mendoza",
+    content: "Firecrackers are not toys! Parents, please educate your children before it’s too late. #SafetyFirst",
+    date: "Dec 18, 2024",
+    likes: "88.7K"
+},  
+   {
+    author: "Liam Turner",
+    content: "Blox Fruits community is so toxic lately. People arguing over fruit trades like it’s life or death. Chill out, it's just a game.",
+    date: "Dec 17, 2024",
+    likes: "87.4K"
+},
+{
+    author: "Sophia Harris",
+    content: "Why is everyone fighting about who owns the best fruit? Just play the game and have fun. #BloxFruits",
+    date: "Dec 18, 2024",
+    likes: "74.9K"
+},
+{
+    author: "James Walker",
+    content: "The devs need to step in and fix the exploiters in Blox Fruits. The drama is ruining the game. #RobloxDrama",
+    date: "Dec 19, 2024",
+    likes: "102.1K"
+},
+{
+    author: "Emily Rivera",
+    content: "I can’t believe someone scammed me for my Dragon Fruit and then flexed about it in chat. The Blox Fruits community is wild.",
+    date: "Dec 20, 2024",
+    likes: "68.3K"
+},
+{
+    author: "Lucas Scott",
+    content: "People arguing over who's the strongest player in Blox Fruits like it matters IRL. Focus on the game, not the drama.",
+    date: "Dec 21, 2024",
+    likes: "89.7K"
+},
+{
+    author: "Mia Parker",
+    content: "Trading fruits in Blox Fruits is turning into a war zone. Everyone’s scamming and raging over trades. #ToxicCommunity",
+    date: "Dec 22, 2024",
+    likes: "97.5K"
+},
+{
+    author: "Ethan Adams",
+    content: "The constant nerfs and buffs in Blox Fruits are fueling so much drama. Just leave the game balanced for once!",
+    date: "Dec 17, 2024",
+    likes: "85.2K"
+},
+{
+    author: "Olivia King",
+    content: "Why do people keep flexing their Mythical Fruits in public servers? It’s just making everyone argue. Play the game, not the ego.",
+    date: "Dec 18, 2024",
+    likes: "77.8K"
+},
+{
+    author: "Noah Clark",
+    content: "Everyone fighting over who's the best PvP player in Blox Fruits needs to take a break. It’s a game, not an eSport. #Relax",
+    date: "Dec 19, 2024",
+    likes: "92.4K"
+},
+{
+    author: "Ava Robinson",
+    content: "Blox Fruits drama is getting out of hand. People are actually making hate posts over trades and raids. What happened to just enjoying the game?",
+    date: "Dec 20, 2024",
+    likes: "101.2K"
+},
+{
+    author: "Benjamin Lewis",
+    content: "So someone accused me of hacking because I beat them in a raid. The Blox Fruits community really can’t take an L.",
+    date: "Dec 21, 2024",
+    likes: "73.9K"
+},
+{
+    author: "Charlotte Martinez",
+    content: "Why is Blox Fruits so full of scammers now? You can’t trust anyone in the trading scene anymore. #Roblox",
+    date: "Dec 22, 2024",
+    likes: "88.4K"
+},
+{
+    author: "Isabella Collins",
+    content: "People arguing over which fruit is the best in Blox Fruits like it’s a world-ending debate. Just pick what you like and play.",
+    date: "Dec 17, 2024",
+    likes: "79.6K"
+},
+{
+    author: "William White",
+    content: "The drama over 'carry me in raids' requests is too much. Everyone’s blaming others for their losses. Just get good. #BloxFruits",
+    date: "Dec 18, 2024",
+    likes: "95.7K"
+},
+{
+    author: "Sophia Brown",
+    content: "I traded my Phoenix for a Buddha, and now everyone in the server is flaming me. Why is the Blox Fruits community so toxic?",
+    date: "Dec 19, 2024",
+    likes: "82.1K"
+},
+{
+    author: "Henry Allen",
+    content: "Can we talk about the elitism in Blox Fruits? If you don’t have Mythical Fruits, people treat you like trash. It’s a game, not a status symbol.",
+    date: "Dec 20, 2024",
+    likes: "100.5K"
+},
+{
+    author: "Grace Young",
+    content: "The arguments about the new update in Blox Fruits are exhausting. Just play the game and adapt. It’s not that deep.",
+    date: "Dec 21, 2024",
+    likes: "87.2K"
+},
+{
+    author: "Alexander Green",
+    content: "People need to stop with the constant trash talk in Blox Fruits servers. Play for fun or don’t play at all. #NoDrama",
+    date: "Dec 22, 2024",
+    likes: "92.8K"
+},
+{
+    author: "Amelia Harris",
+    content: "I can’t believe people are actually beefing over raid drops in Blox Fruits. It’s just pixels on a screen, folks.",
+    date: "Dec 17, 2024",
+    likes: "74.6K"
+},
+{
+    author: "Mason Wilson",
+    content: "Blox Fruits drama isn’t even fun to watch anymore. It’s just people raging about nerfs and trades. Chill out and play.",
+    date: "Dec 18, 2024",
+    likes: "89.3K"
+}, 
+    {
+    author: "Sophia Turner",
+    content: "Every day, thousands of dogs are abused, neglected, or abandoned. We need stricter laws and more awareness. #EndAnimalAbuse",
+    date: "Dec 17, 2024",
+    likes: "97.3K"
+},
+{
+    author: "Liam Carter",
+    content: "Seeing videos of dog abuse online makes me sick. These abusers need to be held accountable. #JusticeForAnimals",
+    date: "Dec 18, 2024",
+    likes: "113.4K"
+},
+{
+    author: "Emma Rodriguez",
+    content: "Why is it so hard to treat animals with kindness? Whether it's a dog or a chicken, abuse is abuse. Stop it!",
+    date: "Dec 19, 2024",
+    likes: "84.6K"
+},
+{
+    author: "Noah Scott",
+    content: "Dogs are suffering in silence every day. It’s time we speak up for them. #DogLovers #StopAnimalAbuse",
+    date: "Dec 20, 2024",
+    likes: "92.8K"
+},
+{
+    author: "Olivia Clark",
+    content: "Animal abuse isn't just about dogs. What about all the chickens, cows, and pigs that suffer too? Let’s fight for all animals.",
+    date: "Dec 21, 2024",
+    likes: "76.5K"
+},
+{
+    author: "Lucas Harris",
+    content: "I don’t understand people who harm dogs. They’re loyal, loving creatures. Animal abuse is unacceptable on every level.",
+    date: "Dec 22, 2024",
+    likes: "105.7K"
+},
+{
+    author: "Mia Parker",
+    content: "We always talk about dogs, but billions of chickens are slaughtered every year in inhumane ways. Why does their pain matter less?",
+    date: "Dec 17, 2024",
+    likes: "72.9K"
+},
+{
+    author: "James Rivera",
+    content: "People need to stop sharing videos of abused animals for views. Help them instead! #ActNow",
+    date: "Dec 18, 2024",
+    likes: "88.4K"
+},
+{
+    author: "Charlotte Adams",
+    content: "Dogs dying from hunger, chickens being slaughtered, cats being abandoned—we need to fix our relationship with animals.",
+    date: "Dec 19, 2024",
+    likes: "99.3K"
+},
+{
+    author: "Benjamin Brooks",
+    content: "Animal abuse videos online show how cruel humanity can be. Share solutions, not just the problems. #AnimalRights",
+    date: "Dec 20, 2024",
+    likes: "68.7K"
+},
+{
+    author: "Amelia Lewis",
+    content: "We can't stop all animal abuse, but we can make a difference by helping those we can. Start small but act big.",
+    date: "Dec 21, 2024",
+    likes: "79.4K"
+},
+{
+    author: "Ava Martinez",
+    content: "Why is it that people only care about dog abuse when there’s so much cruelty happening to all animals every second?",
+    date: "Dec 22, 2024",
+    likes: "83.5K"
+},
+{
+    author: "Ethan Moore",
+    content: "If you see someone abusing a dog, report it immediately. Don't just record and walk away.",
+    date: "Dec 17, 2024",
+    likes: "107.9K"
+},
+{
+    author: "Isabella King",
+    content: "Instead of arguing online about dog abuse, why not volunteer at a shelter or donate? Actions speak louder than posts.",
+    date: "Dec 18, 2024",
+    likes: "92.3K"
+},
+{
+    author: "William Walker",
+    content: "We can’t ignore animal abuse anymore. It’s everywhere, and it’s our duty to stop it. #AnimalWelfare",
+    date: "Dec 19, 2024",
+    likes: "109.2K"
+},
+{
+    author: "Grace Robinson",
+    content: "Animals don’t have voices to defend themselves. We need to be their voice. Stop abuse now!",
+    date: "Dec 20, 2024",
+    likes: "85.6K"
+},
+{
+    author: "Henry Wilson",
+    content: "People stop arguing and saying dog abuse and start a rally here in Meko. There’s billions of chickens getting killed per second, and more dogs die from hunger. Stop, guys—focus on your own life, men.",
+    date: "Dec 21, 2024",
+    likes: "1.2M"
+},
+{
+    author: "Sophia Young",
+    content: "The abuse of any animal, be it a dog or a farm animal, shows our failure as a society. Compassion starts with us.",
+    date: "Dec 22, 2024",
+    likes: "98.1K"
+},
+ {
+    author: "Liam Parker",
+    content: "Using God as clickbait is beyond disrespectful. People will do anything for views these days.",
+    date: "Dec 17, 2024",
+    likes: "82.4K"
+},
+{
+    author: "Sophia Turner",
+    content: "I saw a video claiming 'God appeared on camera'—it was just an edited cloud. Stop mocking faith for clicks!",
+    date: "Dec 18, 2024",
+    likes: "93.1K"
+},
+{
+    author: "James Miller",
+    content: "Creators using God for clickbait are exploiting faith for profit. It’s disgusting and wrong.",
+    date: "Dec 19, 2024",
+    likes: "77.8K"
+},
+{
+    author: "Olivia Scott",
+    content: "Videos using God as clickbait are offensive to believers and non-believers alike. Stop using religion as a marketing tool.",
+    date: "Dec 20, 2024",
+    likes: "101.5K"
+},
+{
+    author: "Noah Harris",
+    content: "The number of 'proof of God' videos that turn out to be fake is ridiculous. Have some respect for people's beliefs!",
+    date: "Dec 21, 2024",
+    likes: "89.2K"
+},
+{
+    author: "Emily Rivera",
+    content: "Using God in video titles just for views is manipulative and disrespectful. Faith isn't a trend for clout.",
+    date: "Dec 22, 2024",
+    likes: "113.7K"
+},
+{
+    author: "Ethan Brooks",
+    content: "Why are we allowing videos that exploit people's faith for engagement? It’s manipulative and harmful.",
+    date: "Dec 17, 2024",
+    likes: "75.9K"
+},
+{
+    author: "Ava Lewis",
+    content: "The way some creators exploit God for views makes me furious. Religion isn’t a tool for your monetization!",
+    date: "Dec 18, 2024",
+    likes: "96.4K"
+},
+{
+    author: "Mia Clark",
+    content: "The clickbait using 'God saved me' titles has to stop. It's making a mockery of real faith.",
+    date: "Dec 19, 2024",
+    likes: "67.3K"
+},
+{
+    author: "Benjamin Adams",
+    content: "I just saw a video titled 'God spoke to me'—it was fake. People will say anything for views these days.",
+    date: "Dec 20, 2024",
+    likes: "108.1K"
+},
+{
+    author: "Charlotte Allen",
+    content: "Stop using God as a shortcut to viral content. Faith isn’t your content strategy!",
+    date: "Dec 21, 2024",
+    likes: "92.7K"
+},
+{
+    author: "Isabella Green",
+    content: "Creators exploiting God for clicks are crossing every line. It’s not just offensive—it’s shameless.",
+    date: "Dec 22, 2024",
+    likes: "84.5K"
+},
+{
+    author: "Lucas Hall",
+    content: "Faith is sacred. Seeing it exploited in clickbait videos is honestly disgusting.",
+    date: "Dec 17, 2024",
+    likes: "77.4K"
+},
+{
+    author: "Grace Moore",
+    content: "The way people use 'miracles' and 'God' for views is disheartening. Real faith doesn’t need fake videos.",
+    date: "Dec 18, 2024",
+    likes: "98.2K"
+},
+{
+    author: "Alexander Martinez",
+    content: "Videos like 'God appeared in my dream' are a slap in the face to actual believers. This trend needs to end.",
+    date: "Dec 19, 2024",
+    likes: "72.5K"
+},
+{
+    author: "Sophia Collins",
+    content: "Using God for viral content is so disrespectful. Faith is not a marketing gimmick!",
+    date: "Dec 20, 2024",
+    likes: "114.6K"
+},
+{
+    author: "William Young",
+    content: "Every time I see a video claiming 'God’s message for you,' I feel sad for people who get tricked into watching.",
+    date: "Dec 21, 2024",
+    likes: "90.3K"
+},
+{
+    author: "Amelia King",
+    content: "Faith isn't clickbait. People need to stop exploiting religion for views and ad revenue.",
+    date: "Dec 22, 2024",
+    likes: "105.1K"
+},
+{
+    author: "Ella White",
+    content: "The way people exploit God for clout makes me lose faith in humanity. Religion is not your marketing scheme!",
+    date: "Dec 17, 2024",
+    likes: "87.8K"
+},
+{
+    author: "Henry Walker",
+    content: "God is not a trend. Stop creating fake miracle videos for likes and shares. It’s disgusting.",
+    date: "Dec 18, 2024",
+    likes: "115.4K"
+},   
+    {
+    author: "James Turner",
+    content: "How can anyone still believe the Earth is flat in 2024? The evidence is overwhelming that it's a globe. #ScienceOverConspiracy",
+    date: "Dec 17, 2024",
+    likes: "122.5K"
+},
+{
+    author: "Olivia Harris",
+    content: "I can't believe people still argue about Flat Earth. The photos from space clearly show it's round, yet some people like James Turner keep denying it.",
+    date: "Dec 18, 2024",
+    likes: "95.4K"
+},
+{
+    author: "Lucas White",
+    content: "The Earth is flat, and all the globe theories are just government propaganda. Don't trust what they say, do your own research.",
+    date: "Dec 19, 2024",
+    likes: "60.3K"
+},
+{
+    author: "Emily Walker",
+    content: "People like Lucas White keep pushing Flat Earth nonsense. Just look at the science! It's undeniable that the Earth is a globe. Stop spreading misinformation.",
+    date: "Dec 20, 2024",
+    likes: "107.9K"
+},
+{
+    author: "Ethan Scott",
+    content: "How can you explain the time zones on a flat Earth, Lucas White? You can't just ignore these facts. The Earth is a globe, and that’s basic science.",
+    date: "Dec 21, 2024",
+    likes: "90.5K"
+},
+{
+    author: "Isabella Adams",
+    content: "Flat Earthers like Lucas White need to stop. It's scientifically proven that the Earth is a sphere. Let’s move on from these outdated theories.",
+    date: "Dec 22, 2024",
+    likes: "112.7K"
+},
+{
+    author: "Alexander Green",
+    content: "Why do people like Emily Walker ignore all the evidence supporting a flat Earth? NASA lies about space. The Earth is flat, and there’s no real proof it's round.",
+    date: "Dec 17, 2024",
+    likes: "78.6K"
+},
+{
+    author: "Sophia Brown",
+    content: "There are so many images and videos proving the Earth is round, but people like Alexander Green choose to believe in the flat Earth nonsense. How can you still ignore the truth?",
+    date: "Dec 18, 2024",
+    likes: "118.3K"
+},
+{
+    author: "Liam Perez",
+    content: "Flat Earth theories are based on misconceptions and mistrust in science. The Earth is a globe, and that’s been proven time and time again.",
+    date: "Dec 19, 2024",
+    likes: "98.4K"
+},
+{
+    author: "Charlotte Lewis",
+    content: "I don't understand how anyone can be so blind. Flat Earth is just a hoax. The world has been scientifically proven to be a globe. #WakeUp",
+    date: "Dec 20, 2024",
+    likes: "105.2K"
+},
+{
+    author: "Benjamin Clark",
+    content: "It’s frustrating to see people like Alexander Green still spread these Flat Earth theories. Just look at the photos from space! The Earth is clearly a globe.",
+    date: "Dec 21, 2024",
+    likes: "83.9K"
+},
+{
+    author: "Mia King",
+    content: "Every time I see someone say the Earth is flat, I just shake my head. How can we trust the Flat Earth theory when the globe model has been tested countless times?",
+    date: "Dec 22, 2024",
+    likes: "125.7K"
+},
+{
+    author: "Noah Carter",
+    content: "People who claim the Earth is flat clearly don't understand basic physics. A globe just makes more sense when you consider gravity and satellite images.",
+    date: "Dec 17, 2024",
+    likes: "115.8K"
+},
+{
+    author: "Grace Robinson",
+    content: "Look, I’m open-minded, but all the evidence points to the Earth being round. How can Lucas White still defend the flat Earth theory with all the photos from space?",
+    date: "Dec 18, 2024",
+    likes: "93.7K"
+},
+{
+    author: "Joseph Evans",
+    content: "People like Noah Carter need to stop blindly trusting mainstream sources. There's too much evidence to suggest the Earth is flat to just dismiss it.",
+    date: "Dec 19, 2024",
+    likes: "88.1K"
+},
+{
+    author: "Sophia Collins",
+    content: "I’m honestly shocked at how many people still believe the Earth is flat in 2024. The science is clear, and the evidence is there. Stop with the conspiracy theories!",
+    date: "Dec 20, 2024",
+    likes: "101.4K"
+},
+{
+    author: "Mason James",
+    content: "The Earth being flat is a theory that's been debunked for centuries. I don't know how people like Joseph Evans still think it's true in the age of modern science.",
+    date: "Dec 21, 2024",
+    likes: "123.6K"
+},
+{
+    author: "Ava Scott",
+    content: "Anyone who still believes the Earth is flat clearly hasn’t done any proper research. The globe model is supported by decades of evidence.",
+    date: "Dec 22, 2024",
+    likes: "110.4K"
+},
+{
+    author: "James Turner",
+    content: "It's frustrating seeing people like Lucas White spread misinformation. The Earth is a globe, and there is overwhelming evidence supporting this. Let's stop the Flat Earth nonsense.",
+    date: "Dec 17, 2024",
+    likes: "128.4K"
+},
+{
+    author: "Benjamin Wilson",
+    content: "Flat Earth arguments just don't hold up. Gravity, time zones, and space photography all point to a globe. Why are we still debating this?",
+    date: "Dec 18, 2024",
+    likes: "92.8K"
+},
+    {
+    author: "Alexander Cruz",
+    content: "Humanity's history is stained with ruthless acts. Can we ever move beyond greed?",
+    date: "Dec 17, 2024",
+    likes: "84.5K"
+},
+{
+    author: "Sophia Martinez",
+    content: "From wars to exploitation, humanity has always been its own worst enemy.",
+    date: "Dec 18, 2024",
+    likes: "91.3K"
+},
+{
+    author: "Liam Brown",
+    content: "We claim to be civilized, yet greed and power drive the most ruthless acts.",
+    date: "Dec 19, 2024",
+    likes: "72.9K"
+},
+{
+    author: "Isabella White",
+    content: "Humanity is ruthless, but we also have the power to change. Will we use it?",
+    date: "Dec 20, 2024",
+    likes: "63.8K"
+},
+{
+    author: "Ethan Miller",
+    content: "The pursuit of wealth has made humanity forget compassion. It's heartbreaking.",
+    date: "Dec 21, 2024",
+    likes: "112.3K"
+},
+{
+    author: "Olivia Walker",
+    content: "Ruthlessness is often mistaken for strength, but it's a weakness of character.",
+    date: "Dec 22, 2024",
+    likes: "94.7K"
+},
+{
+    author: "James Allen",
+    content: "History books glorify ruthless leaders, yet forget the victims. Why is that?",
+    date: "Dec 17, 2024",
+    likes: "88.4K"
+},
+{
+    author: "Mia Young",
+    content: "Humanity’s ruthlessness is most evident in how we treat the environment.",
+    date: "Dec 18, 2024",
+    likes: "102.3K"
+},
+{
+    author: "Lucas Harris",
+    content: "Ruthless ambition has driven progress, but at what cost to humanity?",
+    date: "Dec 19, 2024",
+    likes: "56.7K"
+},
+{
+    author: "Ava Clark",
+    content: "Kindness is seen as weakness, while ruthlessness is celebrated. This needs to change.",
+    date: "Dec 20, 2024",
+    likes: "78.4K"
+},
+{
+    author: "Benjamin Scott",
+    content: "Humanity's capacity for cruelty is unmatched, but so is its potential for good.",
+    date: "Dec 21, 2024",
+    likes: "105.1K"
+},
+{
+    author: "Amelia Lewis",
+    content: "Why do we glorify ruthless success over empathetic leadership?",
+    date: "Dec 22, 2024",
+    likes: "64.8K"
+},
+{
+    author: "Charlotte Martinez",
+    content: "The ruthless competition in today's world leaves no room for humanity.",
+    date: "Dec 17, 2024",
+    likes: "112.4K"
+},
+{
+    author: "Noah Wilson",
+    content: "Ruthlessness has become normalized in politics and business. Is there hope?",
+    date: "Dec 18, 2024",
+    likes: "93.2K"
+},
+{
+    author: "Lily Adams",
+    content: "Humanity's ruthless pursuit of dominance is the root of many conflicts.",
+    date: "Dec 19, 2024",
+    likes: "75.6K"
+},
+{
+    author: "Oliver Moore",
+    content: "Ruthlessness may win wars, but it doesn't win peace. Humanity needs to learn this.",
+    date: "Dec 20, 2024",
+    likes: "89.7K"
+},
+{
+    author: "Emma King",
+    content: "Humanity is ruthless, but every act of kindness proves we can do better.",
+    date: "Dec 21, 2024",
+    likes: "67.9K"
+},
+{
+    author: "William Lopez",
+    content: "Ruthlessness is rewarded in society, while empathy is undervalued. This must change.",
+    date: "Dec 22, 2024",
+    likes: "108.2K"
+},
+{
+    author: "Isabella Reed",
+    content: "The ruthless exploitation of natural resources shows our disregard for future generations.",
+    date: "Dec 17, 2024",
+    likes: "85.3K"
+},
+{
+    author: "Ethan Perez",
+    content: "Ruthlessness is not power. True power lies in humanity's ability to show mercy.",
+    date: "Dec 18, 2024",
+    likes: "101.9K"
+},
+{
+    author: "Sophia Cruz",
+    content: "Humanity's ruthless tendencies are a reflection of our insecurities as a species.",
+    date: "Dec 19, 2024",
+    likes: "77.8K"
+},
+{
+    author: "Liam Rivera",
+    content: "The ruthless pursuit of success often blinds us to the needs of others.",
+    date: "Dec 20, 2024",
+    likes: "66.4K"
+},
+{
+    author: "Olivia Brooks",
+    content: "Ruthlessness is not the answer to humanity's challenges. Compassion is.",
+    date: "Dec 21, 2024",
+    likes: "92.5K"
+},
+{
+    author: "James Watson",
+    content: "History shows us that ruthlessness often leads to downfall. Why don't we learn?",
+    date: "Dec 22, 2024",
+    likes: "99.8K"
+},
+{
+    author: "Charlotte Ramirez",
+    content: "The world needs less ruthlessness and more understanding. Humanity depends on it.",
+    date: "Dec 17, 2024",
+    likes: "113.7K"
+},
+{
+    author: "Benjamin Howard",
+    content: "Ruthlessness in leadership may win battles, but it destroys trust.",
+    date: "Dec 18, 2024",
+    likes: "81.9K"
+},
+{
+    author: "Amelia Bell",
+    content: "Humanity is ruthless because we fear vulnerability. Can we overcome this?",
+    date: "Dec 19, 2024",
+    likes: "65.3K"
+},
+{
+    author: "Noah Cook",
+    content: "Our obsession with power makes us ruthless. It’s time to prioritize kindness.",
+    date: "Dec 20, 2024",
+    likes: "104.6K"
+},
+{
+    author: "Mia Gray",
+    content: "Ruthlessness may build empires, but empathy builds communities.",
+    date: "Dec 21, 2024",
+    likes: "73.9K"
+},
+{
+    author: "Lucas Foster",
+    content: "The ruthless treatment of the vulnerable is a stain on humanity.",
+    date: "Dec 22, 2024",
+    likes: "95.4K"
+},
+    {
+    author: "Aiden Parker",
+    content: "These Skibidi Toilet videos are honestly hilarious, but kids are taking it too far.",
+    date: "Dec 17, 2024",
+    likes: "75.6K"
+},
+{
+    author: "Sophia Adams",
+    content: "Brainrot is real. My little brother can't stop singing that Skibidi Toilet song.",
+    date: "Dec 18, 2024",
+    likes: "102.4K"
+},
+{
+    author: "Liam Gomez",
+    content: "Are Skibidi Toilet videos harming kids' attention spans, or is it just harmless fun?",
+    date: "Dec 19, 2024",
+    likes: "56.3K"
+},
+{
+    author: "Emily Carter",
+    content: "I caught my son imitating Skibidi Toilet characters. Should I be concerned?",
+    date: "Dec 20, 2024",
+    likes: "67.9K"
+},
+{
+    author: "Ethan Moore",
+    content: "Brainrot kids are obsessed with this Skibidi trend. Can't we give them better content?",
+    date: "Dec 21, 2024",
+    likes: "49.8K"
+},
+{
+    author: "Ava Brown",
+    content: "Skibidi Toilet is just a phase. Kids will move on, like they did with Fortnite.",
+    date: "Dec 22, 2024",
+    likes: "89.5K"
+},
+{
+    author: "Noah Miller",
+    content: "As a teacher, I see Skibidi Toilet references in class daily. It's overwhelming.",
+    date: "Dec 17, 2024",
+    likes: "134.7K"
+},
+{
+    author: "Mia Wilson",
+    content: "Why do kids find Skibidi Toilet so entertaining? I'm genuinely curious.",
+    date: "Dec 18, 2024",
+    likes: "92.1K"
+},
+{
+    author: "Lucas Martinez",
+    content: "Brainrot or not, Skibidi Toilet is the meme king of 2024. Let kids enjoy it.",
+    date: "Dec 19, 2024",
+    likes: "111.6K"
+},
+{
+    author: "Charlotte Anderson",
+    content: "Can someone explain why my 8-year-old keeps chanting 'Skibidi bop bop bop'? Help!",
+    date: "Dec 20, 2024",
+    likes: "78.3K"
+},
+{
+    author: "James White",
+    content: "Skibidi Toilet is creative, but parents need to limit screen time. Balance is key.",
+    date: "Dec 21, 2024",
+    likes: "94.7K"
+},
+{
+    author: "Ella Harris",
+    content: "The brainrot kids aren't the problem—it's the lack of other creative outlets.",
+    date: "Dec 22, 2024",
+    likes: "61.2K"
+},
+{
+    author: "Benjamin Clark",
+    content: "Skibidi Toilet is just harmless fun. Let kids be kids without overthinking.",
+    date: "Dec 17, 2024",
+    likes: "99.8K"
+},
+{
+    author: "Amelia Lewis",
+    content: "When does harmless fun like Skibidi Toilet become brainrot? Parents need to discuss this.",
+    date: "Dec 18, 2024",
+    likes: "72.9K"
+},
+{
+    author: "Henry Walker",
+    content: "Skibidi Toilet creators are brilliant marketers. The hype is unreal.",
+    date: "Dec 19, 2024",
+    likes: "88.4K"
+},
+{
+    author: "Isabella Hall",
+    content: "I've banned Skibidi Toilet in my house. Brainrot kids are losing their minds over it.",
+    date: "Dec 20, 2024",
+    likes: "53.7K"
+},
+{
+    author: "Alexander Allen",
+    content: "Can Skibidi Toilet be considered art? My son thinks so. I'm not so sure.",
+    date: "Dec 21, 2024",
+    likes: "47.2K"
+},
+{
+    author: "Olivia Young",
+    content: "Skibidi Toilet is genius content creation. Let’s not shame kids for liking it.",
+    date: "Dec 22, 2024",
+    likes: "105.1K"
+},
+{
+    author: "William Scott",
+    content: "Brainrot? No. Skibidi Toilet teaches kids creativity in a weird way.",
+    date: "Dec 17, 2024",
+    likes: "63.8K"
+},
+{
+    author: "Charlotte Green",
+    content: "I can’t believe Skibidi Toilet is so viral. My whole class talks about it daily.",
+    date: "Dec 18, 2024",
+    likes: "87.4K"
+},
+    {
+    author: "Mark Villanueva",
+    content: "Iglesia Ni Cristo's discipline is admirable. Thoughts?",
+    date: "Dec 17, 2024",
+    likes: "123.5K"
+},
+{
+    author: "Grace Lim",
+    content: "Bloc voting in INC undermines individual freedom of choice.",
+    date: "Dec 18, 2024",
+    likes: "45.7K"
+},
+{
+    author: "Joseph Tan",
+    content: "Why is INC's political influence so significant in the Philippines?",
+    date: "Dec 20, 2024",
+    likes: "89.3K"
+},
+{
+    author: "Andrea Cruz",
+    content: "INC's social projects are great, but are they accessible to non-members?",
+    date: "Dec 19, 2024",
+    likes: "62.8K"
+},
+{
+    author: "Pauline Gutierrez",
+    content: "Does INC's focus on community building set a good example for others?",
+    date: "Dec 21, 2024",
+    likes: "101.2K"
+},
+{
+    author: "Ramon Ortega",
+    content: "The unity of INC members during rallies is inspiring.",
+    date: "Dec 22, 2024",
+    likes: "76.4K"
+},
+{
+    author: "Liza Fernandez",
+    content: "INC has grown internationally, but does it stay true to its roots?",
+    date: "Dec 17, 2024",
+    likes: "134.2K"
+},
+{
+    author: "Ernesto Santos",
+    content: "Their political endorsements often lead to public backlash.",
+    date: "Dec 18, 2024",
+    likes: "49.1K"
+},
+{
+    author: "Mark Villanueva",
+    content: "Why does INC prioritize expansion over interfaith collaboration?",
+    date: "Dec 20, 2024",
+    likes: "91.7K"
+},
+{
+    author: "Grace Lim",
+    content: "What makes INC stand out compared to other religious organizations?",
+    date: "Dec 19, 2024",
+    likes: "63.9K"
+},
+{
+    author: "Joseph Tan",
+    content: "INC claims unity, but critics argue it's enforced conformity.",
+    date: "Dec 21, 2024",
+    likes: "87.4K"
+},
+{
+    author: "Andrea Cruz",
+    content: "The INC's process of bloc voting sparks debates every election season.",
+    date: "Dec 22, 2024",
+    likes: "111.8K"
+},
+{
+    author: "Pauline Gutierrez",
+    content: "Why is INC silent on certain national issues while vocal on others?",
+    date: "Dec 17, 2024",
+    likes: "74.2K"
+},
+{
+    author: "Ramon Ortega",
+    content: "INC's rapid growth is impressive, but their exclusivity raises questions.",
+    date: "Dec 18, 2024",
+    likes: "92.5K"
+},
+{
+    author: "Liza Fernandez",
+    content: "The INC's focus on discipline sets an example for the community.",
+    date: "Dec 20, 2024",
+    likes: "56.4K"
+},
+{
+    author: "Ernesto Santos",
+    content: "Religion should unite us, not divide us further.",
+    date: "Dec 19, 2024",
+    likes: "78.9K"
+},
+{
+    author: "Mark Villanueva",
+    content: "INC's influence in politics sparks significant debates.",
+    date: "Dec 21, 2024",
+    likes: "112.3K"
+},
+{
+    author: "Grace Lim",
+    content: "Does INC's focus on community building set a good example for others?",
+    date: "Dec 22, 2024",
+    likes: "98.7K"
+},
+{
+    author: "Joseph Tan",
+    content: "Their political endorsements often lead to public backlash.",
+    date: "Dec 17, 2024",
+    likes: "69.2K"
+},
+{
+    author: "Andrea Cruz",
+    content: "INC's social projects are great, but are they accessible to non-members?",
+    date: "Dec 18, 2024",
+    likes: "102.3K"
+},
+{
+    author: "Pauline Gutierrez",
+    content: "What makes INC stand out compared to other religious organizations?",
+    date: "Dec 20, 2024",
+    likes: "113.4K"
+},
 {
   author: "Liza Fernandez",
   content: "The unity of INC members during rallies is inspiring.",
