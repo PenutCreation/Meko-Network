@@ -1,4 +1,2279 @@
   const posts = [
+{
+    author: "Olivia Carter",
+    content: "So now hardware can spread viruses? Just got my hands on a new hard drive, and it infected my whole system. This is insane! #HardwareVirus #TechProblems",
+    date: "Dec 23, 2024",
+    likes: "92.4K"
+},
+{
+    author: "Ethan Brown",
+    content: "A virus from my brand-new keyboard? Seriously? How can we trust tech anymore? Manufacturers need to be held accountable! #HardwareVirus #SecurityFlaw",
+    date: "Dec 23, 2024",
+    likes: "74.8K"
+},
+{
+    author: "Sophia Allen",
+    content: "Heard about counterfeit flash drives containing malware? Got one for cheap, and it almost destroyed my PC. Never again. #HardwareVirus #CyberAwareness",
+    date: "Dec 23, 2024",
+    likes: "88.1K"
+},
+{
+    author: "Liam Thompson",
+    content: "My friend’s gaming console had a preinstalled virus. It’s official: we can’t trust hardware anymore. #HardwareVirus #TechFails",
+    date: "Dec 23, 2024",
+    likes: "77.3K"
+},
+{
+    author: "Emma Walker",
+    content: "I plugged in a new router, and it spread malware across my network. Who even thinks of doing this? #HardwareVirus #TechDisaster",
+    date: "Dec 23, 2024",
+    likes: "81.5K"
+},
+{
+    author: "Mason Lee",
+    content: "Just found out some headphones are being shipped with malware. When did tech become this risky? #HardwareVirus #SecurityConcerns",
+    date: "Dec 23, 2024",
+    likes: "67.9K"
+},
+{
+    author: "Chloe Harris",
+    content: "Imagine buying a USB drive and getting a virus as a bonus. Companies need stricter quality checks! #HardwareVirus #TechProblems",
+    date: "Dec 23, 2024",
+    likes: "89.6K"
+},
+{
+    author: "Lucas White",
+    content: "A hardware virus took out my entire office network. This is a level of chaos I wasn’t ready for. #HardwareVirus #CyberThreats",
+    date: "Dec 23, 2024",
+    likes: "71.4K"
+},
+{
+    author: "Charlotte Young",
+    content: "It’s terrifying how hardware is being used to deliver malware now. Just got a virus from my external hard drive. #HardwareVirus #TechFails",
+    date: "Dec 23, 2024",
+    likes: "94.2K"
+},
+{
+    author: "Noah Garcia",
+    content: "What’s next? Smart TVs carrying viruses? This hardware virus thing is out of control. #HardwareVirus #TechFear",
+    date: "Dec 23, 2024",
+    likes: "85.7K"
+},
+{
+    author: "Sophia Scott",
+    content: "I bought a discounted gaming mouse, and it came with malware preinstalled. Tech safety is becoming a joke. #HardwareVirus #SecurityFail",
+    date: "Dec 23, 2024",
+    likes: "69.5K"
+},
+{
+    author: "William Martinez",
+    content: "Why are there no strict laws against shipping infected hardware? This hardware virus issue is beyond ridiculous. #HardwareVirus #TechIndustry",
+    date: "Dec 23, 2024",
+    likes: "78.2K"
+},
+{
+    author: "Ella Wright",
+    content: "I thought I was safe with premium brands, but my Bluetooth speaker had a virus. Who can we trust? #HardwareVirus #TechFails",
+    date: "Dec 23, 2024",
+    likes: "73.9K"
+},
+{
+    author: "James Davis",
+    content: "Counterfeit products are spreading viruses, and no one is stopping them. Don’t buy cheap tech, folks! #HardwareVirus #CyberAwareness",
+    date: "Dec 23, 2024",
+    likes: "91.3K"
+},
+{
+    author: "Maya Parker",
+    content: "Just got malware from a brand-new smartwatch. It’s like tech companies aren’t even trying anymore. #HardwareVirus #SecurityThreat",
+    date: "Dec 23, 2024",
+    likes: "83.1K"
+},
+{
+    author: "Benjamin Clark",
+    content: "It’s scary how even trusted brands are selling hardware with viruses. My friend’s phone charger infected their laptop. #HardwareVirus #TechWorld",
+    date: "Dec 23, 2024",
+    likes: "88.7K"
+},
+{
+    author: "Isabella Anderson",
+    content: "My friend bought a fancy new webcam, and it came with malware preloaded. This hardware virus issue is ruining tech! #HardwareVirus #SecurityFlaw",
+    date: "Dec 23, 2024",
+    likes: "72.5K"
+},
+{
+    author: "Olivia Rodriguez",
+    content: "A virus in my external storage device wiped out years of data. This is the reality of modern tech. #HardwareVirus #TechFails",
+    date: "Dec 23, 2024",
+    likes: "94.1K"
+},
+{
+    author: "Ethan King",
+    content: "The idea that hardware can spread malware is terrifying. Just lost my gaming rig to a virus from a fake GPU. #HardwareVirus #SecurityAwareness",
+    date: "Dec 23, 2024",
+    likes: "79.6K"
+},
+{
+    author: "Ava Lewis",
+    content: "How is this still happening? Hardware viruses are ruining tech. We need stricter regulations ASAP. #HardwareVirus #TechProblems",
+    date: "Dec 23, 2024",
+    likes: "67.4K"
+},
+
+{
+    author: "Liam Carter",
+    content: "Did anyone hear about the hardware spreading viruses? This is next-level insane! How are physical devices causing infections? #TechIssues #HardwareVirus",
+    date: "Dec 17, 2024",
+    likes: "79.2K"
+},
+{
+    author: "Sophia Martinez",
+    content: "So now even hardware can spread viruses? I’m officially scared. My USB drive is staying out of my PC from now on. #HardwareVirus #TechFail",
+    date: "Dec 17, 2024",
+    likes: "65.7K"
+},
+{
+    author: "Noah Smith",
+    content: "This hardware virus issue is insane! Companies need to stop releasing faulty devices. It’s compromising systems everywhere! #HardwareVirus #SecurityRisk",
+    date: "Dec 18, 2024",
+    likes: "73.9K"
+},
+{
+    author: "Emma Rodriguez",
+    content: "I just read that some keyboards can carry malware! How are we supposed to trust our own devices anymore? #HardwareVirus #TechFears",
+    date: "Dec 18, 2024",
+    likes: "89.4K"
+},
+{
+    author: "Lucas Thompson",
+    content: "Imagine buying a new mouse only to have it infect your entire system. This hardware virus trend needs to stop! #TechSafety #HardwareVirus",
+    date: "Dec 18, 2024",
+    likes: "78.1K"
+},
+{
+    author: "Grace Lee",
+    content: "My external drive brought a virus into my network! It’s crazy how hardware is being used to spread malware now. #TechThreats #HardwareVirus",
+    date: "Dec 19, 2024",
+    likes: "68.5K"
+},
+{
+    author: "Mason Davis",
+    content: "This hardware virus trend is making it impossible to trust new tech. Who’s responsible for this madness? #HardwareVirus #TechWorld",
+    date: "Dec 19, 2024",
+    likes: "76.4K"
+},
+{
+    author: "Isabella Hernandez",
+    content: "Hardware viruses are real and scary. Just had to wipe my system because my webcam carried malware. BE CAREFUL! #HardwareVirus #Cybersecurity",
+    date: "Dec 19, 2024",
+    likes: "94.2K"
+},
+{
+    author: "Ethan Walker",
+    content: "Who else is paranoid now? Apparently, USB sticks are the new malware delivery system. Avoid buying unbranded tech! #HardwareVirus #SecurityTips",
+    date: "Dec 20, 2024",
+    likes: "82.3K"
+},
+{
+    author: "Charlotte Scott",
+    content: "I’m done with tech for a while. My laptop was compromised by a faulty cable. HOW IS THIS EVEN POSSIBLE? #HardwareVirus #TechFail",
+    date: "Dec 20, 2024",
+    likes: "67.8K"
+},
+{
+    author: "Benjamin White",
+    content: "Companies need to recall these malware-infected hardware pieces! This is a disaster waiting to explode. #HardwareVirus #TechResponsibility",
+    date: "Dec 20, 2024",
+    likes: "72.9K"
+},
+{
+    author: "Maya King",
+    content: "Apparently, counterfeit chargers are spreading viruses now? Just great. What’s next? #HardwareVirus #TechSafety",
+    date: "Dec 21, 2024",
+    likes: "88.6K"
+},
+{
+    author: "Jack Wilson",
+    content: "My friend’s PC got bricked because of a virus from a preinstalled hardware chip. Manufacturers, FIX THIS. #HardwareVirus #TechThreats",
+    date: "Dec 21, 2024",
+    likes: "69.3K"
+},
+{
+    author: "Olivia Harris",
+    content: "So the hardware we trust is now sabotaging us with viruses? I’m officially scared to use anything new. #HardwareVirus #TechFails",
+    date: "Dec 21, 2024",
+    likes: "91.4K"
+},
+{
+    author: "James Young",
+    content: "Did you know counterfeit graphics cards can contain viruses? This tech world is getting out of control. #HardwareVirus #CyberAwareness",
+    date: "Dec 22, 2024",
+    likes: "81.7K"
+},
+{
+    author: "Ella Brown",
+    content: "My colleague’s office was hit by a virus because of infected hardware. This is not okay! Tech companies, do better. #HardwareVirus #SecurityConcerns",
+    date: "Dec 22, 2024",
+    likes: "77.2K"
+},
+{
+    author: "William Garcia",
+    content: "Just read that some headphones are being shipped with built-in malware. When did tech become this dangerous? #HardwareVirus #TechWorld",
+    date: "Dec 22, 2024",
+    likes: "93.5K"
+},
+{
+    author: "Chloe Clark",
+    content: "Hardware viruses are the nightmare we didn’t see coming. My router had malware preinstalled. BEWARE! #HardwareVirus #SecurityFail",
+    date: "Dec 22, 2024",
+    likes: "85.1K"
+},
+{
+    author: "Liam Allen",
+    content: "Imagine your new smartwatch infecting your whole network. Hardware viruses are ruining tech for everyone. #HardwareVirus #CyberThreats",
+    date: "Dec 22, 2024",
+    likes: "74.3K"
+},
+{
+    author: "Sophia Adams",
+    content: "My friend’s camera gear came with preinstalled malware. What is happening to the tech industry? #HardwareVirus #TechAwareness",
+    date: "Dec 22, 2024",
+    likes: "86.9K"
+},
+{
+  "author": "Anna Lopez",
+  "content": "The vendors in Gensan are so rude lately! I tried to negotiate for a fruit basket, and the seller just snapped at me. #CustomerServiceMatters",
+  "date": "Dec 17, 2024",
+  "likes": "12.4K"
+},
+{
+  "author": "Brian Santos",
+  "content": "Why are some vendors in Gensan so unprofessional? I just asked for a price, and they started yelling at me. #Frustrated",
+  "date": "Dec 18, 2024",
+  "likes": "8.9K"
+},
+{
+  "author": "Carla Rivera",
+  "content": "Not all vendors in Gensan are bad, but the rude ones give everyone else a bad reputation. Can we have some respect, please?",
+  "date": "Dec 19, 2024",
+  "likes": "9.7K"
+},
+{
+  "author": "David Mendoza",
+  "content": "Some vendors in Gensan act like they’re doing you a favor by selling their products. Is politeness too much to ask for? #Annoyed",
+  "date": "Dec 20, 2024",
+  "likes": "11.2K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "I was just ignored by a vendor in Gensan because I didn’t look like I could afford their stuff. This kind of treatment is unacceptable.",
+  "date": "Dec 21, 2024",
+  "likes": "10.1K"
+},
+{
+  "author": "Francis Lim",
+  "content": "Why do vendors in Gensan get offended when you try to negotiate? It’s part of the culture to haggle!",
+  "date": "Dec 22, 2024",
+  "likes": "8.3K"
+},
+{
+  "author": "Grace Tan",
+  "content": "The market in Gensan is such a mixed bag. You either meet the nicest vendors or the rudest ones. No in-between.",
+  "date": "Dec 23, 2024",
+  "likes": "15.6K"
+},
+{
+  "author": "Henry Cruz",
+  "content": "I tried supporting a local vendor in Gensan, but they treated me like a nuisance. What happened to good service?",
+  "date": "Dec 17, 2024",
+  "likes": "13.2K"
+},
+{
+  "author": "Isabel Reyes",
+  "content": "It's disappointing to see how some Gensan vendors treat customers. We need a change in attitude.",
+  "date": "Dec 18, 2024",
+  "likes": "12.7K"
+},
+{
+  "author": "Jason Villanueva",
+  "content": "The vendors at the Gensan market are so hit-or-miss. Some are great, but others are plain rude. What gives?",
+  "date": "Dec 19, 2024",
+  "likes": "14.3K"
+},
+{
+  "author": "Marie Santos",
+  "content": "The corruption in our government is heartbreaking. Millions of pesos meant for public services are lining the pockets of officials. How can we move forward like this? #Corruption #Philippines",
+  "date": "Dec 17, 2024",
+  "likes": "21.4K"
+},
+{
+  "author": "Liam Cruz",
+  "content": "When will the people wake up? The government's corruption is bleeding this country dry. We deserve better. #ReformNow",
+  "date": "Dec 18, 2024",
+  "likes": "19.2K"
+},
+{
+  "author": "Angela Rivera",
+  "content": "How is it that funds meant for typhoon victims are still 'missing'? Corruption in this country is literally deadly.",
+  "date": "Dec 19, 2024",
+  "likes": "25.1K"
+},
+{
+  "author": "Jonas Tan",
+  "content": "Every time I pay taxes, I feel like I'm funding someone's luxury vacation instead of public services. This corruption has to stop!",
+  "date": "Dec 20, 2024",
+  "likes": "15.8K"
+},
+{
+  "author": "Sophia Garcia",
+  "content": "Imagine how many lives could be saved if corrupt officials actually allocated funds properly. It's infuriating. #EndCorruption",
+  "date": "Dec 21, 2024",
+  "likes": "30.6K"
+},
+{
+  "author": "Carlos Mendoza",
+  "content": "We keep voting the same people into office and wonder why corruption never ends. We need systemic change. #WakeUp",
+  "date": "Dec 22, 2024",
+  "likes": "22.9K"
+},
+{
+  "author": "Elena Lim",
+  "content": "Corruption isn't just about stealing money; it's about stealing opportunities from the poor. It's a crime against humanity.",
+  "date": "Dec 23, 2024",
+  "likes": "18.7K"
+},
+{
+  "author": "Ramon Diaz",
+  "content": "I’m tired of seeing news about corrupt officials getting away scot-free. Where is the justice? #AccountabilityNow",
+  "date": "Dec 17, 2024",
+  "likes": "17.3K"
+},
+{
+  "author": "Bianca Torres",
+  "content": "How many children have to suffer in poverty because of corrupt leaders? This is criminal. #StopCorruption",
+  "date": "Dec 18, 2024",
+  "likes": "27.4K"
+},
+{
+  "author": "Jorge Perez",
+  "content": "The only reason corruption thrives is because we let it. It's time to hold our leaders accountable. #EnoughIsEnough",
+  "date": "Dec 19, 2024",
+  "likes": "14.6K"
+},
+{
+  "author": "Alex Romero",
+  "content": "The Halo Earth theory is mind-blowing! Imagine Earth being surrounded by an actual halo. Could it be real? #HaloEarth",
+  "date": "Dec 17, 2024",
+  "likes": "12.7K"
+},
+{
+  "author": "Maria Sanchez",
+  "content": "I can't believe people actually think Halo Earth is real. It's clearly a fabricated conspiracy theory. #FakeNews",
+  "date": "Dec 18, 2024",
+  "likes": "8.4K"
+},
+{
+  "author": "Jason Lee",
+  "content": "I've been researching the Halo Earth concept, and while it's fascinating, there's no solid evidence to prove it. #Debunked",
+  "date": "Dec 19, 2024",
+  "likes": "9.6K"
+},
+{
+  "author": "Sophia Tan",
+  "content": "If Halo Earth was real, wouldn't scientists have confirmed it by now? Sounds like another internet hoax to me. #Skeptic",
+  "date": "Dec 20, 2024",
+  "likes": "7.3K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "People saying Halo Earth is fake need to look at ancient texts and myths. There's definitely something to it! #ThinkAgain",
+  "date": "Dec 21, 2024",
+  "likes": "11.5K"
+},
+{
+  "author": "Emily Cruz",
+  "content": "Halo Earth believers are the same people who thought the moon landing was fake. Please stop. #ScienceIsReal",
+  "date": "Dec 22, 2024",
+  "likes": "10.2K"
+},
+{
+  "author": "Nathan Gomez",
+  "content": "The idea of a Halo Earth is pretty cool, but where’s the proof? Show me data, not just theories! #EvidenceMatters",
+  "date": "Dec 23, 2024",
+  "likes": "13.4K"
+},
+{
+  "author": "Isabella Torres",
+  "content": "Why are people so quick to dismiss the Halo Earth theory? We don't know everything about our planet. #OpenYourMind",
+  "date": "Dec 17, 2024",
+  "likes": "14.1K"
+},
+{
+  "author": "Liam Perez",
+  "content": "Halo Earth is obviously fake. Stop spreading nonsense and focus on real science. #StopMisinformation",
+  "date": "Dec 18, 2024",
+  "likes": "9.8K"
+},
+{
+  "author": "Grace Hernandez",
+  "content": "I think Halo Earth could be real. There's so much we still don't understand about Earth's atmosphere and energy fields. #StayCurious",
+  "date": "Dec 19, 2024",
+  "likes": "12.3K"
+},
+{
+  "author": "Anna Cruz",
+  "content": "Meko's banning streak is exactly what we needed. Toxic users are finally getting what they deserve. #GoodRiddance",
+  "date": "Dec 17, 2024",
+  "likes": "15.2K"
+},
+{
+  "author": "Brian Santos",
+  "content": "Honestly, I think Meko's banning streak is over the top. Some innocent users are getting caught in the crossfire. #NotFair",
+  "date": "Dec 18, 2024",
+  "likes": "8.7K"
+},
+{
+  "author": "Carla Rivera",
+  "content": "Thank you, Meko! The community feels so much cleaner now with all the toxic people gone. Keep it up! #BanningStreak",
+  "date": "Dec 19, 2024",
+  "likes": "11.9K"
+},
+{
+  "author": "David Mendoza",
+  "content": "I was banned on Meko for no reason! This streak is turning into a witch hunt. #UnfairBan",
+  "date": "Dec 20, 2024",
+  "likes": "9.3K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Meko is finally stepping up and enforcing the rules. Toxic users should have no place in this community. #GoodJob",
+  "date": "Dec 21, 2024",
+  "likes": "13.6K"
+},
+{
+  "author": "Francis Lim",
+  "content": "Not all the bans are fair. Meko needs to review its moderation policies before they lose more loyal users. #FixThis",
+  "date": "Dec 22, 2024",
+  "likes": "7.5K"
+},
+{
+  "author": "Grace Tan",
+  "content": "It's about time Meko cleaned up its platform. Toxic behavior should never be tolerated. #BanThemAll",
+  "date": "Dec 23, 2024",
+  "likes": "14.4K"
+},
+{
+  "author": "Henry Cruz",
+  "content": "While I support banning toxic users, Meko's methods seem a bit extreme. Is there no room for second chances? #ThinkTwice",
+  "date": "Dec 17, 2024",
+  "likes": "10.1K"
+},
+{
+  "author": "Isabel Reyes",
+  "content": "Meko is doing a great job! The platform feels safer and more enjoyable now. Keep banning the bad apples! #LoveMeko",
+  "date": "Dec 18, 2024",
+  "likes": "16.8K"
+},
+{
+  "author": "Jason Villanueva",
+  "content": "The banning streak is fine, but they should focus on fixing the platform’s bugs too. Priorities, Meko! #DoBetter",
+  "date": "Dec 19, 2024",
+  "likes": "9.2K"
+},
+{
+  "author": "Sophia Tan",
+  "content": "I got banned for defending myself from a troll. Meko's system is broken. #UnbanMe",
+  "date": "Dec 20, 2024",
+  "likes": "6.4K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Meko's banning spree is the best thing to happen this year. It's a win for everyone who values respect and decency. #Finally",
+  "date": "Dec 21, 2024",
+  "likes": "12.9K"
+},
+{
+  "author": "Emily Cruz",
+  "content": "If Meko keeps this up, they'll lose their user base. Fair moderation is key, not mass bans. #SaveMeko",
+  "date": "Dec 22, 2024",
+  "likes": "8.1K"
+},
+{
+  "author": "Nathan Gomez",
+  "content": "I’ve been on Meko for years, and this banning streak is the best decision they've ever made. Thank you for listening to the community. #ProudUser",
+  "date": "Dec 23, 2024",
+  "likes": "15.7K"
+},
+{
+  "author": "Isabella Torres",
+  "content": "Meko’s banning streak is getting out of hand. It feels like no one is safe from being banned. #ModerationMadness",
+  "date": "Dec 17, 2024",
+  "likes": "7.9K"
+},
+{
+  "author": "Liam Perez",
+  "content": "Props to Meko for taking a stand against toxicity. It’s about time they cleaned house. #Respect",
+  "date": "Dec 18, 2024",
+  "likes": "13.5K"
+},
+{
+  "author": "Grace Hernandez",
+  "content": "Meko needs to balance this banning streak with proper user reviews. False bans are hurting their reputation. #TransparencyNow",
+  "date": "Dec 19, 2024",
+  "likes": "8.5K"
+},
+{
+  "author": "Jonas Tan",
+  "content": "I feel safer on Meko now that they’re banning toxic users. This was long overdue. #GoodVibesOnly",
+  "date": "Dec 20, 2024",
+  "likes": "14.1K"
+},
+{
+  "author": "Marie Santos",
+  "content": "People complaining about Meko’s bans are probably the ones who deserved it. Let the platform grow in peace. #SupportMeko",
+  "date": "Dec 21, 2024",
+  "likes": "17.3K"
+},
+{
+  "author": "Bianca Torres",
+  "content": "The banning streak is effective, but Meko should also introduce a warning system. Immediate bans are too harsh. #FairPlay",
+  "date": "Dec 22, 2024",
+  "likes": "9.3K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Why are the water and electricity bills in Gensan rising so fast? It’s becoming unbearable for most of us. #RisingCosts #GensanStruggles",
+  "date": "Dec 17, 2024",
+  "likes": "21.5K"
+},
+{
+  "author": "Maria Gonzalez",
+  "content": "I can’t believe the water and electricity bills are so high in Gensan right now! Something needs to be done about these price hikes. #HelpUs",
+  "date": "Dec 18, 2024",
+  "likes": "15.2K"
+},
+{
+  "author": "Jonas Tan",
+  "content": "Electricity bills in Gensan are crazy! I used to pay so much less last year. Anyone else noticing this? #CostOfLiving #BillsGoingUp",
+  "date": "Dec 19, 2024",
+  "likes": "19.7K"
+},
+{
+  "author": "Elaine Rivera",
+  "content": "It’s hard to keep up with the water and electricity bills in Gensan. Feels like we’re being punished for using basic necessities. #Unfair",
+  "date": "Dec 20, 2024",
+  "likes": "13.5K"
+},
+{
+  "author": "Grace Tan",
+  "content": "The rise in utility bills is insane! Gensan, we need to do something about this or it’ll only get worse. #UtilityCrisis",
+  "date": "Dec 21, 2024",
+  "likes": "16.3K"
+},
+{
+  "author": "Henry Cruz",
+  "content": "How are families supposed to afford the increasing water and electricity bills in Gensan? Something needs to change. #CostOfLivingCrisis",
+  "date": "Dec 22, 2024",
+  "likes": "20.1K"
+},
+{
+  "author": "Sophia Gutierrez",
+  "content": "Water and electricity bills in Gensan are killing my budget. It’s time for us to demand lower rates. #EnoughIsEnough",
+  "date": "Dec 23, 2024",
+  "likes": "18.9K"
+},
+{
+  "author": "David Mendoza",
+  "content": "This constant hike in Gensan’s water and electricity rates is out of hand. When will this madness stop? #PriceHikes #Unacceptable",
+  "date": "Dec 17, 2024",
+  "likes": "14.8K"
+},
+{
+  "author": "Isabel Torres",
+  "content": "I can’t even look at my utility bill in Gensan anymore. It’s so high, it’s stressing me out. Anyone else struggling with this? #TooMuch",
+  "date": "Dec 18, 2024",
+  "likes": "11.4K"
+},
+{
+  "author": "Ramon Perez",
+  "content": "I don’t get it. The rates for water and electricity keep going up, but the service hasn’t improved one bit. #SomethingIsWrong",
+  "date": "Dec 19, 2024",
+  "likes": "17.2K"
+},
+{
+  "author": "Bianca Reyes",
+  "content": "It’s frustrating how Gensan’s utilities are getting more expensive. A lot of people are struggling to keep up with the costs. #LivingInCrisis",
+  "date": "Dec 20, 2024",
+  "likes": "12.8K"
+},
+{
+  "author": "Carlos Mendoza",
+  "content": "Gensan’s water and electricity bills are out of control! We need a solution fast before more people get pushed to the edge. #ActNow",
+  "date": "Dec 21, 2024",
+  "likes": "22.4K"
+},
+{
+  "author": "Emily Cruz",
+  "content": "Utility bills in Gensan are so high, I had to cut back on a lot of things just to make sure I can pay them. This isn’t sustainable. #StrugglingToSurvive",
+  "date": "Dec 22, 2024",
+  "likes": "14.3K"
+},
+{
+  "author": "Carlos Perez",
+  "content": "Why is Gensan so expensive when it comes to water and electricity? Everyone I know is complaining about these bills. #HelpUsOut",
+  "date": "Dec 23, 2024",
+  "likes": "16.9K"
+},
+{
+  "author": "Liam Santos",
+  "content": "I’m not even using much water or electricity, but my bills are still sky-high! This is getting ridiculous, Gensan. #RidiculousRates",
+  "date": "Dec 17, 2024",
+  "likes": "13.1K"
+},
+{
+  "author": "Jason Lim",
+  "content": "We need to demand that the government do something about these crazy water and electricity bills in Gensan. This isn’t fair to the average citizen. #FixTheSystem",
+  "date": "Dec 18, 2024",
+  "likes": "18.2K"
+},
+{
+  "author": "Sophia Garcia",
+  "content": "My water and electricity bill for this month is almost triple what it was last month. Gensan, we need answers. #PriceHikeExposed",
+  "date": "Dec 19, 2024",
+  "likes": "16.6K"
+},
+{
+  "author": "Bianca Gutierrez",
+  "content": "Can someone explain why the water and electricity bills are so high in Gensan? I thought these prices were regulated. #ConfusedAndFrustrated",
+  "date": "Dec 20, 2024",
+  "likes": "14.9K"
+},
+{
+  "author": "David Reyes",
+  "content": "Honestly, I’m starting to wonder how people in Gensan are supposed to survive with these rising utility costs. It’s not just unfair, it’s inhumane. #UtilityStruggles",
+  "date": "Dec 21, 2024",
+  "likes": "19.1K"
+},
+{
+  "author": "Liam Torres",
+  "content": "I miss the old parks in Gensan. They used to be so lively and fun. It’s sad to see them abandoned now. #Nostalgia #OldMemories",
+  "date": "Dec 17, 2024",
+  "likes": "10.5K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Does anyone else remember the old mall in Gensan? It’s been years since I last visited, but I’ll never forget the memories there. #GoodOldDays",
+  "date": "Dec 18, 2024",
+  "likes": "12.3K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "I miss the old coffee shop in Gensan. It used to be the perfect place to hang out with friends, now it’s just a memory. #Throwback",
+  "date": "Dec 19, 2024",
+  "likes": "9.8K"
+},
+{
+  "author": "Isabella Tan",
+  "content": "I still remember the first time I visited the old theme park in Gensan. It was magical. Too bad it’s no longer around. #NostalgicFeels",
+  "date": "Dec 20, 2024",
+  "likes": "14.2K"
+},
+{
+  "author": "Jason Mendoza",
+  "content": "Can anyone else remember the old school stadium in Gensan? The energy from the crowd was unmatched. #MemoriesOfThePast",
+  "date": "Dec 21, 2024",
+  "likes": "11.7K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "I miss walking down the streets of old Gensan. The familiar sights and sounds, everything felt so much simpler. #NostalgiaVibes",
+  "date": "Dec 22, 2024",
+  "likes": "15.4K"
+},
+{
+  "author": "David Gutierrez",
+  "content": "Old Gensan had so much character. From the food stalls to the little shops, it was such a vibrant community. #NostalgicPlaces",
+  "date": "Dec 23, 2024",
+  "likes": "18.3K"
+},
+{
+  "author": "Grace Tan",
+  "content": "Does anyone remember the old library in Gensan? It used to be my favorite place to spend time. I miss it so much. #ThrowbackFeels",
+  "date": "Dec 17, 2024",
+  "likes": "13.9K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "I drove by the old beach resort in Gensan yesterday, and it made me so nostalgic. I wish I could go back to those carefree days. #OldTimes",
+  "date": "Dec 18, 2024",
+  "likes": "14.1K"
+},
+{
+  "author": "Maria Santos",
+  "content": "The old movie theater in Gensan was such a great hangout spot. I can’t believe it’s gone now. #NostalgicMemories",
+  "date": "Dec 19, 2024",
+  "likes": "16.7K"
+},
+{
+  "author": "Henry Cruz",
+  "content": "I’ll never forget the old amusement park in Gensan. It was the place where so many of my childhood memories were made. #MissingThePast",
+  "date": "Dec 20, 2024",
+  "likes": "18.2K"
+},
+{
+  "author": "Bianca Reyes",
+  "content": "It feels like the entire city of Gensan is changing. I miss the old, simpler times when everything felt more connected. #Nostalgia #Change",
+  "date": "Dec 21, 2024",
+  "likes": "20.3K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "I drove by the old market today and felt a rush of nostalgia. Gensan’s markets used to be full of life. Now, it’s just empty. #Throwback",
+  "date": "Dec 22, 2024",
+  "likes": "17.8K"
+},
+{
+  "author": "Sophia Garcia",
+  "content": "I miss the old family-owned stores in Gensan. They had so much personality, unlike the corporate chains now. #SupportLocal",
+  "date": "Dec 23, 2024",
+  "likes": "16.5K"
+},
+{
+  "author": "Liam Perez",
+  "content": "Walking down the old streets of Gensan brought back so many memories. It’s sad to see how much has changed. #NostalgicVibes",
+  "date": "Dec 17, 2024",
+  "likes": "12.9K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Does anyone remember the old arcade in Gensan? I used to go there after school. Those were the best days of my life. #GoodTimes",
+  "date": "Dec 18, 2024",
+  "likes": "14.6K"
+},
+{
+  "author": "Ramon Santos",
+  "content": "I really miss the old Gensan city hall. It used to be so beautiful and peaceful. It feels like everything is changing too quickly. #OldMemories",
+  "date": "Dec 19, 2024",
+  "likes": "19.2K"
+},
+{
+  "author": "Jonathan Reyes",
+  "content": "I remember when Gensan had its own special night markets. Now, it’s all commercialized. I miss the old vibe so much. #NostalgiaFeels",
+  "date": "Dec 20, 2024",
+  "likes": "22.1K"
+},
+{
+  "author": "Carlos Gutierrez",
+  "content": "Every time I visit the old parks and spots in Gensan, it feels like I’m walking through a piece of my childhood. #NostalgiaTrip",
+  "date": "Dec 21, 2024",
+  "likes": "17.4K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Nganong magka-travel ta sa Gensan, pareha ra'g nagtaod sa dakong traffic! Unsaon nalang ani? #TrafficProblems #Gensan",
+  "date": "Dec 17, 2024",
+  "likes": "14.8K"
+},
+{
+  "author": "Maria Santos",
+  "content": "Hala! Ang traffic sa Gensan murag dili na mka-move! Paita ani, maglisod ta'g saka sa trabaho. #GensanTraffic #LamiPaUntangMaglakaw",
+  "date": "Dec 18, 2024",
+  "likes": "12.5K"
+},
+{
+  "author": "Ramon Perez",
+  "content": "Unsay problema sa Gensan, magsugod pa lang ka'g biyahe, traffic na! Magkalate na gani ta ani, grabe. #GensanTraffic #HassleKaayo",
+  "date": "Dec 19, 2024",
+  "likes": "16.2K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Gensan traffic na pud, bisan dili rush hour, grabe gyud ang congestion. Asa nalang ang solusyon? #TrafficSucks #Gensan",
+  "date": "Dec 20, 2024",
+  "likes": "13.3K"
+},
+{
+  "author": "Jonathan Cruz",
+  "content": "Ang traffic sa Gensan mura na'g walay katapusan. Paita kaayo, dili na makaabot sa oras. #Frustration #GensanTraffic",
+  "date": "Dec 21, 2024",
+  "likes": "11.4K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Dili ko kasabot nganong ang Gensan magka-traffic bisan og bag-ong mga kalsada. Grabe kaayo ang situwasyon. #TrafficMadness #Gensan",
+  "date": "Dec 22, 2024",
+  "likes": "15.6K"
+},
+{
+  "author": "David Tan",
+  "content": "Nganong ang traffic sa Gensan magka-bad kaha? Dili man sad kinahanglan nga ing-ani ka traffic! #FixTheTraffic #Gensan",
+  "date": "Dec 23, 2024",
+  "likes": "18.7K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Kinsay nakasulay anang traffic sa Gensan karon? Murag naay traffic jam bisan asa pa. Dili gyud maayo. #BadTraffic #GensanLife",
+  "date": "Dec 17, 2024",
+  "likes": "12.7K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "I hope matabangan ang traffic situation sa Gensan kay perting lisura mag-move. Maabot ta og late. #TrafficProbs #Gensan",
+  "date": "Dec 18, 2024",
+  "likes": "14.3K"
+},
+{
+  "author": "Jonas Reyes",
+  "content": "Kinsa pa ang nag-atubang og traffic sa Gensan? Grabe na jud, kinahanglan nato ang solusyon. #EndTheTraffic #GensanProblems",
+  "date": "Dec 19, 2024",
+  "likes": "17.4K"
+},
+{
+  "author": "Bianca Rivera",
+  "content": "Dugay na gyud ni nga problema sa Gensan, ang traffic. Unsa kaha ang buhaton para ma-solusyonan ni? #FixGensanTraffic",
+  "date": "Dec 20, 2024",
+  "likes": "13.9K"
+},
+{
+  "author": "Carlos Perez",
+  "content": "Lahi na gyud ang Gensan karon. Ang traffic kay sobra na ka bad. Asa ta paingon ani? #GensanTraffic",
+  "date": "Dec 21, 2024",
+  "likes": "16.1K"
+},
+{
+  "author": "Sophia Tan",
+  "content": "Swerte pa kung maka-agi og dalan nga wala’y traffic. Ang Gensan kay nagka-sikip na. #TrafficEverywhere #GensanStruggles",
+  "date": "Dec 22, 2024",
+  "likes": "14.5K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "Grabe na ang traffic sa Gensan. Ugma na lang, balik nasad sa basurahan, ang mga kalsada puno ug saksi sa traffic. #GensanTraffic #Frustrating",
+  "date": "Dec 23, 2024",
+  "likes": "18.3K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Sosyal na kaayo ang Gai Sano Mall! Grabe ka daghan ug mga tindahan, excited ko magshopping! #GaiSanoMallOpening #NewMallInTown",
+  "date": "Dec 17, 2024",
+  "likes": "20.5K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Wala pa ko kasulay muadto sa Gai Sano Mall pero nakita nako ang mga pictures, grabe ka nice! Looking forward to visiting soon! #GaiSanoMallOpening #Excited",
+  "date": "Dec 18, 2024",
+  "likes": "18.3K"
+},
+{
+  "author": "Carlos Gutierrez",
+  "content": "Finally, naay bag-ong mall sa Gensan! Gai Sano Mall, gi-expect ko daghan kaayo ug amenities! #NewMallVibes #GensanShopping",
+  "date": "Dec 19, 2024",
+  "likes": "22.4K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Pirmi ta magcheck sa Gai Sano Mall kay murag trendy ra kaayo, basta complete amenities ug stores. #MallLife #GaiSanoMallOpening",
+  "date": "Dec 20, 2024",
+  "likes": "17.6K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Gai Sano Mall is now open! Magkaon ko didto ug shopping, ayos kay naa pud mga kilid-kilid nga lugar nga makarelax. #GaiSano #GensanMall",
+  "date": "Dec 21, 2024",
+  "likes": "19.1K"
+},
+{
+  "author": "David Tan",
+  "content": "Sakto ra gyud ang timing sa opening sa Gai Sano Mall, kay Christmas season. Daghan kaayo mga discounts! #ChristmasShopping #GaiSanoMall",
+  "date": "Dec 22, 2024",
+  "likes": "24.2K"
+},
+{
+  "author": "Bianca Santos",
+  "content": "Ang Gai Sano Mall mura ra ug international mall! Naa gyud siya tanan. I can't wait for more stores to open. #GaiSanoOpening #GensanShopping",
+  "date": "Dec 23, 2024",
+  "likes": "25.8K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "So excited for Gai Sano Mall, it’s finally open! Gensan’s going to look even more vibrant with this mall around! #GaiSanoOpening #GensanUpdates",
+  "date": "Dec 17, 2024",
+  "likes": "21.9K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "I’ve been waiting for Gai Sano Mall to open! It’s finally here, I can’t wait to explore and shop! #GaiSanoMall #ExcitedToVisit",
+  "date": "Dec 18, 2024",
+  "likes": "23.3K"
+},
+{
+  "author": "Ramon Santos",
+  "content": "Gai Sano Mall is finally here! Gensan is going to be lit with all the new stores and restaurants. #GaiSanoOpening #GensanMall",
+  "date": "Dec 19, 2024",
+  "likes": "20.7K"
+},
+{
+  "author": "Grace Tan",
+  "content": "Finally, the wait is over! Gai Sano Mall is open! Perfect place to hang out this Christmas season. #GaiSanoMall #ChristmasShopping",
+  "date": "Dec 20, 2024",
+  "likes": "26.5K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "The grand opening of Gai Sano Mall is amazing! All the best stores are here. Time to shop ‘til we drop! #GaiSanoOpening #GensanMall",
+  "date": "Dec 21, 2024",
+  "likes": "30.1K"
+},
+{
+  "author": "Henry Cruz",
+  "content": "Nag-open na ang Gai Sano Mall! Wala na jud ko makapugong sa excitement, shopping time na! #GaiSanoMall #GensanShopping",
+  "date": "Dec 22, 2024",
+  "likes": "28.6K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Gai Sano Mall, ang bag-ong pride sa Gensan! Kanindot pud sa lugar, maayo nga nahuman na jud. #GaiSanoMall #GensanUpdates",
+  "date": "Dec 23, 2024",
+  "likes": "29.4K"
+},
+{
+  "author": "Jonathan Reyes",
+  "content": "Swerte ta kay Gai Sano Mall nag-abli! Dili lang shopping, pero nindot sad ang hangin ug ang atmosphere! #GaiSano #GensanPride",
+  "date": "Dec 17, 2024",
+  "likes": "24.7K"
+},
+{
+  "author": "Isabella Cruz",
+  "content": "Can’t wait to spend my Christmas shopping at Gai Sano Mall! Excited ko nga makakita ug mga new shops. #GaiSanoOpening #HolidayShopping",
+  "date": "Dec 18, 2024",
+  "likes": "22.5K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Excited ko sa mga future sales sa Gai Sano Mall. Hopefully magpadayon ang discounts. #GaiSanoMall #ChristmasVibes",
+  "date": "Dec 19, 2024",
+  "likes": "18.9K"
+},
+{
+  "author": "Sophia Garcia",
+  "content": "The opening of Gai Sano Mall is a game changer for Gensan! Ang mga new shops and restaurants make it worth the visit. #GaiSanoOpening #GensanShopping",
+  "date": "Dec 20, 2024",
+  "likes": "27.3K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "Sama ra gyud ug international malls, Gai Sano Mall. Nindot kaayo, especially karon nga opening season. #GaiSanoOpening #Gensan",
+  "date": "Dec 21, 2024",
+  "likes": "30.5K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Paita sa kalsada sa Gensan! Daghang potholes, lisod mag-drive. Asa ta paingon ani? #RoadProblems #Gensan",
+  "date": "Dec 17, 2024",
+  "likes": "18.3K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Sige na lang ta'g agi sa mga bumpy roads sa Gensan, murag dili na gyud ma-fix. Kinsa na'y mag-ayo ani? #GensanRoadIssues #SadButTrue",
+  "date": "Dec 18, 2024",
+  "likes": "16.8K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Gensan roads are becoming a nightmare! Ang traffic usahay tungod sa mga kalat sa kalsada. Time for some road repairs! #GensanProblems #FixTheRoads",
+  "date": "Dec 19, 2024",
+  "likes": "19.2K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Grabe ang mga lubak sa mga kalsada sa Gensan! Unsaon nato ani, walay klaro ang mga repair. #GensanRoadIssues #RoadRepairNeeded",
+  "date": "Dec 20, 2024",
+  "likes": "17.5K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Kahit sa mga bagong daan sa Gensan, nagkalisod gihapon ta sa traffic tungod sa mga construction. Paita ani. #RoadProblems #GensanTraffic",
+  "date": "Dec 21, 2024",
+  "likes": "21.4K"
+},
+{
+  "author": "David Tan",
+  "content": "Mga kalsada sa Gensan, unsa na? Nagkadako ang problema, naglisod na pud ta mag-drive! #FixTheRoads #GensanRoads",
+  "date": "Dec 22, 2024",
+  "likes": "22.3K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Lupig ang Gensan, sakit sa mata ang mga roads diri. Unsaon nato ni kung walay aksyon? #RoadIssues #GensanProblems",
+  "date": "Dec 23, 2024",
+  "likes": "23.8K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Gensan roads are terrible! Mga potholes, construction sites everywhere, and the traffic gets worse. #FixOurRoads #GensanStruggles",
+  "date": "Dec 17, 2024",
+  "likes": "18.9K"
+},
+{
+  "author": "Grace Tan",
+  "content": "Gensan, kinahanglan gyud ug road improvements! Kalisod sa mga lubak ug blocked streets. Unsaon na lang ni nato? #RoadRepairs #GensanRoadIssues",
+  "date": "Dec 18, 2024",
+  "likes": "20.5K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Gensan roads are getting worse! Can't even drive properly without worrying about potholes and traffic jams. #GensanTraffic #RoadFixNeeded",
+  "date": "Dec 19, 2024",
+  "likes": "21.1K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "I hope Gensan authorities do something about these roads, they’re just getting worse! Traffic, potholes, and roadworks everywhere. #FixTheRoads #GensanProblems",
+  "date": "Dec 20, 2024",
+  "likes": "22.6K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Grabe ang mga dalan sa Gensan, dili na masudlan ang mga kalsada. Potholes everywhere, need urgent repairs! #GensanTraffic #RoadProblems",
+  "date": "Dec 21, 2024",
+  "likes": "18.2K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Gensan needs a major road overhaul. These potholes are ruining our drive and making traffic worse! #GensanRoadFix #RoadProblems",
+  "date": "Dec 22, 2024",
+  "likes": "20.9K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "Can Gensan please fix these roads? The traffic’s getting unbearable and these potholes are everywhere! #RoadRepairNeeded #GensanTraffic",
+  "date": "Dec 23, 2024",
+  "likes": "19.8K"
+},
+{
+  "author": "Carlos Perez",
+  "content": "Hinaut nga ma-actionan ang mga lubak sa kalsada sa Gensan. Nagka-problema na ang mga motorista! #RoadFix #GensanTraffic",
+  "date": "Dec 17, 2024",
+  "likes": "17.4K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "Gensan’s roads are driving me crazy. So many construction sites, potholes, and bad traffic. #GensanProblems #FixOurRoads",
+  "date": "Dec 18, 2024",
+  "likes": "18.5K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Mura'g dugay pa jud matapos ang roadworks sa Gensan. Ang traffic grabe na, kinahanglan gyud nila i-prioritize ang mga daan. #RoadWorks #Gensan",
+  "date": "Dec 17, 2024",
+  "likes": "18.6K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Dili na ta kasabot aning roadworks sa Gensan. Ang kalsada, naay daghang lubak ug construction sites, paita. #GensanTraffic #UnderwayRoad",
+  "date": "Dec 18, 2024",
+  "likes": "17.4K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Kanus-a kaha matapos ang roadworks sa Gensan? Kani nga mga constructions kay makahatag pa og mas dako nga traffic. #RoadUnderway #GensanProblems",
+  "date": "Dec 19, 2024",
+  "likes": "19.2K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Ang roadworks sa Gensan murag magdugay pa. Kailangan gyud nila ipaspas ang trabaho para wala na'y masakitan nga drivers. #UnderwayRoads #GensanTraffic",
+  "date": "Dec 20, 2024",
+  "likes": "18.3K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Maayo unta kung magpadayon og tarong ang roadworks sa Gensan. Ang mga daan dili na masudlan ug lisod na kaayo magbiyahe. #RoadWorks #GensanRoads",
+  "date": "Dec 21, 2024",
+  "likes": "21.8K"
+},
+{
+  "author": "David Tan",
+  "content": "Gensan roadworks are causing major traffic! Paspas unta na nila kay daghan kaayo ang naglisod. #GensanProblems #UnderwayRoads",
+  "date": "Dec 22, 2024",
+  "likes": "23.1K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Hoping ma-human ra ni ang roadworks sa Gensan kay ang traffic maglisod na kaayo ta. #GensanRoadworks #UnderwayRoadIssues",
+  "date": "Dec 23, 2024",
+  "likes": "24.5K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Sama ra ba jud, ang roadworks sa Gensan magpadayon. Murag wala pa ni matapos ug magdugay pa. #UnderwayRoads #GensanTraffic",
+  "date": "Dec 17, 2024",
+  "likes": "19.7K"
+},
+{
+  "author": "Grace Tan",
+  "content": "Ang roadworks sa Gensan maayo unta kung magtarong. Pero ang traffic daw grabe! I hope matapos ni pronto. #GensanRoads #Underway",
+  "date": "Dec 18, 2024",
+  "likes": "20.8K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Sana matapos na ang roadworks sa Gensan para dili na magka-traffic. Grabe ka hassle sa mga motorista. #RoadWorkProblems #GensanTraffic",
+  "date": "Dec 19, 2024",
+  "likes": "22.6K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "Karon lang ko kabalo nga magdugay pa ang roadworks sa Gensan. Ang traffic murag dili na matag-an! #UnderwayRoadworks #GensanProblems",
+  "date": "Dec 20, 2024",
+  "likes": "18.2K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Lisod ang byahe karon sa Gensan tungod sa roadworks. I hope magpadayon og tarong ang trabaho kay maglisod ta tanan. #Roadworks #GensanTraffic",
+  "date": "Dec 21, 2024",
+  "likes": "23.7K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Paspas unta magtapos ang roadworks sa Gensan kay ang traffic murag magkabuntog sa kadugayon. #GensanRoads #UnderwayRoadworks",
+  "date": "Dec 22, 2024",
+  "likes": "21.3K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "Nagkabuntog na ta sa roadworks sa Gensan! Kinahanglan magtarong na gyud ang trabaho para makapadayon ta. #UnderwayRoads #GensanTraffic",
+  "date": "Dec 23, 2024",
+  "likes": "24.4K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "Gensan, dapat na nila tapuson ang roadworks kay lisod kaayo ang traffic. Walay lugar nga makasalbar. #GensanRoadWorks #UnderwayProblems",
+  "date": "Dec 17, 2024",
+  "likes": "19.9K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "Ngano magdugay man ang roadworks sa Gensan? Nagka-hassle na ang tanan, kinahanglan na ni og action. #RoadworksIssues #GensanTraffic",
+  "date": "Dec 18, 2024",
+  "likes": "20.4K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Excited for the new video games coming out in 2025! Can’t wait for the next-gen graphics and immersive experiences. What are you most excited about? #Gaming2025 #NextGenGames",
+  "date": "Dec 17, 2024",
+  "likes": "32.1K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "2025 is looking like a great year for gaming! Can't wait to play the new releases, especially those open-world RPGs. #2025Games #ExcitingReleases",
+  "date": "Dec 18, 2024",
+  "likes": "28.7K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Just saw some sneak peeks of 2025 video games! The graphics are unreal. Can’t wait to play them. #GamingCommunity #2025Releases",
+  "date": "Dec 19, 2024",
+  "likes": "35.4K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "2025's new video game releases are going to be next level! The tech is amazing. Which games are you guys looking forward to? #2025Gaming #NewReleases",
+  "date": "Dec 20, 2024",
+  "likes": "40.2K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "It’s going to be an exciting year for gamers in 2025! The sequels to some of the biggest franchises are dropping, and I can’t wait. #2025Games #GamerLife",
+  "date": "Dec 21, 2024",
+  "likes": "38.6K"
+},
+{
+  "author": "David Tan",
+  "content": "The upcoming video games in 2025 look amazing! We’re going to see some huge innovations. Can't wait to experience the future of gaming. #2025GameReleases #NextGenGaming",
+  "date": "Dec 22, 2024",
+  "likes": "41.1K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "So many epic games coming out in 2025. I’m especially looking forward to the new racing and action-adventure games! #2025Gaming #FutureGames",
+  "date": "Dec 23, 2024",
+  "likes": "33.2K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "2025 is going to be a great year for video games! More immersive worlds, improved mechanics, and next-gen consoles are going to take gaming to new heights. #GamingFuture #2025Releases",
+  "date": "Dec 17, 2024",
+  "likes": "30.5K"
+},
+{
+  "author": "Grace Tan",
+  "content": "I’m so pumped for the video games releasing in 2025! The new survival games look so good. I can already feel the excitement. #2025Gaming #SurvivalGames",
+  "date": "Dec 18, 2024",
+  "likes": "31.1K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Can’t wait for the VR games coming out in 2025. The tech is advancing so fast! Gaming will never be the same. #VirtualReality #2025Gaming",
+  "date": "Dec 19, 2024",
+  "likes": "37.8K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "The hype for 2025 games is real! If you love action-packed games with jaw-dropping graphics, you won’t be disappointed next year. #2025Gaming #NextGenGraphics",
+  "date": "Dec 20, 2024",
+  "likes": "34.9K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Seeing a lot of exciting titles for 2025! The future of gaming looks bright. Ready for new sci-fi adventures and mind-blowing storylines! #Gaming2025 #StoryDrivenGames",
+  "date": "Dec 21, 2024",
+  "likes": "39.4K"
+},
+{
+  "author": "Jason Perez",
+  "content": "The new games coming in 2025 are making me reconsider my entire gaming setup. The graphics and gameplay look insane. #2025Releases #GamerGoals",
+  "date": "Dec 22, 2024",
+  "likes": "43.2K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "2025 gaming year is looking insane! I’m counting down the days to the new RPG and multiplayer games coming out. #2025Gaming #RPGs",
+  "date": "Dec 23, 2024",
+  "likes": "41.9K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "So much to look forward to in 2025! The gaming world is about to level up with new innovations, especially in open-world games. #FutureOfGaming #2025Releases",
+  "date": "Dec 17, 2024",
+  "likes": "28.3K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "2025 video games are going to be next level! Can't wait to see the new features and improved AI. This will be the year of gaming. #2025Games #AIImprovement",
+  "date": "Dec 18, 2024",
+  "likes": "30.2K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Remember the good ol' days when Meko was just starting out? The vibes were so different back then. Wish we could go back to those simpler times. #MekoOldTimes #Nostalgia",
+  "date": "Dec 17, 2024",
+  "likes": "15.4K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Meko has really changed over the years. I miss the old community when things were more fun and less complicated. #MekoOldDays #Throwback",
+  "date": "Dec 18, 2024",
+  "likes": "18.2K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Meko used to feel like a home for everyone. Now it’s different. I’ll always remember the good old days. #MekoMemories #OldTimes",
+  "date": "Dec 19, 2024",
+  "likes": "20.6K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Meko's older days were full of new beginnings, so much fun with no drama. Those days will always be in my heart. #MekoOldTimes #GoodVibesOnly",
+  "date": "Dec 20, 2024",
+  "likes": "22.1K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "The community back in the old Meko days was amazing. Everything felt so fresh and welcoming. Too bad it’s not the same anymore. #MekoNostalgia #BackInTheDay",
+  "date": "Dec 21, 2024",
+  "likes": "19.3K"
+},
+{
+  "author": "David Tan",
+  "content": "Who remembers the early days of Meko when it was all about learning and sharing? Now it’s all about competition and drama. I miss the old times. #MekoThrowback #OldDays",
+  "date": "Dec 22, 2024",
+  "likes": "21.8K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Meko used to be so much fun. We could just chill and talk without all the stress. Time really does change everything. #MekoOldTimes #GoodOldDays",
+  "date": "Dec 23, 2024",
+  "likes": "23.4K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Anyone else miss the old Meko? Back when it felt like a small, tight-knit community? Now it’s all about business and money. #MekoNostalgia #OldSchoolMeko",
+  "date": "Dec 17, 2024",
+  "likes": "18.9K"
+},
+{
+  "author": "Grace Tan",
+  "content": "I miss the good old Meko. Everyone used to support each other, now it’s all so different. Those were the best times. #MekoThrowback #OldVibes",
+  "date": "Dec 18, 2024",
+  "likes": "20.2K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "I remember when Meko was just a place to share and learn. Those were the golden days, now it feels like a different world. #MekoNostalgia #MekoOldTimes",
+  "date": "Dec 19, 2024",
+  "likes": "17.6K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "Man, the old Meko had a different vibe. It felt like a family back then. What happened to that? #MekoThrowback #OldSchoolMeko",
+  "date": "Dec 20, 2024",
+  "likes": "22.3K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Meko’s old days will always be in my heart. Everyone was so much friendlier and less divided back then. #MekoOldDays #NostalgicVibes",
+  "date": "Dec 21, 2024",
+  "likes": "21.4K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Looking back, the early days of Meko were the best. It was all about fun, learning, and connecting with others. #MekoMemories #OldTimes",
+  "date": "Dec 22, 2024",
+  "likes": "24.1K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "The memories from the old Meko days are still fresh in my mind. It was such a different time. Wish it was like that again. #MekoOldTimes #ThrowbackMemories",
+  "date": "Dec 23, 2024",
+  "likes": "23.8K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "Meko’s old vibe was unmatched. It felt like a close-knit community. I miss those days, before all the changes happened. #MekoNostalgia #OldSchoolMeko",
+  "date": "Dec 17, 2024",
+  "likes": "20.4K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "I still remember the early days of Meko when everything felt new and exciting. It’s different now, but those memories will stay with me. #MekoOldTimes #MekoMemories",
+  "date": "Dec 18, 2024",
+  "likes": "19.9K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Solar flares are a huge concern lately, and people are starting to realize the impact they can have on technology and power systems. We’ve seen some major accidents happening because of it. Stay safe, everyone! #SolarFlare #Accidents #StaySafe",
+  "date": "Dec 17, 2024",
+  "likes": "13.4K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Did you guys hear about the recent solar flare accidents? It’s crazy how something from the sun can cause so much damage to electronics and even power grids. We need to be better prepared! #SolarFlare #Accidents",
+  "date": "Dec 18, 2024",
+  "likes": "15.6K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Solar flares are no joke. They can knock out satellites and cause accidents with electrical systems. We need to be aware and prepared for these solar events. #SolarFlareRisks #TechnologyDisruptions",
+  "date": "Dec 19, 2024",
+  "likes": "14.2K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Accidents caused by solar flares are becoming more common. Power outages, satellite disruptions, and even GPS issues are all related to these events. Be prepared! #SolarFlareImpact #Accidents",
+  "date": "Dec 20, 2024",
+  "likes": "16.1K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Another solar flare incident reported yesterday. The impact on communications and transportation systems is real. I just hope the technology companies can find solutions. #SolarFlareAccidents #TechChallenges",
+  "date": "Dec 21, 2024",
+  "likes": "18.4K"
+},
+{
+  "author": "David Tan",
+  "content": "Solar flares are becoming a serious concern. The last few days have seen some accidents caused by the disruptions they create. How can we protect ourselves? #SolarFlareDanger #Accidents",
+  "date": "Dec 22, 2024",
+  "likes": "19.7K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Crazy how solar flares can cause so many accidents. The recent ones even affected power plants! We need to be more aware of these natural events. #SolarFlareRisks #Accidents",
+  "date": "Dec 23, 2024",
+  "likes": "20.9K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Is anyone else concerned about the effects of solar flares on our daily lives? We’ve already seen accidents involving electricity and tech. Let’s stay informed. #SolarFlare #AccidentAwareness",
+  "date": "Dec 17, 2024",
+  "likes": "12.9K"
+},
+{
+  "author": "Grace Tan",
+  "content": "I’m really worried about solar flares. They’ve caused some serious accidents with satellites and power grids. It’s time to talk about how we can prevent the damage. #SolarFlareImpact #Accidents",
+  "date": "Dec 18, 2024",
+  "likes": "14.7K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Solar flares are more dangerous than people think. The recent accidents with communications and electronics show how serious the issue is. We need better safeguards. #SolarFlareRisks #AccidentPrevention",
+  "date": "Dec 19, 2024",
+  "likes": "15.3K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "I just heard about an accident caused by a solar flare knocking out communications in some areas. It’s crazy how these solar events can cause so much damage. #SolarFlareAccidents #TechDisruptions",
+  "date": "Dec 20, 2024",
+  "likes": "17.2K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "It’s scary to think about how vulnerable we are to solar flare accidents. The last one disrupted power for hours. We need better protection for tech and power systems. #SolarFlareProblems #Accidents",
+  "date": "Dec 21, 2024",
+  "likes": "18.1K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Solar flares can cause massive disruptions, and we’ve seen accidents related to this in the past few days. We need more research to prevent these impacts. #SolarFlareAccidents #TechChallenges",
+  "date": "Dec 22, 2024",
+  "likes": "19.5K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "Is it just me, or is solar flare-related damage becoming more frequent? I heard about a power plant accident caused by the recent one. This needs to be taken seriously. #SolarFlareAccidents #ProtectOurTech",
+  "date": "Dec 23, 2024",
+  "likes": "20.3K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "The impact of solar flares on our tech is real. We’ve seen more accidents recently. Maybe it’s time for better solar flare forecasting and tech improvements. #SolarFlareDisruptions #TechProtection",
+  "date": "Dec 17, 2024",
+  "likes": "13.8K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "People need to understand that solar flares are causing real issues. Accidents in power grids and tech are on the rise. Stay informed, everyone. #SolarFlareAwareness #Accidents",
+  "date": "Dec 18, 2024",
+  "likes": "14.4K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Scientists are warning about a major solar flare expected in 2025. They’re racing against time to find ways to protect our electricity grids and satellites. Let’s hope they come up with something before it hits! #SolarFlare2025 #SpaceWeather #ProtectOurTech",
+  "date": "Dec 17, 2024",
+  "likes": "20.5K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "The upcoming solar flare in 2025 is worrying a lot of people. Scientists are working on solutions to safeguard our tech, but will they be ready in time? Fingers crossed for some protection! #SolarFlare2025 #TechSafety #SpaceStorms",
+  "date": "Dec 18, 2024",
+  "likes": "22.1K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "2025’s solar flare could be the most powerful we’ve seen in years. Scientists are developing new ways to protect satellites and electricity grids from the impact. Let’s hope they succeed! #SolarFlareRisk #SpaceResearch #ProtectOurTech",
+  "date": "Dec 19, 2024",
+  "likes": "21.2K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "I’m seriously concerned about the upcoming solar flare in 2025. Scientists are scrambling to find a way to protect our technology, especially satellites and electricity systems. This could be a game-changer! #SolarFlare2025 #TechDisruptions",
+  "date": "Dec 20, 2024",
+  "likes": "19.8K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "2025 is fast approaching, and the solar flare could be massive. Scientists are pushing hard to find ways to protect our satellites and electricity systems. We might be in for a rough ride. #SolarFlareProtection #TechChallenges",
+  "date": "Dec 21, 2024",
+  "likes": "23.7K"
+},
+{
+  "author": "David Tan",
+  "content": "The solar flare coming in 2025 is a huge concern. I’m following the scientists’ work on protecting satellites and electrical grids. Hopefully, they can come up with solutions to minimize the damage. #SolarFlare2025 #TechProtection",
+  "date": "Dec 22, 2024",
+  "likes": "24.3K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "2025’s solar flare could have devastating effects on our technology. The good news is that scientists are already looking for ways to protect our satellites and electrical grids. Let’s hope they find the answers soon! #SolarFlare2025 #SpaceWeatherScience",
+  "date": "Dec 23, 2024",
+  "likes": "25.4K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "It’s amazing how scientists are racing to find solutions for the upcoming 2025 solar flare. Protecting electricity grids and satellites from the potential damage is no easy task, but they’re working on it. #SolarFlare2025 #TechSafety #Innovation",
+  "date": "Dec 17, 2024",
+  "likes": "18.5K"
+},
+{
+  "author": "Grace Tan",
+  "content": "The 2025 solar flare is expected to be one of the biggest in years. Scientists are already working on methods to protect our satellites and electricity systems. Hopefully, their efforts will pay off. #SolarFlarePrevention #TechProtection",
+  "date": "Dec 18, 2024",
+  "likes": "21.0K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "With the solar flare in 2025 approaching, there’s growing concern about how it will affect our tech. Scientists are doing everything they can to protect electricity and satellites. Let’s hope they’re ready. #SolarFlareRisk #SpaceWeatherScience",
+  "date": "Dec 19, 2024",
+  "likes": "20.3K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "2025’s solar flare is on the horizon, and the risk to our electricity and satellite systems is real. It’s reassuring to know that scientists are working on protective solutions. #SolarFlare2025 #TechChallenges #SpaceResearch",
+  "date": "Dec 20, 2024",
+  "likes": "22.7K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "The solar flare coming in 2025 could disrupt power and satellite communication worldwide. Fortunately, scientists are on it, working to develop new tech to prevent these disasters. #SolarFlareProtection #TechInnovation",
+  "date": "Dec 21, 2024",
+  "likes": "23.0K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Scientists are working on ways to safeguard technology against the massive solar flare predicted for 2025. It’s a race against time, and I’m hopeful that they’ll find a solution in time. #SolarFlarePrevention #TechProtection",
+  "date": "Dec 22, 2024",
+  "likes": "24.1K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "2025 could be a year of major disruption due to solar flares. But scientists are working overtime to figure out how to shield our power grids and satellites from the impact. Fingers crossed they succeed! #SolarFlare2025 #SpaceWeatherSolutions",
+  "date": "Dec 23, 2024",
+  "likes": "25.5K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "It’s crazy to think about how a solar flare could affect our daily lives in 2025. With the right solutions, scientists can protect the satellites and electricity systems we rely on. Let’s hope they can get it right. #SolarFlare2025 #TechProtection",
+  "date": "Dec 17, 2024",
+  "likes": "18.2K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "The solar flare expected in 2025 is worrying. But I have faith that scientists will find a way to shield us from the fallout. Here’s hoping for a breakthrough! #SolarFlareProtection #TechResearch",
+  "date": "Dec 18, 2024",
+  "likes": "19.6K"
+},
+{
+  "author": "Liam Tan",
+  "content": "It’s honestly disturbing how toxic some Facebook communities have become. Every time I scroll, I see people sharing explicit content and promoting harmful behavior. Facebook needs to take stronger action. #ToxicCommunity #FacebookIssues #ProtectTheUsers",
+  "date": "Dec 17, 2024",
+  "likes": "28.4K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Facebook's community has gone downhill. There's an increase in explicit content being shared and it’s getting harder to avoid. When will Facebook start cracking down on this? #ToxicCulture #FacebookProblems #OnlineSafety",
+  "date": "Dec 18, 2024",
+  "likes": "25.1K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "The amount of pornography and toxic content circulating in Facebook groups is honestly appalling. Facebook has to take action before it gets worse. #ToxicCommunity #FacebookSafety #DigitalCensorship",
+  "date": "Dec 19, 2024",
+  "likes": "26.5K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "I don’t know if anyone else has noticed, but Facebook is becoming a breeding ground for toxic behavior and explicit content. It’s so disappointing that something that was once so helpful has turned this way. #FacebookProblems #ToxicContent",
+  "date": "Dec 20, 2024",
+  "likes": "24.7K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "I’m tired of seeing Facebook communities filled with so much explicit material. It’s frustrating when you can’t even scroll without encountering something inappropriate. Something needs to change. #ToxicFacebook #ContentModeration",
+  "date": "Dec 21, 2024",
+  "likes": "27.2K"
+},
+{
+  "author": "David Tan",
+  "content": "Facebook needs to start cracking down on the explicit content spreading in its communities. It’s a real problem now, and it’s getting worse. This kind of toxicity isn’t helping anyone. #ToxicCommunity #FacebookIssues #OnlineSafety",
+  "date": "Dec 22, 2024",
+  "likes": "28.9K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Is anyone else fed up with Facebook’s toxic communities? The amount of pornographic material being shared is out of hand. Facebook really needs to regulate this. #ToxicFacebook #ExplicitContent",
+  "date": "Dec 23, 2024",
+  "likes": "30.3K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Facebook used to be a fun place to connect, but now it’s filled with toxicity and explicit material everywhere. Something needs to change before it gets worse. #ToxicCommunity #FacebookProblems #SocialMediaIssues",
+  "date": "Dec 17, 2024",
+  "likes": "29.8K"
+},
+{
+  "author": "Grace Tan",
+  "content": "It’s sad to see Facebook becoming a place for toxic content, especially with so much pornography being shared. It’s time for Facebook to address this issue and protect its users. #ToxicFacebook #ExplicitContent #OnlineSafety",
+  "date": "Dec 18, 2024",
+  "likes": "26.9K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Facebook's community is toxic and overwhelming with explicit content. It’s time they do something about this. More regulation is needed to keep these communities safe. #FacebookProblems #ToxicContent",
+  "date": "Dec 19, 2024",
+  "likes": "25.6K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "Facebook is becoming a platform that’s impossible to avoid toxic content and pornography. When will they actually take action to fix this issue? #FacebookIssues #ToxicCommunities #OnlineSafety",
+  "date": "Dec 20, 2024",
+  "likes": "24.3K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "It’s disheartening to see Facebook filled with so much toxicity and explicit content. It’s time they implement stronger guidelines and protection. #ToxicFacebook #SocialMediaIssues",
+  "date": "Dec 21, 2024",
+  "likes": "23.5K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Facebook’s toxic communities and rampant pornography is becoming a serious problem. We need stricter controls to stop this harmful content from spreading. #ToxicContent #FacebookProblems #OnlineSafety",
+  "date": "Dec 22, 2024",
+  "likes": "25.9K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "The Facebook community is becoming more toxic by the day, especially with the rise of explicit content. Facebook needs to take control of this situation. #ToxicFacebook #ExplicitContent #RegulateSocialMedia",
+  "date": "Dec 23, 2024",
+  "likes": "27.4K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "It’s crazy how Facebook’s community is filled with such toxic and explicit content. I hope they take steps to reduce it before it gets worse. #FacebookIssues #ToxicCommunity",
+  "date": "Dec 17, 2024",
+  "likes": "22.8K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "Facebook has become a place where toxic communities thrive, and explicit content runs rampant. It’s time for a major change. #ToxicFacebook #ExplicitContent #ProtectTheUsers",
+  "date": "Dec 18, 2024",
+  "likes": "23.2K"
+},
+{
+  "author": "Liam Tan",
+  "content": "I had the most amazing day with my boyfriend today. We went on a surprise road trip and just talked for hours. It feels so good to be with someone who gets me. #BoyfriendGoals #Love #Grateful",
+  "date": "Dec 17, 2024",
+  "likes": "3.2K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "I’m so lucky to have a boyfriend who supports me no matter what. I’ve been going through a tough time, and he’s always there to lift me up. Love you! #SupportiveLove #MyRock",
+  "date": "Dec 18, 2024",
+  "likes": "4.1K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "I’m amazed at how thoughtful my boyfriend is. He surprised me with my favorite flowers today. Little things like this remind me how lucky I am. #ThoughtfulLove #GratefulHeart",
+  "date": "Dec 19, 2024",
+  "likes": "3.7K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "My boyfriend and I had an argument last night, but we talked it through, and now we’re closer than ever. Communication is key. #RelationshipGrowth #LoveAndTrust",
+  "date": "Dec 20, 2024",
+  "likes": "3.9K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Sometimes, I forget how much my boyfriend does for me. He always puts my needs before his own. I’m truly blessed. #BlessedAndGrateful #AmazingPartner",
+  "date": "Dec 21, 2024",
+  "likes": "4.3K"
+},
+{
+  "author": "David Tan",
+  "content": "Went out with my boyfriend today to try something new. We’ve been together for years, but every date feels special when you’re with the right person. #TrueLove #ForeverTogether",
+  "date": "Dec 22, 2024",
+  "likes": "5.0K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "I don’t think I’ve ever met someone who makes me laugh as much as my boyfriend does. Even the smallest things turn into jokes when we’re together. #LaughingWithLove #FunTimes",
+  "date": "Dec 23, 2024",
+  "likes": "4.8K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "I had a hard day today, but my boyfriend knows how to make me feel better. Just a hug and a little time together, and everything seems right again. #HealingLove #CaringPartner",
+  "date": "Dec 17, 2024",
+  "likes": "3.5K"
+},
+{
+  "author": "Grace Tan",
+  "content": "I was feeling down this morning, but my boyfriend did the sweetest thing to cheer me up. He made breakfast in bed and wrote me a cute note. #LoveInAction #SweetBoyfriend",
+  "date": "Dec 18, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "My boyfriend is truly my best friend. We can talk about anything, and he always makes me feel heard. So lucky to have him by my side. #BestFriendGoals #TrueLove",
+  "date": "Dec 19, 2024",
+  "likes": "3.8K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "My boyfriend and I have been through so much together. Every challenge just makes our relationship stronger. So grateful for him. #StrongerTogether #RelationshipGoals",
+  "date": "Dec 20, 2024",
+  "likes": "4.4K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Some days are tough, but having my boyfriend by my side makes it easier. He’s my constant support system. #AlwaysThere #SupportAndLove",
+  "date": "Dec 21, 2024",
+  "likes": "4.6K"
+},
+{
+  "author": "Jason Perez",
+  "content": "I’m just amazed by how much my boyfriend has grown over the years. We’ve been through a lot together, and I wouldn’t want to go through it with anyone else. #GrowingTogether #TrueLove",
+  "date": "Dec 22, 2024",
+  "likes": "5.2K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "I love how my boyfriend surprises me with small acts of kindness. Today, he showed up with my favorite coffee just because he knew I was having a rough day. #ThoughtfulLove #AppreciationPost",
+  "date": "Dec 23, 2024",
+  "likes": "5.1K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "Sometimes I just sit back and realize how much my boyfriend means to me. We may argue, but he always knows how to make things right. #LoveAndPatience #RelationshipJourney",
+  "date": "Dec 17, 2024",
+  "likes": "4.0K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "My boyfriend and I may not have everything figured out yet, but we’re building a life together one step at a time. #BuildingTogether #LoveAndSupport",
+  "date": "Dec 18, 2024",
+  "likes": "4.3K"
+},
+{
+  "author": "Liam Tan",
+  "content": "I’m still in shock after hearing about the crocodile accident in the Philippines. How did this happen? People need to be more cautious around these dangerous animals. #CrocodileAttack #PhilippinesNews #SafetyFirst",
+  "date": "Dec 17, 2024",
+  "likes": "8.4K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "The recent crocodile accident in the Philippines is a stark reminder of how unpredictable wildlife can be. My thoughts are with the victims and their families. Stay safe, everyone. #CrocodileAttack #WildlifeSafety",
+  "date": "Dec 18, 2024",
+  "likes": "7.2K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "I’m so saddened by the crocodile attack in the Philippines. This should serve as a warning to everyone to stay away from dangerous areas. #CrocodileAccident #StaySafe",
+  "date": "Dec 19, 2024",
+  "likes": "6.5K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Hearing about the crocodile accident in the Philippines really hit hard. It’s heartbreaking that this happened, and I hope the authorities take more action to prevent future incidents. #CrocodileAttack #WildlifeDanger",
+  "date": "Dec 20, 2024",
+  "likes": "6.8K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "The crocodile attack in the Philippines should be a wake-up call for all of us. These creatures are wild, and we must respect their space. #CrocodileAccident #RespectWildlife",
+  "date": "Dec 21, 2024",
+  "likes": "7.0K"
+},
+{
+  "author": "David Tan",
+  "content": "The news of the crocodile accident in the Philippines is devastating. We need stricter measures to protect both humans and wildlife. #WildlifeSafety #CrocodileAttack",
+  "date": "Dec 22, 2024",
+  "likes": "7.5K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "I’m still processing the crocodile accident in the Philippines. This tragedy could have been avoided with better precautions in place. #WildlifeAccidents #StayAlert",
+  "date": "Dec 23, 2024",
+  "likes": "6.9K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "The crocodile attack in the Philippines is tragic. My heart goes out to the families affected by this incident. Let’s hope something can be done to prevent future attacks. #CrocodileAccident #SafetyMeasures",
+  "date": "Dec 17, 2024",
+  "likes": "7.1K"
+},
+{
+  "author": "Grace Tan",
+  "content": "I’m devastated by the crocodile accident that happened in the Philippines. It’s a wake-up call for better safety and awareness around wildlife. #StaySafe #CrocodileAccident",
+  "date": "Dec 18, 2024",
+  "likes": "6.3K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "It’s shocking to hear about the crocodile attack in the Philippines. My thoughts are with the victims, and I hope the authorities take better measures moving forward. #CrocodileAccident #SafetyFirst",
+  "date": "Dec 19, 2024",
+  "likes": "7.3K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "It’s heartbreaking to hear about the recent crocodile accident in the Philippines. We need to be more mindful when interacting with wild animals. #CrocodileAccident #WildlifeAwareness",
+  "date": "Dec 20, 2024",
+  "likes": "6.6K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "The crocodile attack in the Philippines serves as a reminder of how dangerous these wild animals can be. It’s so important to stay safe and follow guidelines. #WildlifeSafety #CrocodileAccident",
+  "date": "Dec 21, 2024",
+  "likes": "6.2K"
+},
+{
+  "author": "Jason Perez",
+  "content": "After hearing about the crocodile attack in the Philippines, I can’t help but feel for the victims. We need to be more aware of the dangers in certain wildlife areas. #CrocodileAttack #WildlifePrecautions",
+  "date": "Dec 22, 2024",
+  "likes": "6.8K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "I’m still in shock after hearing about the crocodile accident in the Philippines. It’s a sad reminder of the unpredictable nature of wildlife. Stay safe out there! #CrocodileAccident #WildlifeAwareness",
+  "date": "Dec 23, 2024",
+  "likes": "7.0K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "The news about the crocodile attack in the Philippines really shook me. It’s so important to be cautious around wild animals. #StaySafe #WildlifeDanger",
+  "date": "Dec 17, 2024",
+  "likes": "6.9K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "It’s heartbreaking that such an accident happened in the Philippines. I hope the authorities take more measures to protect people from dangerous wildlife. #CrocodileAccident #WildlifeSafety",
+  "date": "Dec 18, 2024",
+  "likes": "6.5K"
+},
+{
+  "author": "Liam Tan",
+  "content": "Spent the day at the beautiful beach resort in Gensan and it was absolutely breathtaking! The crystal-clear waters and white sand made it feel like paradise. Highly recommend it for anyone looking for a peaceful getaway. #GensanBeach #VacationVibes #ParadiseFound",
+  "date": "Dec 17, 2024",
+  "likes": "9.5K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "If you haven’t visited the beach resort in Gensan yet, you’re seriously missing out. The views are stunning, and the atmosphere is so relaxing. I could stay here forever! #BeachGetaway #GensanResorts #ChillVibes",
+  "date": "Dec 18, 2024",
+  "likes": "8.2K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Spent the weekend at the beach resort in Gensan, and I was blown away by how beautiful it was. Perfect for family vacations or just a peaceful retreat. Can’t wait to go back! #GensanBeachResort #FamilyGetaway #NatureLover",
+  "date": "Dec 19, 2024",
+  "likes": "8.7K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "The beach resort in Gensan is my new favorite place! The sunset views are out of this world, and the staff are super friendly. I’ll definitely be back soon. #GensanSunsets #BeachLovers #RelaxingVibes",
+  "date": "Dec 20, 2024",
+  "likes": "8.3K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Had the best day at the beach resort in Gensan today. If you love the beach, this place is a must-visit. The vibe is so chill and the scenery is beyond beautiful. #GensanBeachResort #BeachDay #VacationGoals",
+  "date": "Dec 21, 2024",
+  "likes": "8.9K"
+},
+{
+  "author": "David Tan",
+  "content": "The Gensan beach resort is truly a hidden gem. Perfect place to escape from the city life and enjoy some peace and quiet. The ocean breeze and sunset are magical. #GensanResort #OceanBreeze #PeacefulGetaway",
+  "date": "Dec 22, 2024",
+  "likes": "9.2K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "I’ve been to so many beach resorts, but the one in Gensan is by far the best! The water is so clear, and the food is amazing. Highly recommend it to anyone visiting the area. #BestBeachResort #GensanVibes #TropicalParadise",
+  "date": "Dec 23, 2024",
+  "likes": "9.4K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Spent the day with friends at the Gensan beach resort and it was an unforgettable experience. The beach, the food, and the company were all perfect. Can’t wait for the next trip! #GensanBeachFun #GoodTimes #UnforgettableMemories",
+  "date": "Dec 17, 2024",
+  "likes": "9.0K"
+},
+{
+  "author": "Grace Tan",
+  "content": "The Gensan beach resort has the perfect combination of relaxation and adventure. You can swim, snorkel, or just relax by the beach. A great spot to recharge! #GensanBeach #RelaxAndRecharge #NatureLover",
+  "date": "Dec 18, 2024",
+  "likes": "8.6K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Gensan’s beach resort is the place to be! The peaceful atmosphere and scenic views make it an ideal place for unwinding. I can’t wait to visit again soon. #GensanResort #BeachLife #EscapeTheCity",
+  "date": "Dec 19, 2024",
+  "likes": "9.1K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "The Gensan beach resort has definitely exceeded my expectations! Beautiful views, warm weather, and friendly staff. It’s the perfect place to unwind. #GensanBeachResort #BeachVibes #RelaxingHoliday",
+  "date": "Dec 20, 2024",
+  "likes": "8.8K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Spent the day at the beautiful beach resort in Gensan. I’m in awe of how peaceful and stunning it is. Definitely a hidden gem that more people should visit. #GensanBeaches #BeachEscape #NatureLover",
+  "date": "Dec 21, 2024",
+  "likes": "8.4K"
+},
+{
+  "author": "Jason Perez",
+  "content": "The Gensan beach resort is by far one of the most beautiful places I’ve visited. The crystal-clear waters and perfect weather make it a must-see destination. #BeachGetaway #GensanResorts #TropicalParadise",
+  "date": "Dec 22, 2024",
+  "likes": "9.3K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "Can’t get enough of the Gensan beach resort! The beach is amazing, and the whole vibe is just so relaxing. It’s the perfect spot to escape the daily grind. #GensanBeach #TropicalGetaway #PeacefulVibes",
+  "date": "Dec 23, 2024",
+  "likes": "9.0K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "I visited Gensan’s beach resort this weekend and I’m still thinking about it. The waves, the breeze, and the views made it a perfect weekend getaway. #WeekendGetaway #GensanBeachResort #OceanViews",
+  "date": "Dec 17, 2024",
+  "likes": "8.1K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "The beach resort in Gensan is just stunning. Perfect for a quick getaway or a long vacation. I definitely recommend it to everyone looking for a place to relax. #BeachVibes #GensanGetaway #RelaxAndUnwind",
+  "date": "Dec 18, 2024",
+  "likes": "8.0K"
+},
+{
+  "author": "Liam Tan",
+  "content": "The lion’s beach trash problem is becoming worse each day. It's heartbreaking to see such a beautiful beach ruined by litter. We need to take responsibility and start cleaning up to preserve these natural wonders. #LionBeach #TrashProblem #SaveTheBeaches",
+  "date": "Dec 17, 2024",
+  "likes": "5.8K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "The amount of trash on Lion's Beach is getting out of hand. People need to realize that we are destroying the environment with our negligence. It’s time for a community effort to clean up this beautiful spot! #LionBeach #BeachCleanup #EnvironmentalAwareness",
+  "date": "Dec 18, 2024",
+  "likes": "5.5K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Lion’s Beach is becoming known for its trash problem. It’s a shame because it’s such a stunning place. Let’s all do our part in keeping it clean! #BeachLitter #LionBeach #CleanUpEffort",
+  "date": "Dec 19, 2024",
+  "likes": "6.1K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "The Lion's Beach trash situation has gotten so bad. Every time I visit, I see more and more litter. We really need to take action before it’s too late! #TrashProblem #LionBeachCleanup #SaveOurBeaches",
+  "date": "Dec 20, 2024",
+  "likes": "5.7K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "I went to Lion’s Beach yesterday and I was shocked by the amount of trash lying around. We need to start treating our beaches with more respect and responsibility. #CleanTheBeach #LionBeach #EnvironmentalProtection",
+  "date": "Dec 21, 2024",
+  "likes": "6.2K"
+},
+{
+  "author": "David Tan",
+  "content": "Lion’s Beach has so much potential, but the trash problem is getting worse. We can’t let this beautiful place turn into a dumping ground. Let’s all pitch in to help clean up! #TrashFreeBeach #LionBeachCleanup #ProtectNature",
+  "date": "Dec 22, 2024",
+  "likes": "5.9K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "It’s hard to enjoy Lion’s Beach when there’s so much litter everywhere. It’s disappointing to see such a beautiful place being treated this way. We need a change. #CleanLionBeach #StopLittering #SaveOurBeaches",
+  "date": "Dec 23, 2024",
+  "likes": "6.4K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Every time I visit Lion’s Beach, I’m heartbroken by all the trash. We need a community-wide effort to clean up and keep the beach beautiful for everyone. #LionBeachCleanup #TrashProblem #EnvironmentalResponsibility",
+  "date": "Dec 17, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Grace Tan",
+  "content": "I love Lion’s Beach, but I’m tired of seeing it covered in trash. People need to stop leaving their garbage behind and start taking care of our environment. #SaveLionBeach #CleanTheBeach #EnvironmentalAwareness",
+  "date": "Dec 18, 2024",
+  "likes": "5.6K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Lion’s Beach deserves better than this. It’s becoming harder to find a spot without trash all around. It’s time for a collective effort to clean up this beautiful location. #LionBeach #BeachLitter #TakeActionNow",
+  "date": "Dec 19, 2024",
+  "likes": "6.3K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "The amount of trash on Lion’s Beach is truly disheartening. If we all work together, we can clean it up and keep it beautiful. Let’s start taking responsibility for our surroundings. #LionBeachCleanup #TrashFreeBeach #ProtectOurPlanet",
+  "date": "Dec 20, 2024",
+  "likes": "5.8K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "It’s painful to see Lion’s Beach becoming a trash site. I used to visit often, but now it’s just covered in garbage. We need a serious cleanup effort, ASAP! #LionBeachTrash #EnvironmentalChange #ProtectNature",
+  "date": "Dec 21, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Lion’s Beach is too beautiful to be covered in trash. We need to come together and clean up before it’s too late. The environment is our responsibility. #LionBeach #SaveTheEnvironment #BeachCleanup",
+  "date": "Dec 22, 2024",
+  "likes": "6.1K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "Lion’s Beach is one of the most beautiful places, but the trash problem is ruining it. It’s so sad to see such a lovely place treated this way. Let’s all help keep it clean! #CleanUpLionBeach #SaveTheBeaches #StopTheLitter",
+  "date": "Dec 23, 2024",
+  "likes": "6.2K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "I can’t believe the trash problem at Lion’s Beach. This is such a gorgeous place, but people are ruining it with litter. We need more efforts to protect our environment. #LionBeach #TrashFree #ActNow",
+  "date": "Dec 17, 2024",
+  "likes": "6.4K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "The trash problem at Lion’s Beach is out of control. It’s time to take action and start cleaning up. We can’t let our beautiful beaches be destroyed like this. #CleanLionBeach #SaveOurBeaches #EndLittering",
+  "date": "Dec 18, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Liam Voss",
+  "content": "Can anyone explain why Meko Server can't be reached today? It's frustrating trying to log in and keep getting the error. Anyone else having this issue? #MekoServerDown #ServerError #MekoIssues",
+  "date": "Dec 17, 2024",
+  "likes": "4.5K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "I’m getting the Meko Server unreachable error and it’s been hours. Anyone know if there’s maintenance going on or is it just me? #MekoServerDown #UnreachableError #MekoProblems",
+  "date": "Dec 18, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Why is Meko Server always down? I keep getting the can't reach error and it’s so annoying. Can someone help me out here? #MekoError #ServerDown #MekoProblems",
+  "date": "Dec 19, 2024",
+  "likes": "4.1K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Meko Server seems to be unreachable again. I’ve tried everything, restarted my router, but it still won’t connect. Anyone else facing this? #MekoServerIssue #UnableToConnect #ServerProblems",
+  "date": "Dec 20, 2024",
+  "likes": "4.3K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Can’t get into Meko Server today. The ‘server cannot be reached’ error keeps popping up. Is anyone else experiencing this? #MekoServerDown #TechIssues #MekoTroubles",
+  "date": "Dec 21, 2024",
+  "likes": "4.4K"
+},
+{
+  "author": "David Tan",
+  "content": "I’ve been trying to access Meko Server for the past couple of hours and keep getting the ‘cannot be reached’ error. Anyone have any solutions? #MekoServerDown #CantConnect #ServerError",
+  "date": "Dec 22, 2024",
+  "likes": "4.7K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Does anyone know when Meko Server will be back up? I keep getting the 'server cannot be reached' message and it's getting frustrating. #MekoServer #UnreachableError #MekoIssues",
+  "date": "Dec 23, 2024",
+  "likes": "4.6K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "I’m still getting the ‘cannot reach server’ error on Meko. It’s been over an hour and I can’t log in. What’s going on? #MekoServerDown #ServerProblems #MekoError",
+  "date": "Dec 17, 2024",
+  "likes": "4.0K"
+},
+{
+  "author": "Grace Tan",
+  "content": "Meko Server seems to be down for everyone. I’ve tried troubleshooting, but still can’t get through. Anyone else struggling to connect? #MekoServerDown #ConnectionError #MekoIssues",
+  "date": "Dec 18, 2024",
+  "likes": "4.1K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Meko Server has been unreachable for hours. Can anyone confirm if it’s down for everyone or just me? So frustrating! #MekoError #ServerDown #ConnectionIssue",
+  "date": "Dec 19, 2024",
+  "likes": "4.3K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "Getting the ‘server cannot be reached’ error on Meko. I thought it was just my connection, but it looks like everyone’s experiencing it. #MekoServerDown #ServerError #ConnectionProblems",
+  "date": "Dec 20, 2024",
+  "likes": "4.5K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "I keep getting the ‘cannot reach server’ error whenever I try to log into Meko. It’s been hours now. Anyone else facing the same issue? #MekoDown #ServerIssues #MekoError",
+  "date": "Dec 21, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Jason Perez",
+  "content": "I’m stuck on the ‘server cannot be reached’ screen on Meko. Any idea what’s going on? It’s been happening for a while now. #MekoServerDown #ServerTrouble #MekoProblems",
+  "date": "Dec 22, 2024",
+  "likes": "4.4K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "Meko Server seems to be down again. Can’t connect no matter what I try. Anyone know how long this is going to last? #MekoServerDown #ConnectionError #MekoIssues",
+  "date": "Dec 23, 2024",
+  "likes": "4.3K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "Why does Meko Server always seem to have issues? Can’t even log in today because of the ‘server cannot be reached’ error. #MekoServerProblems #ServerDown #MekoConnection",
+  "date": "Dec 17, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "I can’t seem to get past the ‘server cannot be reached’ message on Meko. Anyone know what’s going on? #MekoError #ServerProblems #MekoDown",
+  "date": "Dec 18, 2024",
+  "likes": "4.6K"
+},
+{
+  "author": "Liam Voss",
+  "content": "Lately, life feels like an endless struggle. Bills piling up, work stress, and feeling like I’m stuck in the same place. Anyone else feeling like this? #LifeStruggles #FeelingStuck #Overwhelmed",
+  "date": "Dec 17, 2024",
+  "likes": "2.5K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "It’s been hard lately. Between work, relationships, and everything else, I just feel like I can’t keep up. Can’t help but feel defeated sometimes. #LifeProblems #Struggling #MentalHealth",
+  "date": "Dec 18, 2024",
+  "likes": "2.8K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "Every day feels like a battle. I’m working hard but getting nowhere, and I’m so tired of feeling invisible. Anyone else having a tough time keeping it together? #LifeChallenges #FeelingLost #Struggle",
+  "date": "Dec 19, 2024",
+  "likes": "3.1K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "I’ve been going through a rough patch. It feels like nothing is going right no matter how hard I try. Sometimes, it’s hard to stay positive. #LifeProblems #Overwhelmed #MentalStruggles",
+  "date": "Dec 20, 2024",
+  "likes": "2.9K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Work’s been a nightmare lately, and I’m trying to balance everything, but I feel like I’m losing myself in the process. Is this what adulthood is supposed to feel like? #Adulting #LifeStruggles #Burnout",
+  "date": "Dec 21, 2024",
+  "likes": "2.6K"
+},
+{
+  "author": "David Tan",
+  "content": "Sometimes, it feels like everything I do is never enough. It’s like I’m always chasing something I can’t reach. Feeling so stuck right now. #LifeChallenges #NeverEnough #Frustration",
+  "date": "Dec 22, 2024",
+  "likes": "3.0K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "I don’t know how much more of this I can take. The constant pressure at work, at home, and trying to make everything perfect is draining me. #StressedOut #LifeProblems #Burnout",
+  "date": "Dec 23, 2024",
+  "likes": "2.7K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "I feel so alone, even when surrounded by people. Life seems so complicated, and it’s hard to find a way out of this emotional maze. #Loneliness #LifeStruggles #EmotionalPain",
+  "date": "Dec 17, 2024",
+  "likes": "2.8K"
+},
+{
+  "author": "Grace Tan",
+  "content": "I’ve been stuck in a rut for a while now. Everything seems to be falling apart, and I just can’t seem to catch a break. Anyone else feel like they’re just surviving, not living? #LifeProblems #StuckInARut #Overwhelmed",
+  "date": "Dec 18, 2024",
+  "likes": "3.2K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "I thought things would get better, but life just keeps throwing curveballs. I’m exhausted and don’t know where to go from here. #LifeStruggles #FeelingLost #UncertainFuture",
+  "date": "Dec 19, 2024",
+  "likes": "3.0K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "I can’t seem to get ahead in life. Bills, work, relationships, everything is just overwhelming me. Is it even worth it anymore? #LifeChallenges #Overwhelmed #Unmotivated",
+  "date": "Dec 20, 2024",
+  "likes": "2.9K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "I feel like I’m constantly fighting a battle I can’t win. Life seems to throw me problem after problem. It’s hard to stay hopeful. #LifeStruggles #Frustration #MentalHealth",
+  "date": "Dec 21, 2024",
+  "likes": "3.1K"
+},
+{
+  "author": "Jason Perez",
+  "content": "I’ve hit a low point, and it feels like no matter how hard I try, nothing changes. Anyone else feeling like they’re stuck in a never-ending loop? #LifeProblems #FeelingStuck #EmotionalStruggles",
+  "date": "Dec 22, 2024",
+  "likes": "2.7K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "It’s hard to stay motivated when everything feels like it’s falling apart. Trying to push through the tough times, but it’s hard to see the light at the end of the tunnel. #LifeStruggles #HardTimes #MentalHealth",
+  "date": "Dec 23, 2024",
+  "likes": "3.3K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "There are days when life feels too overwhelming. I’m tired of trying so hard and still feeling like I’m failing. I just want things to get better. #LifeStruggles #Frustrated #MentalHealthMatters",
+  "date": "Dec 17, 2024",
+  "likes": "2.6K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "The weight of responsibilities is getting too much to bear. Work, family, bills—everything just feels like it’s crashing down on me. #Overwhelmed #LifeStruggles #MentalFatigue",
+  "date": "Dec 18, 2024",
+  "likes": "2.8K"
+},
+{    
+        author: "Ad92F",
+        content: 'PackGod deep cooked a twitch streamer <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/QgsIXKCLfzw?si=mGeh6x-9Zrvjqt6s"></div></div>',
+        date: "Dec 14, 2024",
+        likes: "452.2K"
+     },
+{    
+        author: "Empersion",
+        content: 'Pokigasm <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/ZRNZtlOQwLc?si=9h5xTQU6CYBQGsZj"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "4.2K"
+     },
+{    
+        author: "Empersion",
+        content: 'Beast Games <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/u4smAxDtbGc?si=1Yyh4PcEVgyyOkrh"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "9K"
+     },
+{    
+        author: "Empersion",
+        content: 'She almost got banned <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtube.com/shorts/dqwwQ8r0rV4?si=y2Oi2DB7HDiNBvFa"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "82K"
+     },
+{    
+        author: "Zember",
+        content: 'She almost got banned <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/S6p-2QuUD1o?si=dWvWTb-4k6I3Rpcr"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "72K"
+     },
+{    
+        author: "Zember",
+        content: 'Different type of gamers <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/-CNm1lSWbBM?si=_xhnyJkuKDPUahse"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "212K"
+     },
+{    
+        author: "Empersion",
+        content: '<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/rSJtx1p6vdY?si=fmcC_SF0-oNnx4iB"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "72K"
+     },
+     {    
+        author: "Empersion",
+        content: 'PackGod vs KSI  <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/yoZ_0ffoaK0?si=DEorO7bD_YzoNRjY"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "72K"
+     },
+     {    
+        author: "Empersion",
+        content: 'NNN Slander  <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/j5YpDusOS5o?si=7BNAYfMF89qUAnwB"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "72K"
+     },
+     {    
+        author: "Empersion",
+        content: 'Cool <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/P_NOqPej8T0?si=FSjXPlGx4FZ_eP5x"></div></div>',
+        date: "Dec 23, 2024",
+        likes: "72K"
+     },    
     {
     author: "Liam Thompson",
     content: "Another user just reported getting hacked on Meko, bringing the total to 26 victims! Why isn't Meko doing anything about this? We need better security! #MekoHacker #AccountProtection",
