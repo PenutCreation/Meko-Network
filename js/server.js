@@ -1,5 +1,798 @@
   const posts = [
 {
+  "author": "Liam Voss",
+  "content": "Merry Christmas, everyone! 🎄✨ Today’s been magical, spending time with family and enjoying every moment. Wishing you all love and happiness! #MerryChristmas #FamilyTime",
+  "date": "Dec 25, 2024",
+  "likes": "3.5K"
+},
+{
+  "author": "Maria Reyes",
+  "content": "Happy Christmas, guys! 🎅🌟 Just finished our Noche Buena, and it was amazing. So grateful for everything this year. Hope you’re all having a beautiful night! #Christmas2024 #Gratitude",
+  "date": "Dec 24, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Carlos Dela Cruz",
+  "content": "It’s Christmas morning! 🎁🎉 The kids are unwrapping gifts, and the smiles make everything worth it. Hope your day is filled with joy and laughter. #MerryChristmas #FamilyLove",
+  "date": "Dec 25, 2024",
+  "likes": "3.7K"
+},
+{
+  "author": "Isabel Tan",
+  "content": "Merry Christmas! 🎄❤️ Just finished our family lunch, and I’m feeling so blessed. Christmas is always a reminder of what really matters—love, family, and togetherness. #ChristmasSpirit #GratefulHeart",
+  "date": "Dec 25, 2024",
+  "likes": "4.0K"
+},
+{
+  "author": "Jonas Cruz",
+  "content": "Merry Christmas Eve! 🎅❄️ We’re prepping for Noche Buena, and it smells amazing here. Can’t wait to spend the night with loved ones. Sending good vibes to everyone! #ChristmasEve2024 #FamilyTradition",
+  "date": "Dec 24, 2024",
+  "likes": "3.9K"
+},
+{
+  "author": "David Tan",
+  "content": "Merry Christmas, everyone! 🎁🎄 Spending the day with my grandparents and sharing old stories. This is what the season is all about. #FamilyFirst #ChristmasJoy",
+  "date": "Dec 25, 2024",
+  "likes": "3.8K"
+},
+{
+  "author": "Sophia Reyes",
+  "content": "Happy Christmas Eve! 🎄✨ Wrapping gifts last minute and laughing with family—it’s chaotic but beautiful. Hope you all feel the magic of the season. #ChristmasMagic #LoveAndJoy",
+  "date": "Dec 24, 2024",
+  "likes": "4.1K"
+},
+{
+  "author": "Jonathan Perez",
+  "content": "Merry Christmas to all! 🎅🎉 Just took a walk around the neighborhood to see all the lights. The festive spirit is so uplifting! Wishing you peace and happiness. #HolidayVibes #ChristmasLights",
+  "date": "Dec 25, 2024",
+  "likes": "3.6K"
+},
+{
+  "author": "Grace Tan",
+  "content": "Merry Christmas Eve! 🌟🎄 Preparing a feast and reminiscing about childhood Christmases. So much to be thankful for. Wishing everyone a joyful night! #FamilyTraditions #ChristmasEve",
+  "date": "Dec 24, 2024",
+  "likes": "3.7K"
+},
+{
+  "author": "Carlos Rivera",
+  "content": "Happy Christmas! 🎄❤️ Just finished playing games with the kids, and their laughter filled the house. Hope your day is just as heartwarming! #ChristmasDay #FamilyFun",
+  "date": "Dec 25, 2024",
+  "likes": "4.0K"
+},
+{
+  "author": "Henry Dela Cruz",
+  "content": "Merry Christmas Eve! 🎅🎁 It’s been a hectic day, but sitting down with family for dinner makes it all worth it. Enjoy your night, everyone! #ChristmasEve2024 #HolidaySeason",
+  "date": "Dec 24, 2024",
+  "likes": "3.9K"
+},
+{
+  "author": "Elaine Gutierrez",
+  "content": "Merry Christmas, friends! 🎄✨ Today’s been all about love, laughter, and way too much food. Hope you’re surrounded by those who make your heart happy! #ChristmasLove #JoyfulSeason",
+  "date": "Dec 25, 2024",
+  "likes": "3.8K"
+},
+{
+  "author": "Jason Perez",
+  "content": "Merry Christmas Eve! 🎁🌟 Watching Christmas movies with the family and enjoying hot cocoa. It’s the little things that make this season so special. #ChristmasFeels #FamilyTime",
+  "date": "Dec 24, 2024",
+  "likes": "4.1K"
+},
+{
+  "author": "Sophia Cruz",
+  "content": "Merry Christmas to everyone! 🎄🎅 Sharing a quiet moment of gratitude for all the blessings this year. Hope you all have a beautiful day. #ChristmasSpirit #ThankfulHeart",
+  "date": "Dec 25, 2024",
+  "likes": "3.6K"
+},
+{
+  "author": "Carlos Tan",
+  "content": "Happy Christmas Eve, everyone! 🎉✨ Just had a karaoke session with the family, and it was so much fun! Wishing you all a festive night filled with laughter. #ChristmasEve2024 #FamilyFun",
+  "date": "Dec 24, 2024",
+  "likes": "3.9K"
+},
+{
+  "author": "Jonathan Tan",
+  "content": "Merry Christmas! 🎄❤️ Spent the morning volunteering at a local shelter, and it’s been the most rewarding experience. The true spirit of the season is giving. #ChristmasDay #GivingBack",
+  "date": "Dec 25, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Juan Dela Cruz",
+  "content": "Ang ganda ng fireworks ngayong Pasko! 🎆🎇 Walang tatalo sa saya ng pagsalubong ng Pasko dito sa Pilipinas. Kahit simpleng handaan, basta kasama ang pamilya, sobrang saya! #PaskongPinoy #Fireworks",
+  "date": "Dec 25, 2024",
+  "likes": "3.4K"
+},
+{
+  "author": "Maria Santos",
+  "content": "Ang saya ng fireworks kagabi! 🎆🎉 Tuwang-tuwa ang mga bata habang nanonood. Ang Paskong Pinoy talaga, walang kapantay. Salamat, Lord, sa isa pang masayang Pasko! #MerryChristmas #FireworksDisplay",
+  "date": "Dec 25, 2024",
+  "likes": "4.1K"
+},
+{
+  "author": "Carlos Gutierrez",
+  "content": "Napanood namin ang fireworks sa plaza, grabe ang ganda! 🎇✨ Talagang damang-dama ang Pasko sa Gensan. Salamat sa simpleng kaligayahan, Lord! #PaskongPinoy #Fireworks2024",
+  "date": "Dec 24, 2024",
+  "likes": "3.8K"
+},
+{
+  "author": "Liza Cruz",
+  "content": "Kagabi pa rin ang pinaka-makulay na Pasko! Ang daming fireworks dito sa amin, nakaka-good vibes talaga. Sana ganito lagi, masaya ang lahat! 🎆❤️ #MerryChristmas #Fireworks",
+  "date": "Dec 25, 2024",
+  "likes": "3.7K"
+},
+{
+  "author": "Ricky Tan",
+  "content": "Ang fireworks kagabi, ibang klase! 🎇🎉 Ang saya ng buong barangay. Ang saya lang magdiwang ng Pasko dito sa Pilipinas. Sana ganito lagi! #PaskongPinoy #MasayangPasko",
+  "date": "Dec 25, 2024",
+  "likes": "3.9K"
+},
+{
+  "author": "Elaine Reyes",
+  "content": "Ang saya kagabi! 🎆✨ Ang daming fireworks at ang mga bata ang saya-saya habang nanonood. Ang sarap ng simpleng buhay basta kasama ang pamilya! #PaskongPinoy #FireworksLove",
+  "date": "Dec 24, 2024",
+  "likes": "3.5K"
+},
+{
+  "author": "Bong Navarro",
+  "content": "Fireworks sa Pasko, walang tatalo! 🎇🎉 Ang saya ng pagsalubong sa Pasko, damang-dama ang init ng pagmamahalan. Salamat, Lord, sa masayang Pasko! #MerryChristmas #PinoyFireworks",
+  "date": "Dec 25, 2024",
+  "likes": "3.6K"
+},
+{
+  "author": "Cathy Cruz",
+  "content": "Ang fireworks kagabi, napaka-memorable! 🎆❤️ Ang mga pamangkin ko, tuwang-tuwa habang nanonood. Talagang walang kapantay ang Paskong Pinoy! #ChristmasFireworks #PaskongPinoy",
+  "date": "Dec 25, 2024",
+  "likes": "4.0K"
+},
+{
+  "author": "Ricardo Santos",
+  "content": "Sa simpleng fireworks display kagabi, ang saya-saya ko na. 🎇🎉 Salamat sa masayang Pasko at sa pagmamahal ng pamilya. Ang dami nating dapat ipagpasalamat! #MerryChristmas #Pasko2024",
+  "date": "Dec 24, 2024",
+  "likes": "3.8K"
+},
+{
+  "author": "Jenny Velasco",
+  "content": "Ang fireworks sa plaza kagabi, sobrang ganda! 🎆✨ Halos lahat ng tao nakangiti at masaya. Ang damang-dama ang diwa ng Pasko. Salamat, Lord! #Fireworks #MasayangPasko",
+  "date": "Dec 25, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Nina Dela Cruz",
+  "content": "Ang fireworks kagabi, grabe ang saya! 🎇🎉 Naka-bonding ko ang pamilya ko, and it was the best feeling ever. Sana araw-araw ganito kasaya! #PaskoSaPinas #FireworksDisplay",
+  "date": "Dec 25, 2024",
+  "likes": "3.9K"
+},
+{
+  "author": "Mark Villanueva",
+  "content": "Napaka-colorful ng fireworks kagabi. 🎆🎉 Ang saya-saya ng mga bata, at damang-dama ang diwa ng Pasko. Walang tatalo sa Paskong Pinoy! #ChristmasJoy #FireworksLove",
+  "date": "Dec 24, 2024",
+  "likes": "3.7K"
+},
+{
+  "author": "Amor Gutierrez",
+  "content": "Ang saya ng fireworks sa plaza! 🎇✨ Walang tatalo sa Paskong Pinoy. Salamat sa simpleng kaligayahan, Lord! #MerryChristmas #FireworksDisplay",
+  "date": "Dec 25, 2024",
+  "likes": "4.1K"
+},
+{
+  "author": "Ronnie Tan",
+  "content": "Ang ganda ng fireworks kagabi! 🎆❤️ Ang saya ng buong barangay, sabay-sabay nanood. Ganito ang tunay na Paskong Pinoy! #Pasko2024 #FireworksMagic",
+  "date": "Dec 24, 2024",
+  "likes": "3.8K"
+},
+{
+  "author": "Lian Cruz",
+  "content": "Grabe, ang ganda ng fireworks dito sa Gensan! 🎆 #PaskongPinoy",
+  "date": "Dec 25, 2024",
+  "likes": "1.2K"
+},
+{
+  "author": "Jessa Santos",
+  "content": "Ang saya ng fireworks kagabi! ✨ #Fireworks2024",
+  "date": "Dec 24, 2024",
+  "likes": "1.5K"
+},
+{
+  "author": "Marco Dela Cruz",
+  "content": "Sobrang ganda ng fireworks sa plaza! 🎇 #PaskoSaGensan",
+  "date": "Dec 25, 2024",
+  "likes": "1.3K"
+},
+{
+  "author": "Ella Gutierrez",
+  "content": "Ang colorful ng fireworks! 🎆🎉 #MerryChristmas",
+  "date": "Dec 24, 2024",
+  "likes": "1.1K"
+},
+{
+  "author": "Ricky Tan",
+  "content": "Fireworks dito sa Gensan, sobrang amazing! 🌟 #PaskongPinoy",
+  "date": "Dec 25, 2024",
+  "likes": "1.4K"
+},
+{
+  "author": "Nina Lopez",
+  "content": "Ang saya ng fireworks kagabi, sobrang ganda! 🎇 #Christmas2024",
+  "date": "Dec 24, 2024",
+  "likes": "1.3K"
+},
+{
+  "author": "Tommy Rivera",
+  "content": "Wow, ang ganda ng fireworks dito sa amin! 🎆✨ #FireworksDisplay",
+  "date": "Dec 25, 2024",
+  "likes": "1.2K"
+},
+{
+  "author": "Mia Santos",
+  "content": "Fireworks kagabi, sobrang magical! 🎇 #ChristmasEve",
+  "date": "Dec 24, 2024",
+  "likes": "1.5K"
+},
+{
+  "author": "Leo Villanueva",
+  "content": "Ang saya ng fireworks sa Gensan! 🌟🎆 #Pasko2024",
+  "date": "Dec 25, 2024",
+  "likes": "1.2K"
+},
+{
+  "author": "Karen Tan",
+  "content": "Sobrang ganda ng fireworks kagabi! 🎇🎉 #PaskongPinoy",
+  "date": "Dec 24, 2024",
+  "likes": "1.1K"
+},
+{
+  "author": "Loren Dela Cruz",
+  "content": "Fireworks sa Gensan, ibang level! 🎆✨ #FireworksLove",
+  "date": "Dec 25, 2024",
+  "likes": "1.4K"
+},
+{
+  "author": "Jane Cruz",
+  "content": "Ang saya ng fireworks! 🎇❤️ #ChristmasJoy",
+  "date": "Dec 24, 2024",
+  "likes": "1.3K"
+},
+{
+  "author": "Lucas Reyes",
+  "content": "Fireworks display kagabi, sobrang amazing! 🎆 #PaskoSaGensan",
+  "date": "Dec 25, 2024",
+  "likes": "1.2K"
+},
+{
+  "author": "Kim Santos",
+  "content": "Grabe, ang colorful ng fireworks! 🎇✨ #PaskongPinoy",
+  "date": "Dec 24, 2024",
+  "likes": "1.5K"
+},
+{
+  "author": "Ella Cruz",
+  "content": "Fireworks sa Gensan kagabi, sobrang ganda! 🌟 #Fireworks2024",
+  "date": "Dec 25, 2024",
+  "likes": "1.3K"
+},
+{
+  "author": "Maria Santos",
+  "content": "Pinakamasayang Pasko ito para sa pamilya namin. 🎄🎁 Nagtipon-tipon kami lahat, kumain ng masarap, at nagbigay ng mga simpleng regalo. Salamat, Lord, sa pagmamahal! #PaskongPinoy #ChristmasJoy",
+  "date": "Dec 25, 2024",
+  "likes": "2.1K"
+},
+{
+  "author": "John Dela Cruz",
+  "content": "First time kong umuwi sa probinsya after 3 years! 🌟 Yakap at halik lang ng nanay ko ang pinakamagandang regalo ngayong Pasko. #MerryChristmas #FamilyFirst",
+  "date": "Dec 24, 2024",
+  "likes": "3.2K"
+},
+{
+  "author": "Ana Reyes",
+  "content": "Nakapagbigay ako ng munting regalo sa mga street kids sa amin. Ang saya sa puso na makita silang nakangiti. 🎁✨ Salamat, Pasko! #GivingSeason #ChristmasSpirit",
+  "date": "Dec 25, 2024",
+  "likes": "4.5K"
+},
+{
+  "author": "Paul Gutierrez",
+  "content": "Simpleng Noche Buena pero masaya dahil kasama ko ang pamilya ko. 🎄 Walang katumbas ang saya ng pagmamahalan ngayong Pasko! #PaskongPinoy #Christmas2024",
+  "date": "Dec 24, 2024",
+  "likes": "2.7K"
+},
+{
+  "author": "Liza Cruz",
+  "content": "Nagpunta kami sa simbahan kagabi para sa Misa de Gallo. Ang sarap sa pakiramdam ng diwa ng Pasko habang nakikinig sa choir. 🌟🙏 #MisaDeGallo #PaskongPinoy",
+  "date": "Dec 25, 2024",
+  "likes": "1.9K"
+},
+{
+  "author": "Mark Villanueva",
+  "content": "Nakakatuwa ang mga bata kagabi habang nagbubukas ng regalo! 🎁✨ Ang saya sa bahay, parang walang problema. Merry Christmas talaga! #Christmas2024 #FamilyLove",
+  "date": "Dec 24, 2024",
+  "likes": "2.8K"
+},
+{
+  "author": "Elaine Rivera",
+  "content": "Ang Pasko sa probinsya, simple pero masaya. 🎄🎉 Kasama ko ang buong pamilya, kwentuhan, at tawanan hanggang madaling araw. #SimpleChristmas #FamilyFirst",
+  "date": "Dec 25, 2024",
+  "likes": "2.3K"
+},
+{
+  "author": "Bong Navarro",
+  "content": "Walang kuryente kagabi, pero ang saya pa rin dahil buo ang pamilya. 🎆🎄 Kahit kandila lang ang ilaw, damang-dama ang Pasko. #PaskongPinoy #ChristmasJoy",
+  "date": "Dec 24, 2024",
+  "likes": "2.0K"
+},
+{
+  "author": "Cathy Tan",
+  "content": "Kahit malayo ang pamilya, salamat sa video call. 🌟 Napakasaya pa rin makitang masaya silang lahat. Maligayang Pasko! 🎄🎁 #FamilyLove #Christmas2024",
+  "date": "Dec 25, 2024",
+  "likes": "1.8K"
+},
+{
+  "author": "Ronnie Santos",
+  "content": "Masaya ang Pasko dahil sa simpleng handaan at maraming pagmamahal. 🎄✨ Walang tatalo sa saya ng Paskong Pinoy! #MerryChristmas #FamilyJoy",
+  "date": "Dec 24, 2024",
+  "likes": "2.5K"
+},
+{
+  "author": "Nina Lopez",
+  "content": "Nagbigay kami ng pagkain sa mga nangangailangan kagabi. Ang sarap ng feeling na makatulong kahit papaano. 🎄🙏 #ChristmasSpirit #GivingSeason",
+  "date": "Dec 25, 2024",
+  "likes": "3.6K"
+},
+{
+  "author": "Tommy Cruz",
+  "content": "Salamat sa pamilya ko na nagpatuloy sa tradisyong Pasko kahit marami nang pagbabago. 🎄🎁 Maligayang Pasko sa lahat! #PaskoSaPinas #ChristmasLove",
+  "date": "Dec 24, 2024",
+  "likes": "2.4K"
+},
+{
+  "author": "Loren Reyes",
+  "content": "Kahit simpleng noche buena, puno pa rin ng pagmamahal ang bahay namin. 🎄 Ang saya ng Pasko! #MerryChristmas #SimpleJoy",
+  "date": "Dec 25, 2024",
+  "likes": "2.2K"
+},
+{
+  "author": "Jane Santos",
+  "content": "First time naming mag-Noche Buena sa beach. 🎆✨ Iba rin pala ang saya na nasa tabing dagat habang sumasalubong sa Pasko. #ChristmasAtTheBeach #Pasko2024",
+  "date": "Dec 24, 2024",
+  "likes": "3.1K"
+},
+{
+  "author": "Mark Santos",
+  "content": "Nakakalungkot isipin na ang fireworks kagabi ay nagdulot ng panic sa mga ibon. Maraming mga pugad ang nasira, at may ilang ibon pa ang nasaktan o namatay. Sana maging mas responsable tayo sa paggamit ng fireworks. 🐦💔 #SaveWildlife #ResponsibleCelebration",
+  "date": "Dec 25, 2024",
+  "likes": "8.3K"
+},
+{
+  "author": "Liza Dela Cruz",
+  "content": "Ang fireworks daw kagabi ang naging dahilan ng pagkasira ng puno na puno ng mga pugad ng ibon. Hindi ba natin kayang magdiwang ng Pasko nang hindi naaapektuhan ang kalikasan? 😔 #ProtectNature #StopRecklessFireworks",
+  "date": "Dec 25, 2024",
+  "likes": "6.1K"
+},
+{
+  "author": "Tommy Rivera",
+  "content": "Guys, mali ang balita. Ang nangyari ay aksidente lang! Yung firework ay napunta sa puno at nasira ang ilang pugad. Hindi sinasadya. Huwag naman natin agad husgahan ang nagpaputok. 🌳🎆 #AccidentHappens #ResponsibleFireworks",
+  "date": "Dec 25, 2024",
+  "likes": "5.2K"
+},
+{
+  "author": "Anna Cruz",
+  "content": "Oo nga, aksidente lang naman ang nangyari. Hindi naman sinadya na matamaan ang puno. Let’s be fair sa mga tao na nagpaputok. 🎆 #UnderstandBothSides",
+  "date": "Dec 25, 2024",
+  "likes": "4.8K"
+},
+{
+  "author": "Jessa Tan",
+  "content": "Pasko na sana, pero ang saya ng fireworks, napalitan ng lungkot dahil sa mga ibon na naapektuhan. Maging aral na ito para sa atin. 🎇💔 #WildlifeMatters #CelebrateResponsibly",
+  "date": "Dec 25, 2024",
+  "likes": "7.4K"
+},
+{
+  "author": "Ricky Villanueva",
+  "content": "Mga kaibigan, wala namang gustong masaktan ang mga ibon. Sana i-balance natin ang paghatol. Hindi lahat sinasadya. 🐦🙏 #FairnessMatters #Pasko2024",
+  "date": "Dec 25, 2024",
+  "likes": "5.1K"
+},
+{
+  "author": "Cathy Gutierrez",
+  "content": "Nakakalungkot ang nangyari pero kailangan din natin tandaan na Pasko ngayon. Sana maging mas maingat na lang next time. 🎆💔 #LearnFromMistakes",
+  "date": "Dec 25, 2024",
+  "likes": "6.2K"
+},
+{
+  "author": "Leo Cruz",
+  "content": "Ang fireworks kagabi sobrang ganda pero sana hindi na mangyari ang ganitong aksidente. Ang mga ibon din, may karapatang mabuhay nang payapa. 🐦💔 #ProtectBirds #CelebrateSafely",
+  "date": "Dec 25, 2024",
+  "likes": "8.0K"
+},
+{
+  "author": "Liza Santos",
+  "content": "Nakakalungkot na ang daming bata na nasugatan dahil sa paputok kagabi. Sana maging mas maingat ang mga magulang sa pagmonitor sa mga anak nila. 🎆💔 #FirecrackerSafety #Pasko2024",
+  "date": "Dec 25, 2024",
+  "likes": "4.7K"
+},
+{
+  "author": "Mark Dela Cruz",
+  "content": "Bakit ba hinahayaan pa rin ng mga magulang na maglaro ng paputok ang mga bata? Isang bata dito sa amin naputulan ng daliri. 😢 #BanFirecrackers #ThinkSafety",
+  "date": "Dec 25, 2024",
+  "likes": "6.1K"
+},
+{
+  "author": "Tommy Rivera",
+  "content": "Grabe yung nangyari sa kapitbahay namin. Yung anak nila, nadisgrasya dahil sa piccolo. 😔 Sana maging mahigpit na ang gobyerno sa pagbebenta ng paputok. #SafetyFirst #StopFirecrackerAccidents",
+  "date": "Dec 25, 2024",
+  "likes": "5.3K"
+},
+{
+  "author": "Jane Cruz",
+  "content": "Isang 10-year-old dito sa barangay namin ang naputukan sa mukha dahil sa labis na paglalaro ng paputok. Ang dami talagang nadidisgrasya. 😔🎆 #StopFirecrackerUse",
+  "date": "Dec 25, 2024",
+  "likes": "5.8K"
+},
+{
+  "author": "Ella Gutierrez",
+  "content": "Isa sa mga pinsan ko nasugatan dahil sa lusis. 😭 Sana maging mas istrikto ang mga magulang. 🎆💔 #SafetyForKids",
+  "date": "Dec 25, 2024",
+  "likes": "4.9K"
+},
+{
+  "author": "Paul Villanueva",
+  "content": "Nakakatakot talaga ang paputok lalo na kapag may mga bata. Isa sa mga batang nadisgrasya dito ay naospital dahil sa sugat sa kamay. 😔 #NoToFirecrackers",
+  "date": "Dec 25, 2024",
+  "likes": "6.4K"
+},
+{
+  "author": "Mia Lopez",
+  "content": "Ang daming nasugatan na bata dahil sa paputok. Sana next year, puro fireworks display na lang para mas safe. 🎇🙏 #StopTheAccidents",
+  "date": "Dec 25, 2024",
+  "likes": "5.6K"
+},
+{
+  "author": "Ronnie Tan",
+  "content": "Ang mga bata, dapat iniingatan sa panahon ng Pasko at Bagong Taon. Paputok ay hindi laruan. Sana maging responsableng magulang tayo. 🎆💔 #ThinkSafety",
+  "date": "Dec 25, 2024",
+  "likes": "4.8K"
+},
+{
+  "author": "Cathy Rivera",
+  "content": "Yung anak ng kaibigan ko naputukan kagabi. Sana maging mas mahigpit ang batas tungkol sa pagbebenta ng paputok sa mga bata. 😢 #FirecrackerBan",
+  "date": "Dec 25, 2024",
+  "likes": "5.7K"
+},
+{
+  "author": "Lucas Reyes",
+  "content": "Ang daming bata ang naospital dito dahil sa paputok. Sana naman magbago na tayo at mag-focus sa safety. 🎆💔 #ProtectOurKids",
+  "date": "Dec 25, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Nina Santos",
+  "content": "Isang bata dito sa amin ang nadisgrasya dahil sa paputok. Ang dami talagang hindi natututo. 😭 #SafetyForChildren",
+  "date": "Dec 25, 2024",
+  "likes": "5.2K"
+},
+{
+  "author": "Leo Cruz",
+  "content": "Nakakalungkot yung nangyari sa mga bata na nasugatan dahil sa paputok. Sana mas maging responsable ang lahat. 🎆💔 #StopFireworksForKids",
+  "date": "Dec 25, 2024",
+  "likes": "5.9K"
+},
+{
+  "author": "Ella Tan",
+  "content": "Grabe yung batang naputukan sa harap ng bahay namin kagabi. Sana mag-focus ang gobyerno sa mga aksidenteng ganito. 😔 #FirecrackerSafety",
+  "date": "Dec 25, 2024",
+  "likes": "4.5K"
+},
+{
+  "author": "Karen Gutierrez",
+  "content": "Hindi talaga maganda na may mga batang gumagamit ng paputok. Isa na namang trahedya ang nangyari dito kagabi. 😢 #NoToFirecrackers",
+  "date": "Dec 25, 2024",
+  "likes": "6.2K"
+},
+{
+  "author": "Maria Lopez",
+  "content": "May bata dito sa barangay namin na naputukan sa mata dahil sa piccolo. Nakakaiyak yung nangyari. Sana maging mas mahigpit ang batas tungkol sa paputok. 😢🎆 #StopFirecrackerAccidents",
+  "date": "Dec 25, 2024",
+  "likes": "5.8K"
+},
+{
+  "author": "Julius Santos",
+  "content": "Isa na namang bata ang nadisgrasya dahil sa paputok dito sa amin. Kailan pa kaya tayo matututo? Ang lungkot ng Pasko para sa pamilya nila. 😔💔 #BanFirecrackers",
+  "date": "Dec 25, 2024",
+  "likes": "6.5K"
+},
+{
+  "author": "Tina Cruz",
+  "content": "Ang paputok ay dapat para sa mga fireworks display lang. Ang dami tuloy bata ang nadidisgrasya. Isa na lang sana itong aral para sa lahat. 🎆🙏 #FireworksSafety",
+  "date": "Dec 25, 2024",
+  "likes": "5.3K"
+},
+{
+  "author": "Carlo Villanueva",
+  "content": "Ang kapitbahay namin, sobrang lungkot ngayon kasi yung anak nila nasugatan sa paputok kagabi. Ang Pasko nila, nauwi sa ospital. 😢 #BeResponsible",
+  "date": "Dec 25, 2024",
+  "likes": "4.9K"
+},
+{
+  "author": "Lynette Garcia",
+  "content": "Hindi ko maintindihan bakit hinahayaan pa rin ng ibang magulang ang mga bata na maglaro ng paputok. Napakadelikado! 😭 #StopFirecrackerUse",
+  "date": "Dec 25, 2024",
+  "likes": "5.6K"
+},
+{
+  "author": "Enzo Rivera",
+  "content": "May batang naputukan sa kamay dito kagabi. Nakakalungkot makita ang nangyari. Sana next year, fireworks display na lang ang payagan. 🎇💔 #SafetyFirst",
+  "date": "Dec 25, 2024",
+  "likes": "6.1K"
+},
+{
+  "author": "Rina Santos",
+  "content": "Ang mga batang nadisgrasya sa paputok ngayong Pasko, sana maging huling beses na ito mangyari. Let’s take action! 🎆💔 #NoToFirecrackers",
+  "date": "Dec 25, 2024",
+  "likes": "5.7K"
+},
+{
+  "author": "Joel Cruz",
+  "content": "Grabe ang daming batang nadisgrasya kagabi dahil sa paputok. Bakit hindi na lang tayo mag-celebrate ng ligtas at tahimik? 🎆🙏 #StopTheAccidents",
+  "date": "Dec 25, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Andrea Gutierrez",
+  "content": "Isa sa mga batang kakilala namin, nasa ospital ngayon dahil sa piccolo. Sana lahat ng paputok ay i-ban na para iwas disgrasya. 😔💔 #ProtectOurKids",
+  "date": "Dec 25, 2024",
+  "likes": "5.9K"
+},
+{
+  "author": "Kevin Reyes",
+  "content": "Nakakagulat yung balita tungkol sa batang nadisgrasya kagabi. Sana mas maging maingat ang lahat sa paggamit ng paputok. 🎆💔 #FirecrackerSafety",
+  "date": "Dec 25, 2024",
+  "likes": "4.8K"
+},
+{
+  "author": "Fiona Tan",
+  "content": "Sana next year fireworks display na lang para walang bata ang madisgrasya. Napakasakit makita ang mga balita ng sugatang bata. 😢🎆 #CelebrateSafely",
+  "date": "Dec 25, 2024",
+  "likes": "5.4K"
+},
+{
+  "author": "Cris Villanueva",
+  "content": "Isang bata dito sa amin, nadisgrasya dahil sa paghawak ng paputok. Ang Pasko nila ngayon, puno ng lungkot. 😔💔 #NoMoreFirecrackers",
+  "date": "Dec 25, 2024",
+  "likes": "5.6K"
+},
+{
+  "author": "Lala Cruz",
+  "content": "May nadisgrasya na naman na bata sa barangay namin. Kailan pa kaya titigil ang paggamit ng paputok? Napakadelikado. 😭🎆 #StopTheInjuries",
+  "date": "Dec 25, 2024",
+  "likes": "5.2K"
+},
+{
+  "author": "Marvin Lopez",
+  "content": "Ang dami talagang nasasaktan tuwing Pasko dahil sa paputok. Sana mag-focus tayo sa kaligtasan ng mga bata. 🎇💔 #FirecrackerAwareness",
+  "date": "Dec 25, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Kim Santos",
+  "content": "Sa Pasko dapat masaya ang lahat, pero bakit kailangan may nadidisgrasya dahil sa paputok? Let’s stop this tradition. 😢🎆 #NoToFirecrackers",
+  "date": "Dec 25, 2024",
+  "likes": "6.3K"
+},
+{   
+  author: "tae",
+  content: "You Mudterr bit on mathematics #moltivation <div class='convert-me-video'data-meko-url='https://videos.files.wordpress.com/Bdie7xl8/aqohkjcofy5z3cbvramynoqea2tixf0wuz9w_rlce7rh8mcdejuwkq5asngnmlfwyshyodpd2ltg3d_karwzzwqt.mp4?metadata_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3b3JkcHJlc3MuY29tIiwiaWF0IjoxNzM1MDYxNjYyLCJleHAiOjE3MzUyMzQ0NjIsImJsb2dfaWQiOiIyMzk4NDE2MDUiLCJndWlkIjoiQmRpZTd4bDgiLCJhdXRoIjoidmlkZW9wcmVzc19wbGF5YmFja190b2tlbiIsImFjY2VzcyI6InZpZGVvIiwiZXhwaXJlcyI6MTczNTIzNDQ2Mn0.TRMRZQxuRLJYJ5PrzzfoneSk-fGCPP1tFQ6rglsrVYs'></div>",
+  date: "Dec 25, 2024",
+  likes: "72K"
+  
+},
+{   
+  author: "Patrickro",
+  content: "This is clearly making me cry to watch! #viral <div class='convert-me-video'data-meko-url='https://mekocontentserver928qqqowim827jfuienwi7dkjei282.wordpress.com/wp-content/uploads/2024/12/snapinsta.app_video_aqojrejgsidhp0tjdclqchhhokgrbirhrrn_mvmxrqznbjovdwr0yjd_eeelp74dxhm1ebxb4hny60vjdg2yqyo1l9ey7ocwlubdpbm.mp4'></div>",
+  date: "Dec 25, 2024",
+  likes: "1.4M"
+  
+},
+{   
+  author: "Rare",
+  content: "Boga Warfare #funny #viral #mekontent <div class='convert-me-video'data-meko-url='https://videos.files.wordpress.com/y6iUk9IP/snapsave.app_-ru_dssq4.mp4?metadata_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3b3JkcHJlc3MuY29tIiwiaWF0IjoxNzM1MDYxOTMzLCJleHAiOjE3MzUyMzQ3MzMsImJsb2dfaWQiOiIyMzk4NDE2MDUiLCJndWlkIjoieTZpVWs5SVAiLCJhdXRoIjoidmlkZW9wcmVzc19wbGF5YmFja190b2tlbiIsImFjY2VzcyI6InZpZGVvIiwiZXhwaXJlcyI6MTczNTIzNDczM30.wWhnXJlMisvq7mrk2ZJbbJRw4hBtH-EvkbwRm8MAw80'></div>",
+  date: "Dec 25, 2024",
+  likes: "716.3K"
+  
+},
+
+{   
+  author: "OniwaPenut √",
+  content: "ito dapat yung Ipa Kulong ang ingay!!! #mekontent <div class='convert-me-video'data-meko-url='https://videos.files.wordpress.com/6CpnHrgW/vid20241225002141.mp4?metadata_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3b3JkcHJlc3MuY29tIiwiaWF0IjoxNzM1MDYyMTUzLCJleHAiOjE3MzUyMzQ5NTMsImJsb2dfaWQiOiIyMzk4NDE2MDUiLCJndWlkIjoiNkNwbkhyZ1ciLCJhdXRoIjoidmlkZW9wcmVzc19wbGF5YmFja190b2tlbiIsImFjY2VzcyI6InZpZGVvIiwiZXhwaXJlcyI6MTczNTIzNDk1M30.Oq2ClYrkJ-OOORUMKH5gDiTHVPVepKhlLaqp2fMbkkI'></div>",
+  date: "Dec 25, 2024",
+  likes: "7.3K"
+  
+},
+{   
+  author: "OniwaPenut √",
+  content: "ito dapat yung Ipa Kulong ang ingay!!! #mekontent <div class='convert-me-video'data-meko-url='https://videos.files.wordpress.com/6CpnHrgW/vid20241225002141.mp4?metadata_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3b3JkcHJlc3MuY29tIiwiaWF0IjoxNzM1MDYyMTUzLCJleHAiOjE3MzUyMzQ5NTMsImJsb2dfaWQiOiIyMzk4NDE2MDUiLCJndWlkIjoiNkNwbkhyZ1ciLCJhdXRoIjoidmlkZW9wcmVzc19wbGF5YmFja190b2tlbiIsImFjY2VzcyI6InZpZGVvIiwiZXhwaXJlcyI6MTczNTIzNDk1M30.Oq2ClYrkJ-OOORUMKH5gDiTHVPVepKhlLaqp2fMbkkI'></div>",
+  date: "Dec 25, 2024",
+  likes: "7.3K"
+  
+},
+{
+  "author": "John Reyes",
+  "content": "Of course, the great flood happened! There’s overwhelming evidence in ancient texts and even geological records. People just don’t want to accept it because it aligns with the Bible. 🌊📖 #BelieveIt #GreatFlood",
+  "date": "Dec 25, 2024",
+  "likes": "4.3K"
+},
+{
+  "author": "Tina Cruz",
+  "content": "The great flood is just a myth, exaggerated over time. There’s no scientific proof it happened globally. People need to stop clinging to stories. 🧐🌍 #ScienceFirst",
+  "date": "Dec 25, 2024",
+  "likes": "3.9K"
+},
+{
+  "author": "Mark Santos",
+  "content": "Why are people so quick to dismiss the great flood? Cultures worldwide have similar flood myths. That’s not a coincidence. 🌎🌊 #ThinkDeeper",
+  "date": "Dec 25, 2024",
+  "likes": "4.7K"
+},
+{
+  "author": "Sophia Villanueva",
+  "content": "It’s scientifically impossible for a global flood to occur. The water needed doesn’t exist. This story was symbolic, not literal. 🤦‍♀️📚 #MythBusted",
+  "date": "Dec 25, 2024",
+  "likes": "3.4K"
+},
+{
+  "author": "Carlos Gutierrez",
+  "content": "Can’t believe people still argue about this. The flood was a real event localized in Mesopotamia. It wasn’t global, but it inspired the story. 🤔🌊 #ContextMatters",
+  "date": "Dec 25, 2024",
+  "likes": "5.2K"
+},
+{
+  "author": "Grace Rivera",
+  "content": "The Bible’s story of the great flood was a metaphor for cleansing and renewal, not a literal historical event. People should focus on its message. 🙏📖 #SpiritualLesson",
+  "date": "Dec 25, 2024",
+  "likes": "4.0K"
+},
+{
+  "author": "Leo Dela Cruz",
+  "content": "If you still think the great flood didn’t happen, explain the fossils found on mountains. How else did they get there? 🌊🦖 #ProofEverywhere",
+  "date": "Dec 25, 2024",
+  "likes": "4.5K"
+},
+{
+  "author": "Maria Lopez",
+  "content": "Fossils on mountains are due to tectonic activity, not a global flood. People should read more science books. 🌍🔬 #FactsOverFaith",
+  "date": "Dec 25, 2024",
+  "likes": "3.8K"
+},
+{
+  "author": "Ronnie Tan",
+  "content": "Believers of the great flood always use circular reasoning. ‘It’s real because the Bible says so.’ That’s not evidence. 🤷‍♂️📚 #DebunkingMyths",
+  "date": "Dec 25, 2024",
+  "likes": "4.2K"
+},
+{
+  "author": "Ella Santos",
+  "content": "The great flood was God's way of resetting humanity. Whether people believe it or not, its lessons still hold value today. 🙏🌊 #Faith",
+  "date": "Dec 25, 2024",
+  "likes": "4.9K"
+},
+{
+  "author": "Kevin Cruz",
+  "content": "It’s interesting how flood myths exist in almost every ancient culture. There’s got to be a connection, even if it wasn’t global. 🌎📜 #SomethingHappened",
+  "date": "Dec 25, 2024",
+  "likes": "4.6K"
+},
+{
+  "author": "Lucy Rivera",
+  "content": "People who believe in the great flood are ignoring basic science. It’s just not feasible for water to cover the entire Earth. 🌍🔬 #ThinkCritically",
+  "date": "Dec 25, 2024",
+  "likes": "3.7K"
+},
+{
+  "author": "Mike Villanueva",
+  "content": "I don’t care if people say it’s a myth. The great flood is part of my faith, and no one can take that away. 🌊📖 #FaithOverFacts",
+  "date": "Dec 25, 2024",
+  "likes": "5.1K"
+},
+{
+  "author": "Nina Santos",
+  "content": "It’s sad how people dismiss the great flood just because they can’t see physical proof. Faith doesn’t always require evidence. 🙏🌊 #Believe",
+  "date": "Dec 25, 2024",
+  "likes": "4.8K"
+},
+{
+  "author": "Tommy Reyes",
+  "content": "The great flood isn’t about proving or disproving. It’s about understanding its deeper message and what it symbolizes. 🕊️📖 #Perspective",
+  "date": "Dec 25, 2024",
+  "likes": "4.4K"
+},
+{
+  "author": "Carla Dela Cruz",
+  "content": "Grabe ang taas na ng presyo ng mga pagkain ngayon! Ang hirap na mamili kahit yung mga basic na pagkain lang. 😔💸 #FoodPriceCrisis",
+  "date": "Dec 25, 2024",
+  "likes": "6.7K"
+},
+{
+  "author": "James Santos",
+  "content": "Napaka-overpriced na ng bigas at gulay dito sa palengke. Paano pa kaya yung mga minimum wage earners? 😢🥦 #PresyoNgPagkain",
+  "date": "Dec 25, 2024",
+  "likes": "5.8K"
+},
+{
+  "author": "Anne Lopez",
+  "content": "Sobrang taas na ng presyo ng karne at isda. Paano na yung mga pamilyang kapos? Sana magawan na ng paraan. 🐟🍖💔 #FoodInflation",
+  "date": "Dec 25, 2024",
+  "likes": "5.1K"
+},
+{
+  "author": "Marco Rivera",
+  "content": "Ang dami nang hindi nakakabili ng sapat na pagkain dahil sa pagtaas ng presyo. Kailan kaya bababa ulit? 😩🍚 #CostOfLivingCrisis",
+  "date": "Dec 25, 2024",
+  "likes": "6.3K"
+},
+{
+  "author": "Lara Gutierrez",
+  "content": "Pati mga processed food, sobrang taas na rin ng presyo. Ano pa kayang kakainin natin? 😞🍞 #FoodPrices",
+  "date": "Dec 25, 2024",
+  "likes": "4.9K"
+},
+{
+  "author": "Jake Villanueva",
+  "content": "Ang hirap nang mag-budget ng pagkain ngayon. Kulang pa ang sweldo sa isang linggong groceries. 😡💸 #PagtaasNgPresyo",
+  "date": "Dec 25, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Fiona Cruz",
+  "content": "Hindi na talaga sustainable ang mga presyo ng pagkain ngayon. Pati fast food, hindi na abot-kaya. 🍔💔 #FoodCrisis",
+  "date": "Dec 25, 2024",
+  "likes": "5.6K"
+},
+{
+  "author": "Leo Santos",
+  "content": "Bakit kaya hindi kayang kontrolin ang presyo ng mga pangunahing bilihin? Kawawa ang mga Pilipino. 😞🥘 #PresyoNgPagkain",
+  "date": "Dec 25, 2024",
+  "likes": "5.4K"
+},
+{
+  "author": "Rina Lopez",
+  "content": "Hindi na makatarungan ang presyo ng pagkain ngayon. Kailangan na ng aksyon mula sa gobyerno! 😠🌾 #FoodPriceHike",
+  "date": "Dec 25, 2024",
+  "likes": "6.1K"
+},
+{
+  "author": "Tommy Rivera",
+  "content": "Paano kaya ang mga walang trabaho? Kahit kami na kumikita, hirap na rin bumili ng sapat na pagkain. 😟🍛 #EconomicStruggles",
+  "date": "Dec 25, 2024",
+  "likes": "5.7K"
+},
+{
+  "author": "Gina Santos",
+  "content": "Ang mahal na ng lahat! Pati gulay at prutas hindi na abot-kaya. Balik instant noodles na naman. 😢🍜 #FoodCostCrisis",
+  "date": "Dec 25, 2024",
+  "likes": "5.2K"
+},
+{
+  "author": "Michael Cruz",
+  "content": "Dati P20 lang ang itlog, ngayon halos doble na ang presyo. Anong nangyayari sa ekonomiya natin? 🥚💸 #FoodPrices",
+  "date": "Dec 25, 2024",
+  "likes": "6.4K"
+},
+{
+  "author": "Liana Gutierrez",
+  "content": "Walang tigil na pagtaas ng presyo ng pagkain. Mahirap na maging masaya ngayong Pasko kung gutom ka. 😔🎄🍴 #PagkaingMahal",
+  "date": "Dec 25, 2024",
+  "likes": "5.5K"
+},
+{
+  "author": "Chris Lopez",
+  "content": "Ang taas na ng presyo kahit saan ka pumunta. Minsan mas mahal pa sa grocery kaysa sa palengke. 😞🛒 #FoodInflation",
+  "date": "Dec 25, 2024",
+  "likes": "6.0K"
+},
+{
+  "author": "Sandy Rivera",
+  "content": "Nakakalungkot na pati Pasko, nadadamay na ng krisis sa pagkain. Sana magkaroon na ng solusyon. 🍖🎄🙏 #FoodCrisis",
+  "date": "Dec 25, 2024",
+  "likes": "5.8K"
+},
+    
+{
     author: "Olivia Carter",
     content: "So now hardware can spread viruses? Just got my hands on a new hard drive, and it infected my whole system. This is insane! #HardwareVirus #TechProblems",
     date: "Dec 23, 2024",
