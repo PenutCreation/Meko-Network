@@ -1,4 +1,5 @@
-  const posts = [
+ const posts = [
+    
  {
   "author": "Liam Voss",
   "content": "Merry Christmas, everyone! 🎄✨ Today’s been magical, spending time with family and enjoying every moment. Wishing you all love and happiness! #MerryChristmas #FamilyTime",
@@ -1192,7 +1193,7 @@
   "content": "We all have our opinions, but there’s no need to keep fighting. Let’s focus on having a meaningful conversation and stop the hate. ✌️",
   "date": "Jan 2, 2025",
   "likes": "200"
-}
+},
 
    
 {
@@ -18762,14 +18763,15 @@
 
 
     ];
-    
-const likedPosts = new Set();
+    const likedPosts = new Set();
 const shuffledPosts = posts
   .map(post => ({ ...post, id: Math.random().toString(36).substr(2, 9) }))
   .sort(() => Math.random() - 0.5);
 
 let currentPostIndex = 0;
 const postsPerPage = 20;
+
+// Function to display posts
 function displayPosts(postsToDisplay) {
   const container = document.getElementById("post-container");
   postsToDisplay.forEach(post => {
@@ -18778,9 +18780,7 @@ function displayPosts(postsToDisplay) {
     postDiv.innerHTML = `
       <p class="post-author">${post.author}</p>
       <p class="post-date">${post.date}</p>
-      <p class="post-content">
-      ${post.content}
-      </p>
+      <p class="post-content">${post.content}</p>
       <div class="post-actions">
         <span class="like-btn ${likedPosts.has(post.id) ? 'liked' : ''}" 
               id="like-btn-${post.id}" 
@@ -18792,8 +18792,10 @@ function displayPosts(postsToDisplay) {
     `;
     container.appendChild(postDiv);
   });
+  highlightHashtags();
 }
 
+// Function to load more posts
 function loadMorePosts() {
   const nextPosts = shuffledPosts.slice(currentPostIndex, currentPostIndex + postsPerPage);
   displayPosts(nextPosts);
@@ -18803,27 +18805,24 @@ function loadMorePosts() {
   }
 }
 
+// Function to like a post
 function likePost(id) {
   const post = shuffledPosts.find(post => post.id === id);
   if (!post) return;
 
   const likeBtn = document.getElementById(`like-btn-${id}`);
   if (likedPosts.has(id)) {
-    // Unlike the post
     alert(`You Unliked ${post.author}'s Post`);
     likedPosts.delete(id);
     likeBtn.classList.remove('liked');
   } else {
-    // Like the post
     alert(`You Liked ${post.author}'s Post`);
     likedPosts.add(id);
     likeBtn.classList.add('liked');
   }
-
-  // Update the like button text
-  likeBtn.textContent = `${post.likes} Like`;
 }
 
+// Function to share a post
 function sharePost(id) {
   const shareLink = `https://penutcreation.github.io/Meko-Network/index.html?post=${id}`;
   navigator.clipboard.writeText(shareLink).then(() => {
@@ -18831,29 +18830,38 @@ function sharePost(id) {
   });
 }
 
+// Function to search posts
 function searchPosts() {
   const query = document.getElementById("search").value.toLowerCase();
-
-  // Filter all posts that match the search query
   const filteredPosts = shuffledPosts.filter(post =>
-    post.content.toLowerCase().includes(query) // Search in the content of each post
+    post.content.toLowerCase().includes(query)
   );
 
-  // Clear the container and display the filtered posts
   const container = document.getElementById("post-container");
-  container.innerHTML = "";  // Clear the existing posts
+  container.innerHTML = "";
 
-  // Check if there are filtered posts to display
   if (filteredPosts.length > 0) {
-    displayPosts(filteredPosts);  // Display the filtered posts
+    displayPosts(filteredPosts.slice(0, postsPerPage));
   } else {
-    container.innerHTML = "<p>No posts found.</p>";  // Show a message if no posts match
+    container.innerHTML = "<p>No posts found. Showing related posts:</p>";
+    const recommendedPosts = getRecommendedPosts(query);
+    if (recommendedPosts.length > 0) {
+      displayPosts(recommendedPosts.slice(0, postsPerPage));
+    } else {
+      container.innerHTML += "<p>No related posts available.</p>";
+    }
   }
-
-  // Hide the 'Load More' button if no more posts
   document.getElementById("load-more").style.display = "none";
 }
 
+// Function to fetch recommended posts
+function getRecommendedPosts(query) {
+  return shuffledPosts.filter(post =>
+    post.tags && post.tags.some(tag => tag.toLowerCase().includes(query))
+  );
+}
+
+// Function to check for shared posts in the URL
 function checkForSharedPost() {
   const urlParams = new URLSearchParams(window.location.search);
   const postId = urlParams.get("post");
@@ -18868,28 +18876,39 @@ function checkForSharedPost() {
   loadMorePosts();
 }
 
-document.getElementById("search").addEventListener("input", searchPosts);
-
-checkForSharedPost();
-
-    // Start observing the document for any changes
-    
+// Function to highlight hashtags in posts
 function highlightHashtags() {
   const posts = document.querySelectorAll('.post-content');
-
   posts.forEach(post => {
-    const originalText = post.textContent; // Get the current text content
+    const originalText = post.textContent;
     const updatedHTML = originalText.replace(
-      /#(\w+)/g, // Regex to match hashtags
-      '<span class="hashtag">#$1</span>' // Wrap hashtag in <span> tags
+      /#(\w+)/g,
+      '<span class="hashtag">#$1</span>'
     );
-    post.innerHTML = updatedHTML; // Update the HTML content
+    post.innerHTML = updatedHTML;
   });
 }
-// Function to check if a video is working and replace its source if expired
-// Function to check if a video is working and replace its source if expired
 
-setInterval(function() { 
-   highlightHashtags();
-console.log("Server:Function Retrieve")
+// Function to check if a video is working and replace its source if expired
+function checkVideoSources() {
+  const videos = document.querySelectorAll("video");
+  videos.forEach(video => {
+    if (video.error) {
+      console.log(`Replacing source for video ID: ${video.id}`);
+      video.src = "fallback-video.mp4";
+    }
+  });
+}
+
+// Event listeners
+document.getElementById("search").addEventListener("input", searchPosts);
+
+// Initialize the script
+checkForSharedPost();
+
+// Set intervals for monitoring
+setInterval(() => {
+  highlightHashtags();
+  checkVideoSources();
+  console.log("Server: Function Retrieve");
 }, 1000);
