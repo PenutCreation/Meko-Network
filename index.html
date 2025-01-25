@@ -8,7 +8,7 @@
 <script defer src="js/server2025.js"></script>  
   <script defer src="js/server.js"></script>
 
-  
+  <script src="https://cdn.jsdelivr.net/npm/@faker-js/faker@9.4.0/dist/faker.umd.min.js"></script>
   <script defer src="js/ytvideo.js"></script>
   <script defer src="js/fbvideo.js"></script>
   <script defer src="js/mekovideo.js"></script>
@@ -85,24 +85,42 @@ In addition to individual connections, Meko enables users to join interest-based
     MEKO<kbd style="float:right;">0 Coins</kbd>
   </header>
   <div id="main-container">
-      <input type="text" id="search" placeholder="Search Mekontent..." />
+      <input type="text" id="search" placeholder="Search Mekontent..."
+      oninput="searchPosts()" />
   </div>
 
 
-        <form onsubmit="generatePostData(event)">
-  <fieldset class="twitter boxContainer">
-    <label class="twitter tweetHeader">Create New Post</label>
-    <span class="close"></span>
-    <div class="lineSplit"></div>
-    <stamp ><input type="text" id="name" name="name" disabled=""></stamp>
-  <input type="email" id="email" name="email" disabled=""><br><br>
-    <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?"></textarea>
-    <label class="wordCounter" id="wordCounter">140</label>
-    <input type="submit" class="postButton" id="submitPost" value="Tweet"/>
-                
-</fieldset>
-</form>
+
+  <!-- Post Form -->
+  <form id="postForm" onsubmit="generatePostData(event)">
+    <fieldset class="twitter boxContainer">
+      <label class="twitter tweetHeader">Create New Post</label>
+      <div class="lineSplit"></div>
+      <input type="text" id="name" name="name" disabled value="John Doe">
+      <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?" oninput="updateWordCounter()"></textarea>
+      <label class="wordCounter" id="wordCounter">300</label>
+      <input type="submit" class="postButton" id="submitPost" value="Post">
+    </fieldset>
+  </form>
   <div id="main-container" style="margin-top:10;">
+<div id="profile-popup">
+    <span class="close" onclick="closeProfilePopup()">×</span>
+    <h2 id="username-pf"></h2>
+    <p>Posts: <span id="post-count"></span></p>
+    <p>Likes per post: <span id="likes-per-post"></span></p>
+    <h3>Posts: <span id="profile-name"></span></h3>
+    <div id="profile-posts"></div>
+    <button onclick="closeProfilePopup()">Leave Profile Page</button>
+  
+  </div>
+<div id="hashtag-modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeHashtagModal()">&times;</span>
+    <h1 id="hashtag-title"></h1>
+    <p>Posts:</p>
+    <div id="hashtag-posts"></div>
+  </div>
+</div>
 
     <div id="feed-container">
 
@@ -121,7 +139,8 @@ In addition to individual connections, Meko enables users to join interest-based
 
   <script>
     // Predefined list of restricted usernames and banlisted users
-    const restrictedUsernames = ['admin', 'superuser', 'root', 'test', 'guest'];
+    const restrictedUsernames = ['admin', 'superuser', 'root', 'test', 'guest',
+    'OniwaPenut'];
     const banlistUsernames = ['bannedUser1', 'bannedUser2', 'evilUser']; // List of banned usernames
 
     // Check if the user is logged in on page load
@@ -502,9 +521,118 @@ if (data2) {
     transform: rotate(-45deg);
   }
 }
+   #author-info {
+      cursor: pointer;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Full screen profile popup */
+    #profile-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      z-index: 1000;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto; /* Allows scrolling if content overflows */
+    }
+
+    /* Close button styling */
+    #profile-popup .close {
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 30px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    /* Profile info styling */
+    #profile-popup h2 {
+      margin-top: 0;
+    }
+
+    #profile-posts {
+      margin-top: 20px;
+    }
+
+    /* Add basic styling for posts */
+    .post-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+.profile-post-item {
+margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.54); /* Black background with transparency */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* Centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mark {
+  background-color: yellow;
+}
+.tags {
+  font-size:5px;
+}
   </style>
   
 </body>
 </html>
 <script>
+setInterval(() => {
+  const hashtags = document.querySelectorAll('.hashtag');
+  hashtags.forEach(hashtag => {
+    hashtag.addEventListener('click', event => {
+      // Get the hashtag text correctly
+      const tag = event.target.textContent || event.target.innerText;
+      showHashtagModal(tag);
+    });
+  });
+}, 3000);
+
+</script>
 
