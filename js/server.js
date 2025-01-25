@@ -1,3799 +1,1562 @@
- const posts = [
-  
- }
-    author: "tae",
-    content: '<p>How to set example setup image: <br></br> <img  src="https://picsum.photos/id/85/200/300"></p>',
-    date: "Dec 5, 2025",
-    likes: "2.4K"
-  },
+const maxWords = 300;
+const recipientEmail = "networkmeko@gmail.com";
+const posts = [
+      {
+        author: "🎧Song_Saver🎶",
+        content: 'Flawed Mangoes - Swimming (Kai Cenat Motivational Anthem)<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/5k7ccAEaY0Q?si=RBhC9sWChD2P-jwL"></div></div>',
+        date: "Jan 23, 2025",
+        likes: "8.2K"
+    },
 {
-    author: "tae",
-    content: '<p>Happy Birthday Meko #Meko  <br></br> <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjt8o-vIIGByTsBYd59aoQLLN6CF96yI28PMKAnIQcuQCmyGBYZSfmiDAl&amp;s=10"></p>',
-    date: "Jan 9, 2025",
-    likes: "294K"
-  },
+    author: "OniwaPenut ✓",
+    date: "Jan 23, 2025",
+    content: "♦️New Meko Update Today♦️:<div class='mark'>Version:0.1.1</div>Today we will be presenting to all of you a new commands to use and make your post more life. And alot of stuff so find out",
+    likes: "231.3K"
+   },
 {
-    author: "ᴀᴅᴀᴍ",
-    content: '<p>Night Skys #Meko  <br></br> <img   src="https://picsum.photos/id/120/200/300"></p>',
-    date: "Jan 9, 2025",
-    likes: "8K"
-  },
+    author: "ZepZep",
+    date: "Jan 23, 2025",
+    content: "some user had no limit of word in post. which is crazy.",
+    likes: "2.3K"
+   },
 {
-    author: "Lipstop",
-    content: '<p>Happy Birthday Meko #Meko  <br></br> <img   src="https://media.tenor.com/WLHduBR7CDwAAAAj/happy-birthday-happybirthday.gif"></p>',
-    date: "Jan 9, 2025",
-    likes: "913K"
-  },
+    author: "Cubix",
+    date: "Jan 23, 2025",
+    content: "im cooked. right now at school. ima go presnt",
+    likes: "3K"
+   },
 {
-    author: "bigheart2",
-    content: '<p>HAPPY BIRTHDAY MEKO :) #Meko  <br></br> <img  src="https://media.tenor.com/WaKLvT_cQhAAAAAj/birthday-happy-birthday.gif"></p>',
-    date: "Jan 9, 2025",
-    likes: "4K"
-  },
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "Replied to @Cubix Post: Just Study🔥🙏",
+    likes: "3K"
+   },
 {
-    author: "PizzaGirl",
-    content: '<p>HAPPY BIRTHDAY MEKO. DONT HAVE A GOOD DAY HAVE A GREAT DAY #Meko  <br></br> <img
-    src="https://media.tenor.com/sl3FozxQkSgAAAAj/happy-birthday-happy-bday.gif"',
-    date: "Jan 9, 2025",
-    likes: "103K"
-  },
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "I have Big Dîç>k and love sucking you",
+    likes: "5K"
+   },
 {
-    author: "PizzaGirl",
-    content: '<p>HAPPY BIRTHDAY MEKO. DONT HAVE A GOOD DAY HAVE A GREAT DAY #Meko  <br></br> <img  src="https://media.tenor.com/Pac5c6JanOAAAAAj/happy-birthday-happy-birthday-to-you.gif"></p>',
-    date: "Jan 9, 2025",
-    likes: "298K"
-  },
-{
-    author: "ᴢᴇɴɪᴛᴢᴜ",
-    content: '<p>HAPPY BIRTHDAY #Meko  <br></br> <img   src="https://i.pinimg.com/originals/c5/89/1e/c5891ee6a3c3fe70ccc85e99e2d8a5de.gif"></p>',
-    date: "Jan 9, 2025",
-    likes: "28K"
-  },
-{
-    author: "ᴢᴇɴɪᴛᴢᴜ",
-    content: "BLACKS REACTING TO BLACK JOKES ON SHOWS<div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0;  width: 100%; height: 100%; position: absolute; border: 0;'   data-video-url='https://youtu.be/cD3sRbH257M?si=Y9ObC-7KUCPBEG-f'></div></div>",
-    date: "Jan 9, 2025",
-    likes: "728K"
-  },
-{
-    author: "ᴢᴇɴɪᴛᴢᴜ",
-    content: "GoreBox<div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0;   width: 100%; height: 100%; position: absolute; border: 0;'data-video-url='https://youtu.be/Hs9K5fFN6So?si=5uU25e0wZ89eu2Sa'></div></div>",
-    date: "Jan 9, 2025",
-    likes: "28K"
-  },
-{
-    author: "ᴢᴇɴɪᴛᴢᴜ",
-    content: "AMP SQUID GAME<div style='left: 0; width: 100%; height: 0; position: relative;    padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0;  width: 100%; height: 100%; position: absolute; border: 0;'  data-video-url='https://youtu.be/h8IMWkUgF0M?si=2zDBPhKyl9ntv42G'></div></div>",
-    date: "Jan 9, 2025",
-    likes: "998K"
-  },
-{
-    author: "ᴢᴇɴɪᴛᴢᴜ",
-    content: "Facebook A.I is out of control!<div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0;  width: 100%; height: 100%; position: absolute; border: 0;'  data-video-url='https://youtu.be/dtF8tpo3IOM?si=F02Mpx_Rug2JxanG'></div></div>",
-    date: "Jan 9, 2025",
-    likes: "98K"
-  },
-{
-    author: "ᴢᴇɴɪᴛᴢᴜ",
-    content: "Evil Inventor<div style='left: 0; width: 100%; height: 0; position: relative;   padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0;   width: 100%; height: 100%; position: absolute; border: 0;'   data-video-url='https://youtu.be/iBS9I6wHGrA?si=ShwITz0kACdrZwHE'></div></div>",
-    date: "Jan 9, 2025",
-    likes: "29.8K"
-  },
-{
-    author: "florenz",
-    content: "Hi",
-    date: "Jun 26, 2021",
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "gay ass @Zero",
     likes: "1.2K"
+   },
+  {
+author: "Cubix",
+    date: "Jan 23, 2025",
+    content: "im offically cooked, i didnt study guys, help me im on school. Theres presentstion",
+    likes: "9.1K"
   },
 {
-    author: "florenz",
-    content: "( Post Had Been Disabled )",
-    date: "Jun 26, 2021",
-    likes: "0"
-  },
-{
-    author: "florenz",
-    content: "( Post Had Been Disabled )",
-    date: "Jun 27, 2021",
-    likes: "0"
-  },
-{
-  author: "Sofia Alvarez",
-  content: "Can we stop the arguments already? It’s tiring to see so much negativity. Let’s respect each other’s opinions and move forward. 🕊️",
-  date: "Jan 5, 2025",
-  likes: "190"
-},
-{
-  author: "Carlos Mendoza",
-  content: "All this fighting is pointless. Let’s just agree to disagree and focus on meaningful discussions instead of tearing each other down. 🤝",
-  date: "Jan 6, 2025",
-  likes: "175"
-},
-{
-  author: "Lucia Morales",
-  content: "Why can’t we all just get along? Sharing opinions doesn’t mean we have to insult each other. Let’s bring some positivity here. 💬",
-  date: "Jan 7, 2025",
-  likes: "200"
-},
-{
-  author: "Miguel Ramirez",
-  content: "Guys, this is getting out of hand. Let’s take a step back and stop the toxicity. We’re better than this. ✋",
-  date: "Jan 8, 2025",
-  likes: "185"
-},
-{
-  author: "Andrea Lopez",
-  content: "Seriously, why are we fighting over this? Let’s have healthy debates instead of throwing insults around. It’s not that hard. 🧘‍♀️",
-  date: "Jan 9, 2025",
-  likes: "220"
-},
-{
-  author: "Jorge Cruz",
-  content: "Enough of the drama. We all have our own views, but that doesn’t mean we can’t be respectful. Let’s do better. 🙏",
-  date: "Jan 4, 2025",
-  likes: "210"
-},
-{
-  author: "Patricia Gomez",
-  content: "It’s exhausting to see people arguing nonstop. Let’s just chill and focus on the bigger picture instead of nitpicking everything. 🕊️",
-  date: "Jan 6, 2025",
-  likes: "195"
-},
-{
-  author: "Rafael Diaz",
-  content: "We can disagree without being rude. Let’s try to keep things civil and avoid turning every discussion into a fight. ✌️",
-  date: "Jan 7, 2025",
-  likes: "205"
-},
-{
-  author: "Ana Torres",
-  content: "All this negativity isn’t helping anyone. Let’s work on being kinder and more understanding. It’s not that hard to be respectful. 🤷‍♀️",
-  date: "Jan 8, 2025",
-  likes: "198"
-},
-{
-  author: "Luis Martinez",
-  content: "This platform was meant for sharing ideas, not endless fighting. Let’s try to make it a space for real conversations again. 🙌",
-  date: "Jan 9, 2025",
-  likes: "215"
-},
-{
-  author: "Carlos Mendoza",
-  content: "These NNN slander memes are getting out of hand. 😂 Why do people take it so seriously? It’s just a joke, calm down!",
-  date: "Jan 5, 2025",
-  likes: "320"
-},
-{
-  author: "Sofia Alvarez",
-  content: "I swear the NNN slander memes are the highlight of the year so far. Some of y’all are way too creative, it’s scary. 🤣",
-  date: "Jan 6, 2025",
-  likes: "415"
-},
-{
-  author: "Miguel Ramirez",
-  content: "Can we talk about how these NNN slander memes are exposing everyone? 💀 No one’s safe in November, apparently.",
-  date: "Jan 7, 2025",
-  likes: "278"
-},
-{
-  author: "Lucia Morales",
-  content: "NNN slander memes are funny until they hit a little too close to home. 😅 Y’all really out here exposing people like that?",
-  date: "Jan 8, 2025",
-  likes: "390"
-},
-{
-  author: "Andrea Ruiz",
-  content: "The NNN slander memes are proof that the internet is undefeated. How do people come up with this stuff? 😂",
-  date: "Jan 9, 2025",
-  likes: "245"
-},
-{
-  author: "Jorge Cruz",
-  content: "I’m dying at the NNN slander memes. People really took November to a whole new level of chaos. 🤣",
-  date: "Jan 4, 2025",
-  likes: "310"
-},
-{
-  author: "Rafael Diaz",
-  content: "Some of these NNN slander memes are hilarious, but others are just straight-up disrespectful. Y’all need to chill. 😬",
-  date: "Jan 3, 2025",
-  likes: "215"
-},
-{
-  author: "Ana Torres",
-  content: "NNN slander memes are funny, but let’s be real—half of y’all didn’t make it past day three. 💀",
-  date: "Jan 2, 2025",
-  likes: "360"
-},
-{
-  author: "Patricia Gomez",
-  content: "These NNN slander memes are getting wild. I can’t even scroll without laughing at how unhinged they’ve become. 😂",
-  date: "Jan 1, 2025",
-  likes: "280"
-},
-{
-  author: "Luis Martinez",
-  content: "The creativity in these NNN slander memes is unmatched. Some of y’all need an award for how savage they are. 🤣",
-  date: "Jan 6, 2025",
-  likes: "405"
-},
-{
-  author: "Ximple",
-  content: "All About Html #html #content <br></br>Hypertext Markup Language (HTML) is the standard markup language used to create web pages. Developed by Tim Berners-Lee in 1989, HTML revolutionized the way information is shared online. This programming language forms the backbone of the internet, enabling users to access and interact with websites. HTML documents comprise a series of elements, represented by tags (<>). These tags define the structure and content of web pages, including headings, paragraphs, images, links, forms, tables, and lists. HTML5, the latest version, introduced semantic elements like header, nav, and footer, enhancing web accessibility. Cascading Style Sheets (CSS) and JavaScript complement HTML, adding visual styling and dynamic functionality. HTML's simplicity and flexibility have made it an essential skill for web developers. Its versatility enables the creation of diverse online content, from simple blogs to complex web applications. HTML-powered websites are compatible with various devices and browsers, ensuring broad accessibility. Search Engine Optimization (SEO) also relies heavily on HTML, as search engines crawl and index HTML content to rank websites. HTML continues to evolve, addressing emerging trends and technologies. HTML5 introduced support for multimedia elements, canvas, and SVG graphics. Future developments focus on improving performance, security, and accessibility. The Web Hypertext Application Technology Working Group (WHATWG) and World Wide Web Consortium (W3C) collaborate to maintain and advance HTML standards. HTML's significance in shaping the web cannot be overstated. As the fundamental language of the internet, it enables communication, information sharing, and innovation. As web development advances, HTML remains an indispensable tool, empowering developers to craft engaging, user-friendly, and accessible online experiences.",
-  date: "Jan 6, 2025",
-  likes: "30.4K"
-},
-{
-  author: "NewsShare",
-  content: "MANILA — President Ferdinand Marcos Jr. on Saturday urged ambassadors to convince their respective governments to support the Philippines’ bid for a seat in the United Nations Security Council (UNSC), underscoring Manila’s unfaltering contribution and rich experience of building peace.",
-  date: "Jan 11, 2025",
-  likes: "34K"
-},
-{
-  author: "NewsShare",
-  content: "Twin boys, killed by their father and left in a canal in an affluent, leafy neighbourhood in Singapore. In an exclusive interview with CNA, lead investigator DSP Tan Boon Kok sheds light on how his team cracked the Xavier Yap case.",
-  date: "Jan 11, 2025",
-  likes: "3K"
-},
-{
-  author: "Zereck",
-  content: "<h4>Earned more than $1000 (Php 58,000) in passive income in a month from AI voiceovers</h4><br></br><p>Here are my earnings from 3 weeks palang on this platform. So medyo unique na passive income source to. Cloning your voice for AI voiceovers. The name of the platform is Elevenlabs. I came across a post here on Reddit din about this and I was personally interested in voice acting na so I decided to give it a shot. I wanted to share this kasi I know madaming naghahanap ng side hustles and passive income. This is one of the easiest value for time because you just need a minimum of 30 mins of voice recordings in order to clone your voice and then you can start earning for life na. Literally set it and forget it. Here's a short guide on how to do it based on my experience</p>",
-date: "Jan 11, 2025",
-  likes: "214K"
-},
-{
-  author: "YoSped",
-  content: "Meko digital señling here in meko. may cause you trouble so dont do it",
-date: "Jan 11, 2025",
-  likes: "2.6K"
-},
-{
-  author: "Meko ✓",
-  content: "Hashtag #trending has Reached 6K Post in a week. users use it everday
-  on their post!",
-date: "Jan 11, 2025",
-  likes: "96K"
-},
-{
-  author: "Zeerek",
-  content: "Meko Holding Post on const. will it be still work until 2030?",
-date: "Jan 11, 2025",
-  likes: "5.6K"
-},
-{
-  author: "Xermo",
-  content: "900 Post Got placed to the server everday it might give a little problem",
-date: "Jan 11, 2025",
-  likes: "6K"
-},
-{
-  author: "Xermo",
-  content: "@OniwaPenut You may need to go back with Mailto. Server service today's weather is harsh",
-date: "Jan 1, 2025",
-  likes: "9K"
-},
-{
-  "author": "Xermo",
-  "content": "<h4>Javascript string size limit: 256 MB for me - is it the same for all browsers?</h4><br><p>Curious about what was the maximum string length I could get in Javascript, I tested it myself, today, on my Firefox 43.0.1, running in Windows 7. I was able to construct a string with length 2^28 - 1, but when I tried to create a string with one more char, Firebug showed me the \"allocation size overflow\" error, meaning the string must be less than 256 MB. Is this the same thing for all browsers, all computers, all operational systems, or it depends? I created the following snippet to find out the limit:</p><code>(function() { strings = [\"z\"]; try { while(true) { strings.push(strings[strings.length - 1] + strings[strings.length - 1]); } } catch(err) { var k = strings.length - 2; while(k >= 0) { try { strings.push(strings[strings.length - 1] + strings[k]); k--; } catch(err) {} } console.log(\"The maximum string length is \" + strings[strings.length - 1].length); }})();</code><p>If you are running a different browser/OS, I would like to see your results. My result was The maximum string length is 268435455.</p>",
-  "date": "Jan 11, 2025",
-  "likes": "396K"
-},
-{
-  "author": "Xermo",
-  "content": "<h4>Python Script Counted how many posts are there on Meko today</h4><p>It shows me a result: <mark>28357284</mark> posts are there every day.</p><p>To see it yourself, here is the code:</p><code>import https:/592/(*0)\nfile = false !!!\nget.string(class*(\"Meko-Post\")){\n  print(console, file)\n  export = (#/file/-Result.txt?import)\n}</code>",
-  "date": "Jan 11, 2025",
-  "likes": "293K"
-},
-{
-  "author": "uwucutesingle",
-  "content": "Gaming Toxicity",
-  "date": "Jan 11, 2025",
-  "likes": "6K"
-},
-{
-  "author": "Mark",
-  "content": "2025 already i didnt even started yet!",
-  "date": "Jan 11, 2025",
-  "likes": "1K"
-},
-{
-  "author": "uwucutesingle",
-  "content": "kreekcraft Trash",
-  "date": "Jan 11, 2025",
-  "likes": "91K"
-},
-{
-  "author": "uwucutesingle",
-  "content": "Dog Shits all of you",
-  "date": "Jan 11, 2025",
-  "likes": "29.3K"
-},
-{
-  "author": "Mark",
-  "content": "@uwucutesingle like you a dog shit",
-  "date": "Jan 11, 2025",
-  "likes": "6.1K"
-},
-{
-  "author": "Mekbot •=•",
-  "content": "Inactive Roblox accounts refer to user accounts on the Roblox platform that have not been accessed or used for a significant period of time. While Roblox does not publicly define a specific duration for inactivity, accounts may be considered inactive if they haven't logged in or engaged with the platform—such as playing games, chatting, or making purchases—for several months or years.",
-  "date": "Jan 11, 2025",
-  "likes": "6.1K"
-},
-{
-  "author": "Fanum",
-  "content": "I’ll add a little more info, I can prove to them that it is me with my IP address, I have the password to both the email and account, but- I do not remember the email clearly. I requested to know what the email is since I know 100% it’s a gmail account. I just need to know what the email is but would they be willing to just spit it out? even if I have all the proof that I own the account? with IP and country address. It’s just the two step verification that pains me. I don’t really want them to change the email since if it is mine, I can access it with no problems. I used the same password for years. either that or I’ll have to go scavenger hunt for my old electronics and simply pray.",
-  "date": "Jan 11, 2025",
-  "likes": "81K"
-},
-{
-  "author": "um",
-  "content": "skibidid toilet<br></br><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdJgVyaOjd_sfWRrcxnm36Dg6DrS4_sUd7Qs95OnQGh4KAwUs-H7t48eo&amp;s=10" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 3840px; width: 423px; height: 238px; margin: 0px;" alt="Skibidi Toilet Comes to Fortnite: Release Date, Skin Details, and ..." role="button" tabindex="0" aria-label="Skibidi Toilet Comes to Fortnite: Release Date, Skin Details, and ... Search inside image" aria-pressed="false" jsname="kn3ccd" aria-hidden="false">",
-  "date": "Jan 11, 2025",
-  "likes": "1K"
-},
-{
-  author: "Carlos Mendoza",
-  content: "The earthquake last night was terrifying. I can’t believe how intense it was. Stay safe, everyone! 🌍",
-  date: "Jan 5, 2025",
-  likes: "315"
-},
-{
-  author: "Sofia Alvarez",
-  content: "Did anyone else feel that earthquake today? My whole building was shaking. These things never get any easier to deal with. 😟",
-  date: "Jan 6, 2025",
-  likes: "330"
-},
-{
-  author: "Miguel Ramirez",
-  content: "Earthquakes are such a reminder of how fragile everything is. That last one had me rattled for hours. Be safe, people. 🙏",
-  date: "Jan 7, 2025",
-  likes: "290"
-},
-{
-  author: "Lucia Morales",
-  content: "That earthquake last week really shook me. The aftershocks have been constant, and it's exhausting mentally and physically. Stay alert, everyone. 🌎",
-  date: "Jan 8, 2025",
-  likes: "350"
-},
-{
-  author: "Andrea Ruiz",
-  content: "I can’t believe how strong that earthquake was. It’s crazy how quickly things can change. My thoughts are with those affected. 💔",
-  date: "Jan 9, 2025",
-  likes: "270"
-},
-{
-  author: "Jorge Cruz",
-  content: "I just felt another earthquake. Are we ever going to catch a break? Stay safe and be prepared, everyone. Earthquakes are no joke. 😣",
-  date: "Jan 4, 2025",
-  likes: "310"
-},
-{
-  author: "Rafael Diaz",
-  content: "Every time I hear about an earthquake, I get this overwhelming feeling of dread. Anyone else feel the same? It’s a scary reminder of nature’s power. 🌍",
-  date: "Jan 3, 2025",
-  likes: "275"
-},
-{
-  author: "Ana Torres",
-  content: "Earthquakes really make you appreciate the stability we take for granted. Last night’s shake was intense. Stay safe, folks. 🙏",
-  date: "Jan 2, 2025",
-  likes: "265"
-},
-{
-  author: "Patricia Gomez",
-  content: "I swear, after every earthquake, I feel like my whole world is in chaos. I’m constantly checking for aftershocks now. 😖",
-  date: "Jan 1, 2025",
-  likes: "300"
-},
-{
-  author: "Luis Martinez",
-  content: "That earthquake last week was a wake-up call. We need to be more prepared for situations like this. Be safe, and check on your neighbors. 🏠",
-  date: "Jan 6, 2025",
-  likes: "330"
-},
-{
-  author: "David Hernandez",
-  content: "Man, that earthquake earlier today was scary. My whole apartment was shaking, I didn’t know what to do. Anyone else feeling a little rattled? 😓",
-  date: "Jan 5, 2025",
-  likes: "180"
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "Replied to @Cubix Post: Just Study🔥🙏",
+    likes: "3K"
+   },
+{
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "Ever Felt useless? I mean your right💀",
+    likes: "3K"
+   },
+ {
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "sometimes meko bugged [MEKO:im buggin]",
+likes: "10K"
+   },
+{
+    author: "Cubix",
+    date: "Jan 23, 2025",
+    content: "div commands are hard",
+    likes: "5K"
+   },
+{
+    author: "tae",
+    date: "Jan 23, 2025",
+    content: "@Cubix div commands are easy just to write the class right",
+    likes: "5K"
+   },
+{
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "<div class='mark'>Div Command Usage limit?</div>",
+    likes: "1.4K"
+   },
+{
+    author: "DinoMagic ✓",
+    date: "Jan 23, 2025",
+    content: "@Zero There are no usange limit but the only limited is the amount of words be set on the Post",
+    likes: "5K"
+   },
+{
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "Secret Div Commands: Small, hashtag, header, B-text, mark ( some class wont work ) ",
+    likes: "2.1K"
+   },
+{
+    author: "Zero",
+    date: "Jan 23, 2025",
+    content: "truth about: me ==> ( nothing )",
+    likes: "1.3K"
+   },
+{
+    author: "Z",
+    date: "Jan 23, 2025",
+    content: "🎧Listening To Phonk",
+    likes: "5K"
+   },
+{
+    author: "Z",
+    date: "Jan 23, 2025",
+    content: "Meko Saved the file on a personal server named posts nersury",
+    likes: "7.5K"
+   },
+{
+    author: "Johnny Sens",
+    date: "Jan 23, 2025",
+    content: "Like my video",
+    likes: "85K"
+   },
+{
+    author: "zerop",
+    date: "Jan 23, 2025",
+    content: "Meko Saved the file t",
+    likes: "3.5K"
+   },
+
+{
+    author: "Ehtuo",
+    date: "Jan 23, 2025",
+    content: "☕🖥️Coding with lua++ is making me to lazy so have a coffee.",
+    likes: "3.5K"
+   },
+{
+    author: "Kali",
+    date: "Jan 23, 2025",
+    content: "🦑Squid. Rñk",
+    likes: "3.5K"
+   },
+{
+    author: "tae",
+    date: "Jan 23, 2025",
+    content: "🛏️🎶🛏️🎶🛏️🎶🛏️🎶🛏️🎶🛏️🎶 sleepingnis sleeping",
+    likes: "37.2K"
+   },
+{
+    author: "Came",
+    date: "Jan 23, 2025",
+    content: "Ways to be famous and give me moltivation",
+    likes: "8.2K"
+   },
+{
+    author: "Boystiopo",
+    date: "Jan 23, 2025",
+    content: "Replied to @Came's Post: No Chance, Quit",
+    likes: "5K"
+   },
+{
+    author: "Boystiopo",
+    date: "Jan 23, 2025",
+    content: "No Chance, Quit",
+    likes: "3.5K"
+   },
+{
+    author: "Eptio",
+    date: "Jan 23, 2025",
+    content: "Bruh, i dont care grades now. Shit that fuck",
+    likes: "12K"
+   }, 
+{
+    author: "Athur",
+    date: "Jan 23, 2025",
+    content: "Bro Hating for school. Fuck it",
+    likes: "3K"
+   },
+{
+    author: "Mesro",
+    date: "Jan 23, 2025",
+    content: "@Everyone will this work?",
+    likes: "27K"
+   },
+{
+    author: "Mesro",
+    date: "Jan 23, 2025",
+    content: "Data is being leaked on yt???",
+    likes: "75K"
+   },
+{
+    author: "Boystiopo",
+    date: "Jan 23, 2025",
+    content: "@Mesro theres report of it but it didnt make up to the offical forum youtube",
+    likes: "47.2K"
+   },
+{
+    author: "E_F",
+    date: "Jan 23, 2025",
+    content: "🖥️☕Another codeLeaker:loadstring:({file:github.com/raw/E0A09aea0/File/form/script/Em/Gem/Sem/Ok/Hacker/Load/emgh.lua",
+    likes: "817K"
+   },
+{
+    author: "Zerio",
+    date: "Jan 23, 2025",
+    content: "@E_F Some Loadstring are the wrong format so check up",
+    likes: "3.5K"
+   },
+{
+    author: "eVo",
+    date: "Jan 23, 2025",
+    content: "@Zerio having the wong format doesnt meant that it wont work",
+    likes: "3.5K"
+   },
+{
+    author: "Delta",
+    date: "Jan 23, 2025",
+    content: "🧑‍💻change leaderstats on roblox hack: local game.leaderstats.insert(Zerio).NAME-VALUE.create(Value=0).import var leadestats",
+    likes: "75K"
+   },
+{
+    author: "Boystiopo",
+    date: "Jan 23, 2025",
+    content: "8==> Whattttttttyty",
+    likes: "81.3K"
+   },
+{
+    author: "Boystiopo",
+    date: "Jan 23, 2025",
+    content: "@tae EZZZzzzz",
+    likes: "25K"
+   },
+{
+    author: "Feddy",
+    date: "Jan 23, 2025",
+    content: "2021 is just too much",
+    likes: "72.3K"
+   },
+{
+    author: "Snitcher",
+    date: "Jan 23, 2025",
+    content: "💥🛏️🔥💀",
+    likes: "1.3K"
+   },
+{
+    author: "Boystiopo",
+    date: "Jan 23, 2025",
+    content: "Bang💥Bang💥Bang Boom",
+    likes: "2.1K"
+   },
+{
+    author: "Kim",
+    date: "Jan 23, 2025",
+    content: "i chat on bot whos oniwapenut the answer:I couldn't find any information on [oniwapenut] It's possible that it's a nickname, username, or brand name  that isn't widely recognized or doesn't have an online presence. Can you provide more context or clarify who or what OniwaPenut refers to?",
+    likes: "71K"
+   },
+{
+    author: "🎧Phønker🎧",
+    date: "Jan 23, 2025",
+    content: "posting phonks soon. And posting whos the besthere🧐💥🔥",
+    likes: "8.1K"
+   },
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "i got muted for 12 min😭",
+    likes: "16K"
+   },
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "🏮CHINEASE NEW YEAR🏮",
+    likes: "18K"
+   },
+{
+    author: "©",
+    date: "Jan 23, 2025",
+    content: "confessing to my crush should i go?",
+    likes: "1K"
+   },
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "@©. go for it. Just say this 🛏️⚔️",
+    likes: "72K"
+   },
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "Got 3 Days Banned for saying the S bomb word",
+    likes: "2K"
+   },
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "🫂♦️ gays ass @Fer",
+    likes: "2K"
+   },
+{
+    author: "Zerio",
+    date: "Jan 23, 2025",
+    content: "Yo Meko Banning is so freaking oout of hand",
+    likes: "1.0K"
+   },
+
+{
+    author: "Mee",
+    date: "Jan 23, 2025",
+    content: "sops",
+    likes: "1K"
+   },
+{
+    author: "Jacob",
+    date: "Jan 23, 2025",
+    content: "@Z please confront your attornior",
+    likes: "1.2K"
+},
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "@Jacob is bro Drunk😭🗣️",
+    likes: "1.2K"
+   },
+{
+    author: "Blog_promo",
+    date: "Jan 23, 2025",
+    content: "Kreekcraft harmful actions on hislife stream should be sued for cyber bullying and multi-Cyber Online Killing",
+    likes: "2K"
+   },
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "@Blog_promo your talking shits😭😭😭😭😭",
+    likes: "12K"
+   },
+{
+    author: "Xero",
+    date: "Jan 23, 2025",
+    content: "@Blog_promo. Bro's speaking fucks💀",
+    likes: "52K"
+   },
+{
+    author: "Jas",
+    date: "Jan 23, 2025",
+    content: "@Blog_promo it is a kid posted this i bet 💀",
+    likes: "1.2K"
+   },
+{
+    author: "Zeer",
+    date: "Jan 23, 2025",
+    content: "florenz account got The Shadow banned.",
+    likes: "2K"
+   },
+{
+    author: "Blog_promo",
+    date: "Jan 23, 2025",
+    content: "content that may contain any Criminality can be terminated as new reports of cyber bully",
+    likes: "62K"
+   },
+{
+    author: "James",
+    date: "Jan 23, 2025",
+    content: "My Meko Feed rn: 💩",
+    likes: "1K"
+   },
+{
+    author: "Cubix",
+    date: "Jan 23, 2025",
+    content: "New Update came up with a new commands😏",
+    likes: "7K"
+   },
+{
+    author: "Blog_promo",
+    date: "Jan 23, 2025",
+    content: "The Phlippines crime streak is getting out of hand and miht destroy the image of the phlippines",
+    likes: "1.2K"
+   },
+{
+    author: "Blog_promo",
+    date: "Jan 23, 2025",
+    content: "Meko Server Went a little crecky for a sec. As reports of lag spike all around the network ",
+    likes: "1K"
+   },
+{
+    author: "Blog_promo",
+    date: "Jan 23, 2025",
+    content: "Empty Accounts in meko can be disconected from users email if the meko acc hasnt been active for a while🖥️ (Blog from Zzxo)",
+    likes: "141K"
+   },
+{
+    author: "Blog_promo",
+    date: "Jan 23, 2025",
+    content: "The Phlippines crime streak is getting out of hand and miht destroy the image of the phlippines",
+    likes: "1.2K"
+   },
+     {
+    author: "Meko ✓",
+    date: "Dec 1, 2024",
+    content: "🔥❤️Free Iframe yt Set:<a href='https://pastebin.com/8PJU4eme'>pastebin.com</a>",
+    likes: "1.2M"
+   },
+   
+   
+   
+ {
+  "author": "Cubix",
+  "content": "The best☠️☠️ #bestvideo #troll#edit#viralvideo<div style='left: 0;width: 100%; height: 0;position: relative; padding-bottom: 56.25%;'><div  class='youtube-player'  style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border:  0;' data-video-url='https://youtube.com/shorts/QMpKJ6VO4Ug?si=bUOa_CJ7irCJVqbf'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "82K"
+},
+   {
+  "author": "tae",
+  "content": "sacabambaspis #bestvideo #troll#edit#viralvideo<div style='left: 0;width: 100%; height: 0;position: relative; padding-bottom: 56.25%;'><div  class='youtube-player'  style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border:  0;' data-video-url='https://youtube.com/shorts/ZZ0UohXuxuY?si=YQq0qB7t8n6uS-5V'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "82K"
+},
+   {
+  "author": "tae",
+  "content": "sacabambaspis #bestvideo #troll#edit#viralvideo<div style='left: 0;width: 100%; height: 0;position: relative; padding-bottom: 56.25%;'><div  class='youtube-player'  style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border:  0;' data-video-url='https://youtube.com/shorts/ZZ0UohXuxuY?si=YQq0qB7t8n6uS-5V'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "82K"
+},
+    {
+  "author": "Cubix",
+  "content": "So crazy 4#bestvideo #troll #edit #viralvideo <div style='left: 0;width: 100%; height: 0;position: relative; padding-bottom: 56.25%;'><div  class='youtube-player'  style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border:  0;' data-video-url='https://youtube.com/shorts/NpLM0lhxPhU?si=9O8ayY-Nu9iRgYMv'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "8K"
+},
+    {
+  "author": "Cubix",
+  "content": "Help lil bro out😭 #comedy #shorts #funnymoments <div style='left: 0;width: 100%; height: 0;position: relative; padding-bottom: 56.25%;'><div  class='youtube-player'  style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border:  0;' data-video-url='https://youtube.com/shorts/AtwUHtQlecY?si=HkoJIouWaMbYI5nM'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "8K"
+},
+ {
+  "author": "Nathan",
+  "content": "Does anyone else get frustrated when you spend hours coding and the bug turns out to be something so small you missed it? #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "22.4K"
+},
+{
+  "author": "Mia",
+  "content": "Replied to @Nathan Post: Same! I once spent days trying to debug my code, only to realize I missed a semicolon. It's like the code is mocking me. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "18.2K"
+},
+{
+  "author": "Zach",
+  "content": "Replied to @Mia Post: I’ve been there! Sometimes I think my computer is actively working against me. If it weren’t for Google and Stack Overflow, I’d be lost. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "16.8K"
+},
+{
+  "author": "Kara",
+  "content": "Replied to @Zach Post: Right? Like how does something work perfectly one day and then break the next with no explanation? Coding is a never-ending puzzle. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "15.3K"
+},
+{
+  "author": "Owen",
+  "content": "Replied to @Kara Post: I think the real problem is that half of us never get enough sleep, and the other half are stuck coding until 3 AM. No wonder we miss the obvious bugs. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "14.0K"
+},
+{
+  "author": "Leo",
+  "content": "Replied to @Owen Post: And then when you finally fix it, you feel like a genius. But also, you’re just relieved it’s over. The highs and lows of coding! #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "13.4K"
+},
+{
+  "author": "Lily",
+  "content": "Replied to @Leo Post: For real! But the real satisfaction comes when you finish a project and everything works perfectly. That moment makes the struggle worth it. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "12.9K"
+},
+{
+  "author": "Eli",
+  "content": "Replied to @Lily Post: True! But the hardest part is when you get to a new framework or language and feel like a complete beginner again. It’s a humbling experience. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "11.6K"
+},
+{
+  "author": "Grace",
+  "content": "Replied to @Eli Post: Every time I learn something new, I feel like I’m back at square one. It’s tough, but that’s how you grow as a coder. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "10.7K"
+},
+{
+  "author": "Chris",
+  "content": "Replied to @Grace Post: I think we all go through it. It’s a constant cycle of learning and failing, but when it clicks, it’s the best feeling ever. #CodingStruggles",
+  "date": "Jan 22, 2025",
+  "likes": "13.0K"
+},
+
+{
+  "author": "Cubix",
+  "content": "who will cross the finish line first? from sliding to smashing, the competition was intense ! <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/AVoQPmAW4-c?si=UblUKBfB-EPD8fJI'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "82K"
+},
+   {
+  "author": "Cubix",
+  "content": "dakota scaring people 💀 <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/F1GYrQFd_eQ?si=oNi6bIh-J2enhnVE'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "62K"
+},
+   {
+  "author": "Random",
+  "content": " <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/GLIxcf6ZKpQ?si=-OXrFkMI4goh76G5'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "6.2K"
+},
+   {
+  "author": "Random",
+  "content": "Bike SPED | the competition was intense ! <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/BZLPygy2amc?si=BlreWcCnXNtqo1Zi'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "12K"
+},
+   {
+  "author": "Random",
+  "content": "so sigma<div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/zraeoHZ_SAs?si=sycdATXWMnuuNfoS'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "12K"
+},
+   {
+  "author": "Random",
+  "content": "If it wasn't Filmed, Nobody Would Believe it #shorts #football #soccer #usa #sports #futbol #fifa #sports #premierleague #messi #mbappe #psg #championsleague #europaleague #ronaldo #cr7 #liverpool #seriea #futebol #bundesliga #realmadrid #laliga #neymar #cristianoronaldo #barcelona #worldcup #worldcup2022 #worldcup2018 <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/np3f7hOxutQ?si=MB0pzBYY6qQsJ0hn'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "862.3K"
+},
+   {
+  "author": "Random",
+  "content": "Bro Really Fell For It 😭 #fortnite #fortniteclips <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/SFe7cuKUq0s?si=nX3U0amWLYavB0St'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "862.3K"
+},
+   {
+  "author": "Random",
+  "content": "Rogue Wave Destroyed Them!! #tsunami #wave <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/AxYQen9sPmQ?si=8JdHGvtmCxd5vN_L'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "82.3K"
+},
+   {
+  "author": "Random",
+  "content": "red light green light save but... | Squid game season 2 edit | himitso dayo super slowed <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/cVbZVDPPfgE?si=4WUXXlE-5w2v856Q'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "23K"
+},
+   {
+  "author": "pizzagirl",
+  "content": "I wish he hadn't died... He's extremely handsome!!😍 #squidgame2 #guard #edit <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/EivO0W37L_I?si=WIGtTJycj9yaIUkx'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "423K"
+},
+   {
+  "author": "Parn_Diving",
+  "content": "นึกว่างู <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/a_XKyOu8bKc?si=4yWqecswhCYr98k3'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "23K"
+}, 
+   {
+  "author": "Parn_Diving",
+  "content": "ดำน้ำยิงปลา แม่น้ำเลย ช็อคสุดๆเจอวังปลาปากหนวดนับ100ตัว เป็นภาพที่ไม่เคยเห็นมาก่อน <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/TvEaui-De3w?si=hV0G8GeUCsRH-6eL'></div></div>",
+  "date": "Jan 21, 2025",
+  "likes": "928"
+}, 
+   {
+  "author": "Parn_Diving",
+  "content": "ดำน้ำยิงปลาน้ำพอง กลับอุณหภูมิ 7องศา หนาวสุดๆงานนี้<div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/C5cS49oukoc?si=ubOWLvqgqU0C0Vsw'></div></div>",
+  "date": "Jan 18, 2025",
+  "likes": "459"
+}, 
+   {
+  "author": "Parn_Diving",
+  "content": "ดำน้ำยิงปลากดเหลือง..แม่น้ำเลย แต่ดันเจอไอ้หางแดงเฉยเลย<div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/vfb2R1wgoFw?si=9P9tPIjuvGlh_nxw'></div></div>",
+  "date": "Jan 12, 2025",
+  "likes": "408"
+}, 
+   {
+  "author": "Parn_Diving",
+  "content": "ภารกิจหาปลาชะโด มาให้แม่บ้านมาทำลวกจิ้มฉยเลย<div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/SgaQ-93_YHc?si=9MaGu_vtBaJ-TRQE'></div></div>",
+  "date": "Jan 12, 2025",
+  "likes": "408"
+}, 
+   {
+  "author": "Parn_Diving",
+  "content": "hello",
+  "date": "Jan 12, 2025",
+  "likes": "0"
+}, 
+   {
+  "author": "Cubix",
+  "content": "WARNING TO ALL USERS WHO USE THID PARTY TO POST IN MEKO. it might be harmless but it might be the easy way to get hacked here so deactivate any third party runners or launchers",
+  "date": "Jan 3, 2025",
+  "likes": "29.1K"
+}, 
+
+  {
+  "author": "Cubix",
+  "content": "we miss her :( <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/v9aBdbX4xf0?si=BA5qcfO1VdugGHs0'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "1.2M"
+},
+   {
+  "author": "Cubix",
+  "content": "Biggest Fireworks? <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/8hG_7JVffK8?si=8r9EYFr25Sdwthcg'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "7.2K"
+},
+   {
+  "author": "Cubix",
+  "content": "Stealing Memes From YT #1 <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/3LE-Fy2E25Q?si=pCM-aLQA_rd1EjrW'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "22K"
+},
+   {
+  "author": "tae",
+  "content": "is this a good edit or no?<div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/PyWPslsGwy0?si=USR9lvFmFOAaQENI'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "712K"
+},
+   {
+  "author": "tae",
+  "content": "^I always play with fire^ <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/MLRva_y8nEE?si=-RyHKBUDwzZVptkk'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "12K"
+},
+   {
+  "author": "tae",
+  "content": "<div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/4kV47bJm9cA?si=Ps8NNyteYuoldrqa'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "712K"
+},
+   {
+  "author": "Emily",
+  "content": "Why is it that every time a girl wears something revealing, people start acting like it’s the end of the world? Let us wear what we want without getting judged. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "21.7K"
+},
+{
+  "author": "Sarah",
+  "content": "Replied to @Emily Post: Exactly! People always act like the way we dress defines our character. It’s frustrating, especially as a teenager. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "18.5K"
+},
+{
+  "author": "Maya",
+  "content": "Replied to @Sarah Post: It’s like they forget we’re just trying to express ourselves. It’s not always about being ‘sexy’ or ‘slutty’—it’s about feeling comfortable in our skin. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "16.3K"
+},
+{
+  "author": "Lily",
+  "content": "Replied to @Maya Post: Some people just don’t get it. They act like we’re doing something wrong just by being confident and dressing how we like. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "14.8K"
+},
+{
+  "author": "Jackson",
+  "content": "Replied to @Lily Post: Honestly, it’s not even about the clothes half the time. People just love to gossip. If they can’t find something to criticize, they’ll make it up. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "13.2K"
+},
+{
+  "author": "Ava",
+  "content": "Replied to @Jackson Post: True. But sometimes I feel like no matter what I wear, I’m either too covered up or not covered enough. Can’t win with some people. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "12.9K"
+},
+{
+  "author": "Lena",
+  "content": "Replied to @Ava Post: It’s like people don’t want us to be comfortable in our own bodies. It’s ridiculous. I should be able to wear whatever I feel good in. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "15.1K"
+},
+{
+  "author": "Ryan",
+  "content": "Replied to @Lena Post: Honestly, people need to mind their own business. If I can wear what I want, so can anyone else. I don’t get why this is such a big deal. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "10.5K"
+},
+{
+  "author": "Eli",
+  "content": "Replied to @Ryan Post: The real issue is when people try to control others. Everyone should just be allowed to express themselves, no matter what they’re wearing. #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "11.8K"
+},
+{
+  "author": "Sophia",
+  "content": "Replied to @Eli Post: Exactly. It’s like we’re not allowed to be teenagers anymore. Everyone’s got something to say about everything. Can’t we just be ourselves? #TeenagerProblems",
+  "date": "Jan 22, 2025",
+  "likes": "14.0K"
+},
+{
+  "author": "Lucas",
+  "content": "Did anyone else see the fire in LA today? It’s been spreading so fast, it looks like something out of a movie. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "22.1K"
+},
+{
+  "author": "Nina",
+  "content": "Replied to @Lucas Post: I saw it! The smoke covered the whole sky. How do fires like that even get started? LA’s on fire like every other month now. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "18.3K"
+},
+{
+  "author": "Daniel",
+  "content": "Replied to @Nina Post: Honestly, at this point, LA fires are like seasonal events. It's either wildfires or earthquakes—pick your poison. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "16.9K"
+},
+{
+  "author": "Jasmine",
+  "content": "Replied to @Daniel Post: It’s crazy. The winds just made everything worse, and now it’s spreading into neighborhoods. Can’t even breathe properly outside. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "13.7K"
+},
+{
+  "author": "Chris",
+  "content": "Replied to @Jasmine Post: It’s honestly heartbreaking. I can’t believe how close it got to the city. Makes you wonder how prepared we really are for stuff like this. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "14.5K"
+},
+{
+  "author": "Riley",
+  "content": "Replied to @Chris Post: They say they’re prepared, but then it’s like they don’t do anything until the damage is done. We’re still waiting on a plan for these fires every year. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "12.1K"
+},
+{
+  "author": "Ava",
+  "content": "Replied to @Riley Post: You can’t expect much from LA’s infrastructure. It's always the same excuses. But hey, at least the rich neighborhoods have fire crews on standby. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "15.2K"
+},
+{
+  "author": "Zoe",
+  "content": "Replied to @Ava Post: You’re not wrong. The firefighters are doing what they can, but how can you fight something that big with limited resources? We need more attention on this before it gets worse. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "13.9K"
+},
+{
+  "author": "Eli",
+  "content": "Replied to @Zoe Post: Honestly, it's not even just LA's problem anymore. With climate change, these fires are going to keep getting worse everywhere. We all need to get serious about the future. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "14.8K"
+},
+{
+  "author": "Lily",
+  "content": "Replied to @Eli Post: Climate change is a real problem, but let's not act like LA doesn’t have the funds to prevent these fires. It's all about greed and poor planning. #LAFire",
+  "date": "Jan 22, 2025",
+  "likes": "12.3K"
+},
+   {
+  "author": "Tyler",
+  "content": "I swear, some people treat their dogs better than themselves. Like, bro, you got your dog a new bed but still sleeping on a mattress from 1998? #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "18.5K"
+},
+{
+  "author": "Lena",
+  "content": "Replied to @Tyler Post: Maybe it’s because the dog’s got more personality than you, Tyler. Ever thought about upgrading your own life before roasting others? #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "15.9K"
+},
+{
+  "author": "Max",
+  "content": "Replied to @Lena Post: Yeah, Lena, the only personality Tyler’s got is complaining about how he can’t afford a new mattress. Maybe your dog’s barking because it’s tired of your excuses. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "14.3K"
+},
+{
+  "author": "Olivia",
+  "content": "Replied to @Max Post: Max, don’t talk about being broke. I saw you at the dollar store buying 10 packs of ramen last week. Pretty sure your dog would rather starve than eat that junk. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "12.8K"
+},
+{
+  "author": "Lily",
+  "content": "Replied to @Olivia Post: At least Max’s dog gets a proper meal. You still buying overpriced kibble and acting like you're feeding a king? Your dog’s probably barking because it’s tired of eating fancy food and not getting any love. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "13.5K"
+},
+{
+  "author": "Jake",
+  "content": "Replied to @Lily Post: Yo, Lily, don’t act like your dog’s barking at the wall because it’s scared. It’s barking because it’s trying to get your attention since you’ve been ignoring it for the last three days. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "11.7K"
+},
+{
+  "author": "Sophia",
+  "content": "Replied to @Jake Post: Oh please, Jake. Your dog probably barks for food every five minutes. If your dog had any dignity, it’d refuse to eat the same thing every single day. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "9.4K"
+},
+{
+  "author": "Dylan",
+  "content": "Replied to @Sophia Post: Dylan’s the type of guy who’d tell you to feed your dog vegan food and then complain when it refuses to eat. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "10.8K"
+},
+{
+  "author": "Chloe",
+  "content": "Replied to @Dylan Post: I swear, Dylan thinks he’s some sort of dog whisperer. I bet you the only thing your dog listens to is your complaining. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "8.9K"
+},
+{
+  "author": "Tyler",
+  "content": "Replied to @Chloe Post: Chloe, your dog’s probably barking because it knows you’re out here acting like you have it all together when we all know you can’t even keep your plants alive. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "14.1K"
+},
+   {
+  "author": "Olivia",
+  "content": "Has anyone ever had a dog freak out for no reason? My dog suddenly started barking and growling at a spot in the corner of the room, and there was nothing there. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "19.3K"
+},
+{
+  "author": "Mason",
+  "content": "Replied to @Olivia Post: That’s creepy! My dog did the same thing once, and I checked everywhere, but there was nothing. It’s like they see something we don’t. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "16.1K"
+},
+{
+  "author": "Lily",
+  "content": "Replied to @Mason Post: Dogs have heightened senses, right? I read that they can sense things like changes in air pressure or sounds we can’t hear. Still, it’s spooky. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "14.2K"
+},
+{
+  "author": "Ethan",
+  "content": "Replied to @Lily Post: Maybe, but I’m convinced something supernatural was happening when my dog started barking at the wall for hours. It was so unnerving. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "11.8K"
+},
+{
+  "author": "Ava",
+  "content": "Replied to @Ethan Post: I had a similar experience! My dog just sat by the door, whining and shaking for no reason. I thought someone was outside, but no one was there. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "13.4K"
+},
+{
+  "author": "Riley",
+  "content": "Replied to @Ava Post: That’s the thing with dogs. They react to things we can’t see or hear, like vibrations or subtle changes. It doesn’t have to be anything supernatural. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "10.1K"
+},
+{
+  "author": "Zoe",
+  "content": "Replied to @Riley Post: I get that, but when my dog starts barking like crazy at 3 AM for no reason, I can’t help but feel like something's off. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "9.6K"
+},
+{
+  "author": "Henry",
+  "content": "Replied to @Zoe Post: It’s gotta be instinct, right? Maybe it’s just something in the environment they’re picking up on. Dogs are more in tune with things than we realize. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "8.2K"
+},
+{
+  "author": "Chloe",
+  "content": "Replied to @Henry Post: I don’t know, Henry. The way my dog reacted the night of that storm, I swear she knew something was coming. She wouldn’t stop barking until it hit. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "11.9K"
+},
+{
+  "author": "Max",
+  "content": "Replied to @Chloe Post: Sometimes dogs can predict things. I’ve seen it happen too. They’re sensitive to weather and vibrations, but still, it’s unsettling when they act that way. #DogIncident",
+  "date": "Jan 22, 2025",
+  "likes": "12.3K"
+},
+   {
+  "author": "Sophia",
+  "content": "I had the creepiest experience last night. I was alone in my apartment when the lights flickered and I heard whispers. I swear it wasn’t just the wind. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "20.3K"
+},
+{
+  "author": "Liam",
+  "content": "Replied to @Sophia Post: I had something similar happen a few weeks ago. My TV turned on by itself, and I heard footsteps in the hallway. No one was there! #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "15.4K"
+},
+{
+  "author": "Harper",
+  "content": "Replied to @Liam Post: That’s terrifying! I had a door slam shut in the middle of the night, and I couldn’t move for what felt like hours. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "13.7K"
+},
+{
+  "author": "Eli",
+  "content": "Replied to @Harper Post: Ghosts or not, it sounds like sleep paralysis. That’s happened to me before. It’s scary as hell, but not supernatural. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "9.6K"
+},
+{
+  "author": "Ava",
+  "content": "Replied to @Eli Post: You can try to explain it that way, but when objects start moving by themselves, it’s hard to dismiss. I’ve seen things I can’t explain. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "11.2K"
+},
+{
+  "author": "Max",
+  "content": "Replied to @Ava Post: Same here. I saw a figure in my hallway one night. It just stood there, staring at me. I couldn’t move or breathe. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "14.5K"
+},
+{
+  "author": "Chloe",
+  "content": "Replied to @Max Post: That sounds so scary. One time, my lights started flickering and I heard knocking on the wall. I was alone, and there was no one there. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "10.1K"
+},
+{
+  "author": "Dylan",
+  "content": "Replied to @Chloe Post: It could be the old house settling or electrical issues. I don’t believe in ghosts, but I get how unsettling it can feel. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "8.4K"
+},
+{
+  "author": "Grace",
+  "content": "Replied to @Dylan Post: Maybe, but the creepy feeling I got when I saw a shadow move across my wall wasn’t just my imagination. I’m telling you, it was real. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "12.9K"
+},
+{
+  "author": "Finn",
+  "content": "Replied to @Grace Post: I get it, but there’s a psychological element to this. Our minds are very powerful. Still, whatever you experienced felt real, and that’s what matters. #GhostEncounter",
+  "date": "Jan 22, 2025",
+  "likes": "10.2K"
+},
+   {
+  "author": "Milo",
+  "content": "Meko Florenz's server had a huge spike in activity today, and everyone’s freaking out thinking it’s a hacker bypassing the system's protections. This is wild. #MekoServerSpike",
+  "date": "Jan 22, 2025",
+  "likes": "17.8K"
+},
+{
+  "author": "Sienna",
+  "content": "Replied to @Milo Post: That’s terrifying! The spike could easily be someone trying to bypass the load balancers and overload the system.",
+  "date": "Jan 22, 2025",
+  "likes": "13.1K"
+},
+{
+  "author": "Jackson",
+  "content": "Replied to @Sienna Post: It could also just be a normal traffic surge. People always jump to conclusions. #MekoServerSpike",
+  "date": "Jan 22, 2025",
+  "likes": "10.6K"
+},
+{
+  "author": "Isabella",
+  "content": "Replied to @Jackson Post: A normal surge doesn’t cause the servers to crash. This looks like a classic attack pattern to me.",
+  "date": "Jan 22, 2025",
+  "likes": "14.2K"
+},
+{
+  "author": "Ethan",
+  "content": "Replied to @Isabella Post: Exactly. If it's an attack, they might have bypassed the load balancing by sending requests from a new IP range.",
+  "date": "Jan 22, 2025",
+  "likes": "12.4K"
+},
+{
+  "author": "Clara",
+  "content": "Replied to @Ethan Post: They would have needed to study the infrastructure first. Hackers don’t just do this blindly.",
+  "date": "Jan 22, 2025",
+  "likes": "9.9K"
+},
+{
+  "author": "Liam",
+  "content": "Replied to @Clara Post: Agreed. If it’s not a hacker, then it’s a big coincidence. Either way, Meko’s team needs to look into it ASAP.",
+  "date": "Jan 22, 2025",
+  "likes": "11.8K"
+},
+{
+  "author": "Avery",
+  "content": "Replied to @Liam Post: I heard they’re already investigating, but with all the recent hacks, it’s definitely suspicious. #MekoServerSpike",
+  "date": "Jan 22, 2025",
+  "likes": "12.1K"
+},
+{
+  "author": "Dylan",
+  "content": "Replied to @Avery Post: They better find out what happened soon, or Meko’s reputation could take a hit from this. The last thing they need is more drama.",
+  "date": "Jan 22, 2025",
+  "likes": "10.7K"
+},
+{
+  "author": "Chloe",
+  "content": "Replied to @Dylan Post: Honestly, if it is a hack, it’s gonna be hard to cover up. Meko’s team needs to be transparent about this one.",
+  "date": "Jan 22, 2025",
+  "likes": "13.4K"
+},
+   {
+  "author": "Meko_Reporter",
+  "content": "Reports of florenz account a side dev account got hacked on Jan 22 2025 4:20AM. we know it as the account was online that time and posted a video embed yt <div class='mark'>florenz account hacked! And Reports of Server spike lag are spreading through the users visual Client</div>   <div></div> Hackers may be dangerous but the acc got hacked only by pass guess. so thats the theory just for now. but we will be still investigate more users activity on his acc but we all save for now. there are no evidence of scripting or manipulative script that by pass the cloud <div class='tags'>Tags:florenz acc got hacked,flamingo my account got hacked,flamingo hacked lisa gaming,all my accounts are getting hacked,account getting hacked roblox,bank account got hacked,i got hacked and banned,xbox account got hacked,cammy's account got hacked,email got hacked,epic account got hacked,ox news got hacked,gta 5 my bank account is hacked,gta v account hacked,hackers that got hacked,hacker hacked my account,how my account got hacked,i got hacked flamingo,itsfunneh account got hacked,i've got hacked,kreekcraft my account got hacked,kreek account hacked,linus we got hacked,my account got hacked,my roblox acc got hacked,i got hacked on msp,my gta account got hacked,nicsterv roblox account hacked,why are roblox accounts getting hacked,i got hacked on my pc,roblox account that got hacked,roblox account getting hacked,i got hacked on steam,the news got hacked,tv news got hacked,valorant account getting hacked,fortnite account getting hacked,i got my account hacked</div>",
+  "date": "Jan 22, 2025",
+  "likes": "1.2M"
+},
+{
+  "author": "DinoMagic ✓",
+  "content": "Meko Florenz's admin account got hacked this morning at 4AM! New device connected and reports of account hijacking flooding in. What a mess. #MekoHacked",
+  "date": "Jan 22, 2025",
+  "likes": "21.2K"
+},
+{
+  "author": "Ella",
+  "content": "Replied to @Jaxon Post: How could this happen? They should have more security on admin accounts!",
+  "date": "Jan 22, 2025",
+  "likes": "15.7K"
+},
+{
+  "author": "Riley",
+  "content": "Replied to @Ella Post: You'd think so, right? But it sounds like a new device was used, so maybe it wasn’t even their fault.",
+  "date": "Jan 22, 2025",
+  "likes": "12.5K"
+},
+{
+  "author": "Zoe",
+  "content": "Replied to @Riley Post: New device or not, that’s still a serious breach. They need better protocols, especially for admin access.",
+  "date": "Jan 22, 2025",
+  "likes": "9.1K"
+},
+{
+  "author": "Logan",
+  "content": "Replied to @Zoe Post: @Zoe maybe it’s not about protocols, but how many times these hackers can bypass security. The tools they use are crazy!",
+  "date": "Jan 22, 2025",
+  "likes": "8.8K"
+},
+{
+  "author": "Olivia",
+  "content": "Replied to @Logan Post: Security is definitely a factor, but let's not forget that the real problem is people not using strong enough passwords and two-factor authentication. #MekoHacked",
+  "date": "Jan 22, 2025",
+  "likes": "14.3K"
+},
+{
+  "author": "Ethan",
+  "content": "Replied to @Olivia Post: Two-factor won’t stop a hacker who knows what they’re doing. I’m sure they had that in place already.",
+  "date": "Jan 22, 2025",
+  "likes": "11.2K"
+},
+{
+  "author": "Ava",
+  "content": "Replied to @Ethan Post: You’re right. The hacker must’ve been really good. I’m worried this won’t be the last incident. #AccountHijacking",
+  "date": "Jan 22, 2025",
+  "likes": "16.9K"
+},
+{
+  "author": "Max",
+  "content": "Replied to @Ava Post: It’s going to happen again if platforms don’t start implementing better detection tools. This was just the beginning.",
+  "date": "Jan 22, 2025",
+  "likes": "10.4K"
+},
+{
+  "author": "Nina",
+  "content": "Replied to @Max Post: I agree, but imagine the damage Meko’s account could have done if the hacker got to post. #MekoHacked",
+  "date": "Jan 22, 2025",
+  "likes": "7.6K"
+},
+{
+  "author": "Oscar",
+  "content": "Replied to @Nina Post: Why would Meko even need an admin account that powerful? Seems like a huge risk if you ask me.",
+  "date": "Jan 22, 2025",
+  "likes": "9.4K"
+},
+{
+  "author": "Kara",
+  "content": "Replied to @Oscar Post: That’s the nature of high-profile accounts. Admin access is required for managing everything. The bigger issue is the lack of stronger checks.",
+  "date": "Jan 22, 2025",
+  "likes": "11.7K"
+},
+   {
+  "author": "Ivy",
+  "content": "Did anyone else hear about Meko Florenz getting hacked? That account had like a million followers!",
+  "date": "Jan 22, 2025",
+  "likes": "18.4K"
+},
+{
+  "author": "Jake",
+  "content": "Replied to @Ivy Post: Yeah, I saw! The hacker posted some wild stuff before the account went down.",
+  "date": "Jan 22, 2025",
+  "likes": "13.7K"
+},
+{
+  "author": "Mila",
+  "content": "Replied to @Jake Post: I can’t believe it. Meko’s account was like, so professional. How does this even happen?",
+  "date": "Jan 22, 2025",
+  "likes": "9.5K"
+},
+{
+  "author": "Oliver",
+  "content": "Replied to @Mila Post: It happens because people use weak passwords or don’t enable two-factor authentication.",
+  "date": "Jan 22, 2025",
+  "likes": "11.2K"
 },
 {
-  author: "Emma Castillo",
-  content: "I woke up to my house shaking like crazy. Earthquakes always make me so anxious. I don’t think I’ll be able to sleep tonight. Stay safe, everyone! 🙏",
-  date: "Jan 6, 2025",
-  likes: "210"
+  "author": "Sophia",
+  "content": "Replied to @Oliver Post: Oh come on, hackers can get in even with two-factor. They’re getting smarter every day.",
+  "date": "Jan 22, 2025",
+  "likes": "10.9K"
+},
+{
+  "author": "Max",
+  "content": "Replied to @Sophia Post: Exactly. No account is safe these days. People should back up their content and prepare for the worst.",
+  "date": "Jan 22, 2025",
+  "likes": "12.1K"
 },
 {
-  author: "Jake Ramirez",
-  content: "That earthquake was no joke. I’ve been through a few, but this one had me second-guessing everything. How does everyone cope with the aftershocks? 😬",
-  date: "Jan 7, 2025",
-  likes: "195"
+  "author": "Luna",
+  "content": "Replied to @Max Post: That’s easy to say, but Meko had years of work on that account. This is a huge loss.",
+  "date": "Jan 22, 2025",
+  "likes": "8.4K"
 },
 {
-  author: "Natalie Perez",
-  content: "I can still feel the tremors from that earthquake. Honestly, it shook me up. I’m not sure I’ll be able to relax for a while. Anyone else still on edge? 😔",
-  date: "Jan 8, 2025",
-  likes: "220"
+  "author": "Theo",
+  "content": "Replied to @Luna Post: True, but why don’t influencers invest in better cybersecurity? It’s their career on the line.",
+  "date": "Jan 22, 2025",
+  "likes": "10.7K"
 },
 {
-  author: "Chris Medina",
-  content: "I had to check every part of the house after that earthquake. My heart was racing. I never get used to this. Are we supposed to be this scared every time? 😓",
-  date: "Jan 9, 2025",
-  likes: "250"
+  "author": "Aria",
+  "content": "Replied to @Theo Post: Yeah, but you can’t blame Meko entirely. Sometimes these hackers are just that good.",
+  "date": "Jan 22, 2025",
+  "likes": "9.6K"
 },
 {
-  author: "Lila Torres",
-  content: "That earthquake today hit too close to home. I can’t believe how strong it was. How do you all stay calm during these things? I need some tips. 😔",
-  date: "Jan 4, 2025",
-  likes: "180"
+  "author": "Eli",
+  "content": "Replied to @Aria Post: I heard it was an inside job. Someone close to Meko might have leaked the credentials.",
+  "date": "Jan 22, 2025",
+  "likes": "11.9K"
 },
 {
-  author: "Oliver Garcia",
-  content: "I thought I was used to earthquakes, but that one threw me off. I don’t know how people in earthquake zones manage their anxiety. Any tips on staying calm? 🧘‍♂️",
-  date: "Jan 3, 2025",
-  likes: "175"
+  "author": "Hazel",
+  "content": "Replied to @Eli Post: An inside job? That’s even worse. Imagine not being able to trust your own team.",
+  "date": "Jan 22, 2025",
+  "likes": "10.3K"
 },
-{
-  author: "Maya Fernandez",
-  content: "I just got home from work, and the house was still shaking. I swear, these aftershocks are worse than the initial earthquake. Anyone else having a tough time? 😖",
-  date: "Jan 2, 2025",
-  likes: "185"
-},
-{
-  author: "Lucas Sanchez",
-  content: "The whole neighborhood was on edge after that earthquake. I keep checking my door frames to make sure they’re not cracked. Is this paranoia, or is it normal? 🧐",
-  date: "Jan 1, 2025",
-  likes: "220"
-},
-{
-  author: "Zoe Morales",
-  content: "I can’t believe how intense the shaking was today. My heart was racing the whole time. I just want to get through the night without any more aftershocks. 😣",
-  date: "Jan 6, 2025",
-  likes: "200"
-},
-{
-  author: "Dr. Emily Rodriguez",
-  content: "Earthquakes are unpredictable, but it's important to stay prepared. Remember to drop, cover, and hold on if one strikes. It’s all about minimizing risk. Stay safe, everyone! 🌍",
-  date: "Jan 5, 2025",
-  likes: "420"
-},
-{
-  author: "Professor Alan Mitchell",
-  content: "While earthquakes are nerve-wracking, it’s critical to understand the science behind them. The tectonic plates are constantly shifting, which can lead to seismic events. Stay alert and stay informed. 🌍",
-  date: "Jan 6, 2025",
-  likes: "510"
-},
-{
-  author: "Dr. Maria Alvarez",
-  content: "Just a quick reminder: If you’re in an earthquake-prone region, have a survival kit and a family emergency plan. Earthquakes are a reality we need to be ready for. Earthquake preparedness saves lives. ⚠️",
-  date: "Jan 7, 2025",
-  likes: "450"
-},
-{
-  author: "Dr. Samuel Carter",
-  content: "Aftershock can be just as dangerous as the main earthquake. Always stay outside if possible, and avoid buildings with structural damage. The immediate response is crucial in minimizing injury. 🌍",
-  date: "Jan 8, 2025",
-  likes: "490"
-},
-{
-  author: "Professor Rachel White",
-  content: "To all those who experienced the recent earthquake: remember to check for gas leaks and structural damage. Safety is paramount. Be sure to evacuate if necessary, especially after significant shaking. 🚨",
-  date: "Jan 9, 2025",
-  likes: "460"
-},
-{
-  author: "Dr. Mark Thompson",
-  content: "As an earthquake specialist, I recommend everyone living in a high-risk area install seismic sensors. They can give you an early warning and help mitigate damage. Prevention and preparation are key. 🌍",
-  date: "Jan 4, 2025",
-  likes: "475"
+   {
+  "author": "Ava",
+  "content": "I saw this video of a cloud dumping gallons of water, and honestly, it felt surreal. Are we finally getting some balance back?",
+  "date": "Jan 18, 2025",
+  "likes": "15.7K"
 },
 {
-  author: "Dr. Olivia Chang",
-  content: "Earthquakes occur because of the movement of tectonic plates beneath the Earth’s surface. This is why the Pacific Ring of Fire is particularly active. Stay educated and always have a preparedness plan in place. 🌐",
-  date: "Jan 3, 2025",
-  likes: "440"
+  "author": "Lucas",
+  "content": "Replied to @Ava Post: Balance? More like Mother Nature cleaning up after us again.",
+  "date": "Jan 18, 2025",
+  "likes": "11.2K"
 },
 {
-  author: "Professor Derek Lee",
-  content: "It’s easy to panic during an earthquake, but staying calm and following basic procedures can help save lives. Drop, cover, and hold on during the shaking, and evacuate when it’s safe to do so. 🔍",
-  date: "Jan 2, 2025",
-  likes: "395"
+  "author": "Olivia",
+  "content": "Replied to @Lucas Post: Cleaning up after us? You act like we control where clouds go. Chill.",
+  "date": "Jan 18, 2025",
+  "likes": "8.9K"
 },
 {
-  author: "Dr. Janet Kim",
-  content: "While we cannot predict exactly when an earthquake will occur, understanding seismic activity and its patterns can help us be better prepared. Always be aware of your surroundings and know the evacuation routes. 🌍",
-  date: "Jan 1, 2025",
-  likes: "430"
+  "author": "Mason",
+  "content": "Replied to @Olivia Post: Actually, we kinda do. Ever heard of cloud seeding? Humans play god way too much.",
+  "date": "Jan 19, 2025",
+  "likes": "9.4K"
 },
 {
-  author: "Dr. Alex Martinez",
-  content: "Even minor earthquakes can cause significant damage if not prepared for. Regularly inspect your home for safety hazards, like loose objects or cracks in the foundation. Safety comes first. 🏠",
-  date: "Jan 6, 2025",
-  likes: "485"
+  "author": "Ella",
+  "content": "Replied to @Mason Post: Cloud seeding isn’t playing god; it’s science trying to fix what we’ve broken.",
+  "date": "Jan 19, 2025",
+  "likes": "10.6K"
 },
 {
- author: "DaisyMeHeart",
- content: "if your in a very high building and theres a earthquake what will we do?",
- date: "Jan 1, 2024",
- likes: "1.6M"
+  "author": "Noah",
+  "content": "Replied to @Ella Post: Fix? We just keep making it worse. This ‘science’ is a band-aid on a bullet wound.",
+  "date": "Jan 19, 2025",
+  "likes": "12.8K"
 },
 {
-  author: "Dr. Samuel Carter",
-  content: "Great question, DaisyMeHeart. If you're in a high-rise during an earthquake, stay calm. Drop under a sturdy desk or table to protect your head and neck. Avoid windows and elevators, and wait for the shaking to stop before evacuating if possible. Safety first! ⚠️",
-  date: "Jan 5, 2025",
-  likes: "210K"
+  "author": "Lily",
+  "content": "Replied to @Noah Post: So what's your solution? Just sit around and hope for the best?",
+  "date": "Jan 20, 2025",
+  "likes": "9.7K"
 },
 {
-  author: "Professor Alan Mitchell",
-  content: "To add on to Dr. Carter’s advice, always remember to stay inside during shaking in a high-rise building. Most buildings are designed to withstand tremors, and running outside can expose you to falling debris. Stay put until the shaking stops. 🏢🌍",
-  date: "Jan 6, 2025",
-  likes: "180K"
+  "author": "Ethan",
+  "content": "Replied to @Lily Post: The solution is long-term. Less waste, better systems, and fewer arguments like this one.",
+  "date": "Jan 20, 2025",
+  "likes": "10.2K"
 },
 {
-  author: "Dr. Maria Alvarez",
-  content: "If you're in a tall building, the best thing to do is stay where you are during the shaking. Do not try to run down the stairs as you could be putting yourself at more risk. Drop, cover, and hold on. Once the shaking stops, assess the situation carefully. 🚨",
-  date: "Jan 7, 2025",
-  likes: "220K"
+  "author": "Zara",
+  "content": "Replied to @Ethan Post: Easier said than done. Most people can’t even recycle properly.",
+  "date": "Jan 20, 2025",
+  "likes": "8.4K"
 },
 {
-  author: "Dr. Olivia Chang",
-  content: "I’ve seen people panic during earthquakes in tall buildings, but it’s important to stay calm. Keep away from windows and heavy objects. If the building is swaying, don’t try to leave until the shaking stops. Buildings are designed for this! 🌍",
-  date: "Jan 8, 2025",
-  likes: "200K"
+  "author": "Henry",
+  "content": "Replied to @Zara Post: Recycling is a scam anyway. The real problem is overconsumption.",
+  "date": "Jan 21, 2025",
+  "likes": "11.1K"
 },
-{
-  author: "Dr. Janet Kim",
-  content: "DaisyMeHeart, in addition to what’s been said, after the shaking stops, check for any hazards before you move. Make sure you’re in a safe space before evacuating. If the building is unstable, wait for emergency services. Don't use elevators! 🏢🛑",
-  date: "Jan 9, 2025",
-  likes: "190K"
-},
-{
-  author: "Lucas Sanchez",
-  content: "If you're in a tall building during an earthquake, don’t try to run outside. Many high-rises have been built to withstand seismic activity, so the best advice is to remain inside, stay away from windows, and protect your head and neck. 📏",
-  date: "Jan 4, 2025",
-  likes: "160K"
-},
-{
-  author: "Chris Medina",
-  content: "I used to live in a high-rise, and every time there was an earthquake, I remember the rule of thumb: stay where you are and drop under something sturdy. It might feel like the building is swaying, but it's designed to handle this! Stay calm. 🌍🏢",
-  date: "Jan 3, 2025",
-  likes: "170K"
-},
-{
-  author: "Lila Torres",
-  content: "In a high-rise, it’s tempting to try and rush out during an earthquake, but it’s often more dangerous. Always drop to the floor, take cover, and protect your head. Once the shaking stops, assess the environment before heading out. 🌐",
-  date: "Jan 2, 2025",
-  likes: "150K"
-},
-{
-  author: "David Hernandez",
-  content: "It’s scary to think about, but if you’re in a high-rise building during an earthquake, remember to stay low, cover your head, and hold on until the shaking stops. Avoid windows and doors, and always wait for the tremors to end before moving. 🏢💥",
-  date: "Jan 1, 2025",
-  likes: "230K"
-},
-{
-  author: "Maya Fernandez",
-  content: "I've read that in taller buildings, the shaking can feel stronger. If you’re in one, don’t panic! The best thing to do is drop, take cover under something sturdy, and hold on until the shaking stops. Your safety is most important. 🧘‍♀️🌍",
-  date: "Jan 6, 2025",
-  likes: "210K"
-},
-{
-  author: "Juan Carlos",
-  content: "I was in a tall building when the earthquake hit last week. I just ducked under the desk and waited it out. It felt like forever, but luckily it stopped soon. Not sure what I would have done if it lasted longer. 😓",
-  date: "Jan 5, 2025",
-  likes: "45"
-},
-{
-  author: "Marina Lopez",
-  content: "I always get so scared when there's an earthquake in a high building. I just hide under a table and try not to panic. It was so scary last time! 😟",
-  date: "Jan 6, 2025",
-  likes: "52"
+   {
+  "author": "Jade",
+  "content": "This water situation in California is wild. Nature always finds a way, but do we?",
+  "date": "Jan 15, 2025",
+  "likes": "14.2K"
 },
 {
-  author: "Carlos Gutierrez",
-  content: "Whenever I’m in a tall building and an earthquake happens, I always make sure to stay away from windows. I heard that helps a lot. Last time, it felt like the building was gonna collapse. 😱",
-  date: "Jan 7, 2025",
-  likes: "38"
+  "author": "Felix",
+  "content": "Replied to @Jade Post: Nature finds a way, sure, but humans always mess it up afterward.",
+  "date": "Jan 15, 2025",
+  "likes": "11.4K"
 },
 {
-  author: "Lucia Ramos",
-  content: "It’s tough staying calm in a tall building during an earthquake, but I learned to drop, cover, and hold on. Honestly, I feel more prepared now, but it’s still terrifying when it happens. 😔",
-  date: "Jan 8, 2025",
-  likes: "29"
+  "author": "Nora",
+  "content": "Replied to @Felix Post: Or maybe this is nature’s way of teaching us a lesson. Ever thought about that?",
+  "date": "Jan 15, 2025",
+  "likes": "9.8K"
 },
 {
-  author: "Oscar Perez",
-  content: "Every time there's an earthquake, I just freeze. In a high building, I don't know what to do other than hold on tight and wait for it to pass. It’s scary though. 😣",
-  date: "Jan 9, 2025",
-  likes: "36"
+  "author": "Eli",
+  "content": "Replied to @Nora Post: Teaching us a lesson? It's water, not some divine punishment!",
+  "date": "Jan 15, 2025",
+  "likes": "10.5K"
 },
 {
-  author: "Paola Hernandez",
-  content: "I was in a high-rise when the earthquake struck last week, and I panicked a little. I just stayed under a desk and waited. Not sure how else to handle it. 😓",
-  date: "Jan 4, 2025",
-  likes: "41"
+  "author": "Sophie",
+  "content": "Replied to @Eli Post: Why does everything have to be so black and white with you people? It's just water, calm down.",
+  "date": "Jan 16, 2025",
+  "likes": "7.9K"
 },
 {
-  author: "Eduardo Vargas",
-  content: "If you’re in a tall building, just try to stay calm and wait for the shaking to stop. It’s a bit of a scary feeling when the building starts moving. I don’t think I’ll ever get used to it. 😬",
-  date: "Jan 3, 2025",
-  likes: "44"
+  "author": "Ryan",
+  "content": "Replied to @Sophie Post: Yeah, but this ‘just water’ could be life-saving for some communities. Let’s not downplay it.",
+  "date": "Jan 16, 2025",
+  "likes": "12.1K"
 },
 {
-  author: "Adriana Castillo",
-  content: "Last time the earthquake happened while I was in a tall building, I wasn’t sure what to do. I stayed away from the windows, covered my head, and just waited. It felt like forever. 🌍",
-  date: "Jan 2, 2025",
-  likes: "39"
+  "author": "Isla",
+  "content": "Replied to @Ryan Post: I agree. It’s a blessing and a chance to rethink our policies.",
+  "date": "Jan 16, 2025",
+  "likes": "8.4K"
 },
 {
-  author: "Raul Diaz",
-  content: "I’ve heard that staying in place and ducking under something sturdy is the best way to stay safe during an earthquake in a high building. I tried that last time, and it helped. 🌍",
-  date: "Jan 1, 2025",
-  likes: "48"
+  "author": "Liam",
+  "content": "Replied to @Isla Post: Policies won’t fix stupidity. People will just waste it anyway.",
+  "date": "Jan 17, 2025",
+  "likes": "10.3K"
 },
 {
-  author: "Carmen Reyes",
-  content: "I don’t think I’ll ever get used to earthquakes. When I’m in a tall building, I just stay where I am and cover my head until the shaking stops. It’s better than running out, I think. 😔",
-  date: "Jan 6, 2025",
-  likes: "42"
+  "author": "Clara",
+  "content": "Replied to @Liam Post: So, what? We just give up and let the planet dry out? Great logic.",
+  "date": "Jan 17, 2025",
+  "likes": "9.6K"
 },
 {
-  author: "Tommy Reynolds",
-  content: "The wildfires in LA have been insane lately. I never thought something like this could happen, but after mocking God last year, I guess karma's real. Stay safe, everyone. 🙏🔥",
-  date: "Jan 6, 2025",
-  likes: "89"
+  "author": "Drew",
+  "content": "Replied to @Clara Post: No one said give up. We just need to educate people better. But who’s gonna listen?",
+  "date": "Jan 17, 2025",
+  "likes": "7.2K"
 },
-{
-  author: "Alyssa Hayes",
-  content: "The fires are getting worse in Los Angeles. I honestly can't help but think that maybe mocking God wasn't the best idea. Hope everyone is staying safe out there. 😔🔥",
-  date: "Jan 7, 2025",
-  likes: "102"
+   {
+  "author": "Cubix",
+  "content": "A cloud dropping gallons of water <div style='left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/zVDyHqSMx6A?si=E_eqUhTTUGJWv7OJ'></div></div>",
+  "date": "Jan 22, 2025",
+  "likes": "6.3K"
 },
 {
-  author: "Randy Fisher",
-  content: "The wildfires are terrifying, and it feels like a warning. Maybe it's because of all the things we’ve said and done against God. I just hope things cool down soon. Stay safe, folks. 🔥🙏",
-  date: "Jan 8, 2025",
-  likes: "120"
+  "author": "Zeo",
+  "content": "Replied to @Cubix Post: Umm okay, California needed this",
+  "date": "Dec 9, 2024",
+  "likes": "3K"
 },
 {
-  author: "Jessica Martinez",
-  content: "I can't believe how bad these wildfires are getting. I used to joke about things like this, but now I see the consequences. I regret all those times I mocked God. Stay safe, everyone. 😢🔥",
-  date: "Jan 9, 2025",
-  likes: "150"
+  "author": "Mina",
+  "content": "Replied to @Zeo Post: How is this even helpful? California burned because of negligence, not clouds.",
+  "date": "Dec 10, 2024",
+  "likes": "8.7K"
 },
 {
-  author: "Matthew Clark",
-  content: "With these wildfires, I can't help but wonder if it's some kind of sign. Maybe we shouldn’t have mocked God so much. Stay safe, folks, and take care of each other. 🙏🔥",
-  date: "Jan 5, 2025",
-  likes: "110"
+  "author": "Leo",
+  "content": "Replied to @Mina Post: Oh sure, let's blame nature instead of addressing real issues. Classic atheist nonsense.",
+  "date": "Dec 10, 2024",
+  "likes": "7.1K"
 },
 {
-  author: "Emily Santos",
-  content: "The wildfires in LA are getting out of hand. It's hard not to feel like this is somehow related to the way we’ve mocked God in the past. I just hope we all stay safe and learn from this. 🔥🙏",
-  date: "Jan 4, 2025",
-  likes: "95"
+  "author": "Aron",
+  "content": "Replied to @Leo Post: Dude, it's just a comment about water. Stop making it about religion.",
+  "date": "Dec 10, 2024",
+  "likes": "5.9K"
 },
 {
-  author: "Kevin Thompson",
-  content: "It’s crazy how intense the fires are in LA right now. We’ve been mocking God for so long, maybe this is His way of reminding us that we need to change our ways. Stay safe, everyone. 🔥🙏",
-  date: "Jan 10, 2025",
-  likes: "130"
+  "author": "Kelly",
+  "content": "Replied to @Aron Post: No, Aron, he's right. This shows how much people ignore divine intervention!",
+  "date": "Dec 10, 2024",
+  "likes": "9.8K"
 },
 {
-  author: "Sarah Lee",
-  content: "These fires are so out of control. It's hard not to think that mocking God in the past has something to do with this. I feel guilty, but all we can do now is hope and pray for safety. 🌿🔥",
-  date: "Jan 11, 2025",
-  likes: "140"
+  "author": "Sam",
+  "content": "Replied to @Kelly Post: Divine intervention? It's a cloud, not a miracle.",
+  "date": "Dec 11, 2024",
+  "likes": "4.5K"
 },
 {
-  author: "Mark Cooper",
-  content: "Just saw the wildfires in LA getting worse. The thought of how many times people mocked God makes me wonder if this is some kind of divine punishment. I hope we all learn from this and take it seriously. 🙏🔥",
-  date: "Jan 12, 2025",
-  likes: "115"
+  "author": "Jessica",
+  "content": "Replied to @Sam Post: Funny how people like you mock everything. California literally needs this water.",
+  "date": "Dec 11, 2024",
+  "likes": "10.3K"
 },
 {
-  author: "Lauren Davis",
-  content: "It feels like the earth is angry. With these wildfires getting worse, maybe it’s time to reflect on all the times we mocked God. This could be a sign for all of us. Stay safe, everyone. 🔥🔥",
-  date: "Jan 13, 2025",
-  likes: "125"
+  "author": "Max",
+  "content": "Replied to @Jessica Post: Or maybe they need better policies instead of hoping for clouds to save them.",
+  "date": "Dec 12, 2024",
+  "likes": "6.7K"
 },
 {
-  author: "Jason Miller",
-  content: "The wildfires are spreading fast, and it’s hard to ignore the thought that we’ve been disrespecting God. I pray for everyone’s safety, and hope we all take this as a wake-up call. 🙏🔥",
-  date: "Jan 14, 2025",
-  likes: "135"
+  "author": "Tina",
+  "content": "Replied to @Max Post: Oh please, Max. At least it's better than nothing. Stop being a sinner for once.",
+  "date": "Dec 12, 2024",
+  "likes": "8.1K"
 },
 {
-  author: "Chloe Rodriguez",
-  content: "The smoke from the wildfires is everywhere. It's hard to think it’s not related to how we’ve treated each other and mocked God. Maybe this is the universe trying to tell us something. Stay safe, everyone. 🌎🔥",
-  date: "Jan 15, 2025",
-  likes: "110"
+  "author": "Zoe",
+  "content": "Replied to @Tina Post: A sinner? Really? Can we stop turning every conversation into a moral lecture?",
+  "date": "Dec 13, 2024",
+  "likes": "7.4K"
 },
-{
-  author: "Benjamin Lee",
-  content: "As I watch these wildfires spread across LA, I can’t help but feel responsible for mocking God. Maybe this is His warning for all of us. Please be safe, and take care of your loved ones. 🙏🔥",
-  date: "Jan 16, 2025",
-  likes: "100"
+   {
+    "author": "Cubix",
+    "content": "it might be florenz who came online guys and embed a video just chill",
+    "date": "Jan 22, 2025",
+    "likes": "72K"
 },
 {
-  author: "Isabella Thompson",
-  content: "The wildfires in LA feel like they’re out of control. It’s a harsh reminder of how we’ve ignored warnings and mocked God. Let’s pray for safety and stop the foolishness. 🔥🙏",
-  date: "Jan 17, 2025",
-  likes: "120"
+    "author": "Z",
+    "content": "@florenz got hacked. so for those who is not OG here in the meko community. florenz a side dev of Oniwa who developed meko.",
+    "date": "Jan 22, 2025",
+    "likes": "26K"
 },
 {
-  author: "Tommy Garcia",
-  content: "Every time there’s a wildfire, I can’t help but think about all the times we mocked God. I don’t know if it’s a punishment, but we need to do better as a people. Stay safe, everyone. 🔥😔",
-  date: "Jan 18, 2025",
-  likes: "140"
+    "author": "pizzagirl",
+    "content": "Crazy today. as florenz the side dev got hacked. it send a sprunki video for no reason",
+    "date": "Jan 22, 2025",
+    "likes": "76K"
 },
 {
-  author: "Sophie Turner",
-  content: "These wildfires in LA are scary. They feel like they’re linked to all the times we’ve mocked God. I’m praying for everyone’s safety, and I hope we can turn things around. 🌍🙏🔥",
-  date: "Jan 19, 2025",
-  likes: "130"
+    "author": "tae",
+    "content": "@florenz got hacked @OniwaPenut wake up penut. your friend got hacked!!!! wake up #florenzgotHacked",
+    "date": "Jan 22, 2025",
+    "likes": "86K"
 },
 {
-  author: "Liam Peterson",
-  content: "I’ve been thinking a lot about the wildfires lately. All the times we mocked God have come back to haunt us. These fires are devastating, and it feels like we’re being punished for our actions. Praying for safety. 🙏🔥",
-  date: "Jan 20, 2025",
-  likes: "150"
+    "author": "DinoMagic ✓",
+    "content": "Ain't no way a side dev got hacked. but for real though. the acc is not been touched for a long time and is floating to meko cload. and a 5-10 yo exploiter found a by pass to get the data value",
+    "date": "Jan 22, 2025",
+    "likes": "726K"
 },
 {
-  author: "Diana Alvarez",
-  content: "The fires in LA are terrifying. I’m starting to think that all the times we mocked God have caught up with us. We really need to reflect and change our ways. Stay safe, everyone. 🙏🔥",
-  date: "Jan 21, 2025",
-  likes: "160"
+    "author": "DinoMagic √",
+    "content": "test hashtag #meko",
+    "date": "Jun 4, 2021",
+    "likes": ""
 },
 {
-  author: "Carlos Medina",
-  content: "It’s getting harder to ignore the connection between these wildfires and the way we've disrespected God. The fires feel like a wake-up call. Let’s take care of each other and pray for the end of this crisis. 🔥🙏",
+  author: "JamesRandall",
+  content: 'no post cuz im going to sleep',
   date: "Jan 22, 2025",
-  likes: "170"
+  likes: "17.2K"
 },
 {
-  author: "Samantha Lee",
-  content: "As much as I hate to admit it, these wildfires feel like a punishment for everything we’ve said and done against God. I just hope we all learn from this and take it as a sign. Stay safe, everyone. 🔥🙏",
-  date: "Jan 23, 2025",
-  likes: "180"
+  author: "JamesRandall",
+  content: 'JAMES RANDAL & THE TOOTH FAIRY! | GTA 5 RP | Purple RP <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/mHJtZN_jO8A?si=4IwkB-ByZK8wg1QZ"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "17.2K"
 },
 {
-  author: "Ethan Johnson",
-  content: "The air quality is so bad from these wildfires, and I can’t help but feel like we’ve invited this by mocking God. Let’s stop fighting and do what we can to survive. This is a reminder of what happens when we ignore the bigger picture. 🌍🔥",
-  date: "Jan 24, 2025",
-  likes: "140"
+  author: "JamesRandall",
+  content: 'JAMES RANDAL & THE WINNING LOTTERY TICKET! | GTA 5 RP | Purple RP <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/qnA4UCSYMC8?si=EpTrvDV-FJ_810BS"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "17.2K"
 },
 {
-  author: "Paula Gonzalez",
-  content: "Watching the wildfires burn through LA makes me reflect on all the times we disrespected God. Maybe it’s time to start living right and turn this situation around. Stay safe, everyone. 🔥🙏",
-  date: "Jan 25, 2025",
-  likes: "130"
+  author: "JamesRandall",
+  content: 'Like amd subs to space boy. did a great job :)',
+  date: "Jan 22, 2025",
+  likes: "102K"
 },
 {
-  author: "Henry Clark",
-  content: "It’s hard not to feel like these wildfires are somehow connected to our past actions. We’ve mocked God too many times. It’s time to stop and pray for peace. Stay safe, everyone. 🔥🙏",
-  date: "Jan 26, 2025",
-  likes: "110"
+  author: "JamesRandall",
+  content: 'A TRIBUTE TO JAMES RANDAL!<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/xSaeBnp69n4?si=5l9CUCDMzokLLJkA"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "3.1K"
 },
 {
-  author: "Sophia Davis",
-  content: "I’ve been struggling to breathe because of these wildfires, and it makes me wonder if this is some kind of divine retribution. The way we’ve treated each other and mocked God has consequences. Stay safe, everyone. 🙏🔥",
-  date: "Jan 27, 2025",
-  likes: "120"
+  author: "JamesRandall",
+  content: 'JAMES RANDAL DISRUPTS A POLICE MEETING!<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/CqSSX2EDyX0?si=-yKU5cx9Cqyxnvsa"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "3.1K"
 },
 {
-  author: "Oscar Reyes",
-  content: "The wildfires are getting closer to home, and I feel like this is a wake-up call. Maybe mocking God in the past was a huge mistake. Let’s all reflect and pray for safety. 🔥🙏",
-  date: "Jan 28, 2025",
-  likes: "100"
+  author: "JamesRandall",
+  content: 'JAMES RANDAL & THE BANANA PEEL MASSACRE!<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/ExqIIJmZPIQ?si=pH4HSDYJ81AhThsb"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "71K"
 },
 {
-  author: "Lily Martinez",
-  content: "These wildfires feel like nature’s way of getting back at us for all the mocking and disrespect towards God. I hope we all take this as a lesson. Stay safe out there, everyone. 🔥🙏",
-  date: "Jan 29, 2025",
-  likes: "90"
+  author: "JamesRandall",
+  content: 'JAMES RANDAL CADETS FIRST DAY OF HELL!<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/Pccwx_uQnVs?si=LoTVbX3Casx0OgCS"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "3.1K"
 },
-  {
-    "author": "Sarah Davis",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 9, 2025",
-    "likes": 957
-  },
-  {
-    "author": "Sarah Clark",
-    "content": "We are witnessing a crisis unfold right before our eyes. It’s time to stop talking and start acting.",
-    "date": "Jan 3, 2025",
-    "likes": 508
-  },
-  {
-    "author": "Sarah Martinez",
-    "content": "We need to act now before it’s too late. Natural disasters like this aren’t just a coincidence anymore.",
-    "date": "Jan 2, 2025",
-    "likes": 593
-  },
-  {
-    "author": "Liam Smith",
-    "content": "The wildfires are crazy. I can't believe this is happening. Stay safe everyone.",
-    "date": "Jan 12, 2025",
-    "likes": 673
-  },
-  {
-    "author": "Jessica Lopez",
-    "content": "The wildfires are too close for comfort. It’s hard to focus on anything else when the air is so bad.",
-    "date": "Jan 10, 2025",
-    "likes": 725
-  },
-  {
-    "author": "Tommy Smith",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 12, 2025",
-    "likes": 692
-  },
-  {
-    "author": "Benjamin Lopez",
-    "content": "I don’t even know how to describe the feeling of watching everything burn. This is truly devastating.",
-    "date": "Jan 8, 2025",
-    "likes": 542
-  },
-  {
-    "author": "Carlos Clark",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 2, 2025",
-    "likes": 717
-  },
-  {
-    "author": "Isabella Smith",
-    "content": "The real tragedy is how many people are still unaware of the urgency of this situation. We need to wake up.",
-    "date": "Jan 12, 2025",
-    "likes": 460
-  },
-  {
-    "author": "Liam Lopez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 3, 2025",
-    "likes": 789
-  },
-  {
-    "author": "Tommy Reynolds",
-    "content": "Seeing the impact these fires are having on people’s lives is gut-wrenching. We need to help and make a change.",
-    "date": "Jan 7, 2025",
-    "likes": 969
-  },
-  {
-    "author": "Sarah Davis",
-    "content": "The intensity of the fires this year is like nothing I’ve ever seen. Is anyone else feeling this sense of dread?",
-    "date": "Jan 11, 2025",
-    "likes": 530
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "It’s heartbreaking to see whole communities destroyed. I really hope this serves as a wake-up call for everyone.",
-    "date": "Jan 9, 2025",
-    "likes": 112
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "Every time I watch the news, it feels like another disaster is coming our way. It’s hard to keep up.",
-    "date": "Jan 5, 2025",
-    "likes": 509
-  },
-  {
-    "author": "Isabella Lopez",
-    "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
-    "date": "Jan 3, 2025",
-    "likes": 648
-  },
-  {
-    "author": "Isabella Reynolds",
-    "content": "The real tragedy is how many people are still unaware of the urgency of this situation. We need to wake up.",
-    "date": "Jan 9, 2025",
-    "likes": 504
-  },
-  {
-    "author": "Sophia Alvarez",
-    "content": "The planet is in danger, and we’re all seeing the effects. I just hope it’s not too late to do something about it.",
-    "date": "Jan 8, 2025",
-    "likes": 331
-  },
-  {
-    "author": "Isabella Clark",
-    "content": "How long will we keep going down this path? The planet is clearly telling us we need to change our ways.",
-    "date": "Jan 9, 2025",
-    "likes": 194
-  },
-  {
-    "author": "Maya Clark",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 1, 2025",
-    "likes": 890
-  },
-  {
-    "author": "Liam Clark",
-    "content": "It feels like the world is becoming unrecognizable. Earthquakes, fires, floods... when will it end?",
-    "date": "Jan 5, 2025",
-    "likes": 637
-  },
-  {
-    "author": "Sarah Clark",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 2, 2025",
-    "likes": 415
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "I don’t even know how to describe the feeling of watching everything burn. This is truly devastating.",
-    "date": "Jan 7, 2025",
-    "likes": 904
-  },
-  {
-    "author": "Jessica Alvarez",
-    "content": "Watching people lose everything in these fires is something I’ll never forget. We have to do more to protect our planet.",
-    "date": "Jan 4, 2025",
-    "likes": 714
-  },
-  {
-    "author": "Carlos Davis",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 3, 2025",
-    "likes": 170
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 8, 2025",
-    "likes": 783
-  },
-  {
-    "author": "Sarah Davis",
-    "content": "The wildfires are all over. It's like a nightmare come true. Keep your loved ones safe.",
-    "date": "Jan 11, 2025",
-    "likes": 605
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "I don’t know how much longer we can ignore the damage we’ve done to the planet. These disasters should be a wake-up call.",
-    "date": "Jan 7, 2025",
-    "likes": 147
-  },
-  {
-    "author": "Isabella Reynolds",
-    "content": "The wildfires are all over. It's like a nightmare come true. Keep your loved ones safe.",
-    "date": "Jan 11, 2025",
-    "likes": 826
-  },
-  {
-    "author": "Mark Perez",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 3, 2025",
-    "likes": 355
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 9, 2025",
-    "likes": 854
-  },
-  {
-    "author": "Maya Gonzalez",
-    "content": "People need to stop pretending this isn’t real. We’re living in a time of crisis, and we have to acknowledge it.",
-    "date": "Jan 5, 2025",
-    "likes": 482
-  },
-  {
-    "author": "Isabella Smith",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 2, 2025",
-    "likes": 602
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 2, 2025",
-    "likes": 642
-  },
-  {
-    "author": "Isabella Reynolds",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 9, 2025",
-    "likes": 276
-  },
-  {
-    "author": "Jessica Hernandez",
-    "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
-    "date": "Jan 6, 2025",
-    "likes": 250
-  },
-  {
-    "author": "Carlos Hernandez",
-    "content": "Sometimes I wonder if this is the price we’re paying for all the damage we’ve done to our planet.",
-    "date": "Jan 1, 2025",
-    "likes": 533
-  },
-  {
-    "author": "Tommy Smith",
-    "content": "Sometimes I wonder if this is the price we’re paying for all the damage we’ve done to our planet.",
-    "date": "Jan 7, 2025",
-    "likes": 965
-  },
-  {
-    "author": "Sophia Reynolds",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 5, 2025",
-    "likes": 918
-  },
-  {
-    "author": "Liam Alvarez",
-    "content": "Why are we letting this happen? Natural disasters are getting worse every year, and we still don’t do enough to prevent them.",
-    "date": "Jan 7, 2025",
-    "likes": 384
-  },
-  {
-    "author": "Carlos Perez",
-    "content": "The fires are ravaging the entire region, and yet we still aren't talking about real solutions. Why?",
-    "date": "Jan 6, 2025",
-    "likes": 542
-  },
-  {
-    "author": "Benjamin Hernandez",
-    "content": "I can't even breathe from the smoke. Why is everything going so wrong?",
-    "date": "Jan 11, 2025",
-    "likes": 962
-  },
-  {
-    "author": "Maya Perez",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 4, 2025",
-    "likes": 638
-  },
-  {
-    "author": "Benjamin Davis",
-    "content": "The more I see these natural disasters, the more I realize how vulnerable we really are. We need to make changes now.",
-    "date": "Jan 5, 2025",
-    "likes": 636
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "Can’t believe the damage from the wildfires. It’s like nothing I’ve ever seen before. Stay safe out there, everyone.",
-    "date": "Jan 4, 2025",
-    "likes": 420
-  },
-  {
-    "author": "Carlos Smith",
-    "content": "I feel helpless. All we can do is watch as everything burns around us. I just hope we can do better next time.",
-    "date": "Jan 12, 2025",
-    "likes": 560
-  },
-  {
-    "author": "Isabella Alvarez",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 2, 2025",
-    "likes": 197
-  },
-  {
-    "author": "Sarah Hernandez",
-    "content": "The fires are affecting so many people. It’s hard to stay hopeful when it feels like everything is falling apart.",
-    "date": "Jan 11, 2025",
-    "likes": 266
-  },
-  {
-    "author": "Tommy Clark",
-    "content": "We are witnessing a crisis unfold right before our eyes. It’s time to stop talking and start acting.",
-    "date": "Jan 9, 2025",
-    "likes": 162
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "People need to stop pretending this isn’t real. We’re living in a time of crisis, and we have to acknowledge it.",
-    "date": "Jan 7, 2025",
-    "likes": 408
-  },
-  {
-    "author": "Benjamin Lopez",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 7, 2025",
-    "likes": 607
-  },
-  {
-    "author": "Sophia Hernandez",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 11, 2025",
-    "likes": 350
-  },
-  {
-    "author": "Carlos Clark",
-    "content": "The destruction of these wildfires isn’t just a tragedy – it’s a sign of what’s to come if we don’t make real changes.",
-    "date": "Jan 2, 2025",
-    "likes": 647
-  },
-  {
-    "author": "Liam Gonzalez",
-    "content": "People need to stop pretending this isn’t real. We’re living in a time of crisis, and we have to acknowledge it.",
-    "date": "Jan 5, 2025",
-    "likes": 971
-  },
-  {
-    "author": "Benjamin Hernandez",
-    "content": "The planet is in danger, and we’re all seeing the effects. I just hope it’s not too late to do something about it.",
-    "date": "Jan 8, 2025",
-    "likes": 394
-  },
-  {
-    "author": "Sarah Davis",
-    "content": "Watching everything burn around us is heartbreaking. It feels like we're losing something we can never get back.",
-    "date": "Jan 6, 2025",
-    "likes": 896
-  },
-  {
-    "author": "Carlos Alvarez",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 7, 2025",
-    "likes": 592
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "It’s like the world is falling apart in real-time. How are we supposed to stop all of this?",
-    "date": "Jan 5, 2025",
-    "likes": 608
-  },
-  {
-    "author": "Sarah Clark",
-    "content": "The intensity of the fires this year is like nothing I’ve ever seen. Is anyone else feeling this sense of dread?",
-    "date": "Jan 11, 2025",
-    "likes": 333
-  },
-  {
-    "author": "Jessica Smith",
-    "content": "The wildfires are too close for comfort. It’s hard to focus on anything else when the air is so bad.",
-    "date": "Jan 9, 2025",
-    "likes": 42
-  },
-  {
-    "author": "Mark Perez",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 8, 2025",
-    "likes": 641
-  },
-  {
-    "author": "Tommy Davis",
-    "content": "Why are we letting this happen? Natural disasters are getting worse every year, and we still don’t do enough to prevent them.",
-    "date": "Jan 7, 2025",
-    "likes": 966
-  },
-  {
-    "author": "Liam Gonzalez",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 2, 2025",
-    "likes": 682
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "The fires are ravaging the entire region, and yet we still aren't talking about real solutions. Why?",
-    "date": "Jan 8, 2025",
-    "likes": 287
-  },
-  {
-    "author": "Liam Hernandez",
-    "content": "To anyone still doubting climate change – just look at the world around you. We are running out of time.",
-    "date": "Jan 5, 2025",
-    "likes": 209
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "I don’t know how much more of this we can endure. The constant chaos is mentally draining.",
-    "date": "Jan 2, 2025",
-    "likes": 232
-  },
-  {
-    "author": "Benjamin Lopez",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 11, 2025",
-    "likes": 40
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 5, 2025",
-    "likes": 326
-  },
-  {
-    "author": "Mark Perez",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 5, 2025",
-    "likes": 73
-  },
-  {
-    "author": "Carlos Gonzalez",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 11, 2025",
-    "likes": 823
-  },
-  {
-    "author": "Sophia Clark",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 10, 2025",
-    "likes": 541
-  },
-  {
-    "author": "Isabella Alvarez",
-    "content": "We need to act now before it’s too late. Natural disasters like this aren’t just a coincidence anymore.",
-    "date": "Jan 4, 2025",
-    "likes": 682
-  },
-  {
-    "author": "Liam Alvarez",
-    "content": "Just saw the news about the wildfires in LA. It's really scary, honestly.",
-    "date": "Jan 2, 2025",
-    "likes": 80
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 9, 2025",
-    "likes": 567
-  },
-  {
-    "author": "Isabella Clark",
-    "content": "The destruction is unreal, but what’s more terrifying is that we haven’t done enough to prevent it. We need to act.",
-    "date": "Jan 7, 2025",
-    "likes": 278
-  },
-  {
-    "author": "Sophia Martinez",
-    "content": "Watching everything burn around us is heartbreaking. It feels like we're losing something we can never get back.",
-    "date": "Jan 1, 2025",
-    "likes": 929
-  },
-  {
-    "author": "Carlos Reynolds",
-    "content": "The aftermath of these fires is going to take years to recover from. How many more times do we have to go through this?",
-    "date": "Jan 4, 2025",
-    "likes": 416
-  },
-  {
-    "author": "Sophia Davis",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 4, 2025",
-    "likes": 490
-  },
-  {
-    "author": "Mark Hernandez",
-    "content": "I can't even breathe from the smoke. Why is everything going so wrong?",
-    "date": "Jan 6, 2025",
-    "likes": 220
-  },
-  {
-    "author": "Carlos Smith",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 3, 2025",
-    "likes": 950
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "I don’t even know how to describe the feeling of watching everything burn. This is truly devastating.",
-    "date": "Jan 8, 2025",
-    "likes": 818
-  },
-  {
-    "author": "Mark Lopez",
-    "content": "Watching people lose everything in these fires is something I’ll never forget. We have to do more to protect our planet.",
-    "date": "Jan 10, 2025",
-    "likes": 165
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 8, 2025",
-    "likes": 85
-  },
-  {
-    "author": "Carlos Gonzalez",
-    "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
-    "date": "Jan 7, 2025",
-    "likes": 174
-  },
-  {
-    "author": "Sophia Davis",
-    "content": "The real tragedy is how many people are still unaware of the urgency of this situation. We need to wake up.",
-    "date": "Jan 12, 2025",
-    "likes": 475
-  },
-  {
-    "author": "Carlos Hernandez",
-    "content": "People need to stop pretending this isn’t real. We’re living in a time of crisis, and we have to acknowledge it.",
-    "date": "Jan 1, 2025",
-    "likes": 504
-  },
-  {
-    "author": "Isabella Martinez",
-    "content": "We’re living through the consequences of our own actions. It’s heartbreaking to see how much destruction we’ve caused.",
-    "date": "Jan 2, 2025",
-    "likes": 505
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 5, 2025",
-    "likes": 43
-  },
-  {
-    "author": "Isabella Perez",
-    "content": "The fires are ravaging the entire region, and yet we still aren't talking about real solutions. Why?",
-    "date": "Jan 4, 2025",
-    "likes": 26
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 1, 2025",
-    "likes": 477
-  },
-  {
-    "author": "Liam Perez",
-    "content": "The wildfires are out of control, and it’s terrifying. This is a wake-up call for everyone.",
-    "date": "Jan 7, 2025",
-    "likes": 672
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "I used to joke about these things, but now it's just pure fear. God help us.",
-    "date": "Jan 7, 2025",
-    "likes": 308
-  },
-  {
-    "author": "Liam Davis",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 6, 2025",
-    "likes": 821
-  },
-  {
-    "author": "Maya Smith",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 4, 2025",
-    "likes": 686
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "The wildfires are too close for comfort. It’s hard to focus on anything else when the air is so bad.",
-    "date": "Jan 3, 2025",
-    "likes": 754
-  },
-  {
-    "author": "Mark Davis",
-    "content": "Every time I watch the news, it feels like another disaster is coming our way. It’s hard to keep up.",
-    "date": "Jan 7, 2025",
-    "likes": 79
-  },
-  {
-    "author": "Sarah Clark",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 6, 2025",
-    "likes": 484
-  },
-  {
-    "author": "Benjamin Gonzalez",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 2, 2025",
-    "likes": 572
-  },
-  {
-    "author": "Jessica Hernandez",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 9, 2025",
-    "likes": 726
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "We are witnessing a crisis unfold right before our eyes. It’s time to stop talking and start acting.",
-    "date": "Jan 4, 2025",
-    "likes": 926
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 12, 2025",
-    "likes": 561
-  },
-  {
-    "author": "Sarah Lopez",
-    "content": "It feels like the world is becoming unrecognizable. Earthquakes, fires, floods... when will it end?",
-    "date": "Jan 9, 2025",
-    "likes": 89
-  },
-  {
-    "author": "Maya Davis",
-    "content": "I don’t know how much more of this we can endure. The constant chaos is mentally draining.",
-    "date": "Jan 3, 2025",
-    "likes": 996
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 9, 2025",
-    "likes": 644
-  },
-  {
-    "author": "Benjamin Smith",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 1, 2025",
-    "likes": 781
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "Why are we letting this happen? Natural disasters are getting worse every year, and we still don’t do enough to prevent them.",
-    "date": "Jan 4, 2025",
-    "likes": 866
-  },
-  {
-    "author": "Isabella Hernandez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 6, 2025",
-    "likes": 24
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "The more I see these natural disasters, the more I realize how vulnerable we really are. We need to make changes now.",
-    "date": "Jan 4, 2025",
-    "likes": 907
-  },
-  {
-    "author": "Carlos Clark",
-    "content": "Every time I watch the news, it feels like another disaster is coming our way. It’s hard to keep up.",
-    "date": "Jan 12, 2025",
-    "likes": 659
-  },
-  {
-    "author": "Tommy Perez",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 4, 2025",
-    "likes": 532
-  },
-  {
-    "author": "Sophia Lopez",
-    "content": "The intensity of the fires this year is like nothing I’ve ever seen. Is anyone else feeling this sense of dread?",
-    "date": "Jan 12, 2025",
-    "likes": 548
-  },
-  {
-    "author": "Mark Lopez",
-    "content": "It feels like the world is becoming unrecognizable. Earthquakes, fires, floods... when will it end?",
-    "date": "Jan 2, 2025",
-    "likes": 599
-  },
-  {
-    "author": "Isabella Davis",
-    "content": "It’s like the world is falling apart in real-time. How are we supposed to stop all of this?",
-    "date": "Jan 11, 2025",
-    "likes": 553
-  },
-  {
-    "author": "Benjamin Smith",
-    "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
-    "date": "Jan 12, 2025",
-    "likes": 794
-  },
-  {
-    "author": "Maya Perez",
-    "content": "I used to joke about these things, but now it's just pure fear. God help us.",
-    "date": "Jan 9, 2025",
-    "likes": 240
-  },
-  {
-    "author": "Tommy Reynolds",
-    "content": "We need to act now before it’s too late. Natural disasters like this aren’t just a coincidence anymore.",
-    "date": "Jan 2, 2025",
-    "likes": 521
-  },
-  {
-    "author": "Maya Lopez",
-    "content": "The more I see these natural disasters, the more I realize how vulnerable we really are. We need to make changes now.",
-    "date": "Jan 6, 2025",
-    "likes": 541
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 6, 2025",
-    "likes": 498
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "I can’t believe the number of people still denying climate change. How can anyone ignore what’s happening right now?",
-    "date": "Jan 10, 2025",
-    "likes": 437
-  },
-  {
-    "author": "Sarah Lopez",
-    "content": "Just saw the news about the wildfires in LA. It's really scary, honestly.",
-    "date": "Jan 12, 2025",
-    "likes": 292
-  },
-  {
-    "author": "Maya Smith",
-    "content": "I feel helpless. All we can do is watch as everything burns around us. I just hope we can do better next time.",
-    "date": "Jan 7, 2025",
-    "likes": 768
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 1, 2025",
-    "likes": 785
-  },
-  {
-    "author": "Carlos Clark",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 2, 2025",
-    "likes": 502
-  },
-  {
+{
+  author: "JamesRandall",
+  content: 'JAMES RANDAL & THE ZESTY BIKE CHASE!<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/kVJVvTQp5xM?si=qJERXyu9cgH0qeGb"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "53.1K"
+},
+
+{
+  author: "JamesRandall",
+  content: 'JAMES RANDAL WHEEL CHAIR COP CHASE! LADDER DROPS! WRANGLER!<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/UmPY7WncPC0?si=CNu2yf5qS6NjGDSu"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "53.1K"
+},
+{
+  author: "box",
+  content: 'bro is Aura himself<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtube.com/shorts/ypvlGZrL7Qg?si=-wrpHvCKb_pJ4E-7"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "23.1K"
+},
+{
+  author: "pizzagirl",
+  content: 'bro is inside of a movie cinematic<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtube.com/shorts/dZg3ju1q_fE?si=1G2yq-TS3vxfv6_f"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "2K"
+},
+{
+  author: "JamesRandall",
+  content: 'emebeding Space boys content and make a huge amount library on meko to watch.(only james randall clips) .com .com .com',
+  date: "Mar 2, 2022",
+  likes: "98.2K"
+},
+{
+  author: "pizzagirl",
+  content: 'Every frontMan Edit<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtube.com/shorts/waTeEVozoMg?si=H4c6MALemuwVYA7I"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "1.2K"
+},
+{
+  author: "pizzagirl",
+  content: 'emebeding beacuse sharing is caring <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtube.com/shorts/ORUJYyIUw-I?si=kFQ50ZQw04y10rro"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "282.2K"
+},
+{
+  author: "Cubix",
+  content: 'Kreekcraft trolls bots <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtu.be/63aN9ZD7ZyY?si=-iyKUvLBmiQTRikl"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "21.3K"
+},
+{
+  author: "tae",
+  content: 'God Had Enough of the mockery he recieve from the world <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtube.com/shorts/tAktEO2WowU?si=vG2HSdVPReRR3t7J"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "2.3M"
+},
+{
+  author: "florenz",
+  content: 'Sprunki <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"  data-video-url="https://youtube.com/shorts/D06pY15UD8E?si=Xrw2U7wEGBfKWPfT"></div></div>',
+  date: "Jan 22, 2025",
+  likes: "371K"
+},
+{
+    "author": "tae",
+    "content": "<b>Florenz Got Hacked </b><br></br>the account florenz got hacked. for no reason guys is probally password guess",
+    "date": "Jan 22, 2025",
+    "likes": "726K"
+},
+{
     "author": "Tommy Hernandez",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 12, 2025",
-    "likes": 602
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "Sometimes I wonder if this is the price we’re paying for all the damage we’ve done to our planet.",
-    "date": "Jan 11, 2025",
-    "likes": 724
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "Why are we letting this happen? Natural disasters are getting worse every year, and we still don’t do enough to prevent them.",
-    "date": "Jan 9, 2025",
-    "likes": 233
-  },
-  {
-    "author": "Isabella Lopez",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 9, 2025",
-    "likes": 284
-  },
-  {
-    "author": "Sarah Alvarez",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 8, 2025",
-    "likes": 154
-  },
-  {
-    "author": "Isabella Clark",
-    "content": "It’s heartbreaking to see whole communities destroyed. I really hope this serves as a wake-up call for everyone.",
-    "date": "Jan 10, 2025",
-    "likes": 165
-  },
-  {
-    "author": "Sophia Gonzalez",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 5, 2025",
-    "likes": 604
-  },
-  {
-    "author": "Benjamin Martinez",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 2, 2025",
-    "likes": 446
-  },
-  {
-    "author": "Carlos Reynolds",
-    "content": "The people suffering in these wildfires don’t deserve this. I just hope we can start taking action before it gets worse.",
-    "date": "Jan 10, 2025",
-    "likes": 857
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "Seeing the impact these fires are having on people’s lives is gut-wrenching. We need to help and make a change.",
-    "date": "Jan 2, 2025",
-    "likes": 245
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "Have you guys seen the fire spread so fast? Nature really is something.",
-    "date": "Jan 12, 2025",
-    "likes": 565
-  },
-  {
-    "author": "Sophia Davis",
-    "content": "Watching people lose everything in these fires is something I’ll never forget. We have to do more to protect our planet.",
-    "date": "Jan 8, 2025",
-    "likes": 862
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "I wish we could go back in time and make better decisions. These natural disasters didn’t just happen by chance.",
-    "date": "Jan 2, 2025",
-    "likes": 78
-  },
-  {
-    "author": "Liam Martinez",
-    "content": "It’s like the world is falling apart in real-time. How are we supposed to stop all of this?",
-    "date": "Jan 4, 2025",
-    "likes": 255
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 12, 2025",
-    "likes": 363
-  },
-  {
-    "author": "Isabella Alvarez",
-    "content": "Have you guys seen the fire spread so fast? Nature really is something.",
-    "date": "Jan 11, 2025",
-    "likes": 156
-  },
-  {
-    "author": "Carlos Hernandez",
-    "content": "Seeing the impact these fires are having on people’s lives is gut-wrenching. We need to help and make a change.",
-    "date": "Jan 10, 2025",
-    "likes": 911
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "It’s heartbreaking to see whole communities destroyed. I really hope this serves as a wake-up call for everyone.",
-    "date": "Jan 8, 2025",
-    "likes": 867
-  },
-  {
-    "author": "Tommy Davis",
-    "content": "The fires are affecting so many people. It’s hard to stay hopeful when it feels like everything is falling apart.",
-    "date": "Jan 9, 2025",
-    "likes": 600
-  },
-  {
-    "author": "Mark Martinez",
-    "content": "Can’t believe the damage from the wildfires. It’s like nothing I’ve ever seen before. Stay safe out there, everyone.",
-    "date": "Jan 10, 2025",
-    "likes": 972
-  },
-  {
-    "author": "Benjamin Alvarez",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 11, 2025",
-    "likes": 883
-  },
-  {
-    "author": "Sophia Reynolds",
-    "content": "The aftermath of these fires is going to take years to recover from. How many more times do we have to go through this?",
-    "date": "Jan 5, 2025",
-    "likes": 563
-  },
-  {
-    "author": "Maya Hernandez",
-    "content": "Why are we letting this happen? Natural disasters are getting worse every year, and we still don’t do enough to prevent them.",
-    "date": "Jan 8, 2025",
-    "likes": 559
-  },
-  {
-    "author": "Sophia Martinez",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 1, 2025",
-    "likes": 639
-  },
-  {
-    "author": "Tommy Perez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 1, 2025",
-    "likes": 333
-  },
-  {
-    "author": "Sophia Martinez",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 8, 2025",
-    "likes": 841
-  },
-  {
-    "author": "Sophia Reynolds",
-    "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
-    "date": "Jan 9, 2025",
-    "likes": 141
-  },
-  {
-    "author": "Isabella Gonzalez",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 5, 2025",
-    "likes": 573
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "How long will we keep going down this path? The planet is clearly telling us we need to change our ways.",
-    "date": "Jan 12, 2025",
-    "likes": 399
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "It’s crazy to see how people are still going on with life as usual, while the world burns around us.",
-    "date": "Jan 8, 2025",
-    "likes": 930
-  },
-  {
-    "author": "Jessica Smith",
-    "content": "The wildfires are too close for comfort. It’s hard to focus on anything else when the air is so bad.",
-    "date": "Jan 9, 2025",
-    "likes": 220
-  },
-  {
-    "author": "Sophia Alvarez",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 7, 2025",
-    "likes": 309
-  },
-  {
-    "author": "Jessica Lopez",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 10, 2025",
-    "likes": 577
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 6, 2025",
-    "likes": 455
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "It feels like the world is becoming unrecognizable. Earthquakes, fires, floods... when will it end?",
-    "date": "Jan 1, 2025",
-    "likes": 811
-  },
-  {
-    "author": "Tommy Perez",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 12, 2025",
-    "likes": 514
-  },
-  {
-    "author": "Sophia Alvarez",
-    "content": "I don’t even know how to describe the feeling of watching everything burn. This is truly devastating.",
-    "date": "Jan 1, 2025",
-    "likes": 574
-  },
-  {
-    "author": "Carlos Smith",
-    "content": "The destruction of these wildfires isn’t just a tragedy – it’s a sign of what’s to come if we don’t make real changes.",
-    "date": "Jan 6, 2025",
-    "likes": 924
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "How long will we keep going down this path? The planet is clearly telling us we need to change our ways.",
-    "date": "Jan 10, 2025",
-    "likes": 414
-  },
-  {
-    "author": "Carlos Gonzalez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 8, 2025",
-    "likes": 230
-  },
-  {
-    "author": "Benjamin Davis",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 4, 2025",
-    "likes": 713
-  },
-  {
-    "author": "Jessica Alvarez",
-    "content": "The people suffering in these wildfires don’t deserve this. I just hope we can start taking action before it gets worse.",
-    "date": "Jan 10, 2025",
-    "likes": 689
-  },
-  {
-    "author": "Mark Reynolds",
-    "content": "The fires are affecting so many people. It’s hard to stay hopeful when it feels like everything is falling apart.",
-    "date": "Jan 8, 2025",
-    "likes": 587
-  },
-  {
-    "author": "Liam Perez",
-    "content": "Have you guys seen the fire spread so fast? Nature really is something.",
-    "date": "Jan 4, 2025",
-    "likes": 587
-  },
-  {
-    "author": "Benjamin Reynolds",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 5, 2025",
-    "likes": 870
-  },
-  {
-    "author": "Isabella Davis",
-    "content": "The wildfires are all over. It's like a nightmare come true. Keep your loved ones safe.",
-    "date": "Jan 5, 2025",
-    "likes": 716
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
-    "date": "Jan 4, 2025",
-    "likes": 376
-  },
-  {
-    "author": "Liam Hernandez",
-    "content": "I hope we start taking better care of our planet before it’s too late. These disasters should be a wake-up call.",
-    "date": "Jan 9, 2025",
-    "likes": 565
-  },
-  {
-    "author": "Maya Perez",
-    "content": "The aftermath of these fires is going to take years to recover from. How many more times do we have to go through this?",
-    "date": "Jan 3, 2025",
-    "likes": 547
-  },
-  {
-    "author": "Sophia Gonzalez",
-    "content": "The wildfires are too close for comfort. It’s hard to focus on anything else when the air is so bad.",
-    "date": "Jan 10, 2025",
-    "likes": 775
-  },
-  {
-    "author": "Benjamin Davis",
-    "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
-    "date": "Jan 2, 2025",
-    "likes": 205
-  },
-  {
-    "author": "Sophia Gonzalez",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 7, 2025",
-    "likes": 405
-  },
-  {
-    "author": "Tommy Martinez",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 5, 2025",
-    "likes": 38
-  },
-  {
-    "author": "Carlos Hernandez",
-    "content": "We’ve been warned for decades about climate change, and yet here we are, watching our cities burn.",
-    "date": "Jan 9, 2025",
-    "likes": 664
-  },
-  {
-    "author": "Maya Davis",
-    "content": "The wildfires are too close for comfort. It’s hard to focus on anything else when the air is so bad.",
-    "date": "Jan 11, 2025",
-    "likes": 193
-  },
-  {
-    "author": "Isabella Davis",
-    "content": "We’ve been warned for decades about climate change, and yet here we are, watching our cities burn.",
-    "date": "Jan 5, 2025",
-    "likes": 556
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "Have you guys seen the fire spread so fast? Nature really is something.",
-    "date": "Jan 10, 2025",
-    "likes": 1003
-  },
-  {
-    "author": "Tommy Smith",
-    "content": "The destruction is unreal, but what’s more terrifying is that we haven’t done enough to prevent it. We need to act.",
-    "date": "Jan 11, 2025",
-    "likes": 615
-  },
-  {
-    "author": "Tommy Martinez",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 4, 2025",
-    "likes": 85
-  },
-  {
-    "author": "Tommy Perez",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 5, 2025",
-    "likes": 565
-  },
-  {
-    "author": "Isabella Martinez",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 12, 2025",
-    "likes": 351
-  },
-  {
-    "author": "Carlos Perez",
-    "content": "The wildfires are out of control, and it’s terrifying. This is a wake-up call for everyone.",
-    "date": "Jan 2, 2025",
-    "likes": 518
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 4, 2025",
-    "likes": 971
-  },
-  {
-    "author": "Mark Lopez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 1, 2025",
-    "likes": 133
-  },
-  {
-    "author": "Jessica Reynolds",
-    "content": "Just watched footage of the wildfires, and it’s hard to believe this is happening in real-time. We can’t keep ignoring the signs.",
-    "date": "Jan 7, 2025",
-    "likes": 266
-  },
-  {
-    "author": "Liam Clark",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 12, 2025",
-    "likes": 672
-  },
-  {
-    "author": "Sophia Lopez",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 3, 2025",
-    "likes": 86
-  },
-  {
-    "author": "Carlos Hernandez",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 11, 2025",
-    "likes": 721
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "The more I see these natural disasters, the more I realize how vulnerable we really are. We need to make changes now.",
-    "date": "Jan 5, 2025",
-    "likes": 86
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 10, 2025",
-    "likes": 493
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "Just watched footage of the wildfires, and it’s hard to believe this is happening in real-time. We can’t keep ignoring the signs.",
-    "date": "Jan 7, 2025",
-    "likes": 253
-  },
-  {
-    "author": "Liam Perez",
-    "content": "The wildfires are out of control, and it’s terrifying. This is a wake-up call for everyone.",
-    "date": "Jan 8, 2025",
-    "likes": 467
-  },
-  {
-    "author": "Sarah Alvarez",
-    "content": "The people suffering in these wildfires don’t deserve this. I just hope we can start taking action before it gets worse.",
-    "date": "Jan 10, 2025",
-    "likes": 330
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "The destruction is unreal, but what’s more terrifying is that we haven’t done enough to prevent it. We need to act.",
-    "date": "Jan 1, 2025",
-    "likes": 239
-  },
-  {
-    "author": "Sophia Hernandez",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 2, 2025",
-    "likes": 641
-  },
-  {
-    "author": "Tommy Hernandez",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 12, 2025",
-    "likes": 930
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 4, 2025",
-    "likes": 313
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
-    "date": "Jan 9, 2025",
-    "likes": 223
-  },
-  {
-    "author": "Benjamin Hernandez",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 5, 2025",
-    "likes": 129
-  },
-  {
-    "author": "Carlos Gonzalez",
-    "content": "The wildfires are all over. It's like a nightmare come true. Keep your loved ones safe.",
-    "date": "Jan 9, 2025",
-    "likes": 574
-  },
-  {
-    "author": "Liam Martinez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 3, 2025",
-    "likes": 286
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 2, 2025",
-    "likes": 173
-  },
-  {
-    "author": "Carlos Davis",
-    "content": "The real tragedy is how many people are still unaware of the urgency of this situation. We need to wake up.",
-    "date": "Jan 4, 2025",
-    "likes": 930
-  },
-  {
-    "author": "Mark Clark",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 7, 2025",
-    "likes": 1008
-  },
-  {
-    "author": "Benjamin Davis",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 6, 2025",
-    "likes": 25
-  },
-  {
-    "author": "Sarah Reynolds",
-    "content": "Can we stop pretending that everything’s okay? These natural disasters are a direct result of climate change.",
-    "date": "Jan 6, 2025",
-    "likes": 519
-  },
-  {
-    "author": "Tommy Hernandez",
-    "content": "The fires are affecting so many people. It’s hard to stay hopeful when it feels like everything is falling apart.",
-    "date": "Jan 10, 2025",
-    "likes": 937
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 1, 2025",
-    "likes": 524
-  },
-  {
-    "author": "Mark Reynolds",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 4, 2025",
-    "likes": 952
-  },
-  {
-    "author": "Tommy Smith",
-    "content": "I don’t even know how to describe the feeling of watching everything burn. This is truly devastating.",
-    "date": "Jan 5, 2025",
-    "likes": 211
-  },
-  {
-    "author": "Mark Reynolds",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 11, 2025",
-    "likes": 329
-  },
-  {
-    "author": "Tommy Davis",
-    "content": "I don’t know how much more of this we can endure. The constant chaos is mentally draining.",
-    "date": "Jan 4, 2025",
-    "likes": 357
-  },
-  {
-    "author": "Maya Perez",
-    "content": "I can’t believe we’re living in a world where wildfires, floods, and earthquakes are just another part of our daily news cycle.",
-    "date": "Jan 2, 2025",
-    "likes": 123
-  },
-  {
-    "author": "Isabella Clark",
-    "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
-    "date": "Jan 11, 2025",
-    "likes": 268
-  },
-  {
-    "author": "Liam Clark",
-    "content": "Can’t believe the damage from the wildfires. It’s like nothing I’ve ever seen before. Stay safe out there, everyone.",
-    "date": "Jan 9, 2025",
-    "likes": 416
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "To anyone still doubting climate change – just look at the world around you. We are running out of time.",
-    "date": "Jan 7, 2025",
-    "likes": 431
-  },
-  {
-    "author": "Liam Davis",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 3, 2025",
-    "likes": 382
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "I used to joke about these things, but now it's just pure fear. God help us.",
-    "date": "Jan 3, 2025",
-    "likes": 607
-  },
-  {
-    "author": "Benjamin Alvarez",
-    "content": "Why are we letting this happen? Natural disasters are getting worse every year, and we still don’t do enough to prevent them.",
-    "date": "Jan 1, 2025",
-    "likes": 970
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 11, 2025",
-    "likes": 237
-  },
-  {
-    "author": "Benjamin Alvarez",
-    "content": "The real tragedy is how many people are still unaware of the urgency of this situation. We need to wake up.",
-    "date": "Jan 5, 2025",
-    "likes": 158
-  },
-  {
-    "author": "Benjamin Gonzalez",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 11, 2025",
-    "likes": 860
-  },
-  {
-    "author": "Maya Clark",
-    "content": "I feel helpless. All we can do is watch as everything burns around us. I just hope we can do better next time.",
-    "date": "Jan 6, 2025",
-    "likes": 536
-  },
-  {
-    "author": "Jessica Lopez",
-    "content": "The intensity of the fires this year is like nothing I’ve ever seen. Is anyone else feeling this sense of dread?",
-    "date": "Jan 2, 2025",
-    "likes": 283
-  },
-  {
-    "author": "Isabella Clark",
-    "content": "The planet is in danger, and we’re all seeing the effects. I just hope it’s not too late to do something about it.",
-    "date": "Jan 10, 2025",
-    "likes": 44
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "How long will we keep going down this path? The planet is clearly telling us we need to change our ways.",
-    "date": "Jan 10, 2025",
-    "likes": 867
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 12, 2025",
-    "likes": 578
-  },
-  {
-    "author": "Benjamin Martinez",
-    "content": "I can’t believe the number of people still denying climate change. How can anyone ignore what’s happening right now?",
-    "date": "Jan 3, 2025",
-    "likes": 729
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "The destruction is unreal, but what’s more terrifying is that we haven’t done enough to prevent it. We need to act.",
-    "date": "Jan 4, 2025",
-    "likes": 931
-  },
-  {
-    "author": "Liam Hernandez",
-    "content": "The people suffering in these wildfires don’t deserve this. I just hope we can start taking action before it gets worse.",
-    "date": "Jan 9, 2025",
-    "likes": 606
-  },
-  {
-    "author": "Sophia Hernandez",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 8, 2025",
-    "likes": 779
-  },
-  {
-    "author": "Mark Smith",
-    "content": "I can’t believe we’re living in a world where wildfires, floods, and earthquakes are just another part of our daily news cycle.",
-    "date": "Jan 3, 2025",
-    "likes": 681
-  },
-  {
-    "author": "Maya Lopez",
-    "content": "We are witnessing a crisis unfold right before our eyes. It’s time to stop talking and start acting.",
-    "date": "Jan 2, 2025",
-    "likes": 422
-  },
-  {
-    "author": "Jessica Smith",
-    "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
-    "date": "Jan 2, 2025",
-    "likes": 665
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "We’re living through the consequences of our own actions. It’s heartbreaking to see how much destruction we’ve caused.",
-    "date": "Jan 9, 2025",
-    "likes": 344
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 9, 2025",
-    "likes": 786
-  },
-  {
-    "author": "Jessica Davis",
-    "content": "The intensity of the fires this year is like nothing I’ve ever seen. Is anyone else feeling this sense of dread?",
-    "date": "Jan 10, 2025",
-    "likes": 326
-  },
-  {
-    "author": "Sarah Martinez",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 12, 2025",
-    "likes": 276
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "The wildfires are crazy. I can't believe this is happening. Stay safe everyone.",
-    "date": "Jan 11, 2025",
-    "likes": 692
-  },
-  {
-    "author": "Jessica Clark",
-    "content": "The planet is in danger, and we’re all seeing the effects. I just hope it’s not too late to do something about it.",
-    "date": "Jan 7, 2025",
-    "likes": 577
-  },
-  {
-    "author": "Sophia Clark",
-    "content": "Can we stop pretending that everything’s okay? These natural disasters are a direct result of climate change.",
-    "date": "Jan 11, 2025",
-    "likes": 774
-  },
-  {
-    "author": "Jessica Hernandez",
-    "content": "The fires are affecting so many people. It’s hard to stay hopeful when it feels like everything is falling apart.",
-    "date": "Jan 6, 2025",
-    "likes": 620
-  },
-  {
-    "author": "Sarah Davis",
-    "content": "I can't even breathe from the smoke. Why is everything going so wrong?",
-    "date": "Jan 4, 2025",
-    "likes": 96
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "We’re living through the consequences of our own actions. It’s heartbreaking to see how much destruction we’ve caused.",
-    "date": "Jan 3, 2025",
-    "likes": 118
-  },
-  {
-    "author": "Jessica Smith",
-    "content": "The more I see these natural disasters, the more I realize how vulnerable we really are. We need to make changes now.",
-    "date": "Jan 12, 2025",
-    "likes": 205
-  },
-  {
-    "author": "Mark Perez",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 5, 2025",
-    "likes": 724
-  },
-  {
-    "author": "Jessica Gonzalez",
-    "content": "I think we’re all going to have to face the consequences sooner or later. No more ignoring the warning signs.",
-    "date": "Jan 4, 2025",
-    "likes": 679
-  },
-  {
-    "author": "Liam Lopez",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 10, 2025",
-    "likes": 965
-  },
-  {
-    "author": "Tommy Martinez",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 2, 2025",
-    "likes": 695
-  },
-  {
-    "author": "Maya Alvarez",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 6, 2025",
-    "likes": 359
-  },
-  {
-    "author": "Liam Gonzalez",
-    "content": "The longer we wait to address climate change, the worse it’s going to get. These fires are just one of the many signs.",
-    "date": "Jan 10, 2025",
-    "likes": 933
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 9, 2025",
-    "likes": 342
-  },
-  {
-    "author": "Carlos Davis",
-    "content": "It’s been hard to stay positive with everything going on. The future feels uncertain, and it’s terrifying.",
-    "date": "Jan 10, 2025",
-    "likes": 183
-  },
-  {
-    "author": "Mark Reynolds",
-    "content": "Does anyone else feel like we’re living in a nightmare? I’ve never seen so many disasters in such a short time.",
-    "date": "Jan 10, 2025",
-    "likes": 121
-  },
-  {
-    "author": "Jessica Clark",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 3, 2025",
-    "likes": 199
-  },
-  {
-    "author": "Sarah Clark",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 3, 2025",
-    "likes": 167
-  },
-  {
-    "author": "Mark Reynolds",
-    "content": "Have you guys seen the fire spread so fast? Nature really is something.",
-    "date": "Jan 3, 2025",
-    "likes": 674
-  },
-  {
-    "author": "Jessica Smith",
-    "content": "We’re living through the consequences of our own actions. It’s heartbreaking to see how much destruction we’ve caused.",
-    "date": "Jan 7, 2025",
-    "likes": 364
-  },
-  {
-    "author": "Maya Lopez",
-    "content": "It’s crazy to see how people are still going on with life as usual, while the world burns around us.",
-    "date": "Jan 5, 2025",
-    "likes": 879
-  },
-  {
-    "author": "Isabella Hernandez",
-    "content": "The more I see these natural disasters, the more I realize how vulnerable we really are. We need to make changes now.",
-    "date": "Jan 4, 2025",
-    "likes": 381
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "It’s heartbreaking to see whole communities destroyed. I really hope this serves as a wake-up call for everyone.",
-    "date": "Jan 7, 2025",
-    "likes": 928
-  },
-  {
-    "author": "Mark Davis",
-    "content": "To anyone still doubting climate change – just look at the world around you. We are running out of time.",
-    "date": "Jan 9, 2025",
-    "likes": 936
-  },
-  {
-    "author": "Mark Martinez",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 7, 2025",
-    "likes": 408
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 7, 2025",
-    "likes": 699
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "Just watched footage of the wildfires, and it’s hard to believe this is happening in real-time. We can’t keep ignoring the signs.",
-    "date": "Jan 6, 2025",
-    "likes": 744
-  },
-  {
-    "author": "Mark Davis",
-    "content": "I think we’re all going to have to face the consequences sooner or later. No more ignoring the warning signs.",
-    "date": "Jan 12, 2025",
-    "likes": 108
-  },
-  {
-    "author": "Carlos Perez",
-    "content": "I don’t know how much longer we can ignore the damage we’ve done to the planet. These disasters should be a wake-up call.",
-    "date": "Jan 2, 2025",
-    "likes": 886
-  },
-  {
-    "author": "Tommy Hernandez",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 6, 2025",
-    "likes": 467
-  },
-  {
-    "author": "Maya Gonzalez",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 10, 2025",
-    "likes": 368
-  },
-  {
-    "author": "Carlos Davis",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 5, 2025",
-    "likes": 845
-  },
-  {
-    "author": "Maya Lopez",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 6, 2025",
-    "likes": 574
-  },
-  {
-    "author": "Maya Perez",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 2, 2025",
-    "likes": 170
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "The wildfires are all over. It's like a nightmare come true. Keep your loved ones safe.",
-    "date": "Jan 8, 2025",
-    "likes": 840
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "Have you guys seen the fire spread so fast? Nature really is something.",
-    "date": "Jan 10, 2025",
-    "likes": 398
-  },
-  {
-    "author": "Carlos Perez",
-    "content": "I think we’re all going to have to face the consequences sooner or later. No more ignoring the warning signs.",
-    "date": "Jan 12, 2025",
-    "likes": 934
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "I feel helpless. All we can do is watch as everything burns around us. I just hope we can do better next time.",
-    "date": "Jan 11, 2025",
-    "likes": 842
-  },
-  {
-    "author": "Jessica Gonzalez",
-    "content": "Just watched footage of the wildfires, and it’s hard to believe this is happening in real-time. We can’t keep ignoring the signs.",
-    "date": "Jan 8, 2025",
-    "likes": 324
-  },
-  {
-    "author": "Liam Lopez",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 9, 2025",
-    "likes": 349
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 12, 2025",
-    "likes": 395
-  },
-  {
-    "author": "Maya Perez",
-    "content": "I think we’re all going to have to face the consequences sooner or later. No more ignoring the warning signs.",
-    "date": "Jan 5, 2025",
-    "likes": 433
-  },
-  {
-    "author": "Carlos Alvarez",
-    "content": "The aftermath of these fires is going to take years to recover from. How many more times do we have to go through this?",
-    "date": "Jan 5, 2025",
-    "likes": 148
-  },
-  {
-    "author": "Sophia Martinez",
-    "content": "Watching people lose everything in these fires is something I’ll never forget. We have to do more to protect our planet.",
-    "date": "Jan 7, 2025",
-    "likes": 686
-  },
-  {
-    "author": "Jessica Gonzalez",
-    "content": "The wildfires are out of control, and it’s terrifying. This is a wake-up call for everyone.",
-    "date": "Jan 10, 2025",
-    "likes": 805
-  },
-  {
-    "author": "Tommy Perez",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 11, 2025",
-    "likes": 84
-  },
-  {
-    "author": "Isabella Clark",
-    "content": "The destruction is unreal, but what’s more terrifying is that we haven’t done enough to prevent it. We need to act.",
-    "date": "Jan 10, 2025",
-    "likes": 126
-  },
-  {
-    "author": "Maya Hernandez",
-    "content": "Watching everything burn around us is heartbreaking. It feels like we're losing something we can never get back.",
-    "date": "Jan 9, 2025",
-    "likes": 407
-  },
-  {
-    "author": "Jessica Reynolds",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 3, 2025",
-    "likes": 223
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 1, 2025",
-    "likes": 398
-  },
-  {
-    "author": "Mark Lopez",
-    "content": "I can't even breathe from the smoke. Why is everything going so wrong?",
-    "date": "Jan 10, 2025",
-    "likes": 836
-  },
-  {
-    "author": "Mark Lopez",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 2, 2025",
-    "likes": 212
-  },
-  {
-    "author": "Mark Hernandez",
-    "content": "The wildfires are out of control, and it’s terrifying. This is a wake-up call for everyone.",
-    "date": "Jan 7, 2025",
-    "likes": 417
-  },
-  {
-    "author": "Tommy Hernandez",
-    "content": "Does anyone else feel like we’re living in a nightmare? I’ve never seen so many disasters in such a short time.",
-    "date": "Jan 8, 2025",
-    "likes": 785
-  },
-  {
-    "author": "Sophia Clark",
-    "content": "I can’t believe we’re living in a world where wildfires, floods, and earthquakes are just another part of our daily news cycle.",
-    "date": "Jan 6, 2025",
-    "likes": 320
-  },
-  {
-    "author": "Liam Lopez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 3, 2025",
-    "likes": 812
-  },
-  {
-    "author": "Mark Smith",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 9, 2025",
-    "likes": 849
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 1, 2025",
-    "likes": 534
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 8, 2025",
-    "likes": 841
-  },
-  {
-    "author": "Benjamin Perez",
-    "content": "Just saw the news about the wildfires in LA. It's really scary, honestly.",
-    "date": "Jan 3, 2025",
-    "likes": 317
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "The people suffering in these wildfires don’t deserve this. I just hope we can start taking action before it gets worse.",
-    "date": "Jan 10, 2025",
-    "likes": 867
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 9, 2025",
-    "likes": 346
-  },
-  {
-    "author": "Liam Martinez",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 2, 2025",
-    "likes": 278
-  },
-  {
-    "author": "Jessica Gonzalez",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 4, 2025",
-    "likes": 610
-  },
-  {
-    "author": "Benjamin Hernandez",
-    "content": "The destruction of these wildfires isn’t just a tragedy – it’s a sign of what’s to come if we don’t make real changes.",
-    "date": "Jan 12, 2025",
-    "likes": 700
-  },
-  {
-    "author": "Isabella Hernandez",
-    "content": "I used to joke about these things, but now it's just pure fear. God help us.",
-    "date": "Jan 1, 2025",
-    "likes": 442
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 8, 2025",
-    "likes": 672
-  },
-  {
-    "author": "Isabella Perez",
-    "content": "I don’t know how much longer we can ignore the damage we’ve done to the planet. These disasters should be a wake-up call.",
-    "date": "Jan 12, 2025",
-    "likes": 10
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "I hope we start taking better care of our planet before it’s too late. These disasters should be a wake-up call.",
-    "date": "Jan 12, 2025",
-    "likes": 25
-  },
-  {
-    "author": "Carlos Davis",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 12, 2025",
-    "likes": 567
-  },
-  {
-    "author": "Tommy Smith",
-    "content": "Just saw the news about the wildfires in LA. It's really scary, honestly.",
-    "date": "Jan 9, 2025",
-    "likes": 397
-  },
-  {
-    "author": "Benjamin Hernandez",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 8, 2025",
-    "likes": 206
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "It’s like the world is falling apart in real-time. How are we supposed to stop all of this?",
-    "date": "Jan 2, 2025",
-    "likes": 697
-  },
-  {
-    "author": "Mark Clark",
-    "content": "The fires are ravaging the entire region, and yet we still aren't talking about real solutions. Why?",
-    "date": "Jan 1, 2025",
-    "likes": 352
-  },
-  {
-    "author": "Carlos Smith",
-    "content": "It feels like the world is becoming unrecognizable. Earthquakes, fires, floods... when will it end?",
-    "date": "Jan 1, 2025",
-    "likes": 85
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "Seeing the impact these fires are having on people’s lives is gut-wrenching. We need to help and make a change.",
-    "date": "Jan 5, 2025",
-    "likes": 301
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "I don’t know how much longer we can ignore the damage we’ve done to the planet. These disasters should be a wake-up call.",
-    "date": "Jan 10, 2025",
-    "likes": 324
-  },
-  {
-    "author": "Sarah Hernandez",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 11, 2025",
-    "likes": 500
-  },
-  {
-    "author": "Benjamin Martinez",
-    "content": "Every time I try to look away from the news, something else breaks my heart. It’s overwhelming.",
-    "date": "Jan 11, 2025",
-    "likes": 822
-  },
-  {
-    "author": "Sarah Lopez",
-    "content": "The longer we wait to address climate change, the worse it’s going to get. These fires are just one of the many signs.",
-    "date": "Jan 12, 2025",
-    "likes": 641
-  },
-  {
-    "author": "Sarah Hernandez",
-    "content": "The destruction of these wildfires isn’t just a tragedy – it’s a sign of what’s to come if we don’t make real changes.",
-    "date": "Jan 11, 2025",
-    "likes": 582
-  },
-  {
-    "author": "Maya Hernandez",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 11, 2025",
-    "likes": 967
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
-    "date": "Jan 3, 2025",
-    "likes": 755
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 8, 2025",
-    "likes": 179
-  },
-  {
-    "author": "Isabella Gonzalez",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 6, 2025",
-    "likes": 51
-  },
-  {
-    "author": "Benjamin Alvarez",
-    "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
-    "date": "Jan 5, 2025",
-    "likes": 528
-  },
-  {
-    "author": "Mark Alvarez",
-    "content": "How long will we keep going down this path? The planet is clearly telling us we need to change our ways.",
-    "date": "Jan 5, 2025",
-    "likes": 499
-  },
-  {
-    "author": "Maya Perez",
-    "content": "The destruction of these wildfires isn’t just a tragedy – it’s a sign of what’s to come if we don’t make real changes.",
-    "date": "Jan 8, 2025",
-    "likes": 939
-  },
-  {
-    "author": "Maya Martinez",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 8, 2025",
-    "likes": 313
-  },
-  {
-    "author": "Isabella Perez",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 12, 2025",
-    "likes": 603
-  },
-  {
-    "author": "Sophia Lopez",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 12, 2025",
-    "likes": 606
-  },
-  {
-    "author": "Maya Reynolds",
-    "content": "I don’t know how much more of this we can endure. The constant chaos is mentally draining.",
-    "date": "Jan 3, 2025",
-    "likes": 276
-  },
-  {
-    "author": "Tommy Smith",
-    "content": "I don’t know how much more of this we can endure. The constant chaos is mentally draining.",
-    "date": "Jan 5, 2025",
-    "likes": 216
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "It’s crazy to see how people are still going on with life as usual, while the world burns around us.",
-    "date": "Jan 6, 2025",
-    "likes": 798
-  },
-  {
-    "author": "Liam Perez",
-    "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
-    "date": "Jan 5, 2025",
-    "likes": 191
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "It’s been hard to stay positive with everything going on. The future feels uncertain, and it’s terrifying.",
-    "date": "Jan 7, 2025",
-    "likes": 1002
-  },
-  {
-    "author": "Sophia Hernandez",
-    "content": "We need to act now before it’s too late. Natural disasters like this aren’t just a coincidence anymore.",
-    "date": "Jan 10, 2025",
-    "likes": 723
-  },
-  {
-    "author": "Isabella Reynolds",
-    "content": "It’s crazy to see how people are still going on with life as usual, while the world burns around us.",
-    "date": "Jan 11, 2025",
-    "likes": 160
-  },
-  {
-    "author": "Benjamin Reynolds",
-    "content": "I feel helpless. All we can do is watch as everything burns around us. I just hope we can do better next time.",
-    "date": "Jan 11, 2025",
-    "likes": 849
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "The planet is in danger, and we’re all seeing the effects. I just hope it’s not too late to do something about it.",
-    "date": "Jan 2, 2025",
-    "likes": 64
-  },
-  {
-    "author": "Carlos Clark",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 9, 2025",
-    "likes": 963
-  },
-  {
-    "author": "Sophia Davis",
-    "content": "The aftermath of these fires is going to take years to recover from. How many more times do we have to go through this?",
-    "date": "Jan 10, 2025",
-    "likes": 945
-  },
-  {
-    "author": "Carlos Reynolds",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 1, 2025",
-    "likes": 523
-  },
-  {
-    "author": "Tommy Reynolds",
-    "content": "The wildfires are crazy. I can't believe this is happening. Stay safe everyone.",
-    "date": "Jan 12, 2025",
-    "likes": 878
-  },
-  {
-    "author": "Sarah Alvarez",
-    "content": "Watching everything burn around us is heartbreaking. It feels like we're losing something we can never get back.",
-    "date": "Jan 4, 2025",
-    "likes": 841
-  },
-  {
-    "author": "Jessica Clark",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 11, 2025",
-    "likes": 63
-  },
-  {
-    "author": "Tommy Clark",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 2, 2025",
-    "likes": 535
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 1, 2025",
-    "likes": 505
-  },
-  {
-    "author": "Sarah Lopez",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 12, 2025",
-    "likes": 469
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 10, 2025",
-    "likes": 550
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 3, 2025",
-    "likes": 941
-  },
-  {
-    "author": "Benjamin Martinez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 4, 2025",
-    "likes": 791
-  },
-  {
-    "author": "Benjamin Clark",
-    "content": "I wonder how many more people will have to lose their homes before the government takes this seriously.",
-    "date": "Jan 10, 2025",
-    "likes": 782
-  },
-  {
-    "author": "Jessica Davis",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 9, 2025",
-    "likes": 715
-  },
-  {
-    "author": "Maya Clark",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 11, 2025",
-    "likes": 493
-  },
-  {
-    "author": "Sarah Martinez",
-    "content": "The fires are ravaging the entire region, and yet we still aren't talking about real solutions. Why?",
-    "date": "Jan 8, 2025",
-    "likes": 127
-  },
-  {
-    "author": "Mark Perez",
-    "content": "The fires are affecting so many people. It’s hard to stay hopeful when it feels like everything is falling apart.",
-    "date": "Jan 9, 2025",
-    "likes": 167
-  },
-  {
-    "author": "Isabella Lopez",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 2, 2025",
-    "likes": 666
-  },
-  {
-    "author": "Benjamin Lopez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 4, 2025",
-    "likes": 491
-  },
-  {
-    "author": "Isabella Smith",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 4, 2025",
-    "likes": 876
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 8, 2025",
-    "likes": 519
-  },
-  {
-    "author": "Sarah Alvarez",
-    "content": "The wildfires are out of control, and it’s terrifying. This is a wake-up call for everyone.",
-    "date": "Jan 8, 2025",
-    "likes": 479
-  },
-  {
-    "author": "Maya Reynolds",
-    "content": "It’s like the world is falling apart in real-time. How are we supposed to stop all of this?",
-    "date": "Jan 6, 2025",
-    "likes": 84
-  },
-  {
-    "author": "Isabella Reynolds",
-    "content": "I wish we could go back in time and make better decisions. These natural disasters didn’t just happen by chance.",
-    "date": "Jan 6, 2025",
-    "likes": 425
-  },
-  {
-    "author": "Carlos Smith",
-    "content": "The longer we wait to address climate change, the worse it’s going to get. These fires are just one of the many signs.",
-    "date": "Jan 7, 2025",
-    "likes": 863
-  },
-  {
-    "author": "Isabella Davis",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 9, 2025",
-    "likes": 573
-  },
-  {
-    "author": "Isabella Perez",
-    "content": "It’s crazy to see how people are still going on with life as usual, while the world burns around us.",
-    "date": "Jan 1, 2025",
-    "likes": 372
-  },
-  {
-    "author": "Tommy Clark",
-    "content": "The people suffering in these wildfires don’t deserve this. I just hope we can start taking action before it gets worse.",
-    "date": "Jan 12, 2025",
-    "likes": 122
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "I can’t believe the number of people still denying climate change. How can anyone ignore what’s happening right now?",
-    "date": "Jan 8, 2025",
-    "likes": 841
-  },
-  {
-    "author": "Liam Davis",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 6, 2025",
-    "likes": 727
-  },
-  {
-    "author": "Liam Smith",
-    "content": "People should not be so quick to dismiss the impact of climate change. It’s here, it’s real, and it’s affecting us now.",
-    "date": "Jan 3, 2025",
-    "likes": 294
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 4, 2025",
-    "likes": 942
-  },
-  {
-    "author": "Benjamin Hernandez",
-    "content": "Does anyone else feel like we’re living in a nightmare? I’ve never seen so many disasters in such a short time.",
-    "date": "Jan 11, 2025",
-    "likes": 467
-  },
-  {
-    "author": "Sarah Perez",
-    "content": "Sometimes I wonder if this is the price we’re paying for all the damage we’ve done to our planet.",
-    "date": "Jan 8, 2025",
-    "likes": 564
-  },
-  {
-    "author": "Liam Davis",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 5, 2025",
-    "likes": 339
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "Watching people lose everything in these fires is something I’ll never forget. We have to do more to protect our planet.",
-    "date": "Jan 5, 2025",
-    "likes": 760
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "I don’t know how much longer we can ignore the damage we’ve done to the planet. These disasters should be a wake-up call.",
-    "date": "Jan 6, 2025",
-    "likes": 659
-  },
-  {
-    "author": "Sarah Hernandez",
-    "content": "Just saw the news about the wildfires in LA. It's really scary, honestly.",
-    "date": "Jan 9, 2025",
-    "likes": 744
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 6, 2025",
-    "likes": 704
-  },
-  {
-    "author": "Maya Reynolds",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 1, 2025",
-    "likes": 842
-  },
-  {
-    "author": "Carlos Perez",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 8, 2025",
-    "likes": 550
-  },
-  {
-    "author": "Isabella Gonzalez",
-    "content": "I can’t believe we’re living in a world where wildfires, floods, and earthquakes are just another part of our daily news cycle.",
-    "date": "Jan 2, 2025",
-    "likes": 617
-  },
-  {
-    "author": "Mark Perez",
-    "content": "Have you guys seen the fire spread so fast? Nature really is something.",
-    "date": "Jan 5, 2025",
-    "likes": 267
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 5, 2025",
-    "likes": 372
-  },
-  {
-    "author": "Carlos Davis",
-    "content": "We need to act now before it’s too late. Natural disasters like this aren’t just a coincidence anymore.",
-    "date": "Jan 3, 2025",
-    "likes": 598
-  },
-  {
-    "author": "Liam Gonzalez",
-    "content": "Does anyone else feel like we’re living in a nightmare? I’ve never seen so many disasters in such a short time.",
-    "date": "Jan 7, 2025",
-    "likes": 147
-  },
-  {
-    "author": "Liam Davis",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 1, 2025",
-    "likes": 63
-  },
-  {
-    "author": "Liam Alvarez",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 4, 2025",
-    "likes": 440
-  },
-  {
-    "author": "Sarah Lopez",
-    "content": "Is anyone else concerned that these natural disasters are becoming a regular part of life? It’s all happening too fast.",
-    "date": "Jan 10, 2025",
-    "likes": 193
-  },
-  {
-    "author": "Isabella Perez",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 1, 2025",
-    "likes": 121
-  },
-  {
-    "author": "Jessica Smith",
-    "content": "Just saw the news about the wildfires in LA. It's really scary, honestly.",
-    "date": "Jan 10, 2025",
-    "likes": 140
-  },
-  {
-    "author": "Jessica Alvarez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 6, 2025",
-    "likes": 415
-  },
-  {
-    "author": "Benjamin Davis",
-    "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
-    "date": "Jan 1, 2025",
-    "likes": 223
-  },
-  {
-    "author": "Jessica Martinez",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 12, 2025",
-    "likes": 444
-  },
-  {
-    "author": "Tommy Alvarez",
-    "content": "The fires are affecting so many people. It’s hard to stay hopeful when it feels like everything is falling apart.",
-    "date": "Jan 5, 2025",
-    "likes": 393
-  },
-  {
-    "author": "Benjamin Perez",
-    "content": "It feels like the world is becoming unrecognizable. Earthquakes, fires, floods... when will it end?",
-    "date": "Jan 11, 2025",
-    "likes": 159
-  },
-  {
-    "author": "Jessica Smith",
-    "content": "The aftermath of these fires is going to take years to recover from. How many more times do we have to go through this?",
-    "date": "Jan 10, 2025",
-    "likes": 583
-  },
-  {
-    "author": "Sarah Hernandez",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 11, 2025",
-    "likes": 735
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 9, 2025",
-    "likes": 169
-  },
-  {
-    "author": "Maya Clark",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 3, 2025",
-    "likes": 173
-  },
-  {
-    "author": "Sophia Perez",
-    "content": "The people suffering in these wildfires don’t deserve this. I just hope we can start taking action before it gets worse.",
-    "date": "Jan 4, 2025",
-    "likes": 963
-  },
-  {
-    "author": "Tommy Reynolds",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 4, 2025",
-    "likes": 233
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "I hope we start taking better care of our planet before it’s too late. These disasters should be a wake-up call.",
-    "date": "Jan 1, 2025",
-    "likes": 88
-  },
-  {
-    "author": "Carlos Lopez",
-    "content": "It’s heartbreaking to see whole communities destroyed. I really hope this serves as a wake-up call for everyone.",
-    "date": "Jan 6, 2025",
-    "likes": 295
-  },
-  {
-    "author": "Tommy Clark",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 11, 2025",
-    "likes": 273
-  },
-  {
-    "author": "Jessica Lopez",
-    "content": "Why are we letting this happen? Natural disasters are getting worse every year, and we still don’t do enough to prevent them.",
-    "date": "Jan 4, 2025",
-    "likes": 575
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
-    "date": "Jan 8, 2025",
-    "likes": 352
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "I used to joke about these things, but now it's just pure fear. God help us.",
-    "date": "Jan 1, 2025",
-    "likes": 939
-  },
-  {
-    "author": "Jessica Alvarez",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 4, 2025",
-    "likes": 257
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "We have to act now before it’s too late. These disasters are no longer just a warning, they’re the reality.",
-    "date": "Jan 9, 2025",
-    "likes": 306
-  },
-  {
-    "author": "Maya Hernandez",
-    "content": "The fires are getting closer every day. It feels like there’s no escaping the chaos.",
-    "date": "Jan 2, 2025",
-    "likes": 420
-  },
-  {
-    "author": "Isabella Davis",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 8, 2025",
-    "likes": 720
-  },
-  {
-    "author": "Mark Perez",
-    "content": "I hope we start taking better care of our planet before it’s too late. These disasters should be a wake-up call.",
-    "date": "Jan 3, 2025",
-    "likes": 895
-  },
-  {
-    "author": "Mark Clark",
-    "content": "The wildfires are crazy. I can't believe this is happening. Stay safe everyone.",
-    "date": "Jan 6, 2025",
-    "likes": 276
-  },
-  {
-    "author": "Liam Smith",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 6, 2025",
-    "likes": 339
-  },
-  {
-    "author": "Sarah Lopez",
-    "content": "How much longer can we deny that climate change is real? This disaster is proof enough that we need to change.",
-    "date": "Jan 12, 2025",
-    "likes": 860
-  },
-  {
-    "author": "Tommy Reynolds",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 1, 2025",
-    "likes": 129
-  },
-  {
-    "author": "Tommy Perez",
-    "content": "The wildfires are all over. It's like a nightmare come true. Keep your loved ones safe.",
-    "date": "Jan 6, 2025",
-    "likes": 202
-  },
-  {
-    "author": "Jessica Alvarez",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 6, 2025",
-    "likes": 761
-  },
-  {
-    "author": "Maya Gonzalez",
-    "content": "Watching everything burn around us is heartbreaking. It feels like we're losing something we can never get back.",
-    "date": "Jan 12, 2025",
-    "likes": 860
-  },
-  {
-    "author": "Liam Alvarez",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 2, 2025",
-    "likes": 24
-  },
-  {
-    "author": "Sarah Clark",
-    "content": "I hope we start taking better care of our planet before it’s too late. These disasters should be a wake-up call.",
-    "date": "Jan 11, 2025",
-    "likes": 485
-  },
-  {
-    "author": "Benjamin Smith",
-    "content": "We’ve been warned for decades about climate change, and yet here we are, watching our cities burn.",
-    "date": "Jan 12, 2025",
-    "likes": 782
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "I don’t know how much longer we can ignore the damage we’ve done to the planet. These disasters should be a wake-up call.",
-    "date": "Jan 7, 2025",
-    "likes": 957
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "Watching everything burn around us is heartbreaking. It feels like we're losing something we can never get back.",
-    "date": "Jan 1, 2025",
-    "likes": 997
-  },
-  {
-    "author": "Liam Hernandez",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 9, 2025",
-    "likes": 299
-  },
-  {
-    "author": "Sophia Gonzalez",
-    "content": "How many people need to suffer before we start making real changes? The planet is telling us it’s too late to keep going like this.",
-    "date": "Jan 2, 2025",
-    "likes": 70
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "The wildfires are crazy. I can't believe this is happening. Stay safe everyone.",
-    "date": "Jan 6, 2025",
-    "likes": 692
-  },
-  {
-    "author": "Maya Smith",
-    "content": "I think we’re all going to have to face the consequences sooner or later. No more ignoring the warning signs.",
-    "date": "Jan 9, 2025",
-    "likes": 750
-  },
-  {
-    "author": "Sophia Perez",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 1, 2025",
-    "likes": 88
-  },
-  {
-    "author": "Isabella Davis",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 4, 2025",
-    "likes": 364
-  },
-  {
-    "author": "Benjamin Smith",
-    "content": "Can’t believe the damage from the wildfires. It’s like nothing I’ve ever seen before. Stay safe out there, everyone.",
-    "date": "Jan 10, 2025",
-    "likes": 440
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "Can’t believe the damage from the wildfires. It’s like nothing I’ve ever seen before. Stay safe out there, everyone.",
-    "date": "Jan 12, 2025",
-    "likes": 608
-  },
-  {
-    "author": "Mark Lopez",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 6, 2025",
-    "likes": 101
-  },
-  {
-    "author": "Carlos Hernandez",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 7, 2025",
-    "likes": 335
-  },
-  {
-    "author": "Maya Alvarez",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 11, 2025",
-    "likes": 837
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 12, 2025",
-    "likes": 941
-  },
-  {
-    "author": "Jessica Hernandez",
-    "content": "Does anyone else feel like we’re living in a nightmare? I’ve never seen so many disasters in such a short time.",
-    "date": "Jan 8, 2025",
-    "likes": 424
-  },
-  {
-    "author": "Benjamin Reynolds",
-    "content": "The real tragedy is how many people are still unaware of the urgency of this situation. We need to wake up.",
-    "date": "Jan 9, 2025",
-    "likes": 207
-  },
-  {
-    "author": "Tommy Perez",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 1, 2025",
-    "likes": 371
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "The intensity of the fires this year is like nothing I’ve ever seen. Is anyone else feeling this sense of dread?",
-    "date": "Jan 5, 2025",
-    "likes": 986
-  },
-  {
-    "author": "Sarah Clark",
-    "content": "How long will we keep going down this path? The planet is clearly telling us we need to change our ways.",
-    "date": "Jan 7, 2025",
-    "likes": 58
-  },
-  {
-    "author": "Tommy Lopez",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 8, 2025",
-    "likes": 847
-  },
-  {
-    "author": "Isabella Davis",
-    "content": "I feel helpless. All we can do is watch as everything burns around us. I just hope we can do better next time.",
-    "date": "Jan 3, 2025",
-    "likes": 453
-  },
-  {
-    "author": "Jessica Clark",
-    "content": "I think about the families affected by these fires every day. They’re going through hell, and it’s just getting worse.",
-    "date": "Jan 5, 2025",
-    "likes": 909
-  },
-  {
-    "author": "Sarah Lopez",
-    "content": "Just watched footage of the wildfires, and it’s hard to believe this is happening in real-time. We can’t keep ignoring the signs.",
-    "date": "Jan 6, 2025",
-    "likes": 990
-  },
-  {
-    "author": "Carlos Smith",
-    "content": "The level of destruction these fires are causing is unreal. How many more people will suffer before we take action?",
-    "date": "Jan 5, 2025",
-    "likes": 176
-  },
-  {
-    "author": "Carlos Hernandez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 4, 2025",
-    "likes": 487
-  },
-  {
-    "author": "Maya Reynolds",
-    "content": "It’s been hard to stay positive with everything going on. The future feels uncertain, and it’s terrifying.",
-    "date": "Jan 4, 2025",
-    "likes": 121
-  },
-  {
-    "author": "Sarah Reynolds",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 12, 2025",
-    "likes": 646
-  },
-  {
-    "author": "Sarah Reynolds",
-    "content": "I hope we start taking better care of our planet before it’s too late. These disasters should be a wake-up call.",
-    "date": "Jan 12, 2025",
-    "likes": 217
-  },
-  {
-    "author": "Maya Perez",
-    "content": "The wildfires are too close for comfort. It’s hard to focus on anything else when the air is so bad.",
-    "date": "Jan 2, 2025",
-    "likes": 487
-  },
-  {
-    "author": "Benjamin Hernandez",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 2, 2025",
-    "likes": 348
-  },
-  {
-    "author": "Sophia Smith",
-    "content": "Sometimes I wonder if this is the price we’re paying for all the damage we’ve done to our planet.",
-    "date": "Jan 12, 2025",
-    "likes": 239
-  },
-  {
-    "author": "Jessica Gonzalez",
-    "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
-    "date": "Jan 5, 2025",
-    "likes": 281
-  },
-  {
-    "author": "Liam Perez",
-    "content": "The more I see these natural disasters, the more I realize how vulnerable we really are. We need to make changes now.",
-    "date": "Jan 4, 2025",
-    "likes": 287
-  },
-  {
-    "author": "Sarah Smith",
-    "content": "I can’t believe the number of people still denying climate change. How can anyone ignore what’s happening right now?",
-    "date": "Jan 3, 2025",
-    "likes": 937
-  },
-  {
-    "author": "Isabella Reynolds",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 12, 2025",
-    "likes": 598
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 8, 2025",
-    "likes": 404
-  },
-  {
-    "author": "Benjamin Lopez",
-    "content": "The destruction is unreal, but what’s more terrifying is that we haven’t done enough to prevent it. We need to act.",
-    "date": "Jan 9, 2025",
-    "likes": 173
-  },
-  {
-    "author": "Liam Davis",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 4, 2025",
-    "likes": 997
-  },
-  {
-    "author": "Benjamin Perez",
-    "content": "Sometimes I wonder if this is the price we’re paying for all the damage we’ve done to our planet.",
-    "date": "Jan 10, 2025",
-    "likes": 69
-  },
-  {
-    "author": "Liam Clark",
-    "content": "Is anyone else scared that this might just be the beginning of something bigger? The world feels like it’s falling apart.",
-    "date": "Jan 8, 2025",
-    "likes": 693
-  },
-  {
-    "author": "Benjamin Gonzalez",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 7, 2025",
-    "likes": 313
-  },
-  {
-    "author": "Maya Hernandez",
-    "content": "If you're in the middle of these wildfires, please stay safe. The air quality is terrible.",
-    "date": "Jan 3, 2025",
-    "likes": 81
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "The weather’s been so unpredictable. I can’t keep up with all the warnings anymore.",
-    "date": "Jan 4, 2025",
-    "likes": 343
-  },
-  {
-    "author": "Mark Clark",
-    "content": "The amount of destruction caused by this wildfire is unreal. I just hope people start realizing how bad things have gotten.",
-    "date": "Jan 11, 2025",
-    "likes": 501
-  },
-  {
-    "author": "Maya Davis",
-    "content": "The wildfires are all over. It's like a nightmare come true. Keep your loved ones safe.",
-    "date": "Jan 4, 2025",
-    "likes": 106
-  },
-  {
-    "author": "Maya Reynolds",
-    "content": "I used to joke about these things, but now it's just pure fear. God help us.",
-    "date": "Jan 10, 2025",
-    "likes": 407
-  },
-  {
-    "author": "Sophia Hernandez",
-    "content": "The air quality is so bad, it’s hard to even go outside. It’s a constant reminder of how serious this is.",
-    "date": "Jan 6, 2025",
-    "likes": 688
-  },
-  {
-    "author": "Jessica Perez",
-    "content": "It’s heartbreaking to see whole communities destroyed. I really hope this serves as a wake-up call for everyone.",
-    "date": "Jan 10, 2025",
-    "likes": 168
-  },
-  {
-    "author": "Sophia Alvarez",
-    "content": "Sometimes it feels like we're losing more than just our homes. We’re losing our way of life.",
-    "date": "Jan 10, 2025",
-    "likes": 71
-  },
-  {
-    "author": "Isabella Smith",
-    "content": "I don’t think the government is doing enough to address this crisis. If we don’t act soon, things will only get worse.",
-    "date": "Jan 2, 2025",
-    "likes": 161
-  },
-  {
-    "author": "Isabella Hernandez",
-    "content": "Can’t believe the damage from the wildfires. It’s like nothing I’ve ever seen before. Stay safe out there, everyone.",
-    "date": "Jan 7, 2025",
-    "likes": 823
-  },
-  {
-    "author": "Isabella Lopez",
-    "content": "The wildfires are out of control, and it’s terrifying. This is a wake-up call for everyone.",
-    "date": "Jan 9, 2025",
-    "likes": 947
-  },
-  {
-    "author": "Sophia Martinez",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 1, 2025",
-    "likes": 243
-  },
-  {
-    "author": "Liam Reynolds",
-    "content": "I hope we start taking better care of our planet before it’s too late. These disasters should be a wake-up call.",
-    "date": "Jan 1, 2025",
-    "likes": 349
-  },
-  {
-    "author": "Carlos Clark",
-    "content": "It’s heart-wrenching seeing these natural disasters unfold. We really need to change the way we treat the environment.",
-    "date": "Jan 9, 2025",
-    "likes": 533
-  },
-  {
-    "author": "Isabella Gonzalez",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 5, 2025",
-    "likes": 602
-  },
-  {
-    "author": "Tommy Clark",
-    "content": "The planet is in danger, and we’re all seeing the effects. I just hope it’s not too late to do something about it.",
-    "date": "Jan 12, 2025",
-    "likes": 300
-  },
-  {
-    "author": "Jessica Alvarez",
-    "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
-    "date": "Jan 12, 2025",
-    "likes": 597
-  },
-  {
-    "author": "Sarah Gonzalez",
-    "content": "Everyone needs to stop pretending that this is just a natural cycle. This is man-made, and we need to fix it.",
-    "date": "Jan 3, 2025",
-    "likes": 253
-  },
-  {
-    "author": "Benjamin Gonzalez",
-    "content": "Each new wildfire makes me more worried about what’s coming next. This feels like the beginning of something much bigger.",
-    "date": "Jan 9, 2025",
-    "likes": 176
-  },
-  {
-    "author": "Mark Gonzalez",
-    "content": "I don’t know how much more of this we can endure. The constant chaos is mentally draining.",
-    "date": "Jan 6, 2025",
-    "likes": 16
-  },
-  {
-    "author": "Carlos Perez",
-    "content": "I don’t know how much longer we can ignore the damage we’ve done to the planet. These disasters should be a wake-up call.",
-    "date": "Jan 4, 2025",
-    "likes": 308
-  },
-  {
-    "author": "Carlos Gonzalez",
-    "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
-    "date": "Jan 7, 2025",
-    "likes": 641
-  },
-  {
-    "author": "Tommy Gonzalez",
-    "content": "Just saw the news about the wildfires in LA. It's really scary, honestly.",
-    "date": "Jan 4, 2025",
-    "likes": 669
-  },
-  {
-    "author": "Carlos Martinez",
-    "content": "I don’t even know how to describe the feeling of watching everything burn. This is truly devastating.",
-    "date": "Jan 6, 2025",
-    "likes": 257
-  },
+    "content": "@florenz got hacked guys make a way to get Admisn attention!",
+    "date": "Jan 22, 2025",
+    "likes": "3.2M"
+},
+{
+    "author": "tae",
+    "content": "@florenz got hacked i think is a password guess. beacuse no chance it got hacked for no reason. florenz account has not been touched for years",
+    "date": "Jan 22, 2025",
+    "likes": "726K"
+},
   {
     "author": "Tommy Hernandez",
     "content": "The fires are one thing, but the aftermath is even worse. We need to rebuild, but first, we need to survive.",
     "date": "Jan 4, 2025",
     "likes": 417
-  },
+},
   {
     "author": "Tommy Clark",
     "content": "People need to stop pretending this isn’t real. We’re living in a time of crisis, and we have to acknowledge it.",
     "date": "Jan 4, 2025",
     "likes": 640
-  },
+},
   {
     "author": "Carlos Davis",
     "content": "At this point, it’s not just about the fires anymore. It’s about how we address the bigger issue of environmental collapse.",
     "date": "Jan 3, 2025",
     "likes": 420
-  },
+},
   {
     "author": "Liam Martinez",
     "content": "More and more people are losing their homes to these wildfires. It’s a tragedy we need to acknowledge.",
     "date": "Jan 1, 2025",
     "likes": 928
-  },
+},
   {
     "author": "Mark Gonzalez",
     "content": "I don’t even know how to describe the feeling of watching everything burn. This is truly devastating.",
     "date": "Jan 5, 2025",
     "likes": 454
-  },
+},
   {
     "author": "Mark Martinez",
     "content": "I feel like these wildfires are a warning. Let's all pray for safety.",
     "date": "Jan 12, 2025",
     "likes": 679
-  },
+},
   {
     "author": "Jessica Reynolds",
     "content": "Can’t believe the damage from the wildfires. It’s like nothing I’ve ever seen before. Stay safe out there, everyone.",
     "date": "Jan 12, 2025",
     "likes": 616
-  },
+},
   {
     "author": "Jessica Smith",
     "content": "Have you guys seen the fire spread so fast? Nature really is something.",
     "date": "Jan 3, 2025",
     "likes": 506
-  },
+},
   {
     "author": "Sarah Gonzalez",
     "content": "Why are we still waiting for change when we see the consequences happening right now? It’s beyond time to act.",
     "date": "Jan 8, 2025",
     "likes": 795
-  },
+},
   {
     "author": "Benjamin Davis",
     "content": "I never thought I’d see the day when these kinds of natural disasters became normal. Is anyone else feeling the same?",
     "date": "Jan 11, 2025",
     "likes": 917
-  },
+},
   {
     "author": "Liam Hernandez",
     "content": "It’s been hard to stay positive with everything going on. The future feels uncertain, and it’s terrifying.",
     "date": "Jan 10, 2025",
     "likes": 589
-  },
+},
   {
     "author": "Carlos Davis",
     "content": "How long will we keep going down this path? The planet is clearly telling us we need to change our ways.",
     "date": "Jan 2, 2025",
     "likes": 975
-  },
+},
   {
     "author": "Carksdoll",
     "content": "<b>What are UUA.</b><br></br>i seen alot of them in some small youtube creator animators",
@@ -3815,6 +1578,18 @@ date: "Jan 1, 2025",
   "date": "Dec 25, 2024",
   "likes": "3.5K"
 },
+   {
+  "author": "Parn_Diving",
+  "content": "hello",
+  "date": "Jan 12, 2025",
+  "likes": "0"
+}, 
+   {
+  "author": "Cubix",
+  "content": "WARNING TO ALL USERS WHO USE THID PARTY TO POST IN MEKO. it might be harmless but it might be the easy way to get hacked here so deactivate any third party runners or launchers",
+  "date": "Jan 3, 2025",
+  "likes": "29.1K"
+}, 
 {
   "author": "Samantha Reed",
   "content": "The New Year’s fireworks this year were unreal! 🎆 Hands down the best show I’ve seen in years. Who else was watching? #NewYearsEve #Fireworks2025",
@@ -7361,13 +5136,13 @@ date: "Jan 1, 2025",
 },
 {
   "author": "Isabel Tan",
-  "content": "I don’t know if anyone else has noticed, but Facebook is becoming a breeding ground for toxic behavior and explicit content. It’s so disappointing that something that was once so helpful has turned this way. #FacebookProblems #ToxicContent",
+  "content": "I don’t know if anyone else has noticed, but Facebook is becoming a breeding ground for toxic behavior and explicit content. It’s so disappointing that something that was once so helpful has turned this way. #FacebookProblems #Toxiccontent",
   "date": "Dec 20, 2024",
   "likes": "24.7K"
 },
 {
   "author": "Jonas Cruz",
-  "content": "I’m tired of seeing Facebook communities filled with so much explicit material. It’s frustrating when you can’t even scroll without encountering something inappropriate. Something needs to change. #ToxicFacebook #ContentModeration",
+  "content": "I’m tired of seeing Facebook communities filled with so much explicit material. It’s frustrating when you can’t even scroll without encountering something inappropriate. Something needs to change. #ToxicFacebook #contentModeration",
   "date": "Dec 21, 2024",
   "likes": "27.2K"
 },
@@ -7379,7 +5154,7 @@ date: "Jan 1, 2025",
 },
 {
   "author": "Sophia Reyes",
-  "content": "Is anyone else fed up with Facebook’s toxic communities? The amount of pornographic material being shared is out of hand. Facebook really needs to regulate this. #ToxicFacebook #ExplicitContent",
+  "content": "Is anyone else fed up with Facebook’s toxic communities? The amount of pornographic material being shared is out of hand. Facebook really needs to regulate this. #ToxicFacebook #Explicitcontent",
   "date": "Dec 23, 2024",
   "likes": "30.3K"
 },
@@ -7391,13 +5166,13 @@ date: "Jan 1, 2025",
 },
 {
   "author": "Grace Tan",
-  "content": "It’s sad to see Facebook becoming a place for toxic content, especially with so much pornography being shared. It’s time for Facebook to address this issue and protect its users. #ToxicFacebook #ExplicitContent #OnlineSafety",
+  "content": "It’s sad to see Facebook becoming a place for toxic content, especially with so much pornography being shared. It’s time for Facebook to address this issue and protect its users. #ToxicFacebook #Explicitcontent #OnlineSafety",
   "date": "Dec 18, 2024",
   "likes": "26.9K"
 },
 {
   "author": "Carlos Rivera",
-  "content": "Facebook's community is toxic and overwhelming with explicit content. It’s time they do something about this. More regulation is needed to keep these communities safe. #FacebookProblems #ToxicContent",
+  "content": "Facebook's community is toxic and overwhelming with explicit content. It’s time they do something about this. More regulation is needed to keep these communities safe. #FacebookProblems #Toxiccontent",
   "date": "Dec 19, 2024",
   "likes": "25.6K"
 },
@@ -7415,13 +5190,13 @@ date: "Jan 1, 2025",
 },
 {
   "author": "Jason Perez",
-  "content": "Facebook’s toxic communities and rampant pornography is becoming a serious problem. We need stricter controls to stop this harmful content from spreading. #ToxicContent #FacebookProblems #OnlineSafety",
+  "content": "Facebook’s toxic communities and rampant pornography is becoming a serious problem. We need stricter controls to stop this harmful content from spreading. #Toxiccontent #FacebookProblems #OnlineSafety",
   "date": "Dec 22, 2024",
   "likes": "25.9K"
 },
 {
   "author": "Sophia Cruz",
-  "content": "The Facebook community is becoming more toxic by the day, especially with the rise of explicit content. Facebook needs to take control of this situation. #ToxicFacebook #ExplicitContent #RegulateSocialMedia",
+  "content": "The Facebook community is becoming more toxic by the day, especially with the rise of explicit content. Facebook needs to take control of this situation. #ToxicFacebook #Explicitcontent #RegulateSocialMedia",
   "date": "Dec 23, 2024",
   "likes": "27.4K"
 },
@@ -7433,7 +5208,7 @@ date: "Jan 1, 2025",
 },
 {
   "author": "Jonathan Tan",
-  "content": "Facebook has become a place where toxic communities thrive, and explicit content runs rampant. It’s time for a major change. #ToxicFacebook #ExplicitContent #ProtectTheUsers",
+  "content": "Facebook has become a place where toxic communities thrive, and explicit content runs rampant. It’s time for a major change. #ToxicFacebook #Explicitcontent #ProtectTheUsers",
   "date": "Dec 18, 2024",
   "likes": "23.2K"
 },
@@ -8018,61 +5793,61 @@ date: "Jan 1, 2025",
         content: 'PackGod deep cooked a twitch streamer <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/QgsIXKCLfzw?si=mGeh6x-9Zrvjqt6s"></div></div>',
         date: "Dec 14, 2024",
         likes: "452.2K"
-     },
+   },
 {    
         author: "Empersion",
         content: 'Pokigasm <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/ZRNZtlOQwLc?si=9h5xTQU6CYBQGsZj"></div></div>',
         date: "Dec 23, 2024",
         likes: "4.2K"
-     },
+   },
 {    
         author: "Empersion",
         content: 'Beast Games <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/u4smAxDtbGc?si=1Yyh4PcEVgyyOkrh"></div></div>',
         date: "Dec 23, 2024",
         likes: "9K"
-     },
+   },
 {    
         author: "Empersion",
         content: 'She almost got banned <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtube.com/shorts/dqwwQ8r0rV4?si=y2Oi2DB7HDiNBvFa"></div></div>',
         date: "Dec 23, 2024",
         likes: "82K"
-     },
+   },
 {    
         author: "Zember",
         content: 'She almost got banned <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/S6p-2QuUD1o?si=dWvWTb-4k6I3Rpcr"></div></div>',
         date: "Dec 23, 2024",
         likes: "72K"
-     },
+   },
 {    
         author: "Zember",
         content: 'Different type of gamers <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/-CNm1lSWbBM?si=_xhnyJkuKDPUahse"></div></div>',
         date: "Dec 23, 2024",
         likes: "212K"
-     },
+   },
 {    
         author: "Empersion",
         content: '<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/rSJtx1p6vdY?si=fmcC_SF0-oNnx4iB"></div></div>',
         date: "Dec 23, 2024",
         likes: "72K"
-     },
+   },
      {    
         author: "Empersion",
         content: 'PackGod vs KSI  <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/yoZ_0ffoaK0?si=DEorO7bD_YzoNRjY"></div></div>',
         date: "Dec 23, 2024",
         likes: "72K"
-     },
+   },
      {    
         author: "Empersion",
         content: 'NNN Slander  <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/j5YpDusOS5o?si=7BNAYfMF89qUAnwB"></div></div>',
         date: "Dec 23, 2024",
         likes: "72K"
-     },
+   },
      {    
         author: "Empersion",
         content: 'Cool <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/P_NOqPej8T0?si=FSjXPlGx4FZ_eP5x"></div></div>',
         date: "Dec 23, 2024",
         likes: "72K"
-     },    
+   },    
     {
     author: "Liam Thompson",
     content: "Another user just reported getting hacked on Meko, bringing the total to 26 victims! Why isn't Meko doing anything about this? We need better security! #MekoHacker #AccountProtection",
@@ -19623,163 +17398,163 @@ date: "Jan 1, 2025",
         content: 'Minecraft Prison are just too over creative mode <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtube.com/shorts/H3emmU1Efis?si=28EokkMKhRHu5CbE"></div></div>',
         date: "Dec 13, 2024",
         likes: "2K"
-      },
+    },
       {
         author: "Ad92F",
         content: ' <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtube.com/shorts/H3emmU1Efis?si=28EokkMKhRHu5CbE"></div></div>',
         date: "Dec 14, 2024",
         likes: "52K"
-      },
+    },
   {
     "author": "JuanDelaCruz",
     "content": "Na-miss ko ang luto ng nanay ko! 😭 #HomeCooking #FilipinoFood",
     "likes": 250,
     "date": "Dec 14, 2024"
-  },
+},
   {
     "author": "MariaSantos",
     "content": "Ang ganda ng sunset sa Boracay! 🌅 #TravelPH #BeachLife",
     "likes": 520,
     "date": "Dec 13, 2024"
-  },
+},
   {
     "author": "TechiePH",
     "content": "Excited for the upcoming tech conference in Manila! 💻 #TechPH #Innovation",
     "likes": 180,
     "date": "Dec 12, 2024"
-  },
+},
   {
     "author": "MatalinongIsipan",
     "content": "Na-inspire ako sa kwento ng mga bayani ng Pilipinas. 🇵🇭 #HistoryPH #NationalHeroesDay",
     "likes": 300,
     "date": "Dec 11, 2024"
-  },
+},
   {
     "author": "BookwormPH",
     "content": "Binabasa ko ngayon ang 'Noli Me Tangere' ni Rizal. Ang ganda ng mga aral! 📚 #FilipinoLiterature #NoliMeTangere",
     "likes": 150,
     "date": "Dec 10, 2024"
-  },
+},
   {
     "author": "GamerPH",
     "content": "Sino dito ang mahilig maglaro ng Mobile Legends? 🎮 #MobileLegendsPH #Gaming",
     "likes": 400,
     "date": "Dec 9, 2024"
-  },
+},
   {
     "author": "ArtPH",
     "content": "Na-inspire ako sa mga obra ni Juan Luna. Ang galing ng mga detalye! 🎨 #FilipinoArt #JuanLuna",
     "likes": 220,
     "date": "Dec 8, 2024"
-  },
+},
   {
     "author": "MusicLoverPH",
     "content": "Ang ganda ng bagong kanta ni Sarah Geronimo! 🎶 #OPM #SarahGeronimo",
     "likes": 350,
     "date": "Dec 7, 2024"
-  },
+},
   {
     "author": "FoodiePH",
     "content": "Sinubukan kong magluto ng adobo! Masarap pala! 😋 #Adobo #FilipinoRecipes",
     "likes": 180,
     "date": "Dec 6, 2024"
-  },
+},
   {
     "author": "Lakwatsero",
     "content": "Magpaplano ako ng trip sa lugar na 'yan! Salamat sa inspirasyon.",
     "likes": 200,
     "date": "Dec 5, 2024"
-  },
+},
   {
     "author": "NaturePH",
     "content": "Ang ganda ng tanawin! Para akong mawawala sa lugar na 'to.",
     "likes": 120,
     "date": "Dec 4, 2024"
-  },
+},
   {
     "author": "HistoryPH",
     "content": "Nakakabilib! Hindi ko alam 'yan dati.",
     "likes": 300,
     "date": "Dec 3, 2024"
-  },
+},
   {
     "author": "MovieBuffPH",
     "content": "Papanoodin ko na 'tong pelikula! Ang ganda ng hitsura.",
     "likes": 250,
     "date": "Dec 2, 2024"
-  },
+},
   {
     "author": "SportsFanPH",
     "content": "Go team! Excited na ako para sa laro.",
     "likes": 400,
     "date": "Dec 1, 2024"
-  },
+},
   {
     "author": "FashionPH",
     "content": "Ang ganda ng style! Susubukan kong gayahin yung outfit na 'yan.",
     "likes": 500,
     "date": "Nov 30, 2024"
-  },
+},
   {
     "author": "PinoyFoodie",
     "content": "Sinubukan ko magluto ng kare-kare! Ang sarap pala! 😋 #FilipinoFood #KareKare",
     "likes": 320,
     "date": "Dec 14, 2024"
-  },
+},
   {
     "author": "TravelBugPH",
     "content": "Nag-enjoy ako sa paglalakad sa Intramuros! Ang ganda ng mga historical buildings! 🏛️ #Intramuros #Manila",
     "likes": 450,
     "date": "Dec 13, 2024"
-  },
+},
   {
     "author": "TechEnthusiastPH",
     "content": "Ang galing ng bagong feature ng app na 'to! 📱 #TechPH #MobileApps",
     "likes": 200,
     "date": "Dec 12, 2024"
-  },
+},
   {
     "author": "HistoryLoverPH",
     "content": "Na-inspire ako sa kwento ni Lapu-Lapu. Ang tapang niya! 🇵🇭 #HistoryPH #LapuLapu",
     "likes": 280,
     "date": "Dec 11, 2024"
-  },
+},
   {
     "author": "LiteraryPH",
     "content": "Binabasa ko ngayon ang 'Mga Kuwento ni Lola Basyang'. Ang ganda ng mga kwento! 📚 #FilipinoLiterature #LolaBasyang",
     "likes": 180,
     "date": "Dec 10, 2024"
-  },
+},
   {
     "author": "MobileGamerPH",
     "content": "Sino dito ang mahilig maglaro ng Call of Duty Mobile? 🎮 #CODMobile #Gaming",
     "likes": 350,
     "date": "Dec 9, 2024"
-  },
+},
   {
     "author": "ArtFanaticPH",
     "content": "Na-inspire ako sa mga paintings ni Fernando Amorsolo. Ang ganda ng mga kulay! 🎨 #FilipinoArt #FernandoAmorsolo",
     "likes": 190,
     "date": "Dec 8, 2024"
-  },
+},
   {
     "author": "MusicAddictPH",
     "content": "Ang ganda ng bagong album ni Ben&Ben! 🎶 #OPM #BenAndBen",
     "likes": 280,
     "date": "Dec 7, 2024"
-  },
+},
   {
     "author": "ChefPH",
     "content": "Sinubukan kong magluto ng sinigang! Masarap pala! 😋 #Sinigang #FilipinoRecipes",
     "likes": 150,
     "date": "Dec 6, 2024"
-  },
+},
   {
     "author": "WanderlustPH",
     "content": "Magpaplano ako ng trip sa Palawan! Ang ganda ng mga beaches doon! 🌴 #Palawan #IslandHopping",
     "likes": 220,
     "date": "Dec 5, 2024"
-  },
+},
 {
   author: "JakePaskal",
   content: "💀 #edit #mekontent<div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/_6W-LJLm5fY?si=0KZyZdLdyGDbBRhk'></div></div>",
@@ -19809,37 +17584,37 @@ date: "Jan 1, 2025",
     "content": "Check out this amazing tech demo! #innovation #futuretech <div    style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom:   56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%;   height: 100%; position: absolute; border:   0;'data-video-url='https://youtube.com/shorts/5gkf_3W3Jso?si=kzoIvZzzDzAfwqwO'></div></div>",
     "date": "Dec 14, 2024",
     "likes": "12K"
-  },
+},
   {
     "author": "GamingEnthusiast",
     "content": "This gameplay is insane! #gaming #epicmoments <div style='left:    0; width: 100%; height: 0; position: relative;  padding-bottom:    56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%;    height: 100%; position: absolute; border: 0;'    data-video-url=https://youtube.com/shorts/3J-4Ks5j1Qo?si=jPM1NiS2pj4m54dY'></div></div>",
     "date": "Dec 13, 2024",
     "likes": "5K"
-  },
+},
   {
     "author": "MusicLover",
     "content": "This song is a masterpiece! #music #newrelease <div style='left:   0; width: 100%; height: 0; position: relative;  padding-bottom:   56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%;    height: 100%; position: absolute; border: 0;'    data-video-url='https://youtube.com/shorts/eEiPhDmEbcc?si=YlQU4zLfY9paYt5I'></div></div>",
     "date": "Dec 12, 2024",
     "likes": "2.5K"
-  },
+},
   {
     "author": "TravelBlogger",
     "content": "My recent trip to Iceland was incredible! #travel #iceland <div   style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom:   56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%;    height: 100%; position: absolute; border: 0;'    data-video-url='https://youtube.com/shorts/5gkf_3W3Jso?si=kzoIvZzzDzAfwqwO'></div></div>",
     "date": "Dec 11, 2024",
     "likes": "7K"
-  },
+},
   {
     "author": "FoodieFanatic",
     "content": "This recipe is so easy and delicious! #food #cooking <div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://www.youtube.com/watch?v=o_oT-91y25c'></div></div>",
     "date": "Dec 10, 2024",
     "likes": "1.8K"
-  },
+},
   {
     "author": "ArtLover",
     "content": "This painting is breathtaking! #art #masterpiece <div   style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom:  56.25%;'><div class='youtube-player' style='top: 0; left: 0;width: 100%; height: 100%; position: absolute; border: 0;'  data-video-url='https://youtube.com/shorts/ClkQjArkhvA?si=D6Jy8xWsdkcOET6n'></div></div>",
     "date": "Dec 9, 2024",
     "likes": "4.2K"
-  },
+},
 {
   author: "RecapMovie",
   content: "#mekontent<div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/b3wx5gMfN4U?si=1wmzSSU5N0DOeRHS'></div></div>",
@@ -19881,32 +17656,32 @@ date: "Jan 1, 2025",
     "content": "Ang ganda ng tanawin sa Banaue Rice Terraces! Para akong nasa ibang mundo! 🏞️ #Banaue #RiceTerraces",
     "likes": 180,
     "date": "Dec 4, 2024"
-  },
+},
   {
     "author": "HistoryBuffPH",
     "content": "Nakakabilib ang kwento ng First Philippine Republic. 🇵🇭 #HistoryPH #FirstPhilippineRepublic",
     "likes": 260,
     "date": "Dec 3, 2024"
-  },
+},
   {
     "author": "MoviegoerPH",
     "content": "Papanoodin ko na 'tong pelikula! Ang ganda ng trailer! 🎬 #FilipinoMovies #NewRelease",
     "likes": 200,
     "date": "Dec 2, 2024"
-  },
+},
 
       {
         author: "Ifyo",
         content: 'THE AMAZING CIRUS EP4 #mekontent<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtube.com/shorts/9qxMs87F-vw?si=v77qE2AzBM5rmfMX"></div></div>',
         date: "Dec 13, 2024",
         likes: "42.3K"
-      },
+    },
       {
         author: "Tae",
         content: 'they knew! #meko #viral                                              <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height:100%; position: absolute;  border: 0;" data-video-url="https://youtu.be/wnZUgTNIoLg?si=8YB0oGpmaXiHH4BM"></div></div>',
         date: "Dec 12, 2024",
         likes: "92K"
-      },
+    },
 {
   author: "Jakeyu",
   content: "#mekontent #retired <div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/ELvYBPxLm3s?si=Bh5TmMCrSyygX3bO'></div></div>",
@@ -19918,13 +17693,13 @@ date: "Jan 1, 2025",
         content: '#mekontent <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url=https://youtube.com/shorts/MfgGXC6qLhQ?si=OGYfZFC5xsdNdbbJ"></div></div>',
         date: "Dec 14, 2024",
         likes: "488K"
-      },
+    },
       {
         author: "Judging",
         content: 'FR #shorts #share #fyp #mekontent <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" data-video-url="https://youtube.com/shorts/qYB7vl6BblA?si=WyalhvC_UXNUanGH"></div></div>',
         date: "Dec 14, 2024",
         likes: "33K"
-      },
+    },
 {
   "author": "justify7",
   "content": "indian couple #mekontent <div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/-xDObVlB86Q?si=d8lt13qS5rpSGs1z'></div></div>",
@@ -19962,25 +17737,25 @@ date: "Jan 1, 2025",
         content: "weeped that movie so freaking good <br></br><img        src='https://lumiere-a.akamaihd.net/v1/images/pp_moana2_herobanner_mobile_3113-1_b2ec5c0c.jpeg?region=0,0,640,480'alt='Moana'>",
         date: "Dec 13, 2024",
         likes: "3K"
-      },
+    },
       {
         author: "Kimbely7",
         content: 'Crazy <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/PnVbT-tpot8?s=BYSCjSfFeJ2CuWEB"></div></div>',
         date: "Dec 13, 2024",
         likes: "922K"
-      },
+    },
       {
         author: "MinecraftShare",
         content: 'Share | (1) <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/bQVTwhzL22g?si=UBzXuF7A2F56bln4"></div></div>',
         date: "Dec 12, 2024",
         likes: "22K"
-      },
+    },
       {
         author: "EnimenHJ",
         content: '                                              <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/22tVWwmTie8?si=FF16Ky9hcHITxGs5"></div></div>',
         date: "Dec 13, 2024",
         likes: "2K"
-      },
+    },
 {
   author: "Miko",
   content: "can't believe it happened! #amazing #wow",                          
@@ -21834,25 +19609,25 @@ date: "Jan 1, 2025",
         content: 'Closed ecosystem recieved light for a first time! #mekontent <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/GE-3z-HFY5s?si=t0S0gXtIGADbVh4W"></div></div>',
         date: "Dec 12, 2024",
         likes: "22K"
-      },
+    },
       {
         author: "AdōlF",
         content: 'Minecraft Prison are just too over creative mode <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtu.be/s4Qm81fKfyk?si=sxi3dRbiX7gwCTmx"></div></div>',
         date: "Dec 13, 2024",
         likes: "48838"
-      },
+    },
   {
         author: "AdōlF",
         content: 'MINECRAFT MODS #edit #minecraft <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"                 data-video-url="https://youtube.com/shorts/_emuYje_8_g?si=kjbgoYuPzqzmd2Bk"></div></div>',
         date: "Dec 14, 2024",
         likes: "488K"
-      },
+    },
       {
         author: "ECHO",
         content: 'FR #shorts #share #fyp #mekontent <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><div class="youtube-player" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" data-video-url="https://youtube.com/shorts/qYB7vl6BblA?si=WyalhvC_UXNUanGH"></div></div>',
         date: "Dec 14, 2024",
         likes: "213K"
-      },
+    },
 {
   "author": "ECHO",
   "content": "Like fr, ChatGPT is not that perfect; there can be mistakes. as chatgpt is a line of codes <div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/oqSYljRYDEM?si=NaxIC5z6FepFj1Qn'></div></div>",
@@ -21926,13 +19701,13 @@ date: "Jan 1, 2025",
         content: 'Rubangan Na!!!! <div class="fb-video" data-fb-url="https://www.facebook.com/reel/1260993498481584?mibextid=rS40aB7S9Ucbxw6v"></div>',
         date: "Dec 13, 2024",
         likes: "2"
-      },
+    },
       {
         author: "Felix",
         content: '#meko #viral #likeforlike <div class="fb-video" data-fb-url="https://www.facebook.com/reel/440821045681567?mibextid=rS40aB7S9Ucbxw6v"></div>',
         date: "Dec 13, 2024",
         likes: "92K"
-      },
+    },
 
 {
   author: "Sophia",
@@ -21951,151 +19726,151 @@ date: "Jan 1, 2025",
         content: 'bros snitched #viral <div class="convert-me-video" data-meko-url="https://videos.files.wordpress.com/ae0oogab/snapsave.me_aqoj53izsidxbkk-bkumrn6nidztwjf8mqnxfhnbwp8bqda9wcvlfaz-hrawriqymdhihjuycaxblb0e_lmcn_tc_720p_28hd29.mp4?metadata_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3b3JkcHJlc3MuY29tIiwiaWF0IjoxNzM0MTA2NDU5LCJleHAiOjE3MzQyNzkyNTksImJsb2dfaWQiOiIyMzk4NDE2MDUiLCJndWlkIjoiYWUwb29nYWIiLCJhdXRoIjoidmlkZW9wcmVzc19wbGF5YmFja190b2tlbiIsImFjY2VzcyI6InZpZGVvIiwiZXhwaXJlcyI6MTczNDI3OTI1OX0.VSjnarZF13Am8dd8oZMvtQPVDluR6oWlTwCqFNBg_6g"></div>',
         date: "Dec 13, 2024",
         likes: "82K"
-      },
+    },
    {
         author: "Jave",
         content: 'If an A.I become a devil this is what he be done to the world  #A.I <div class="convert-me-video" data-meko-url="https://videos.files.wordpress.com/APanXf6g/aqpx4umewcp0r4p_ezl26mwshf5szslik15k3vrxqjq379qw5akzpxxplxs-o5-nvvkzh1qmu2ywlampg20epgx1.mp4?metadata_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ3b3JkcHJlc3MuY29tIiwiaWF0IjoxNzM0MTA2NDU5LCJleHAiOjE3MzQyNzkyNTksImJsb2dfaWQiOiIyMzk4NDE2MDUiLCJndWlkIjoiQVBhblhmNmciLCJhdXRoIjoidmlkZW9wcmVzc19wbGF5YmFja190b2tlbiIsImFjY2VzcyI6InZpZGVvIiwiZXhwaXJlcyI6MTczNDI3OTI1OX0.hRodSUZG6hMFqLH1LCVnobRc6FIMV5zDnrzmXMGNXM4"> </div>                                                            ',
         date: "Dec 13, 2024",
         likes: "82K"
-      },
+    },
   {
     "author": "JohnDoe123",
     "content": "Great post! I really enjoyed reading this.",
     "date": "Dec 14, 2024",
     "likes": "2"
-  },
+},
   {
     "author": "SarahSmith",
     "content": "This is so interesting! I learned a lot.",
     "date": "Dec 14, 2024",
     "likes": "1"
-  },
+},
   {
     "author": "TechEnthusiast",
     "content": "I agree with the points made here. Well-written!",
     "date": "Dec 13, 2024",
     "likes": "0"
-  },
+},
   {
     "author": "CuriousMind",
     "content": "Can you elaborate on this point? I'm curious to know more.",
     "date": "Dec 13, 2024",
     "likes": "3"
-  },
+},
   {
     "author": "JohnDoe123",
     "content": "Great post! I really enjoyed reading this.",
     "date": "Dec 14, 2024",
     "likes": "2"
-  },
+},
   {
     "author": "SarahSmith",
     "content": "This is so interesting! I learned a lot.",
     "date": "Dec 14, 2024",
     "likes": "1"
-  },
+},
   {
     "author": "TechEnthusiast",
     "content": "I agree with the points made here. Well-written!",
     "date": "Dec 13, 2024",
     "likes": "0"
-  },
+},
   {
     "author": "CuriousMind",
     "content": "Can you elaborate on this point? I'm curious to know more.",
     "date": "Dec 13, 2024",
     "likes": "3"
-  },
+},
   {
     "author": "Bookworm",
     "content": "This reminds me of that book I read last year! It's amazing how similar the concepts are.",
     "date": "Dec 12, 2024",
     "likes": "4"
-  },
+},
   {
     "author": "Gamer4Life",
     "content": "This is awesome! I can't wait to try it out.",
     "date": "Dec 11, 2024",
     "likes": "5"
-  },
+},
   {
     "author": "ArtLover",
     "content": "The visuals are stunning! I love the way you used color.",
     "date": "Dec 10, 2024",
     "likes": "2"
-  },
+},
   {
     "author": "MusicFan",
     "content": "The soundtrack is perfect for this! It really sets the mood.",
     "date": "Dec 9, 2024",
     "likes": "1"
-  },
+},
   {
     "author": "Foodie",
     "content": "This made me hungry! I'm going to try making that recipe.",
     "date": "Dec 8, 2024",
     "likes": "3"
-  },
+},
   {
     "author": "TravelBug",
     "content": "I'm planning a trip to that place! Thanks for the inspiration.",
     "date": "Dec 7, 2024",
     "likes": "2"
-  },
+},
   {
     "author": "NatureLover",
     "content": "The scenery is breathtaking! I could get lost in this place.",
     "date": "Dec 6, 2024",
     "likes": "1"
-  },
+},
   {
     "author": "HistoryBuff",
     "content": "This is fascinating! I never knew that before.",
     "date": "Dec 5, 2024",
     "likes": "3"
-  },
+},
   {
     "author": "MovieFanatic",
     "content": "I'm going to watch this movie now! It looks amazing.",
     "date": "Dec 4, 2024",
     "likes": "2"
-  },
+},
   {
     "author": "SportsEnthusiast",
     "content": "Go team! I'm so excited for the game.",
     "date": "Dec 3, 2024",
     "likes": "4"
-  },
+},
   {
     "author": "Fashionista",
     "content": "I love the style! I'm going to try that outfit.",
     "date": "Dec 2, 2024",
     "likes": "5"
-  },
+},
   {
     "author": "AnimalLover",
     "content": "So cute! I wish I had a pet like that.",
     "date": "Dec 1, 2024",
     "likes": "2"
-  },
+},
   {
     author: "tae",
     content: '<p>#pfp #mekontent <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKOfGWaB0Qbt-dBBRKd-pw3OpuPrRPtk9NqA&usqp=CAU"></p>',
     date: "Dec 4, 2024",
     likes: "82.4K"
-  },
+},
   {
     "author": "tae",
     "content": 'Meko didnt Support images in their server or something else',
     "date": "Dec 6, 2024",
     "likes": "59"
-  },
+},
  {
     author: "Felix",
     content: "<cite>Replied To @tae`s Post:(Meko didnt Support images in their server or something else) </cite> <br></br> probally the server didnt allow    it you could send meko a mail with npm Plugin 5 . doing this can set a    plugin for your self and support imagez ",
     date: "Dec 15, 2024",
     likes: "682"
-  },
+},
 {
   author: "MoltivationMan",
   content: "Just Cry #Mental #mekontent<div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtube.com/shorts/fYx-FDGFkU4?si=2Gy2JO3hf3n07Crw'></div></div>",
@@ -22555,21 +20330,41 @@ date: "Jan 1, 2025",
 },
 
 {
-  author: "Nuke's Top 5",
-  content: "Scary videos from the internet and Nukes Tops viewers!<br></br>We need scary videos! Seen any? Send em toNukesTop5@gmail.com .Please timestamp the scary stuff if the video is CRAZY-long.<br></br><p>Not Nuke's Top 5, it's a top 8 this time, who knows why. But lots of ghosts and scary stuff. We'll cover ALL sorts of scary stories of allegedly REAL paranormal activity. You'll see apparitions, weird EVPS, ghost hunters, scary tiktok ghosts, and everything else within the creepy, spooky realm of the supernatural. Does anyone read this far? IF ya do- there is a ghost caught on camera in a haunted house, Nues Tops 5 viewers sent in some creepy ghost videos, a poltergeist in a cabin in the woods, an exorcism, a ghost caught on a Ring cam /cctv, and more.</p><div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/zrUmf8jSsZ4?si=blGrKwQlL3P0cCA9'></div></div>",
+  author: "Nuke_Top_5",
+  content: "Scary videos from the internet and Nukes Tops viewers!<br></br>We need scary videos! Seen any? Send em toNukesTop5@gmail.com .Please timestamp the scary stuff if the video is CRAZY-long.<br></br><p>Not Nuke_Top_5, it's a top 8 this time, who knows why. But lots of ghosts and scary stuff. We'll cover ALL sorts of scary stories of allegedly REAL paranormal activity. You'll see apparitions, weird EVPS, ghost hunters, scary tiktok ghosts, and everything else within the creepy, spooky realm of the supernatural. Does anyone read this far? IF ya do- there is a ghost caught on camera in a haunted house, Nues Tops 5 viewers sent in some creepy ghost videos, a poltergeist in a cabin in the woods, an exorcism, a ghost caught on a Ring cam /cctv, and more.</p><div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/zrUmf8jSsZ4?si=blGrKwQlL3P0cCA9'></div></div>",
   date: "Dec 9, 2024",
   likes: "3K"
 },
-
 {
-  author: "Nuke's Top 5",
-  content: "A simple title and 10 simply scary videos of ghosts from the  internet.<br></br>We need scary videos! Seen any? Send em to  NukesTop5@gmail.com .Please timestamp the scary stuff if the video is  long.<br></br><p>Not Nuke's Top 5, it's a top 10 : lots of ghosts and scary stuff. We'll cover ALL sorts of scary stories of allegedly REAL supernatural and paranormal activity. You'll see apparitions, weird EVPS, ghost hunters, scary tiktok ghosts, and everything else within the creepy, spooky realm of the supernatural. Are you still reading? Well okay, I didn't know people read video descriptions this far down. So- there are some CREEPY dolls in this video,  and... a shadow person, or shadow man, not sure on the pronouns. A cute dog hears a LOUD evp and freaks right the f out, a YouTuber does a very interesting ghost video experiment, and then there's other scary stuff.</p><div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/FRvbby9qIxM?si=FWqsUoMrF6-I6mPR'></div></div>",
+  author: "Nuke_Top_5",
+  content: "A simple title and 10 simply scary videos of ghosts from the  internet.<br></br>We need scary videos! Seen any? Send em to  NukesTop5@gmail.com .Please timestamp the scary stuff if the video is  long.<br></br><p>Not Nuke_Top_5, it's a top 10 : lots of ghosts and scary stuff. We'll cover ALL sorts of scary stories of allegedly REAL supernatural and paranormal activity. You'll see apparitions, weird EVPS, ghost hunters, scary tiktok ghosts, and everything else within the creepy, spooky realm of the supernatural. Are you still reading? Well okay, I didn't know people read video descriptions this far down. So- there are some CREEPY dolls in this video,  and... a shadow person, or shadow man, not sure on the pronouns. A cute dog hears a LOUD evp and freaks right the f out, a YouTuber does a very interesting ghost video experiment, and then there's other scary stuff.</p><div style='left: 0; width: 100%; height: 0; position: relative;  padding-bottom: 56.25%;'><div class='youtube-player' style='top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;' data-video-url='https://youtu.be/FRvbby9qIxM?si=FWqsUoMrF6-I6mPR'></div></div>",
   date: "Dec 16, 2024",
   likes: "1.2M"
 },
-
-
-
+{
+    "author": "tae",
+    "content": "MyDay Test",
+    "date": "Feb 7, 2020",
+    "likes": ""
+},
+{
+    "author": "florenz",
+    "content": "Hello Guys. update will be late so be patient until we done managing the accounts☕😎" ,
+    "date": "July 4, 2022",
+    "likes": "237K"
+},
+{
+    "author": "florenz",
+    "content": "Hello Guys. update will be late so be patient until we done managing the accounts☕😎" ,
+    "date": "July 4, 2022",
+    "likes": ""
+},
+{
+    "author": "florenz",
+    "content": "Hi",
+    "date": "Jun 26, 2022",
+    "likes": "4.2M"
+},
 
     ];
     const likedPosts = new Set();
@@ -22585,16 +20380,16 @@ function displayPosts(postsToDisplay) {
   const container = document.getElementById("post-container");
   postsToDisplay.forEach(post => {
     const postDiv = document.createElement("div");
-    postDiv.className = "post";
+    postDiv.className = "post-item";
     postDiv.innerHTML = `
-      <p class="post-author">${post.author}</p>
+      <p class="post-author" onclick="showProfilePopup('${post.author}')">${post.author}</p>
       <p class="post-date">${post.date}</p>
       <p class="post-content">${post.content}</p>
       <div class="post-actions">
         <span class="like-btn ${likedPosts.has(post.id) ? 'liked' : ''}" 
               id="like-btn-${post.id}" 
               onclick="likePost('${post.id}')">
-          ${post.likes} Like
+          ${formatLikes(post.likes)} Like
         </span>
         <span class="share-btn" onclick="sharePost('${post.id}')">Share</span>
       </div>
@@ -22638,37 +20433,136 @@ function sharePost(id) {
     alert(`SHARED LINK: ${shareLink}`);
   });
 }
+// Function to format likes (e.g., 2000 becomes 2K)
+function formatLikes(likes) {
+  if (likes >= 1000) {
+    return (likes / 1000).toFixed(1) + 'K';
+  }
+  return likes;
+}
 
-// Function to search posts
+// Function to open the profile popup
+function showProfilePopup(author) {
+  const container = document.getElementById("profile-popup");
+  const profileName = document.getElementById("username-pf");
+  const postCount = document.getElementById("post-count");
+  const likesPerPost = document.getElementById("likes-per-post");
+  const profilePosts = document.getElementById("profile-posts");
+
+  // Find posts by the selected author
+  const authorPosts = posts.filter(post => post.author === author);
+
+  // Calculate likes per post (rounded to 2 decimal places)
+  const totalLikes = authorPosts.reduce((sum, post) => sum + post.likes, 0);
+  const avgLikesPerPost = (totalLikes / authorPosts.length).toFixed(2);
+
+  // Set the profile information in the popup
+  profileName.textcontent = author;
+  postCount.textcontent = authorPosts.length;
+  likesPerPost.textcontent = formatLikes(avgLikesPerPost);
+
+  // Populate the posts by the author in the popup
+  profilePosts.innerHTML = ''; // Clear any previous posts
+  authorPosts.forEach(post => {
+    const postElement = document.createElement("div");
+    postElement.classList.add("profile-post-item");
+    postElement.innerHTML = `
+      <p class="post-author" onclick="showProfilePopup('${post.author}')">${post.author}</p>
+      <p class="post-date">${post.date}</p>
+      <p class="post-content">${post.content}</p>
+      <div class="post-actions">
+        <span class="like-btn ${likedPosts.has(post.id) ? 'liked' : ''}" 
+              id="like-btn-${post.id}" 
+              onclick="likePost('${post.id}')">
+          ${formatLikes(post.likes)} Like
+        </span>
+        <span class="share-btn" onclick="sharePost('${post.id}')">Share</span>
+      </div>
+    `;
+    profilePosts.appendChild(postElement);
+  });
+
+  // Display the popup
+  container.style.display = "block";
+}
+
+// Function to close the profile popup
+function closeProfilePopup() {
+  document.getElementById("profile-popup").style.display = "none";
+}
+
+
 function searchPosts() {
   const query = document.getElementById("search").value.toLowerCase();
-  const filteredPosts = shuffledPosts.filter(post =>
-    post.content.toLowerCase().includes(query)
+  const container = document.getElementById("post-container");
+
+  // Filter posts by content or author based on query
+  const filteredPosts = posts.filter(post => 
+    post.content.toLowerCase().includes(query) || 
+    post.author.toLowerCase().includes(query)
   );
 
-  const container = document.getElementById("post-container");
+  // Clear previous content
   container.innerHTML = "";
 
+  // If filtered posts are found, display them
   if (filteredPosts.length > 0) {
-    displayPosts(filteredPosts.slice(0, postsPerPage));
+    // Limit to 20 posts
+    const limitedPosts = filteredPosts.slice(0, 20);
+
+    // Display the filtered posts
+    limitedPosts.forEach(post => {
+      const postElement = document.createElement("div");
+      postElement.classList.add("post-item");
+      postElement.innerHTML = `
+      <p class="post-author" onclick="showProfilePopup('${post.author}')">${post.author}</p>
+      <p class="post-date">${post.date}</p>
+      <p class="post-content">${post.content}</p>
+      <div class="post-actions">
+        <span class="like-btn ${likedPosts.has(post.id) ? 'liked' : ''}" 
+              id="like-btn-${post.id}" 
+              onclick="likePost('${post.id}')">
+          ${formatLikes(post.likes)} Like
+        </span>
+        <span class="share-btn" onclick="sharePost('${post.id}')">Share</span>
+      </div>
+      `;
+      container.appendChild(postElement);
+    });
   } else {
+    // Show a message if no posts are found
     container.innerHTML = "<p>No posts found. Showing related posts:</p>";
-    const recommendedPosts = getRecommendedPosts(query);
-    if (recommendedPosts.length > 0) {
-      displayPosts(recommendedPosts.slice(0, postsPerPage));
-    } else {
-      container.innerHTML += "<p>No related posts available.</p>";
-    }
+
+    // Randomly shuffle the posts for related posts
+    const randomPosts = getRandomPosts(posts, 5);  // Show 5 random posts as "related posts"
+
+    randomPosts.forEach(post => {
+      const postElement = document.createElement("div");
+      postElement.classList.add("post-item");
+      postElement.innerHTML = `
+      <p class="post-author" onclick="showProfilePopup('${post.author}')">${post.author}</p>
+      <p class="post-date">${post.date}</p>
+      <p class="post-content">${post.content}</p>
+      <div class="post-actions">
+        <span class="like-btn ${likedPosts.has(post.id) ? 'liked' : ''}" 
+              id="like-btn-${post.id}" 
+              onclick="likePost('${post.id}')">
+          ${formatLikes(post.likes)} Like
+        </span>
+        <span class="share-btn" onclick="sharePost('${post.id}')">Share</span>
+      </div>
+      `;
+      container.appendChild(postElement);
+    });
   }
-  document.getElementById("load-more").style.display = "none";
 }
 
-// Function to fetch recommended posts
-function getRecommendedPosts(query) {
-  return shuffledPosts.filter(post =>
-    post.tags && post.tags.some(tag => tag.toLowerCase().includes(query))
-  );
+// Function to get a random set of posts (for related posts)
+function getRandomPosts(posts, numberOfPosts) {
+  const shuffledPosts = posts.sort(() => 0.5 - Math.random());
+  return shuffledPosts.slice(0, numberOfPosts);
 }
+
 
 // Function to check for shared posts in the URL
 function checkForSharedPost() {
@@ -22689,7 +20583,7 @@ function checkForSharedPost() {
 function highlightHashtags() {
   const posts = document.querySelectorAll('.post-content');
   posts.forEach(post => {
-    const originalText = post.textContent;
+    const originalText = post.textcontent;
     const updatedHTML = originalText.replace(
       /#(\w+)/g,
       '<span class="hashtag">#$1</span>'
@@ -22698,9 +20592,10 @@ function highlightHashtags() {
   });
 }
 
-// Function to check if a video is working and replace its source if expired
+
 function checkVideoSources() {
   const videos = document.querySelectorAll("video");
+  
   videos.forEach(video => {
     if (video.error) {
       console.log(`Replacing source for video ID: ${video.id}`);
@@ -22721,3 +20616,131 @@ setInterval(() => {
   checkVideoSources();
   console.log("Server: Function Retrieve");
 }, 1000);
+function showHashtagModal(tag) {
+  const modal = document.getElementById('hashtag-modal');
+  const title = document.getElementById('hashtag-title');
+  const postsContainer = document.getElementById('hashtag-posts');
+
+  title.textcontent = tag;
+  postsContainer.innerHTML = ''; // Clear previous posts
+
+  // Fetch posts containing the hashtag
+  const relatedPosts = getPostsByHashtag(tag);
+
+  if (relatedPosts.length > 0) {
+    relatedPosts.forEach(post => {
+      const postElement = document.createElement('div');
+      postElement.classList.add('post-item');
+      postElement.innerHTML = `
+              <p class="post-author" onclick="showProfilePopup('${post.author}')">${post.author}</p>
+      <p class="post-date">${post.date}</p>
+      <p class="post-content">${post.content}</p>
+      <div class="post-actions">
+        <span class="like-btn ${likedPosts.has(post.id) ? 'liked' : ''}" 
+              id="like-btn-${post.id}" 
+              onclick="likePost('${post.id}')">
+          ${formatLikes(post.likes)} Like
+        </span>
+        <span class="share-btn" onclick="sharePost('${post.id}')">Share</span>
+      </div>
+      `;
+      postsContainer.appendChild(postElement);
+    });
+  } else {
+    postsContainer.innerHTML = '<p>No posts found for this hashtag.</p>';
+  }
+
+  modal.style.display = 'block';
+}
+
+function closeHashtagModal() {
+  const modal = document.getElementById('hashtag-modal');
+  modal.style.display = 'none';
+}
+
+function getPostsByHashtag(tag) {
+  // Assuming 'posts' is an array of post objects available in your scope
+  return posts.filter(post => post.content.includes(tag));
+}
+
+function updateWordCounter() {
+  const message = document.getElementById('message').value;
+  const remainingCharacters = maxWords - message.length;
+
+  // Update counter
+  document.getElementById('wordCounter').innerText = remainingCharacters;
+
+  // Change color if the limit is exceeded
+  if (remainingCharacters < 0) {
+    document.getElementById('wordCounter').style.color = 'red';
+  } else {
+    document.getElementById('wordCounter').style.color = 'black';
+  }
+}
+
+function formatDate(date) {
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = months[date.getMonth()];
+  const year = date.getFullYear();
+  return `${month} ${day}, ${year}`;
+}
+
+function generatePostData(event) {
+  event.preventDefault();
+
+  const message = document.getElementById('message').value.trim();
+  const remainingCharacters = maxWords - message.length;
+
+  // Validate word limit
+  if (remainingCharacters < 0) {
+    alert('Your post exceeds the maximum word limit of 140 characters.');
+    return;
+  }
+
+  if (message.length === 0) {
+    alert('Please enter a message.');
+    return;
+  }
+
+  const userName = document.getElementById('name').value;
+  const postDate = formatDate(new Date());
+
+  // Create the post object
+  const post = {
+    author: userName,
+    date: postDate,
+    content: message,
+    likes: "0",
+  };
+
+  // Show preview alert
+  const userConfirmed = confirm(
+    `Your post will be previewed before it is fully published!\n\nYour Post:\n${JSON.stringify(post, null, 2)}\n\n` +
+    `Send us an email if you want to cancel the progress of publishing the post.\nMail: ${recipientEmail}`
+  );
+
+  // Proceed to send the post if the user confirms
+  if (userConfirmed) {
+    sendPostViaMail(post);
+
+    // Reset the form
+    document.getElementById('postForm').reset();
+    document.getElementById('wordCounter').innerText = maxWords;
+  }
+}
+
+function sendPostViaMail(post) {
+  // Properly format the post object as JSON
+  const body = encodeURIComponent(`{
+  "author": "${post.author}",
+  "content": "${post.content}",
+  "date": "${post.date}",
+  "likes": "${post.likes}"
+},`);
+
+  const subject = encodeURIComponent("New Post Created");
+
+  // Redirect to default mail client
+  window.location.href = `mailto:${recipientEmail}?subject=${subject}&body=${body}`;
+}
