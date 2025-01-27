@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meko</title>
   <link rel="stylesheet" href="style/main.css">
-<script defer src="js/server2025.js"></script>  
   <script defer src="js/server.js"></script>
+  
 
-  <script src="https://cdn.jsdelivr.net/npm/@faker-js/faker@9.4.0/dist/faker.umd.min.js"></script>
+  <script src="js/fbvideoloader.js"></script>
+  <script src="js/profile.js"></script>
   <script defer src="js/ytvideo.js"></script>
-  <script defer src="js/fbvideo.js"></script>
   <script defer src="js/mekovideo.js"></script>
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
 </head>
 <body>
   <div class="form-container">
@@ -92,16 +95,118 @@ In addition to individual connections, Meko enables users to join interest-based
 
 
   <!-- Post Form -->
-  <form id="postForm" onsubmit="generatePostData(event)">
-    <fieldset class="twitter boxContainer">
-      <label class="twitter tweetHeader">Create New Post</label>
-      <div class="lineSplit"></div>
-      <input type="text" id="name" name="name" disabled value="John Doe">
-      <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?" oninput="updateWordCounter()"></textarea>
-      <label class="wordCounter" id="wordCounter">300</label>
-      <input type="submit" class="postButton" id="submitPost" value="Post">
-    </fieldset>
-  </form>
+<form id="postForm" onsubmit="generatePostData(event)">
+  <fieldset class="twitter boxContainer">
+    <label class="twitter tweetHeader">Create New Post</label>
+    <div class="lineSplit"></div>
+    <input type="text" id="name" name="name" disabled value="John_Doe">
+    <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?" oninput="updateWordCounter()"></textarea>
+    <label class="wordCounter" id="wordCounter">300</label>
+    <input type="submit" class="postButton" id="submitPost" value="Post">
+  </fieldset>
+</form>
+
+<script>
+// Wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+  const maxWords = 300;
+  const recipientEmail = "networkmeko@gmail.com";
+
+  function getPostsByHashtag(tag) {
+    return posts.filter(post => post.content.includes(tag));
+  }
+
+  function updateWordCounter() {
+    const message = document.getElementById('message').value;
+    const remainingCharacters = maxWords - message.length;
+
+    // Ensure wordCounter element exists before modifying
+    const wordCounter = document.getElementById('wordCounter');
+    if (wordCounter) {
+      wordCounter.innerText = remainingCharacters;
+
+      // Change color if the limit is exceeded
+      if (remainingCharacters < 0) {
+        wordCounter.style.color = 'red';
+      } else {
+        wordCounter.style.color = 'black';
+      }
+    }
+  }
+
+  function formatDate(date) {
+    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = months[date.getMonth()];
+    const year = date.getFullYear();
+    return `${month} ${day}, ${year}`;
+  }
+
+  function generatePostData(event) {
+    event.preventDefault();
+
+    const message = document.getElementById('message').value.trim();
+    const remainingCharacters = maxWords - message.length;
+
+    // Validate word limit
+    if (remainingCharacters < 0) {
+      alert('Your post exceeds the maximum character limit of 300 characters.');
+      return;
+    }
+
+    if (message.length === 0) {
+      alert('Please enter a message.');
+      return;
+    }
+
+    const userName = document.getElementById('name').value;
+    const postDate = formatDate(new Date());
+
+    const post = {
+      author: userName,
+      date: postDate,
+      content: message,
+      likes: "0",
+    };
+
+    // Show preview alert
+    const userConfirmed = confirm(
+      `Your post will be previewed before it is fully published!\n\nYour Post:\n${JSON.stringify(post, null, 2)}\n\n` +
+      `Send us an email if you want to cancel the progress of publishing the post.\nMail: ${recipientEmail}`
+    );
+
+    if (userConfirmed) {
+      sendPostViaMail(post);
+
+      const form = document.getElementById('postForm');
+      form.reset();
+      form.elements['name'].disabled = true;
+      updateWordCounter();
+    }
+  }
+
+  function sendPostViaMail(post) {
+    const body = encodeURIComponent(`{
+      Author: ${post.author}
+      Date: ${post.date}
+      Content: ${post.content}
+      Likes: ${post.likes}
+    },`);
+
+    const subject = encodeURIComponent("New Post Created");
+
+    window.location.href = `mailto:${recipientEmail}?subject=${subject}&body=${body}`;
+  }
+
+  // Bind the form submission after DOM is ready
+  const form = document.getElementById('postForm');
+  if (form) {
+    form.onsubmit = generatePostData;
+  }
+});
+</script>
+
+
   <div id="main-container" style="margin-top:10;">
 <div id="profile-popup">
     <span class="close" onclick="closeProfilePopup()">×</span>
@@ -116,7 +221,7 @@ In addition to individual connections, Meko enables users to join interest-based
 <div id="hashtag-modal" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeHashtagModal()">&times;</span>
-    <h1 id="hashtag-title"></h1>
+    <h2 id="hashtag-title"></h2>
     <p>Posts:</p>
     <div id="hashtag-posts"></div>
   </div>
@@ -615,8 +720,18 @@ margin-bottom: 10px;
 .mark {
   background-color: yellow;
 }
+.Qtext {
+  border-color: black;
+  font-size: 20px;
+  text-shadow:1px 1px black;
+  margin-bottom: 10px;
+}
 .tags {
   font-size:5px;
+}
+img {
+  width:100%;
+  height:auto;
 }
   </style>
   
