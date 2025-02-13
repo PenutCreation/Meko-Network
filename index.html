@@ -99,7 +99,7 @@ In addition to individual connections, Meko enables users to join interest-based
   <fieldset class="twitter boxContainer">
     <label class="twitter tweetHeader">Create New Post</label>
     <div class="lineSplit"></div>
-    <input type="text" id="name" name="name" disabled value="John_Doe">
+    <input type="text" id="name" name="name" disabled>
     <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?" oninput="updateWordCounter()"></textarea>
     <label class="wordCounter" id="wordCounter">300</label>
     <input type="submit" class="postButton" id="submitPost" value="Post">
@@ -187,10 +187,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function sendPostViaMail(post) {
     const body = encodeURIComponent(`{
-      Author: ${post.author}
-      Date: ${post.date}
-      Content: ${post.content}
-      Likes: ${post.likes}
+      author: "${post.author}",
+      date: "${post.date}",
+      content: "${post.content}",
+      likes: "${post.likes}"
     },`);
 
     const subject = encodeURIComponent("New Post Created");
@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (storedPassword && storedPassword === password) {
         // Successfully logged in
         localStorage.setItem('username', username); 
-        localStorage.setItem('email', email); 
+        localStorage.setItem('Mekoemail', email); 
         // Set the logged-in username
 
         // Update the UI to reflect the login state
@@ -454,8 +454,8 @@ document.addEventListener('DOMContentLoaded', function() {
     </script>
 <script>
 // Retrieve data from localStorage
-let data = localStorage.getItem('Username');
-let data2 = localStorage.getItem('email');
+let data = localStorage.getItem('username');
+let data2 = localStorage.getItem('Mekoemail');
 // Check if data exists and display it in the input field
 if (data) {
     document.getElementById('name').value = data;
@@ -463,7 +463,7 @@ if (data) {
     console.log('No data found for this key.');
 }
 if (data2) {
-    document.getElementById('email').value = data2;
+    document.getElementById('Postboxemail').value = data2;
 } else {
     console.log('No data found for this key.');
 }
@@ -732,6 +732,10 @@ margin-bottom: 10px;
 img {
   width:100%;
   height:auto;
+}
+iframe {
+  width:100%;
+  height:350px;
 }
   </style>
   
