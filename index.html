@@ -143,68 +143,50 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   function generatePostData(event) {
-    event.preventDefault();
 
-    const message = document.getElementById('message').value.trim();
-    const remainingCharacters = maxWords - message.length;
+  <form id="postForm" onsubmit="generatePostData(event)">
+  <fieldset class="twitter boxContainer">
+    <label class="twitter tweetHeader">Create New Post</label>
+    <div class="lineSplit"></div>
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?" oninput="updateWordCounter()"></textarea>
+    <label class="wordCounter" id="wordCounter">300</label>
+    <input type="submit" class="postButton" id="submitPost" value="Post">
+  </fieldset>
 
-    // Validate word limit
-    if (remainingCharacters < 0) {
-      alert('Your post exceeds the maximum character limit of 300 characters.');
-      return;
+  <script>
+    async function generatePostData(event) {
+        event.preventDefault();
+
+        const author = document.getElementById('name').value;
+        const content = document.getElementById('message').value;
+
+        const response = await fetch('https://api.github.com/repos/PenutCreation/Meko-Network/dispatches', {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/vnd.github.v3+json',
+                'Authorization': 'Bearer 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',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                event_type: 'new_post',
+                client_payload: {
+                    author: author,
+                    content: content
+                }
+            })
+        });
+
+        if (response.ok) {
+            alert('Post submitted successfully!');
+            document.getElementById('postForm').reset();
+        } else {
+            alert('Error submitting post.');
+        }
     }
+  </script>
+</form>
 
-    if (message.length === 0) {
-      alert('Please enter a message.');
-      return;
-    }
-
-    const userName = document.getElementById('name').value;
-    const postDate = formatDate(new Date());
-
-    const post = {
-      author: userName,
-      date: postDate,
-      content: message,
-      likes: "0",
-    };
-
-    // Show preview alert
-    const userConfirmed = confirm(
-      `Your post will be previewed before it is fully published!\n\nYour Post:\n${JSON.stringify(post, null, 2)}\n\n` +
-      `Send us an email if you want to cancel the progress of publishing the post.\nMail: ${recipientEmail}`
-    );
-
-    if (userConfirmed) {
-      sendPostViaMail(post);
-
-      const form = document.getElementById('postForm');
-      form.reset();
-      form.elements['name'].disabled = true;
-      updateWordCounter();
-    }
-  }
-
-  function sendPostViaMail(post) {
-    const body = encodeURIComponent(`{
-      author: "${post.author}",
-      date: "${post.date}",
-      content: "${post.content}",
-      likes: "${post.likes}"
-    },`);
-
-    const subject = encodeURIComponent("New Post Created");
-
-    window.location.href = `mailto:${recipientEmail}?subject=${subject}&body=${body}`;
-  }
-
-  // Bind the form submission after DOM is ready
-  const form = document.getElementById('postForm');
-  if (form) {
-    form.onsubmit = generatePostData;
-  }
-});
-</script>
 
 
   <div id="main-container" style="margin-top:10;">
