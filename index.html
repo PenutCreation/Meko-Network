@@ -95,54 +95,6 @@ In addition to individual connections, Meko enables users to join interest-based
 
 
   <!-- Post Form -->
-<form id="postForm" onsubmit="generatePostData(event)">
-  <fieldset class="twitter boxContainer">
-    <label class="twitter tweetHeader">Create New Post</label>
-    <div class="lineSplit"></div>
-    <input type="text" id="name" name="name" disabled>
-    <textarea class="messageBox" id="message" name="message" rows="4" required placeholder="What's happening?" oninput="updateWordCounter()"></textarea>
-    <label class="wordCounter" id="wordCounter">300</label>
-    <input type="submit" class="postButton" id="submitPost" value="Post">
-  </fieldset>
-</form>
-
-<script>
-// Wait for the DOM to be fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-  const maxWords = 300;
-  const recipientEmail = "networkmeko@gmail.com";
-
-  function getPostsByHashtag(tag) {
-    return posts.filter(post => post.content.includes(tag));
-  }
-
-  function updateWordCounter() {
-    const message = document.getElementById('message').value;
-    const remainingCharacters = maxWords - message.length;
-
-    // Ensure wordCounter element exists before modifying
-    const wordCounter = document.getElementById('wordCounter');
-    if (wordCounter) {
-      wordCounter.innerText = remainingCharacters;
-
-      // Change color if the limit is exceeded
-      if (remainingCharacters < 0) {
-        wordCounter.style.color = 'red';
-      } else {
-        wordCounter.style.color = 'black';
-      }
-    }
-  }
-
-  function formatDate(date) {
-    const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-    const day = String(date.getDate()).padStart(2, '0');
-    const month = months[date.getMonth()];
-    const year = date.getFullYear();
-    return `${month} ${day}, ${year}`;
-  }
-
-  function generatePostData(event) {
 
   <form id="postForm" onsubmit="generatePostData(event)">
   <fieldset class="twitter boxContainer">
@@ -186,7 +138,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   </script>
 </form>
-
 
 
   <div id="main-container" style="margin-top:10;">
