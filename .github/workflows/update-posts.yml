@@ -1,0 +1,77 @@
+name: Update Posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      author:
+        description: 'Author of the post'
+        required: true
+        type: string
+      content:
+        description: 'Content of the post'
+        required: true
+        type: string
+
+jobs:
+  update-js:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Format Date
+        id: date
+        run: |
+          echo "DATE=$(date +"%b %d %Y")" >> $GITHUB_ENV
+
+      - name: Backup Original File
+        run: |
+          # Make a backup of js/server.js
+          cp js/server.js js/server_backup.js
+
+      - name: Verify Posts Structure
+        run: |
+          # Check if posts array exists before making changes
+          if grep -q "const posts = \[" js/server.js; then
+            echo "Posts structure found. Proceeding with update."
+          else
+            echo "Error: posts array not found! Aborting."
+            exit 1
+          fi
+
+      - name: Insert New Post
+        run: |
+          NEW_POST="  {
+    author: '${{ github.event.inputs.author }}',
+    content: '${{ github.event.inputs.content }}',
+    date: '${{ env.DATE }}',
+    like: '0'
+  },"
+          
+          # Insert NEW_POST at the top of the posts array
+          awk -v newpost="$NEW_POST" '
+            /const posts = \[/ { 
+              print;
+              print newpost;
+              next
+            }
+            { print }
+          ' js/server.js > js/temp_server.js
+
+          # Check if new post was added successfully
+          if grep -q "${{ github.event.inputs.content }}" js/temp_server.js; then
+            mv js/temp_server.js js/server.js
+            echo "Post added successfully."
+          else
+            echo "Error: Failed to add post. Restoring from backup."
+            mv js/server_backup.js js/server.js
+            exit 1
+          fi
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add js/server.js
+          git commit -m "New post by ${{ github.event.inputs.author }}"
+          git push
